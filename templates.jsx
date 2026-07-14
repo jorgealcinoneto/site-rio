@@ -833,11 +833,11 @@ function PrintFolder({ title, subtitle, date, photo }) {
         
         <div>
           <div style={{ fontWeight: 600, color: "var(--marinho)" }}>Igreja Anglicana Rio</div>
-          <div>Rev. Jorge Alcino · Revda. Raquel Fernandes</div>
+          <div>Pastor Jorge Alcino · Pastora Raquel Fernandes</div>
         </div>
         <div style={{ textAlign: "right" }}>
           <div>@igrejaanglicanario</div>
-          <div style={{ color: "var(--grafite-3)" }}>Em plantação — uma igreja família</div>
+          <div style={{ color: "var(--grafite-3)" }}>Igreja família · Irajá, RJ</div>
         </div>
       </div>
     </div>);

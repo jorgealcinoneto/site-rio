@@ -128,7 +128,7 @@ const TEMPLATES = [
     defaults: {
       num: "i.",
       title: "O caminho do meio.",
-      body: "A gente fica <strong>entre</strong> o catolicismo romano e o protestantismo. Os dois, ao mesmo tempo.",
+      body: "Somos igreja <strong>reformada e evangélica</strong> — e católicos no sentido da fé dos apóstolos. Via-média: solenidade e contemporaneidade.",
       page: "2 / 6",
     },
     fields: [
@@ -167,7 +167,7 @@ const TEMPLATES = [
     w: 1080, h: 1080,
     defaults: {
       title: "Vem domingo.",
-      sub: "Eucaristia às 10h. Café depois. Sem cobrança, sem inscrição.",
+      sub: "Café às 9h. Eucaristia às 10h. Sem cobrança, sem inscrição.",
       ctaText: "Como chegar",
       page: "6 / 6",
     },
@@ -224,8 +224,8 @@ const TEMPLATES = [
       title: "Domingo na sala.",
       date: "01 de Junho",
       time: "10h",
-      place: "Recreio · endereço por DM",
-      sub: "Tem café depois. Pode trazer criança.",
+      place: "Irajá · Zona Norte",
+      sub: "Café às 9h. Celebração às 10h. Pode trazer criança.",
     },
     fields: [
       { name: "photo", label: "Foto de fundo (opcional)", type: "photo" },
@@ -264,7 +264,7 @@ const TEMPLATES = [
       title: "Vem participar.",
       date: "01 Jun",
       time: "10h",
-      place: "Recreio · RJ",
+      place: "Irajá · RJ",
     },
     fields: [
       { name: "photo", label: "Foto de fundo", type: "photo" },

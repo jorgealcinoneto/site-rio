@@ -87,7 +87,7 @@ function IconOndas(props) {
   );
 }
 
-/* —— Casa (igreja em casa / igreja em plantação) —— */
+/* —— Casa (igreja / lar) —— */
 function IconCasa(props) {
   return (
     <svg {...ICON_PROPS} {...props}>
