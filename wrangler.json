@@ -1,0 +1,11 @@
+{
+  "name": "site-rio",
+  "compatibility_date": "2025-07-14",
+  "assets": {
+    "directory": "./"
+  },
+  "routes": [
+    { "pattern": "anglicanario.com.br", "custom_domain": true },
+    { "pattern": "www.anglicanario.com.br", "custom_domain": true }
+  ]
+}
