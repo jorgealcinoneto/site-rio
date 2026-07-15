@@ -3,6 +3,8 @@
    Reusa tokens e classes de styles.css + site-styles
 ============================================ */
 
+const { useState, useEffect } = React;
+
 const CHURCH_LAT = -22.83816;
 const CHURCH_LNG = -43.32026;
 const MAPS_EMBED =
