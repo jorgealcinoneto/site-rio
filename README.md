@@ -58,14 +58,41 @@ Quando precisar adicionar/ajustar templates:
 ## Conteúdo desta pasta
 
 ```
-index.html                ← página principal (renomeado de "Editor IAR.html")
+index.html                ← bundle publicado (landing) — ver "Editar o site" abaixo
+build.py                  ← reempacota o index.html a partir dos fontes
+landing-app.jsx           ← seções da landing (hero, quem somos, liderança, visite…)
 styles.css                ← tokens do sistema visual (cores, fontes, tipografia)
-editor-styles.css         ← estilos específicos do editor
 icons.jsx                 ← biblioteca de ícones IAR
+editor-styles.css         ← estilos específicos do editor
 templates.jsx             ← definição visual dos 14 templates
 editor-app.jsx            ← lógica do editor (formulário, preview, download)
 assets/                   ← logos + fotos da comunidade
 ```
+
+## Editar o site (leia antes de mexer)
+
+`index.html` é um **bundle self-contained**: os `.jsx` estão embutidos dentro
+dele em gzip+base64, e o `styles.css` está inline num `<style>`. A página carrega
+essas cópias embutidas, nunca os arquivos ao lado.
+
+**Editar um `.jsx` não muda nada no ar.** É preciso reempacotar:
+
+```bash
+python3 build.py            # reempacota; commite o index.html junto com o fonte
+python3 build.py --check    # só acusa divergência (exit 1 se houver)
+```
+
+Pular esse passo é como o `icons.jsx` passou a vida inteira do repo servindo um
+brilho no logo que não existia em commit nenhum.
+
+O `build.py` cobre `landing-app.jsx`, `icons.jsx` e `styles.css`. **Não cobre** —
+porque não têm fonte em disco e são editados dentro do próprio `index.html`:
+
+- o `<style>` do site-styles (`.site-nav__*`, `.hero-site__*`, `.manifesto__*`, `.lider*`)
+- as meta tags (title, description, canonical, Open Graph) e o JSON-LD
+
+Cuidado com colisão de nomes: `styles.css` é o sistema visual da **página da guia**,
+e a landing reusa classes dele (`.manifesto` já causou um bug por isso).
 
 ## Dependências externas (carregam automaticamente da internet)
 
