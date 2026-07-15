@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://igrejaanglicanario.com.br/sitemap.xml
+Sitemap: https://anglicanario.com.br/sitemap.xml
