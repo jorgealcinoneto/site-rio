@@ -99,9 +99,6 @@ function Hero() {
             Igreja Anglicana Rio: sacramental, litúrgica e <em>carioca</em>.
           </h1>
         </div>
-        <p className="hero-site__sub">
-          Comunidade cristã na Zona Norte do Rio de Janeiro. Litúrgica e contemporânea, aberta à obra do Espírito. Domingos: café comunitário às 9h e Eucaristia às 10h.
-        </p>
         <div className="hero-site__ctas">
           <a href="#visite" className="btn btn--primary">
             Venha nos conhecer
@@ -138,9 +135,9 @@ function Hero() {
 
 function PrimeiraVez() {
   const pontos = [
-    { Icon: IconComunidade, title: "Você é bem-vindo(a) como está", desc: "Não há dress code. Não é preciso já ser anglicano, nem saber as orações de cor. Oramos juntos." },
+    { Icon: IconComunidade, title: "Você é bem-vindo(a) como está", desc: "Não há dress code. Não é preciso já ser anglicano, nem saber as orações de cor." },
     { Icon: IconCoracao, title: "Tem criança? Ótimo", desc: "Crianças fazem parte da celebração e da vida da comunidade." },
-    { Icon: IconLivro, title: "Café às 9h · celebração às 10h", desc: "Café comunitário antes do culto. A celebração dura cerca de 1h: Palavra, oração e Eucaristia." },
+    { Icon: IconLivro, title: "Café 9h · celebração 10h", desc: "Café comunitário antes do culto. A celebração dura cerca de 1h: Palavra, oração e Eucaristia." },
   ];
   return (
     <section id="primeira-vez" className="site-section" data-screen-label="02 Primeira vez">
@@ -149,14 +146,11 @@ function PrimeiraVez() {
         Não precisa saber tudo. <em>Venha conosco.</em>
       </h2>
       <p className="section-lede">
-        A Igreja Anglicana Rio é uma comunidade reformada e evangélica, que confessa a fé católica dos apóstolos e dos credos da Igreja. Não somos uma comunidade da Igreja Católica Romana.
+        Somos uma comunidade reformada e evangélica, que confessa a fé católica dos apóstolos — não somos da Igreja Católica Romana. Liturgia, acolhida carioca e abertura à obra do Espírito Santo.
       </p>
-      <p className="section-lede" style={{ marginTop: 16 }}>
-        Valorizamos a herança litúrgica, católica, reformada e evangélica, e vivemos o Evangelho de forma relevante e contextualizada — com acolhida carioca e abertura à obra do Espírito Santo.
-      </p>
-      <div className="atividades-grid">
+      <div className="atividades-grid" style={{ marginTop: 28 }}>
         {pontos.map((p) => (
-          <div className="atividade" key={p.title} style={{ gridTemplateColumns: "64px 1fr" }}>
+          <div className="atividade" key={p.title} style={{ gridTemplateColumns: "56px 1fr" }}>
             <div className="atividade__icon"><p.Icon /></div>
             <div className="atividade__body">
               <h3 className="atividade__title">{p.title}</h3>
@@ -165,9 +159,8 @@ function PrimeiraVez() {
           </div>
         ))}
       </div>
-      <div className="triagem" style={{ marginTop: 40, display: "flex", flexWrap: "wrap", gap: 12 }}>
-        <a href="#cremos" className="btn btn--dark">Sobre o anglicanismo</a>
-        <a href="#cremos" className="btn btn--ghost" style={{ color: "var(--marinho)", borderColor: "var(--marinho)" }}>No que cremos</a>
+      <div className="triagem" style={{ marginTop: 28, display: "flex", flexWrap: "wrap", gap: 12 }}>
+        <a href="#cremos" className="btn btn--dark">No que cremos</a>
         <a href="https://wa.me/5521971500286" target="_blank" rel="noopener" className="btn btn--ghost" style={{ color: "var(--marinho)", borderColor: "var(--marinho)" }}>Fale conosco</a>
       </div>
     </section>
@@ -183,32 +176,32 @@ function QuemSomos() {
           <h2 className="sobre__lead">
             A Igreja Anglicana <em>Rio</em>
           </h2>
-          <div className="sobre__photo" style={{ marginTop: 28, borderRadius: 16, overflow: "hidden" }}>
+          <div className="sobre__photo" style={{ marginTop: 20, borderRadius: 16, overflow: "hidden", maxHeight: 380 }}>
             <img
               src="assets/photo-bispo-imposicao.png"
-              alt="Revmo. Eric Rodrigues em oração com imposição de mãos"
-              style={{ width: "100%", display: "block", aspectRatio: "4/5", objectFit: "cover" }}
+              alt="Celebração com imposição de mãos na Igreja Anglicana Rio"
+              style={{ width: "100%", height: "100%", display: "block", aspectRatio: "4/3", objectFit: "cover", objectPosition: "center 35%" }}
               loading="lazy"
             />
           </div>
         </div>
         <div className="sobre__body">
           <p>
-            Somos uma comunidade cristã em Irajá, Zona Norte do Rio de Janeiro, <strong>integrante da Rede Episcopal Brasileira</strong>. Somos chamados a discipular e a amar a Deus e ao próximo — um sinal do Reino nesta cidade.
+            Comunidade em Irajá, Zona Norte do Rio, <strong>integrante da Rede Episcopal Brasileira</strong>. Discipulado e amor a Deus e ao próximo — um sinal do Reino nesta cidade.
           </p>
           <p>
-            Uma igreja <strong>sacramental e contemporânea</strong>: celebramos a Eucaristia, proclamamos a Palavra e vivemos abertos à obra do Espírito Santo.
+            Igreja <strong>sacramental e contemporânea</strong>: Eucaristia, Palavra e abertura à obra do Espírito Santo.
           </p>
-          <div className="bispo-card" style={{ marginTop: 28, padding: 24, background: "var(--vela)", border: "1px solid var(--linha)", borderRadius: 16 }}>
-            <div className="section-eyebrow" style={{ marginBottom: 8 }}>Nosso bispo</div>
-            <h3 style={{ fontFamily: "var(--font-serif)", fontSize: 28, color: "var(--marinho)", margin: "0 0 8px", fontWeight: 500 }}>
+          <div className="bispo-card" style={{ marginTop: 20, padding: 20, background: "var(--vela)", border: "1px solid var(--linha)", borderRadius: 14 }}>
+            <div className="section-eyebrow" style={{ marginBottom: 6 }}>Nosso bispo</div>
+            <h3 style={{ fontFamily: "var(--font-serif)", fontSize: 24, color: "var(--marinho)", margin: "0 0 6px", fontWeight: 500 }}>
               Revmo. Eric Rodrigues
             </h3>
-            <p style={{ margin: 0, color: "var(--grafite-2)", lineHeight: 1.55 }}>
-              A Igreja Anglicana Rio está em comunhão com o bispo da Rede Episcopal Brasileira.
+            <p style={{ margin: 0, color: "var(--grafite-2)", lineHeight: 1.5, fontSize: 15 }}>
+              Em comunhão com o bispo da Rede Episcopal Brasileira.
             </p>
           </div>
-          <p style={{ marginTop: 24 }}>
+          <p style={{ marginTop: 20 }}>
             <a href="https://redeepiscopalbrasileira.com.br/" target="_blank" rel="noopener" className="btn btn--dark">
               Conhecer a REB
             </a>
@@ -228,31 +221,36 @@ function Celebracao() {
           <h2 className="sobre__lead">
             Eucaristia da família, <em>todo domingo às 10h</em>.
           </h2>
-          <p style={{ marginTop: 16, color: "var(--grafite-2)", lineHeight: 1.55 }}>
+          <p style={{ marginTop: 12, color: "var(--grafite-2)", lineHeight: 1.5 }}>
             Café comunitário às <strong>9h</strong>, antes da celebração.
           </p>
-          <p style={{ marginTop: 24 }}>
+          <div style={{ marginTop: 20, borderRadius: 16, overflow: "hidden", maxHeight: 340 }}>
+            <img
+              src="assets/photo-pastor-imposicao.png"
+              alt="Momento litúrgico de oração com imposição de mãos"
+              style={{ width: "100%", display: "block", aspectRatio: "4/3", objectFit: "cover", objectPosition: "center 30%" }}
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div className="sobre__body">
+          <p>
+            Unimos <strong>solenidade litúrgica</strong> com <strong>contemporaneidade</strong>, em abertura à vida no Espírito.
+          </p>
+          <p>
+            Seguimos o <em>Livro de Oração Comum</em> em dois movimentos:
+          </p>
+          <p>
+            <strong>Serviço da Palavra</strong> — Escrituras, sermão, credo e orações.<br />
+            <strong>Serviço do Sacramento</strong> — Santa Eucaristia, conforme o mandamento de Cristo.
+          </p>
+          <p style={{ marginTop: 20 }}>
             <a href="#visite" className="btn btn--dark">
               Como chegar
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
                 <path d="M3 8 H13 M9 4 L13 8 L9 12" />
               </svg>
             </a>
-          </p>
-        </div>
-        <div className="sobre__body">
-          <p>
-            Nossas celebrações unem <strong>solenidade e beleza litúrgica</strong> com <strong>contemporaneidade e liberdade de expressão</strong>, em abertura à vida no Espírito.
-          </p>
-          <p>
-            Seguem a estrutura do <em>Livro de Oração Comum</em>, em dois movimentos:
-          </p>
-          <p>
-            <strong>Serviço da Palavra</strong> — leitura das Escrituras, sermão, credo e orações.<br />
-            <strong>Serviço do Sacramento</strong> — Santa Eucaristia (pão e vinho), conforme o mandamento de Cristo.
-          </p>
-          <p>
-            Convidamos você a participar conosco.
           </p>
         </div>
       </div>
@@ -262,10 +260,10 @@ function Celebracao() {
 
 function Cremos() {
   const itens = [
-    { Icon: IconLivro, title: "Fiel às Escrituras", desc: "Confessamos o Evangelho da graça e a justificação pela fé — a Palavra como autoridade para a fé e a vida." },
-    { Icon: IconCruzCelta, title: "Fé católica (universal)", desc: "Credos da Igreja, ministério episcopal, sacramentos e calendário litúrgico — a fé dos apóstolos." },
-    { Icon: IconCalice, title: "Via-média anglicana", desc: "Tradição e contemporaneidade: herança litúrgica vivida de forma acessível e contextualizada." },
-    { Icon: IconPomba, title: "Vida no Espírito", desc: "Igreja carismática com ordem e reverência — abertos à obra do Espírito Santo, sem espetáculo." },
+    { Icon: IconLivro, title: "Fiel às Escrituras", desc: "Evangelho da graça e justificação pela fé — a Palavra como autoridade para a fé e a vida." },
+    { Icon: IconCruzCelta, title: "Fé católica (universal)", desc: "Credos, ministério episcopal, sacramentos e calendário litúrgico — a fé dos apóstolos." },
+    { Icon: IconCalice, title: "Via-média anglicana", desc: "Tradição e contemporaneidade: herança litúrgica vivida de forma acessível." },
+    { Icon: IconPomba, title: "Vida no Espírito", desc: "Carismática com ordem e reverência — abertos à obra do Espírito, sem espetáculo." },
   ];
   return (
     <section id="cremos" className="site-section site-section--alt" data-screen-label="05 Cremos">
@@ -276,7 +274,7 @@ function Cremos() {
       <p className="section-lede">
         Unidos pela fé, guiados pelo Espírito e fundamentados na Palavra.
       </p>
-      <div className="crencas">
+      <div className="crencas" style={{ marginTop: 28 }}>
         {itens.map((p) => (
           <div className="crenca" key={p.title}>
             <div className="atividade__icon"><p.Icon /></div>
@@ -285,12 +283,6 @@ function Cremos() {
           </div>
         ))}
       </div>
-      <p style={{ marginTop: 32, fontSize: 15, color: "var(--grafite-3)" }}>
-        Saiba mais sobre a Rede Episcopal Brasileira no{" "}
-        <a href="https://redeepiscopalbrasileira.com.br/faq/" target="_blank" rel="noopener" style={{ color: "var(--estola)" }}>
-          FAQ da REB
-        </a>.
-      </p>
     </section>
   );
 }
@@ -299,11 +291,9 @@ function Manifesto() {
   return (
     <section className="manifesto" data-screen-label="06 Manifesto">
       <div className="manifesto__inner">
-        <span className="manifesto__mark" aria-hidden="true">&ldquo;</span>
         <blockquote className="manifesto__quote">
           Buscamos uma expressão de fé que honre os <em>símbolos</em>, reconheça a riqueza da
-          <em> liturgia</em>, dialogue com a cultura e expresse a <em>beleza de Cristo</em> —
-          com esperança, sem medo.
+          <em> liturgia</em>, dialogue com a cultura e expresse a <em>beleza de Cristo</em>.
         </blockquote>
         <div className="manifesto__attr">O QUE SOMOS</div>
       </div>
@@ -319,56 +309,53 @@ function Lideranca() {
         Pastores da <em>comunidade</em>.
       </h2>
       <p className="section-lede">
-        Ministério pastoral exercido em comunhão com o Revmo. Eric Rodrigues, da Rede Episcopal Brasileira.
+        Em comunhão com o Revmo. Eric Rodrigues, da Rede Episcopal Brasileira.
       </p>
 
-      <div className="lider-duo" style={{ marginTop: 40, borderRadius: 20, overflow: "hidden", border: "1px solid var(--linha)" }}>
+      <div className="lider-duo" style={{ marginTop: 28, borderRadius: 16, overflow: "hidden", border: "1px solid var(--linha)", maxHeight: 420 }}>
         <img
           src="assets/photo-pastores-eucaristia.png"
           alt="Pastor Jorge Alcino e Pastora Raquel Fernandes com os elementos da Eucaristia"
-          style={{ width: "100%", display: "block", aspectRatio: "4/5", objectFit: "cover", maxHeight: 560 }}
+          style={{ width: "100%", display: "block", aspectRatio: "16/10", objectFit: "cover", objectPosition: "center 22%" }}
           loading="lazy"
         />
       </div>
 
-      <div className="lideres">
+      <div className="lideres" style={{ marginTop: 24 }}>
         <article className="lider">
           <div className="lider__photo">
-            <img src="assets/photo-pastor-jorge-pregando.png" alt="Pastor Jorge Alcino" loading="lazy" />
+            <img
+              src="assets/photo-pastor-jorge-pregando.png"
+              alt="Pastor Jorge Alcino"
+              loading="lazy"
+              style={{ objectPosition: "center 18%" }}
+            />
           </div>
           <div className="lider__body">
             <div className="lider__role">Pastor</div>
             <h3 className="lider__name">Jorge Alcino</h3>
             <p className="lider__bio">
-              Pastor da Igreja Anglicana Rio. Cuida da proclamação da Palavra, da liturgia e do pastoreio da comunidade.
+              Proclamação da Palavra, liturgia e pastoreio da comunidade.
             </p>
           </div>
         </article>
         <article className="lider">
           <div className="lider__photo">
-            <img src="assets/photo-pastores-eucaristia.png" alt="Pastora Raquel Fernandes" loading="lazy" style={{ objectPosition: "78% 20%" }} />
+            <img
+              src="assets/photo-pastores-eucaristia.png"
+              alt="Pastora Raquel Fernandes"
+              loading="lazy"
+              style={{ objectPosition: "72% 18%" }}
+            />
           </div>
           <div className="lider__body">
             <div className="lider__role">Pastora</div>
             <h3 className="lider__name">Raquel Fernandes</h3>
             <p className="lider__bio">
-              Pastora da Igreja Anglicana Rio. Cuida do acolhimento e da vida da comunidade.
+              Acolhimento e vida da comunidade.
             </p>
           </div>
         </article>
-      </div>
-
-      <div style={{ marginTop: 32, display: "grid", gridTemplateColumns: "120px 1fr", gap: 20, alignItems: "center", padding: 20, background: "var(--vela)", borderRadius: 16, border: "1px solid var(--linha)" }}>
-        <img
-          src="assets/photo-pastor-imposicao.png"
-          alt="Pastor Jorge Alcino recebendo imposição de mãos"
-          style={{ width: 120, height: 120, objectFit: "cover", borderRadius: 12 }}
-          loading="lazy"
-        />
-        <p style={{ margin: 0, color: "var(--grafite-2)", lineHeight: 1.55, fontSize: 15 }}>
-          <strong style={{ color: "var(--marinho)" }}>Nosso bispo · Revmo. Eric Rodrigues</strong><br />
-          Comunhão episcopal na Rede Episcopal Brasileira.
-        </p>
       </div>
     </section>
   );
@@ -382,7 +369,7 @@ function Visite() {
         Onde nos reunimos e <em>quando</em>.
       </h2>
       <p className="section-lede">
-        Em Irajá, Zona Norte do Rio — perto do metrô Irajá e do polo gastronômico de Vista Alegre.
+        Irajá · perto do metrô Irajá e do polo gastronômico de Vista Alegre.
       </p>
       <div className="visite__map">
         <iframe
@@ -406,7 +393,7 @@ function Visite() {
           <p className="visite__card-text">
             <strong>Zona Norte · Irajá</strong><br />
             Rua Soldado Elias dos Santos, 55 — CEP 21235-513.<br />
-            Perto do metrô Irajá (cerca de 10 minutos a pé) e do polo gastronômico de Vista Alegre. Há estacionamento na rua.
+            ~10 min a pé do metrô Irajá. Estacionamento na rua.
           </p>
           <ul className="horarios">
             <li>
@@ -422,20 +409,14 @@ function Visite() {
         <div className="visite__card" style={{ background: "var(--vela)", border: "1px solid var(--linha)" }}>
           <h3 className="visite__card-title" style={{ color: "var(--marinho)" }}>Deseja visitar?</h3>
           <p className="visite__card-text" style={{ color: "var(--grafite-2)" }}>
-            Escreva no Instagram <strong style={{ color: "var(--marinho)" }}>@igrejaanglicanario</strong> ou pelo WhatsApp.
-            Teremos prazer em ajudá-lo(a) a chegar.
+            Instagram <strong style={{ color: "var(--marinho)" }}>@igrejaanglicanario</strong> ou WhatsApp.
           </p>
-          <div style={{ marginTop: 32, display: "flex", flexDirection: "column", gap: 12 }}>
+          <div style={{ marginTop: 24, display: "flex", flexDirection: "column", gap: 10 }}>
             <a href="https://instagram.com/igrejaanglicanario" target="_blank" rel="noopener" className="btn btn--primary" style={{ justifyContent: "center" }}>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                <rect x="3" y="3" width="18" height="18" rx="5" />
-                <circle cx="12" cy="12" r="4" />
-                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
-              </svg>
               Instagram
             </a>
             <a href="https://wa.me/5521971500286" target="_blank" rel="noopener" className="btn btn--dark" style={{ justifyContent: "center" }}>
-              Falar conosco no WhatsApp
+              WhatsApp
             </a>
           </div>
         </div>
@@ -480,7 +461,7 @@ function Footer() {
         </div>
         <div className="site-footer__col" style={{ display: "flex", alignItems: "center" }}>
           <a href="https://redeepiscopalbrasileira.com.br/" target="_blank" rel="noopener" style={{ display: "inline-flex" }}>
-            <img src="assets/logo-rede-episcopal-brasileira.png" alt="Rede Episcopal Brasileira" style={{ height: 110, width: 140, display: "block" }} />
+            <img src="assets/logo-rede-episcopal-brasileira.png" alt="Rede Episcopal Brasileira" style={{ height: 90, width: 116, display: "block" }} />
           </a>
         </div>
         <div className="site-footer__col">
