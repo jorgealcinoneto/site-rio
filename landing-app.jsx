@@ -308,18 +308,6 @@ function Lideranca() {
       <h2 className="section-title">
         Pastores da <em>comunidade</em>.
       </h2>
-      <p className="section-lede">
-        Em comunhão com o Revmo. Eric Rodrigues, da Rede Episcopal Brasileira.
-      </p>
-
-      <div className="lider-duo" style={{ marginTop: 28, borderRadius: 16, overflow: "hidden", border: "1px solid var(--linha)", maxHeight: 420 }}>
-        <img
-          src="assets/photo-pastores-eucaristia.png"
-          alt="Pastor Jorge Alcino e Pastora Raquel Fernandes com os elementos da Eucaristia"
-          style={{ width: "100%", display: "block", aspectRatio: "16/10", objectFit: "cover", objectPosition: "center 22%" }}
-          loading="lazy"
-        />
-      </div>
 
       <div className="lideres" style={{ marginTop: 24 }}>
         <article className="lider">
