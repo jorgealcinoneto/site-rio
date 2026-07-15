@@ -285,53 +285,58 @@ function Lideranca() {
         Pastores da <em>comunidade</em>.
       </h2>
 
-      {/* The source is 572x694 portrait and its subject spans the full height
-          (faces up top, chalice and paten below). Cropping it to a landscape
-          band cuts the eucharistic elements off and upscales it ~2x, so keep
-          the native ratio and cap the width below 572 to stay sharp. */}
-      <div style={{ marginTop: 28, display: "flex", justifyContent: "center" }}>
-        <img
-          src="assets/photo-pastores-eucaristia.png"
-          alt="Pastor Jorge Alcino e Pastora Raquel Fernandes com os elementos da Eucaristia"
-          width="572"
-          height="694"
-          style={{
-            width: "100%", maxWidth: 460, height: "auto", display: "block",
-            borderRadius: 16, border: "1px solid var(--linha)",
-          }}
-          loading="lazy"
-        />
-      </div>
+      {/* .lideres is already a 1fr 1fr grid at >=720px: photo left, merged text
+          right. .lider__photo carries the 4/3 crop on mobile and stretches to
+          the card's height on desktop. */}
+      <div className="lideres" style={{ marginTop: 28 }}>
+        <div className="lider__photo" style={{ borderRadius: 24, border: "1px solid var(--linha)" }}>
+          <img
+            src="assets/photo-pastores-eucaristia.png"
+            alt="Pastor Jorge Alcino e Pastora Raquel Fernandes com os elementos da Eucaristia"
+            loading="lazy"
+            // Portrait source: anchor the top so the faces survive and the crop
+            // eats the bottom of the frame.
+            style={{ objectPosition: "center top" }}
+          />
+        </div>
 
-      <div className="lideres" style={{ marginTop: 24 }}>
-        {pastores.map((p) => (
-          // .lider is a 1fr 1.4fr grid for the photo layout; these cards have no
-          // photo, so collapse it or the body sits in the narrow column.
-          <article className="lider" key={p.nome} style={{ gridTemplateColumns: "1fr" }}>
-            <div className="lider__body">
-              <div className="lider__role">{p.cargo}</div>
-              <h3 className="lider__name">{p.nome}</h3>
-              <p className="lider__bio">{p.bio}</p>
-              <a
-                href={`https://instagram.com/${p.instagram}`}
-                target="_blank"
-                rel="noopener"
-                style={{
-                  marginTop: 14, display: "inline-flex", alignItems: "center", gap: 8,
-                  color: "var(--estola)", textDecoration: "none", fontSize: 15, fontWeight: 500,
-                }}
+        {/* .lider is a 1fr 1.4fr grid for the photo layout; this card holds only
+            text, so collapse it or the body sits in the narrow column. */}
+        <article className="lider" style={{ gridTemplateColumns: "1fr" }}>
+          <div className="lider__body">
+            {pastores.map((p, i) => (
+              <div
+                key={p.nome}
+                style={i > 0 ? { marginTop: 24, paddingTop: 24, borderTop: "1px solid var(--linha)" } : undefined}
               >
-                <IconInstagram />
-                @{p.instagram}
-              </a>
-            </div>
-          </article>
-        ))}
+                <div className="lider__role">{p.cargo}</div>
+                <h3 className="lider__name">{p.nome}</h3>
+                <p className="lider__bio">{p.bio}</p>
+                <a
+                  href={`https://instagram.com/${p.instagram}`}
+                  target="_blank"
+                  rel="noopener"
+                  style={{
+                    marginTop: 14, display: "inline-flex", alignItems: "center", gap: 8,
+                    color: "var(--estola)", textDecoration: "none", fontSize: 15, fontWeight: 500,
+                  }}
+                >
+                  <IconInstagram />
+                  @{p.instagram}
+                </a>
+              </div>
+            ))}
+            <p
+              style={{
+                marginTop: 24, paddingTop: 24, borderTop: "1px solid var(--linha)",
+                color: "var(--grafite-2)", fontSize: 15, lineHeight: 1.6,
+              }}
+            >
+              Jorge e Raquel são casados há 15 anos e têm três filhos — Asaphe, Liz e Bento — e a gatinha Lili.
+            </p>
+          </div>
+        </article>
       </div>
-
-      <p style={{ marginTop: 24, color: "var(--grafite-2)", fontSize: 16, lineHeight: 1.6, textAlign: "center" }}>
-        Jorge e Raquel são casados há 15 anos e têm três filhos — Asaphe, Liz e Bento — e a gatinha Lili.
-      </p>
     </section>
   );
 }
