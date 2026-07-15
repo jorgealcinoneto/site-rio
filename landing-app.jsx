@@ -251,7 +251,33 @@ function Manifesto() {
   );
 }
 
+// Inline rather than in icons.jsx: the bundled copy of that file has drifted
+// from disk, so repacking it would also ship an unrelated logo change.
+function IconInstagram() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+      <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" />
+      <circle cx="12" cy="12" r="4.2" />
+      <circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
 function Lideranca() {
+  const pastores = [
+    {
+      cargo: "Pastor",
+      nome: "Jorge Alcino",
+      bio: "Atua como pastor há 10 anos, sempre envolvido na plantação de igrejas. Engenheiro de Software e mestrando em Estudos Teológicos no Gordon-Conwell Theological Seminary.",
+      instagram: "ofantasticomundodejorge",
+    },
+    {
+      cargo: "Pastora",
+      nome: "Raquel Fernandes",
+      bio: "Atua como pastora há 10 anos, sempre envolvida na plantação de igrejas. Gerente de Projetos e graduanda em Teologia pela FTSA.",
+      instagram: "raquel.fernandessss",
+    },
+  ];
   return (
     <section id="lideranca" className="site-section" data-screen-label="07 Lideranca">
       <div className="section-eyebrow">Liderança</div>
@@ -259,42 +285,53 @@ function Lideranca() {
         Pastores da <em>comunidade</em>.
       </h2>
 
-      <div className="lideres" style={{ marginTop: 24 }}>
-        <article className="lider">
-          <div className="lider__photo">
-            <img
-              src="assets/photo-pastor-jorge-pregando.png"
-              alt="Pastor Jorge Alcino"
-              loading="lazy"
-              style={{ objectPosition: "center 18%" }}
-            />
-          </div>
-          <div className="lider__body">
-            <div className="lider__role">Pastor</div>
-            <h3 className="lider__name">Jorge Alcino</h3>
-            <p className="lider__bio">
-              Responsável pela pregação, pela liturgia e pelo cuidado pastoral da comunidade.
-            </p>
-          </div>
-        </article>
-        <article className="lider">
-          <div className="lider__photo">
-            <img
-              src="assets/photo-pastores-eucaristia.png"
-              alt="Pastora Raquel Fernandes"
-              loading="lazy"
-              style={{ objectPosition: "72% 18%" }}
-            />
-          </div>
-          <div className="lider__body">
-            <div className="lider__role">Pastora</div>
-            <h3 className="lider__name">Raquel Fernandes</h3>
-            <p className="lider__bio">
-              Responsável pelo acolhimento e pela vida comunitária.
-            </p>
-          </div>
-        </article>
+      {/* The source is 572x694 portrait and its subject spans the full height
+          (faces up top, chalice and paten below). Cropping it to a landscape
+          band cuts the eucharistic elements off and upscales it ~2x, so keep
+          the native ratio and cap the width below 572 to stay sharp. */}
+      <div style={{ marginTop: 28, display: "flex", justifyContent: "center" }}>
+        <img
+          src="assets/photo-pastores-eucaristia.png"
+          alt="Pastor Jorge Alcino e Pastora Raquel Fernandes com os elementos da Eucaristia"
+          width="572"
+          height="694"
+          style={{
+            width: "100%", maxWidth: 460, height: "auto", display: "block",
+            borderRadius: 16, border: "1px solid var(--linha)",
+          }}
+          loading="lazy"
+        />
       </div>
+
+      <div className="lideres" style={{ marginTop: 24 }}>
+        {pastores.map((p) => (
+          // .lider is a 1fr 1.4fr grid for the photo layout; these cards have no
+          // photo, so collapse it or the body sits in the narrow column.
+          <article className="lider" key={p.nome} style={{ gridTemplateColumns: "1fr" }}>
+            <div className="lider__body">
+              <div className="lider__role">{p.cargo}</div>
+              <h3 className="lider__name">{p.nome}</h3>
+              <p className="lider__bio">{p.bio}</p>
+              <a
+                href={`https://instagram.com/${p.instagram}`}
+                target="_blank"
+                rel="noopener"
+                style={{
+                  marginTop: 14, display: "inline-flex", alignItems: "center", gap: 8,
+                  color: "var(--estola)", textDecoration: "none", fontSize: 15, fontWeight: 500,
+                }}
+              >
+                <IconInstagram />
+                @{p.instagram}
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <p style={{ marginTop: 24, color: "var(--grafite-2)", fontSize: 16, lineHeight: 1.6, textAlign: "center" }}>
+        Jorge e Raquel são casados há 15 anos e têm três filhos — Asaphe, Liz e Bento — e a gatinha Lili.
+      </p>
     </section>
   );
 }
