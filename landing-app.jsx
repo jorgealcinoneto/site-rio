@@ -30,7 +30,6 @@ function Nav() {
   const links = [
     { href: "#primeira-vez", label: "Primeira visita" },
     { href: "#quem-somos", label: "Quem somos" },
-    { href: "#celebracao", label: "A celebração" },
     { href: "#cremos", label: "No que cremos" },
     { href: "#lideranca", label: "Liderança" },
     { href: "#visite", label: "Onde e quando" },
@@ -204,52 +203,6 @@ function QuemSomos() {
           <p style={{ marginTop: 20 }}>
             <a href="https://redeepiscopalbrasileira.com.br/" target="_blank" rel="noopener" className="btn btn--dark">
               Conhecer a REB
-            </a>
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function Celebracao() {
-  return (
-    <section id="celebracao" className="site-section" data-screen-label="04 Celebracao">
-      <div className="sobre">
-        <div>
-          <div className="section-eyebrow">A celebração dominical</div>
-          <h2 className="sobre__lead">
-            Eucaristia da família, <em>todo domingo às 10h</em>.
-          </h2>
-          <p style={{ marginTop: 12, color: "var(--grafite-2)", lineHeight: 1.5 }}>
-            O café comunitário antecede a celebração, às <strong>9h</strong>.
-          </p>
-          <div style={{ marginTop: 20, borderRadius: 16, overflow: "hidden", maxHeight: 340 }}>
-            <img
-              src="assets/photo-pastor-imposicao.png"
-              alt="Momento litúrgico de oração com imposição de mãos"
-              style={{ width: "100%", display: "block", aspectRatio: "4/3", objectFit: "cover", objectPosition: "center 30%" }}
-              loading="lazy"
-            />
-          </div>
-        </div>
-        <div className="sobre__body">
-          <p>
-            Unimos a <strong>solenidade litúrgica</strong> à <strong>linguagem contemporânea</strong>, em abertura à vida no Espírito.
-          </p>
-          <p>
-            Seguimos o <em>Livro de Oração Comum</em> em dois movimentos:
-          </p>
-          <p>
-            <strong>Serviço da Palavra</strong> — Escrituras, sermão, credo e orações.<br />
-            <strong>Serviço do Sacramento</strong> — Santa Eucaristia, conforme o mandamento de Cristo.
-          </p>
-          <p style={{ marginTop: 20 }}>
-            <a href="#visite" className="btn btn--dark">
-              Como chegar
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
-                <path d="M3 8 H13 M9 4 L13 8 L9 12" />
-              </svg>
             </a>
           </p>
         </div>
@@ -456,7 +409,6 @@ function Footer() {
           <div className="site-footer__col-title">Navegue</div>
           <a href="#primeira-vez">Primeira visita</a>
           <a href="#quem-somos">Quem somos</a>
-          <a href="#celebracao">A celebração</a>
           <a href="#visite">Onde e quando</a>
         </div>
         <div className="site-footer__col">
@@ -488,7 +440,6 @@ function App() {
         <Hero />
         <PrimeiraVez />
         <QuemSomos />
-        <Celebracao />
         <Cremos />
         <Manifesto />
         <Lideranca />
