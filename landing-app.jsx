@@ -454,7 +454,7 @@ function Footer() {
           <div className="site-footer__col-title">Conecte-se</div>
           <a href="https://instagram.com/igrejaanglicanario" target="_blank" rel="noopener">Instagram</a>
           <a href="https://wa.me/5521971500286" target="_blank" rel="noopener">WhatsApp</a>
-          <a href="mailto:contato@igrejaanglicanario.com.br">E-mail</a>
+          <a href="mailto:igrejaanglicanario@gmail.com">E-mail</a>
         </div>
         <div className="site-footer__col">
           <div className="site-footer__col-title">A igreja</div>
