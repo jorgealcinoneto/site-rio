@@ -95,7 +95,7 @@ function Hero() {
         <div>
           <div className="hero-site__kicker" style={{ color: "#F5BD24" }}>Igreja Anglicana Rio · Rede Episcopal Brasileira</div>
           <h1 className="hero-site__title">
-            Igreja Anglicana Rio: sacramental, litúrgica e <em>comunitária</em>.
+            Igreja Anglicana Rio: sacramental, litúrgica e <em>carioca</em>.
           </h1>
         </div>
         <div className="hero-site__ctas">
@@ -144,9 +144,6 @@ function PrimeiraVez() {
       <h2 className="section-title">
         O que esperar da <em>sua primeira visita</em>.
       </h2>
-      <p className="section-lede">
-        A Igreja Anglicana Rio é uma comunidade reformada e evangélica que confessa a fé católica dos apóstolos — não integramos a Igreja Católica Romana. Reunimos herança litúrgica, acolhimento e abertura à obra do Espírito Santo.
-      </p>
       <div className="atividades-grid" style={{ marginTop: 28 }}>
         {pontos.map((p) => (
           <div className="atividade" key={p.title} style={{ gridTemplateColumns: "56px 1fr" }}>
