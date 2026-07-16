@@ -93,7 +93,7 @@ function Hero() {
       <div className="hero-site__overlay" style={{ opacity: 1 }} />
       <div className="hero-site__content">
         <div>
-          <div className="hero-site__kicker" style={{ color: "#F5BD24" }}>Igreja Anglicana Rio · Rede Episcopal Brasileira</div>
+          <div className="hero-site__kicker" style={{ color: "#F5BD24" }}>Rede Episcopal Brasileira</div>
           <h1 className="hero-site__title">
             Igreja Anglicana Rio: sacramental, litúrgica e <em>carioca</em>.
           </h1>
@@ -110,7 +110,7 @@ function Hero() {
         <div className="hero-site__meta">
           <div>
             <strong>Domingo</strong>
-            <div className="hero-site__meta-val">Café 9h · Eucaristia 10h</div>
+            <div className="hero-site__meta-val">Café 9h · Culto Eucaristico 10h</div>
           </div>
           <div>
             <strong>Onde</strong>
@@ -118,7 +118,7 @@ function Hero() {
           </div>
           <div>
             <strong>Acolhida</strong>
-            <div className="hero-site__meta-val">Café comunitário</div>
+            <div className="hero-site__meta-val">Café Comunitário</div>
           </div>
         </div>
       </div>
@@ -136,7 +136,7 @@ function PrimeiraVez() {
   const pontos = [
     { Icon: IconComunidade, title: "Acolhimento sem pré-requisitos", desc: "Não há exigência de traje, filiação prévia ou familiaridade com a liturgia. Recebemos cada visitante como está." },
     { Icon: IconCoracao, title: "Famílias e crianças", desc: "As crianças participam integralmente da celebração e da vida da comunidade." },
-    { Icon: IconLivro, title: "Café 9h · Eucaristia 10h", desc: "O café comunitário antecede a celebração, que dura cerca de uma hora e reúne Palavra, oração e Eucaristia." },
+    { Icon: IconLivro, title: "Café 9h · Culto Eucaristico 10h", desc: "O café comunitário antecede a celebração, que dura cerca de uma hora e reúne Palavra, oração e Eucaristia." },
   ];
   return (
     <section id="primeira-vez" className="site-section" data-screen-label="02 Primeira vez">
@@ -183,10 +183,10 @@ function QuemSomos() {
         </div>
         <div className="sobre__body">
           <p>
-            Somos uma comunidade cristã sediada em Irajá, Zona Norte do Rio de Janeiro, <strong>integrante da Rede Episcopal Brasileira</strong>. Nossa vocação é o discipulado e o amor a Deus e ao próximo — um sinal do Reino nesta cidade.
+            Somos uma comunidade cristã sediada em Irajá, Zona Norte do Rio de Janeiro, <strong><a href="https://redeepiscopalbrasileira.com.br/" target="_blank" rel="noopener">integrante da Rede Episcopal Brasileira</a></strong>.
           </p>
           <p>
-            Somos uma igreja <strong>sacramental e contemporânea</strong>, centrada na Eucaristia e na Palavra, e aberta à obra do Espírito Santo.
+            Somos uma igreja <strong>sacramental, liturgica, contemporanea e carismática</strong>, centrada na Eucaristia e na Palavra.
           </p>
           <div className="bispo-card" style={{ marginTop: 20, padding: 20, background: "var(--vela)", border: "1px solid var(--linha)", borderRadius: 14 }}>
             <div className="section-eyebrow" style={{ marginBottom: 6 }}>Nosso bispo</div>
@@ -197,9 +197,12 @@ function QuemSomos() {
               Bispo da Rede Episcopal Brasileira, com quem nossa comunidade está em comunhão.
             </p>
           </div>
-          <p style={{ marginTop: 20 }}>
-            <a href="https://redeepiscopalbrasileira.com.br/" target="_blank" rel="noopener" className="btn btn--dark">
+          <p style={{ marginTop: 20, display: "flex", flexWrap: "wrap", gap: 12 }}>
+            <a href="https://redeepiscopalbrasileira.com.br/" target="_blank" rel="noopener" className="btn btn--dark" style={{ color: "rgb(245, 189, 36)" }}>
               Conhecer a REB
+            </a>
+            <a href="https://caminhoanglicano.com.br/" target="_blank" rel="noopener" className="btn btn--dark" style={{ color: "rgb(245, 189, 36)" }}>
+              Indicamos: O Caminho Anglicano
             </a>
           </p>
         </div>
@@ -210,10 +213,10 @@ function QuemSomos() {
 
 function Cremos() {
   const itens = [
-    { Icon: IconLivro, title: "Fidelidade às Escrituras", desc: "O Evangelho da graça e a justificação pela fé. A Palavra é a autoridade para a fé e para a vida." },
-    { Icon: IconCruzCelta, title: "Fé católica e universal", desc: "Credos, ministério episcopal, sacramentos e calendário litúrgico: a fé recebida dos apóstolos." },
-    { Icon: IconCalice, title: "Via-média anglicana", desc: "Tradição e contemporaneidade: a herança litúrgica vivida de forma acessível." },
-    { Icon: IconPomba, title: "Vida no Espírito", desc: "Abertura à obra do Espírito Santo, exercida com ordem e reverência." },
+    { Icon: IconLivro, title: "Fidelidade às Escrituras", desc: "A Bíblia é a história verdadeira do mundo — e nos convoca a entrar nela. Nela, Cristo nos encontra, a graça nos justifica e somos enviados a anunciar boas novas." },
+    { Icon: IconCruzCelta, title: "Fé Católica e Universal", desc: "Recebemos a fé dos apóstolos — credos, sacramentos e ministério — não como relíquia, mas como herança viva a ser compartilhada com todos os povos e gerações." },
+    { Icon: IconCalice, title: "Via-média anglicana", desc: "Raízes antigas, linguagem de hoje. Uma tradição que une razão e reverência para traduzir o Evangelho ao coração e à mente do nosso tempo e da nossa cidade." },
+    { Icon: IconPomba, title: "Vida no Espírito", desc: "O Espírito que ressuscitou Jesus nos capacita e nos envia: uma comunidade transformada, com poder e com ordem, testemunha viva do Reino no mundo." },
   ];
   return (
     <section id="cremos" className="site-section site-section--alt" data-screen-label="05 Cremos">
@@ -222,7 +225,7 @@ function Cremos() {
         Os fundamentos da <em>nossa fé</em>.
       </h2>
       <p className="section-lede">
-        Unidos pela fé, guiados pelo Espírito e fundamentados na Palavra.
+        Quatro fundamentos, uma vocação: ser igreja em missão.
       </p>
       <div className="crencas" style={{ marginTop: 28 }}>
         {itens.map((p) => (
