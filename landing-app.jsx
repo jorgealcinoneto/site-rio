@@ -271,13 +271,17 @@ function Lideranca() {
     {
       cargo: "Pastor",
       nome: "Jorge Alcino",
-      bio: "Atua como pastor há 10 anos, sempre envolvido na plantação de igrejas. Engenheiro de Software e mestrando em Estudos Teológicos no Gordon-Conwell Theological Seminary.",
+      bio: "Pastor, Engenheiro de Software e mestrando em Estudos Teológicos pelo Gordon-Conwell Theological Seminary. Há mais de 10 anos dedica seu ministério à plantação de igrejas. Nas horas vagas, gosta de tocar guitarra e escrever poemas.",
       instagram: "ofantasticomundodejorge",
     },
     {
       cargo: "Pastora",
       nome: "Raquel Fernandes",
-      bio: "Atua como pastora há 10 anos, sempre envolvida na plantação de igrejas. Gerente de Projetos e graduanda em Teologia pela FTSA.",
+      bio: (
+        <>
+          Pastora, Gerente de Projetos e graduanda em Teologia pela FTSA. Há mais de 10 anos serve na plantação de igrejas e no cuidado de pessoas. É fã de <em>Harry Potter</em> e <em>Friends</em>.
+        </>
+      ),
       instagram: "raquel.fernandessss",
     },
   ];
@@ -335,7 +339,7 @@ function Lideranca() {
                 color: "var(--grafite-2)", fontSize: 15, lineHeight: 1.6,
               }}
             >
-              Jorge e Raquel são casados há 15 anos e têm três filhos — Asaphe, Liz e Bento — e a gatinha Lili.
+              Jorge e Raquel são casados há 15 anos, pais de Asaphe, Liz e Bento, e tutores da gatinha Lili. Já moraram no Sul do Brasil, mas é o calor do Rio de Janeiro que chamam de lar.
             </p>
           </div>
         </article>
