@@ -63,15 +63,18 @@ function IconCalice(props) {
   );
 }
 
-/* —— Pomba do Espírito Santo (simplificada) —— */
+/* —— Pomba do Espírito Santo —— */
 function IconPomba(props) {
   return (
     <svg {...ICON_PROPS} {...props}>
-      <path d="M5 17 c3 -3 7 -4 11 -4 c2 0 5 -1 7 -3 c0 4 -2 7 -5 8 c-3 1 -6 4 -6 8" />
-      <path d="M16 13 l 6 -2" />
-      <path d="M16 19 v3" />
-      <path d="M19 22 l3 4" />
-      <path d="M13 22 l-3 4" />
+      <circle cx="16" cy="9" r="2.8" />
+      <path d="M16 11.8 V13.5" />
+      <ellipse cx="16" cy="18" rx="3.2" ry="4.5" />
+      <path d="M13 15.5 C7 13 4 15 3 19 C8 19 11 18 13 17" />
+      <path d="M19 15.5 C25 13 28 15 29 19 C24 19 21 18 19 17" />
+      <path d="M14 22.5 L12 28" />
+      <path d="M16 23 V28" />
+      <path d="M18 22.5 L20 28" />
     </svg>
   );
 }
