@@ -98,14 +98,14 @@ function Hero() {
             Igreja Anglicana Rio: sacramental, litúrgica e <em>carioca</em>.
           </h1>
         </div>
-        <div className="hero-site__ctas">
-          <a href="#visite" className="btn btn--primary">
+        <div className="hero-site__ctas" style={{ gap: 8 }}>
+          <a href="#visite" className="btn btn--primary" style={{ padding: "12px 20px", fontSize: 14, gap: 8 }}>
             Planeje sua visita
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+            <svg width="16" height="16" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
               <path d="M3 9 H15 M10 4 L15 9 L10 14" />
             </svg>
           </a>
-          <a href="#primeira-vez" className="btn btn--ghost">É minha primeira visita</a>
+          <a href="#primeira-vez" className="btn btn--ghost" style={{ padding: "12px 20px", fontSize: 14 }}>É minha primeira visita</a>
         </div>
         <div className="hero-site__meta">
           <div>
@@ -248,7 +248,6 @@ function Manifesto() {
           Buscamos uma expressão de fé que honre os <em>símbolos</em>, reconheça a riqueza da
           <em> liturgia</em>, dialogue com a cultura e expresse a <em>beleza de Cristo</em>.
         </blockquote>
-        <div className="manifesto__attr">NOSSA VISÃO</div>
       </div>
     </section>
   );
