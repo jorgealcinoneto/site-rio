@@ -84,11 +84,52 @@ function Nav() {
   );
 }
 
+const HERO_SLIDES = [
+  {
+    src: "assets/hero-sala.jpg",
+    alt: "Sala de culto da Igreja Anglicana Rio em Irajá, com altar, cruz e cadeiras prontas para a celebração",
+  },
+  {
+    src: "assets/photo-adoracao.jpg",
+    alt: "Comunidade em adoração na Igreja Anglicana Rio",
+  },
+  {
+    src: "assets/photo-culto-pregacao.jpg",
+    alt: "Pregação durante o culto da Igreja Anglicana Rio",
+  },
+  {
+    src: "assets/photo-comunidade-ouvindo.jpg",
+    alt: "Irmãos acompanhando a celebração na Igreja Anglicana Rio",
+  },
+];
+
 function Hero() {
+  const [slide, setSlide] = useState(0);
+  useEffect(() => {
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce || HERO_SLIDES.length < 2) return undefined;
+    const id = window.setInterval(
+      () => setSlide((n) => (n + 1) % HERO_SLIDES.length),
+      5500,
+    );
+    return () => window.clearInterval(id);
+  }, []);
   return (
     <header className="hero-site" id="topo" data-screen-label="01 Hero">
-      <div className="hero-site__bg">
-        <img src="assets/hero-mosaico.jpg" alt="Mosaico de fotos da comunidade da Igreja Anglicana Rio reunida em celebrações e confraternizações" width="1600" height="1200" fetchpriority="high" decoding="async" />
+      <div className="hero-site__bg" aria-hidden="true">
+        {HERO_SLIDES.map((s, i) => (
+          <img
+            key={s.src}
+            src={s.src}
+            alt=""
+            width={i === 0 ? 768 : 1600}
+            height={i === 0 ? 1024 : 1200}
+            className={i === slide ? "is-active" : undefined}
+            fetchpriority={i === 0 ? "high" : undefined}
+            loading={i === 0 ? "eager" : "lazy"}
+            decoding="async"
+          />
+        ))}
       </div>
       <div className="hero-site__overlay" style={{ opacity: 1 }} />
       <div className="hero-site__content">
@@ -98,6 +139,16 @@ function Hero() {
             Igreja Anglicana Rio: sacramental, litúrgica e <em>carioca</em>.
           </h1>
         </div>
+        <div className="hero-site__meta hero-site__meta--spotlight">
+          <div>
+            <strong>Quando</strong>
+            <div className="hero-site__meta-val">Domingo · 9h</div>
+          </div>
+          <div>
+            <strong>Onde</strong>
+            <div className="hero-site__meta-val">Irajá · Zona Norte</div>
+          </div>
+        </div>
         <div className="hero-site__ctas" style={{ gap: 8 }}>
           <a href="#visite" className="btn btn--primary" style={{ padding: "12px 20px", fontSize: 14, gap: 8 }}>
             Planeje sua visita
@@ -106,20 +157,6 @@ function Hero() {
             </svg>
           </a>
           <a href="#primeira-vez" className="btn btn--ghost" style={{ padding: "12px 20px", fontSize: 14 }}>É minha primeira visita</a>
-        </div>
-        <div className="hero-site__meta">
-          <div>
-            <strong>Domingo</strong>
-            <div className="hero-site__meta-val">Café 9h · Culto Eucaristico 10h</div>
-          </div>
-          <div>
-            <strong>Onde</strong>
-            <div className="hero-site__meta-val">Irajá · Zona Norte</div>
-          </div>
-          <div>
-            <strong>Acolhida</strong>
-            <div className="hero-site__meta-val">Café Comunitário</div>
-          </div>
         </div>
       </div>
       <a href="#primeira-vez" className="hero-site__scroll" aria-label="Rolar para baixo">
@@ -136,7 +173,7 @@ function PrimeiraVez() {
   const pontos = [
     { Icon: IconComunidade, title: "Acolhimento sem pré-requisitos", desc: "Não há exigência de traje, filiação prévia ou familiaridade com a liturgia. Recebemos cada visitante como está." },
     { Icon: IconCoracao, title: "Famílias e crianças", desc: "As crianças participam integralmente da celebração e da vida da comunidade." },
-    { Icon: IconLivro, title: "Café 9h · Culto Eucaristico 10h", desc: "O café comunitário antecede a celebração, que dura cerca de uma hora e reúne Palavra, oração e Eucaristia." },
+    { Icon: IconLivro, title: "Domingo às 9h", desc: "Começamos às 9h com o café comunitário e seguimos juntos no culto — Palavra, oração e Eucaristia." },
   ];
   return (
     <section id="primeira-vez" className="site-section" data-screen-label="02 Primeira vez">
@@ -383,14 +420,13 @@ function Visite() {
           </p>
           <ul className="horarios">
             <li>
-              <strong style={{ color: "#F5BD24" }}>Café comunitário</strong>
-              <span style={{ color: "#F5BD24" }}>Dom · 9h</span>
-            </li>
-            <li>
-              <strong style={{ color: "#F5BD24" }}>Eucaristia da família</strong>
-              <span style={{ color: "#F5BD24" }}>Dom · 10h</span>
+              <strong style={{ color: "#F5BD24" }}>Culto</strong>
+              <span style={{ color: "#F5BD24" }}>Domingo · 9h</span>
             </li>
           </ul>
+          <p className="visite__card-text" style={{ marginTop: 16, opacity: 0.85 }}>
+            Começamos com o café comunitário e seguimos na Eucaristia da família.
+          </p>
         </div>
         <div className="visite__card" style={{ background: "var(--vela)", border: "1px solid var(--linha)" }}>
           <h3 className="visite__card-title" style={{ color: "var(--marinho)" }}>Planeje sua visita</h3>
@@ -416,7 +452,7 @@ function CtaFinal() {
     <section className="cta-banner" data-screen-label="09 CTA">
       <div className="cta-banner__inner">
         <h2 className="cta-banner__title">
-          Domingo: café comunitário às 9h, Eucaristia às 10h.
+          Domingo às 9h em Irajá. Venha conosco.
         </h2>
         <p className="cta-banner__sub">
           Unidos pela fé, guiados pelo Espírito e fundamentados na Palavra.
