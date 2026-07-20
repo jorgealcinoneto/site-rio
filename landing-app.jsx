@@ -84,52 +84,18 @@ function Nav() {
   );
 }
 
-const HERO_SLIDES = [
-  {
-    src: "assets/hero-sala.jpg",
-    alt: "Sala de culto da Igreja Anglicana Rio em Irajá, com altar, cruz e cadeiras prontas para a celebração",
-  },
-  {
-    src: "assets/photo-adoracao.jpg",
-    alt: "Comunidade em adoração na Igreja Anglicana Rio",
-  },
-  {
-    src: "assets/photo-culto-pregacao.jpg",
-    alt: "Pregação durante o culto da Igreja Anglicana Rio",
-  },
-  {
-    src: "assets/photo-comunidade-ouvindo.jpg",
-    alt: "Irmãos acompanhando a celebração na Igreja Anglicana Rio",
-  },
-];
-
 function Hero() {
-  const [slide, setSlide] = useState(0);
-  useEffect(() => {
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce || HERO_SLIDES.length < 2) return undefined;
-    const id = window.setInterval(
-      () => setSlide((n) => (n + 1) % HERO_SLIDES.length),
-      5500,
-    );
-    return () => window.clearInterval(id);
-  }, []);
   return (
     <header className="hero-site" id="topo" data-screen-label="01 Hero">
-      <div className="hero-site__bg" aria-hidden="true">
-        {HERO_SLIDES.map((s, i) => (
-          <img
-            key={s.src}
-            src={s.src}
-            alt=""
-            width={i === 0 ? 768 : 1600}
-            height={i === 0 ? 1024 : 1200}
-            className={i === slide ? "is-active" : undefined}
-            fetchpriority={i === 0 ? "high" : undefined}
-            loading={i === 0 ? "eager" : "lazy"}
-            decoding="async"
-          />
-        ))}
+      <div className="hero-site__bg">
+        <img
+          src="assets/photo-culto-pregacao.jpg"
+          alt="Pregação durante o culto da Igreja Anglicana Rio"
+          width="770"
+          height="1024"
+          fetchpriority="high"
+          decoding="async"
+        />
       </div>
       <div className="hero-site__overlay" style={{ opacity: 1 }} />
       <div className="hero-site__content">
