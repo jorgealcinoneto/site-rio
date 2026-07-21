@@ -268,6 +268,35 @@ function IconInstagram() {
   );
 }
 
+function IconWhatsApp() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M3.5 20.5 5.2 16A8.5 8.5 0 1 1 8 20.2Z" />
+      <path d="M9.2 10.2c.3-.7.5-1 .9-1 .3 0 .6.1.8.5l.6 1.3c.2.4.1.7-.2 1L10.8 13c.6 1.2 1.6 2.1 2.9 2.8l1.1-.5c.3-.2.6-.3 1-.1l1.2.5c.4.2.6.5.5.9-.1.5-.5.9-1.1 1.1-2 .6-4.5-.1-6.5-2.1s-2.7-4.5-2.1-6.5c.2-.6.6-1 1.1-1.1.2 0 .3 0 .4.1Z" />
+    </svg>
+  );
+}
+
+function IconSpotify() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="9.25" />
+      <path d="M7.5 10.2c2.6-1 6.2-1.1 9.2.2" />
+      <path d="M8 13c2.1-.7 5-.7 7.4.3" />
+      <path d="M8.6 15.6c1.6-.5 3.7-.5 5.5.2" />
+    </svg>
+  );
+}
+
+function IconYouTube() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" aria-hidden="true">
+      <rect x="2.5" y="6" width="19" height="12" rx="3.5" />
+      <path d="M11 10.2 15.2 12 11 13.8Z" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
 function Lideranca() {
   const pastores = [
     {
@@ -401,10 +430,20 @@ function Visite() {
           </p>
           <div style={{ marginTop: 24, display: "flex", flexDirection: "column", gap: 10 }}>
             <a href="https://instagram.com/igrejaanglicanario" target="_blank" rel="noopener" className="btn btn--primary" style={{ justifyContent: "center" }}>
+              <IconInstagram />
               Instagram
             </a>
             <a href="https://wa.me/5521971500286" target="_blank" rel="noopener" className="btn btn--dark" style={{ justifyContent: "center" }}>
+              <IconWhatsApp />
               WhatsApp
+            </a>
+            <a href="https://open.spotify.com/show/033T0C1VDMI4sJINnQfGGj" target="_blank" rel="noopener" className="btn btn--dark" style={{ justifyContent: "center" }}>
+              <IconSpotify />
+              Podcast no Spotify
+            </a>
+            <a href="https://www.youtube.com/@AnglicanaRio" target="_blank" rel="noopener" className="btn btn--dark" style={{ justifyContent: "center" }}>
+              <IconYouTube />
+              YouTube
             </a>
           </div>
         </div>
@@ -462,6 +501,8 @@ function Footer() {
           <div className="site-footer__col-title">Conecte-se</div>
           <a href="https://instagram.com/igrejaanglicanario" target="_blank" rel="noopener">Instagram</a>
           <a href="https://wa.me/5521971500286" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://open.spotify.com/show/033T0C1VDMI4sJINnQfGGj" target="_blank" rel="noopener">Podcast</a>
+          <a href="https://www.youtube.com/@AnglicanaRio" target="_blank" rel="noopener">YouTube</a>
           <a href="mailto:igrejaanglicanario@gmail.com">E-mail</a>
         </div>
         <div className="site-footer__col">
