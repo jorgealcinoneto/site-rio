@@ -5,12 +5,12 @@
 
 const { useState, useEffect } = React;
 
-const CHURCH_LAT = -22.83816;
-const CHURCH_LNG = -43.32026;
+const CHURCH_QUERY =
+  "Igreja Anglicana Rio, Rua Soldado Elias dos Santos, 55 - Irajá, Rio de Janeiro";
 const MAPS_EMBED =
-  `https://www.google.com/maps?q=${CHURCH_LAT},${CHURCH_LNG}&hl=pt-BR&z=17&output=embed`;
+  `https://www.google.com/maps?q=${encodeURIComponent(CHURCH_QUERY)}&hl=pt-BR&z=17&output=embed`;
 const MAPS_LINK =
-  `https://www.google.com/maps/search/?api=1&query=${CHURCH_LAT},${CHURCH_LNG}`;
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CHURCH_QUERY)}`;
 
 const {
   IconCalice, IconLivro, IconCoracao, IconComunidade,
@@ -32,6 +32,7 @@ function Nav() {
     { href: "#quem-somos", label: "Quem somos" },
     { href: "#cremos", label: "No que cremos" },
     { href: "#lideranca", label: "Liderança" },
+    { href: "/blog/", label: "Blog" },
     { href: "#visite", label: "Onde e quando" },
   ];
   return (
@@ -87,17 +88,7 @@ function Nav() {
 function Hero() {
   return (
     <header className="hero-site" id="topo" data-screen-label="01 Hero">
-      <div className="hero-site__bg">
-        <img
-          src="assets/photo-culto-pregacao.jpg"
-          alt="Pregação durante o culto da Igreja Anglicana Rio"
-          width="770"
-          height="1024"
-          fetchpriority="high"
-          decoding="async"
-        />
-      </div>
-      <div className="hero-site__overlay" style={{ opacity: 1 }} />
+      <div className="hero-site__bg" aria-hidden="true" />
       <div className="hero-site__content">
         <div>
           <div className="hero-site__kicker" style={{ color: "#F5BD24" }}>Rede Episcopal Brasileira</div>
@@ -199,6 +190,17 @@ function QuemSomos() {
             <p style={{ margin: 0, color: "var(--grafite-2)", lineHeight: 1.5, fontSize: 15 }}>
               Bispo da Rede Episcopal Brasileira, com quem nossa comunidade está em comunhão.
             </p>
+            <a
+              href="https://bispoeric.blogspot.com/"
+              target="_blank"
+              rel="noopener"
+              style={{
+                marginTop: 14, display: "inline-block",
+                color: "var(--estola)", textDecoration: "none", fontSize: 15, fontWeight: 500,
+              }}
+            >
+              Ler o blog do bispo →
+            </a>
           </div>
           <p style={{ marginTop: 20, display: "flex", flexWrap: "wrap", gap: 12 }}>
             <a href="https://redeepiscopalbrasileira.com.br/" target="_blank" rel="noopener" className="btn btn--dark" style={{ color: "rgb(245, 189, 36)" }}>
@@ -297,6 +299,14 @@ function IconYouTube() {
   );
 }
 
+function IconFacebook() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M14 8h2.5V5H14a4 4 0 0 0-4 4v2H7.5v3H10v7h3v-7h2.3l.7-3H13V9a1 1 0 0 1 1-1Z" />
+    </svg>
+  );
+}
+
 function Lideranca() {
   const pastores = [
     {
@@ -379,6 +389,68 @@ function Lideranca() {
   );
 }
 
+function BlogTeaser() {
+  const [posts, setPosts] = useState([]);
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/blog/posts.json")
+      .then((r) => (r.ok ? r.json() : []))
+      .then((data) => {
+        if (!cancelled && Array.isArray(data)) setPosts(data.slice(0, 3));
+      })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, []);
+  if (!posts.length) return null;
+  return (
+    <section id="blog" className="site-section" data-screen-label="07b Blog">
+      <div className="section-eyebrow">Blog</div>
+      <h2 className="section-title">
+        Últimos <em>textos</em>.
+      </h2>
+      <p className="section-lede">
+        Reflexões e convites da nossa comunidade.
+      </p>
+      <div style={{ marginTop: 28, display: "grid", gap: 16 }}>
+        {posts.map((p) => (
+          <a
+            key={p.slug}
+            href={p.url}
+            style={{
+              display: "block",
+              padding: "20px 22px",
+              background: "var(--vela)",
+              border: "1px solid var(--linha)",
+              borderRadius: 14,
+              textDecoration: "none",
+              color: "inherit",
+            }}
+          >
+            <div style={{
+              fontFamily: "var(--font-wide)", fontSize: 11, fontWeight: 600,
+              letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--ambar-escuro)", marginBottom: 8,
+            }}>
+              {p.dateLabel || p.date}
+            </div>
+            <h3 style={{
+              fontFamily: "var(--font-serif)", fontSize: 24, fontWeight: 500,
+              color: "var(--marinho)", margin: "0 0 8px", lineHeight: 1.25,
+            }}>
+              {p.title}
+            </h3>
+            <p style={{ margin: 0, color: "var(--grafite-2)", fontSize: 15, lineHeight: 1.5 }}>
+              {p.description}
+            </p>
+          </a>
+        ))}
+      </div>
+      <div style={{ marginTop: 24 }}>
+        <a href="/blog/" className="btn btn--dark">Ver todos os textos</a>
+      </div>
+    </section>
+  );
+}
+
 function Visite() {
   return (
     <section id="visite" className="site-section site-section--alt" data-screen-label="08 Visite">
@@ -445,6 +517,10 @@ function Visite() {
               <IconYouTube />
               YouTube
             </a>
+            <a href="https://www.facebook.com/profile.php?id=61592071237853" target="_blank" rel="noopener" className="btn btn--dark" style={{ justifyContent: "center" }}>
+              <IconFacebook />
+              Facebook
+            </a>
           </div>
         </div>
       </div>
@@ -495,11 +571,13 @@ function Footer() {
           <div className="site-footer__col-title">Navegue</div>
           <a href="#primeira-vez">Primeira visita</a>
           <a href="#quem-somos">Quem somos</a>
+          <a href="/blog/">Blog</a>
           <a href="#visite">Onde e quando</a>
         </div>
         <div className="site-footer__col">
           <div className="site-footer__col-title">Conecte-se</div>
           <a href="https://instagram.com/igrejaanglicanario" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61592071237853" target="_blank" rel="noopener">Facebook</a>
           <a href="https://wa.me/5521971500286" target="_blank" rel="noopener">WhatsApp</a>
           <a href="https://open.spotify.com/show/033T0C1VDMI4sJINnQfGGj" target="_blank" rel="noopener">Podcast</a>
           <a href="https://www.youtube.com/@AnglicanaRio" target="_blank" rel="noopener">YouTube</a>
@@ -531,6 +609,7 @@ function App() {
         <Cremos />
         <Manifesto />
         <Lideranca />
+        <BlogTeaser />
         <Visite />
         <CtaFinal />
       </main>

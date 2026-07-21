@@ -109,6 +109,16 @@ def main():
     print(f"OK: {len(SOURCES)} fontes + {CSS_FILE} empacotados; {len(manifest2)} assets; JSON-LD válido")
     if drift:
         print("  corrigiu drift em: " + ", ".join(drift))
+
+    # Blog estático a partir de posts/*.md
+    try:
+        from build_blog import main as build_blog_main
+    except ImportError as e:
+        print(f"AVISO: blog não gerado ({e})")
+        return 0
+    code = build_blog_main()
+    if code:
+        return code
     return 0
 
 

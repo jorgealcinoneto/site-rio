@@ -59,7 +59,11 @@ Quando precisar adicionar/ajustar templates:
 
 ```
 index.html                ← bundle publicado (landing) — ver "Editar o site" abaixo
-build.py                  ← reempacota o index.html a partir dos fontes
+build.py                  ← reempacota o index.html e gera o blog
+build_blog.py             ← gera /blog a partir de posts/*.md
+posts/                    ← artigos do blog (Markdown + frontmatter)
+blog/                     ← HTML gerado (não editar à mão)
+blog-styles.css           ← estilos do blog
 landing-app.jsx           ← seções da landing (hero, quem somos, liderança, visite…)
 styles.css                ← tokens do sistema visual (cores, fontes, tipografia)
 icons.jsx                 ← biblioteca de ícones IAR
@@ -68,6 +72,32 @@ templates.jsx             ← definição visual dos 14 templates
 editor-app.jsx            ← lógica do editor (formulário, preview, download)
 assets/                   ← logos + fotos da comunidade
 ```
+
+## Blog (Markdown)
+
+Artigos ficam em `posts/*.md` com frontmatter:
+
+```yaml
+---
+title: "Título"
+date: 2026-07-21
+description: "Resumo para SEO e compartilhamento"
+cover: "/assets/photo-culto-pregacao.jpg"
+author: "Igreja Anglicana Rio"
+---
+
+Corpo em Markdown…
+```
+
+Dependências locais (só na máquina que gera o site):
+
+```bash
+pip3 install markdown PyYAML --break-system-packages
+```
+
+`python3 build.py` também regenera `blog/`, `blog/posts.json` e `sitemap.xml`.
+Cada post tem meta Open Graph e botões de compartilhamento (WhatsApp, Facebook, X, copiar link).
+A lista em `/blog/` inclui busca no navegador.
 
 ## Editar o site (leia antes de mexer)
 
@@ -78,14 +108,15 @@ essas cópias embutidas, nunca os arquivos ao lado.
 **Editar um `.jsx` não muda nada no ar.** É preciso reempacotar:
 
 ```bash
-python3 build.py            # reempacota; commite o index.html junto com o fonte
-python3 build.py --check    # só acusa divergência (exit 1 se houver)
+python3 build.py            # reempacota landing + gera blog; commite os artefatos
+python3 build.py --check    # só acusa divergência da landing (exit 1 se houver)
+python3 build_blog.py       # só regenera o blog
 ```
 
 Pular esse passo é como o `icons.jsx` passou a vida inteira do repo servindo um
 brilho no logo que não existia em commit nenhum.
 
-O `build.py` cobre `landing-app.jsx`, `icons.jsx` e `styles.css`. **Não cobre** —
+O `build.py` cobre `landing-app.jsx`, `icons.jsx`, `styles.css` e, em seguida, o blog. **Não cobre** —
 porque não têm fonte em disco e são editados dentro do próprio `index.html`:
 
 - o `<style>` do site-styles (`.site-nav__*`, `.hero-site__*`, `.manifesto__*`, `.lider*`)
