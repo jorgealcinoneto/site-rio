@@ -39,7 +39,7 @@ A tradição ocidental hierarquiza as celebrações em quatro graus:
 |---|---|---|
 | **Solenidades** | Os mistérios centrais da fé: Natal, Epifania, Páscoa, Pentecostes, Trindade, Cristo Rei | Começam na véspera; Glória e Credo |
 | **Festas** | Eventos da vida do Senhor e memória de apóstolos e evangelistas | Glória, sem Credo |
-| **Memórias** | Maria, mártires, doutores e pastores | Sem Glória nem Credo |
+| **Memórias** | Mártires, doutores e pastores | Sem Glória nem Credo |
 | **Férias** | Os dias comuns da semana | Liturgia simples, leitura contínua |
 
 Nas próximas semanas vamos percorrer cada tempo litúrgico, olhar para a nossa herança anglicana e — porque somos uma igreja que conversa — ouvir também quem discorda dessa prática.
