@@ -239,6 +239,29 @@
   font-size: 22px;
   font-style: italic;
 }
+.blog-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  margin: 1.4em 0;
+  display: block;
+  overflow-x: auto;
+}
+.blog-prose th,
+.blog-prose td {
+  border: 1px solid var(--linha);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+.blog-prose th {
+  background: var(--papel-2);
+  color: var(--marinho);
+  font-weight: 600;
+}
+.blog-prose tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.55);
+}
 
 .blog-share {
   margin-top: 48px;

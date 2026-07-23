@@ -11,6 +11,9 @@ const MAPS_EMBED =
   `https://www.google.com/maps?q=${encodeURIComponent(CHURCH_QUERY)}&hl=pt-BR&z=17&output=embed`;
 const MAPS_LINK =
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CHURCH_QUERY)}`;
+const WA_VISIT =
+  "https://wa.me/5521971500286?text=" +
+  encodeURIComponent("Olá! Gostaria de avisar que vou visitar a Igreja Anglicana Rio no domingo às 9h.");
 
 const {
   IconCalice, IconLivro, IconCoracao, IconComunidade,
@@ -106,14 +109,25 @@ function Hero() {
             <div className="hero-site__meta-val">Irajá · Zona Norte</div>
           </div>
         </div>
-        <div className="hero-site__ctas" style={{ gap: 8 }}>
+        <div className="hero-site__ctas" style={{ gap: 12, alignItems: "center" }}>
           <a href="#visite" className="btn btn--primary" style={{ padding: "12px 20px", fontSize: 14, gap: 8 }}>
             Planeje sua visita
             <svg width="16" height="16" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
               <path d="M3 9 H15 M10 4 L15 9 L10 14" />
             </svg>
           </a>
-          <a href="#primeira-vez" className="btn btn--ghost" style={{ padding: "12px 20px", fontSize: 14 }}>É minha primeira visita</a>
+          <a
+            href="#primeira-vez"
+            style={{
+              color: "var(--papel-3)",
+              fontSize: 14,
+              fontWeight: 500,
+              textDecoration: "underline",
+              textUnderlineOffset: 4,
+            }}
+          >
+            É minha primeira visita
+          </a>
         </div>
       </div>
       <a href="#primeira-vez" className="hero-site__scroll" aria-label="Rolar para baixo">
@@ -498,16 +512,16 @@ function Visite() {
         <div className="visite__card" style={{ background: "var(--vela)", border: "1px solid var(--linha)" }}>
           <h3 className="visite__card-title" style={{ color: "var(--marinho)" }}>Planeje sua visita</h3>
           <p className="visite__card-text" style={{ color: "var(--grafite-2)" }}>
-            Entre em contato pelo Instagram <strong style={{ color: "var(--marinho)" }}>@igrejaanglicanario</strong> ou pelo WhatsApp — será um prazer receber você.
+            Avise que vem — recebemos você com alegria no domingo às 9h.
           </p>
           <div style={{ marginTop: 24, display: "flex", flexDirection: "column", gap: 10 }}>
-            <a href="https://instagram.com/igrejaanglicanario" target="_blank" rel="noopener" className="btn btn--primary" style={{ justifyContent: "center" }}>
+            <a href={WA_VISIT} target="_blank" rel="noopener" className="btn btn--primary" style={{ justifyContent: "center", textAlign: "center", lineHeight: 1.3 }}>
+              <IconWhatsApp />
+              Chame no WhatsApp e avise que vai nos visitar
+            </a>
+            <a href="https://instagram.com/igrejaanglicanario" target="_blank" rel="noopener" className="btn btn--dark" style={{ justifyContent: "center" }}>
               <IconInstagram />
               Instagram
-            </a>
-            <a href="https://wa.me/5521971500286" target="_blank" rel="noopener" className="btn btn--dark" style={{ justifyContent: "center" }}>
-              <IconWhatsApp />
-              WhatsApp
             </a>
             <a href="https://open.spotify.com/show/033T0C1VDMI4sJINnQfGGj" target="_blank" rel="noopener" className="btn btn--dark" style={{ justifyContent: "center" }}>
               <IconSpotify />
@@ -538,11 +552,9 @@ function CtaFinal() {
         <p className="cta-banner__sub">
           Unidos pela fé, guiados pelo Espírito e fundamentados na Palavra.
         </p>
-        <a href="https://wa.me/5521971500286" target="_blank" rel="noopener" className="btn btn--primary" style={{ fontSize: 17 }}>
-          Falar conosco
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
-            <path d="M3 9 H15 M10 4 L15 9 L10 14" />
-          </svg>
+        <a href={WA_VISIT} target="_blank" rel="noopener" className="btn btn--primary" style={{ fontSize: 17, textAlign: "center", lineHeight: 1.3 }}>
+          <IconWhatsApp />
+          Chame no WhatsApp e avise que vai nos visitar
         </a>
       </div>
     </section>
