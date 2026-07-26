@@ -171,6 +171,7 @@ def footer_html() -> str:
       <span>
         <a href="/">Início</a> ·
         <a href="/blog/">Blog</a> ·
+        <a href="/folhetos/">Folhetos</a> ·
         <a href="/#visite">Onde e quando</a> ·
         <a href="https://www.facebook.com/profile.php?id=61592071237853" target="_blank" rel="noopener">Facebook</a> ·
         <a href="https://open.spotify.com/show/033T0C1VDMI4sJINnQfGGj" target="_blank" rel="noopener">Podcast</a> ·
@@ -325,9 +326,15 @@ def write_sitemap(posts):
     urls = [
         ("/", "1.0", "weekly"),
         ("/blog/", "0.8", "weekly"),
+        ("/folhetos/", "0.9", "weekly"),
     ]
     for p in posts:
         urls.append((p["url"], "0.7", "monthly"))
+    folhetos = ROOT / "folhetos"
+    if folhetos.exists():
+        for path in sorted(folhetos.glob("????/??/??/index.html"), reverse=True):
+            rel = "/" + path.parent.relative_to(ROOT).as_posix() + "/"
+            urls.append((rel, "0.6", "monthly"))
     parts = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',

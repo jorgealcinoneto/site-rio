@@ -36,6 +36,7 @@ function Nav() {
     { href: "#cremos", label: "No que cremos" },
     { href: "#lideranca", label: "Liderança" },
     { href: "/blog/", label: "Blog" },
+    { href: "/folhetos/", label: "Folhetos" },
     { href: "#visite", label: "Onde e quando" },
   ];
   return (
@@ -584,6 +585,7 @@ function Footer() {
           <a href="#primeira-vez">Primeira visita</a>
           <a href="#quem-somos">Quem somos</a>
           <a href="/blog/">Blog</a>
+          <a href="/folhetos/">Folhetos</a>
           <a href="#visite">Onde e quando</a>
         </div>
         <div className="site-footer__col">

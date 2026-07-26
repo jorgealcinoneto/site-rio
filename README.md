@@ -64,6 +64,7 @@ build_blog.py             ← gera /blog a partir de posts/*.md
 posts/                    ← artigos do blog (Markdown + frontmatter)
 blog/                     ← HTML gerado (não editar à mão)
 blog-styles.css           ← estilos do blog
+folhetos/                 ← folhetos litúrgicos dominicais (HTML estático)
 landing-app.jsx           ← seções da landing (hero, quem somos, liderança, visite…)
 styles.css                ← tokens do sistema visual (cores, fontes, tipografia)
 icons.jsx                 ← biblioteca de ícones IAR
@@ -72,6 +73,23 @@ templates.jsx             ← definição visual dos 14 templates
 editor-app.jsx            ← lógica do editor (formulário, preview, download)
 assets/                   ← logos + fotos da comunidade
 ```
+
+## Folhetos
+
+Os folhetos do culto ficam em `folhetos/` (cópia do repositório de folhetos).
+
+- Semana atual: `/folhetos/`
+- Arquivo por data: `/folhetos/AAAA/MM/DD/`
+
+Para atualizar a partir da pasta de origem:
+
+```bash
+rsync -a --delete --exclude .git \
+  ~/Documents/mestrado/folhetos-anglicana-rio/ \
+  folhetos/
+```
+
+Depois faça commit de `folhetos/` (e do `sitemap.xml` se regenerar com `python3 build.py`).
 
 ## Blog (Markdown)
 

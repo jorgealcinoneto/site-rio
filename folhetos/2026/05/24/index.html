@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Culto Dominical · Dia de Pentecostes</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --navy: #1a3355;
+  --gold: #b08d3e;
+  --cream: #f7f4ee;
+  --bg: #faf8f3;
+  --ink: #1c1c1c;
+  --muted: #6b655a;
+  --border: #d8d0bd;
+  --liturgical: #9b2335;
+  --liturgical-light: #f9ecee;
+}
+html { scroll-behavior: smooth; }
+body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color: var(--ink); line-height: 1.6; font-size: 17px; -webkit-font-smoothing: antialiased; }
+.container { max-width: 680px; margin: 0 auto; padding: 24px 20px 60px; }
+header { text-align: center; padding: 28px 16px 32px; border-bottom: 3px solid var(--liturgical); margin-bottom: 24px; }
+.church { font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; font-weight: 500; }
+h1 { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--liturgical); line-height: 1.15; margin-bottom: 12px; }
+.subtitle { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.05rem; color: var(--muted); margin-bottom: 4px; }
+.date { font-size: 0.9rem; color: var(--gold); letter-spacing: 0.08em; font-weight: 500; }
+.cor-tag { display: inline-block; margin-top: 10px; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; background: var(--liturgical); color: white; padding: 3px 10px; border-radius: 20px; font-weight: 500; }
+.opening-versicle { background: var(--liturgical-light); border-left: 4px solid var(--liturgical); padding: 14px 20px; margin-bottom: 28px; border-radius: 4px; text-align: center; font-style: italic; font-size: 1rem; }
+.opening-versicle strong { color: var(--liturgical); font-style: normal; }
+section { margin-bottom: 36px; scroll-margin-top: 16px; }
+h2 { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 700; color: var(--navy); margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border); display: flex; align-items: baseline; gap: 10px; }
+.step-num { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; background: var(--liturgical); color: white; border-radius: 50%; font-size: 0.85rem; font-weight: 600; font-family: 'EB Garamond', serif; flex-shrink: 0; }
+.dialogue { margin: 12px 0; padding: 12px 16px; background: white; border-left: 3px solid var(--navy); border-radius: 4px; }
+.dialogue p { margin-bottom: 6px; font-size: 1rem; }
+.dialogue p:last-child { margin-bottom: 0; }
+.role { font-weight: 600; color: var(--navy); }
+.scripture { background: var(--cream); border-left: 4px solid var(--gold); padding: 16px 20px; margin: 14px 0; border-radius: 4px; font-style: italic; font-size: 1rem; line-height: 1.65; }
+.scripture p { margin-bottom: 12px; }
+.scripture p:last-child { margin-bottom: 0; }
+.ref { display: block; font-size: 0.78rem; color: var(--gold); font-weight: 600; font-style: normal; margin-bottom: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
+.scripture strong { color: var(--navy); font-style: normal; }
+.prayer { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 16px 20px; margin: 14px 0; font-size: 1rem; line-height: 1.7; }
+.prayer strong { color: var(--navy); }
+.louvor { background: linear-gradient(135deg, var(--liturgical) 0%, #7a1b28 100%); color: white; padding: 18px 24px; margin: 14px 0; border-radius: 8px; text-align: center; box-shadow: 0 4px 12px rgba(155,35,53,0.22); }
+.louvor-icon { font-size: 1.2rem; color: #f5c8b0; margin-bottom: 4px; }
+.louvor-nome { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.25rem; font-weight: 600; }
+.louvor-nota { font-size: 0.82rem; opacity: 0.75; margin-top: 5px; font-style: normal; }
+.rubric { font-style: italic; color: var(--muted); font-size: 0.95rem; margin: 8px 0 12px; padding-left: 12px; border-left: 2px solid var(--border); }
+.blessing-pentecost { background: var(--liturgical-light); border: 1px solid var(--liturgical); border-radius: 6px; padding: 16px 20px; margin: 14px 0; font-size: 1rem; line-height: 1.7; }
+.blessing-pentecost strong { color: var(--liturgical); }
+footer { margin-top: 60px; padding-top: 28px; border-top: 1px solid var(--border); text-align: center; font-size: 0.85rem; color: var(--muted); line-height: 1.8; }
+footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font-size: 0.95rem; display: block; margin-bottom: 6px; }
+.share-tip { background: var(--cream); border: 1px dashed var(--gold); border-radius: 8px; padding: 14px 18px; margin-top: 24px; font-size: 0.9rem; color: var(--muted); text-align: center; }
+.to-top { position: fixed; bottom: 20px; right: 20px; background: var(--liturgical); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
+.to-top.visible { opacity: 1; }
+@media (max-width: 480px) { body { font-size: 16px; } .container { padding: 16px 14px 40px; } h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; } .step-num { width: 26px; height: 26px; font-size: 0.8rem; } .scripture, .prayer, .dialogue { padding: 14px 16px; } }
+@media print { .to-top, .share-tip { display: none; } body { font-size: 11pt; background: white; } section { page-break-inside: avoid; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="church">Igreja Anglicana Rio</div>
+    <h1>Dia de Pentecostes</h1>
+    <div class="subtitle">50 dias depois da Páscoa · Ano A</div>
+    <div class="date">24 DE MAIO DE 2026</div>
+    <span class="cor-tag">🔴 Cor litúrgica: Vermelho</span>
+  </header>
+  <div class="opening-versicle">
+    <strong>Aleluia. O Espírito do Senhor enche o mundo;</strong><br>
+    Vamos adorá-lo. Aleluia!
+  </div>
+  <section id="s1">
+    <h2><span class="step-num">1</span> Louvor de Abertura</h2>
+    <div class="louvor">
+      <div class="louvor-icon">♪</div>
+      <div class="louvor-nome">Eu Navegarei</div>
+    </div>
+  </section>
+  <section id="s2">
+    <h2><span class="step-num">2</span> Abertura Litúrgica</h2>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
+      <p><span class="role">Povo:</span> E também contigo.</p>
+      <p><span class="role">Ministro:</span> Reunidos em nome do Pai, do Filho e do Espírito Santo.</p>
+      <p><span class="role">Povo:</span> Amém.</p>
+    </div>
+  </section>
+  <section id="s3">
+    <h2><span class="step-num">3</span> Confissão de Pecados</h2>
+    <p class="rubric">Todos juntos, ministro e povo:</p>
+    <div class="prayer">
+      Ó Deus, Pai todo-poderoso, reconhecemos que somos pecadores e confessamos nossos pecados. Fizemos aquilo que não deveríamos ter feito, e deixamos de fazer aquilo que deveríamos ter feito. Não há saúde em nós. Mas tu prometes misericórdia aos que verdadeiramente se arrependem. Por isso, suplicamos-te, ó Pai, ajuda-nos a deitar fora todos os nossos pecados, e dá-nos a graça de perseverar na nova vida em Cristo; por Jesus Cristo, nosso Senhor. <strong>Amém.</strong>
+    </div>
+  </section>
+  <section id="s4">
+    <h2><span class="step-num">4</span> Oração pelo Perdão</h2>
+    <p class="rubric">O ministro local, juntamente com o povo, ora pelo perdão divino:</p>
+    <div class="prayer">
+      Que o Deus Todo-Poderoso tenha misericórdia de nós, perdoe-nos todos os nossos pecados, e nos conceda graça, perseverança e a vida eterna, por Jesus Cristo nosso Senhor. <strong>Amém.</strong>
+    </div>
+  </section>
+  <section id="s5">
+    <h2><span class="step-num">5</span> Coleta do Dia</h2>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
+      <p><span class="role">Povo:</span> E também contigo.</p>
+      <p><span class="role">Ministro:</span> Oremos.</p>
+    </div>
+    <div class="prayer">
+      Ó Deus maravilhoso, neste dia abriste o caminho da vida eterna a toda raça e nação pela dádiva prometida do teu Santo Espírito; espalha este dom pelo mundo inteiro, mediante a proclamação do Evangelho, para que alcance os confins da terra; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. <strong>Amém.</strong>
+    </div>
+  </section>
+  <section id="s6">
+    <h2><span class="step-num">6</span> Louvor</h2>
+    <div class="louvor">
+      <div class="louvor-icon">♪</div>
+      <div class="louvor-nome">Espírito, Enche a Minha Vida</div>
+    </div>
+  </section>
+  <section id="s7">
+    <h2><span class="step-num">7</span> Leituras das Escrituras</h2>
+    <div class="scripture">
+      <span class="ref">Salmo 104.24-34, 35b · NVI</span>
+      <p>Como são numerosas as tuas obras, SENHOR! Com sabedoria fizeste todas elas; a terra está repleta das tuas criaturas. Aí está o mar, vasto e imenso, repleto de animais sem conta, criaturas grandes e pequenas. Navegam por ele os navios; lá brinca o leviatã, que fizeste para que nele se divertisse.</p>
+      <p>Todos eles te esperam, para que lhes dês a comida a seu tempo. Quando a distribuís, eles a recolhem; quando abres a tua mão, ficam satisfeitos com o bem. Quando escondes o teu rosto, ficam perturbados; quando lhes tiras o fôlego, morrem e voltam ao pó. Quando envias o teu Espírito, eles são criados, e assim renova a face da terra.</p>
+      <p>Possa a glória do SENHOR durar para sempre; possa o SENHOR regozijar-se nas suas obras; ele olha para a terra, e ela treme; toca nos montes, e eles fumegam. Cantarei ao SENHOR por toda a minha vida; entoarei louvores ao meu Deus enquanto eu viver. Possa o meu cântico ser agradável a ele, como eu me alegro no SENHOR.</p>
+      <p><strong>Louvai o SENHOR, ó minha alma! Louvai ao SENHOR!</strong></p>
+    </div>
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+    <div class="scripture">
+      <span class="ref">Atos 2.1-21 · NVI</span>
+      <p>Quando chegou o dia de Pentecostes, estavam todos reunidos no mesmo lugar. De repente, veio do céu um som como de vendaval impetuoso e encheu toda a casa onde estavam assentados. Viram o que parecia línguas de fogo que se separavam e pousavam sobre cada um deles. Todos ficaram cheios do Espírito Santo e começaram a falar em outras línguas, conforme o Espírito os capacitava.</p>
+      <p>Estavam em Jerusalém judeus temerosos de Deus, provenientes de todas as nações do mundo. Quando ouviram aquele som, ajuntou-se uma multidão que ficou perturbada, porque cada um os ouvia falar em sua própria língua. Estupefatos e admirados, perguntavam: "Esses homens que estão falando não são todos galileus? Como então cada um de nós os ouve falar em sua língua materna? Partas, medos e elamitas; habitantes da Mesopotâmia, da Judeia e da Capadócia, do Ponto e da Ásia, da Frígia e da Panfília, do Egito e das partes da Líbia perto de Cirene; visitantes de Roma, tanto judeus como convertidos ao judaísmo; cretenses e árabes — a todos nós os ouvimos falar em nossas próprias línguas as maravilhas de Deus!"</p>
+      <p>Maravilhados e indecisos, perguntavam uns aos outros: "O que significa isto?" Mas outros zombavam e diziam: "Estão cheios de vinho doce."</p>
+      <p>Então Pedro levantou-se com os Onze e, em alta voz, falou-lhes da seguinte forma: "Judeus e todos os habitantes de Jerusalém, isto vos declaro: prestai atenção às minhas palavras. Não estão ébrios estes homens, como pensais, pois ainda são nove horas da manhã! Mas isto é o que foi anunciado pelo profeta Joel:</p>
+      <p>'Nos últimos dias, diz Deus, derramarei do meu Espírito sobre todos os povos. Os vossos filhos e as vossas filhas profetizarão, os vossos jovens terão visões, os vossos velhos terão sonhos. Até sobre os meus servos e servas derramarei do meu Espírito naqueles dias, e eles profetizarão. Farei que apareçam prodígios no alto, no céu, e sinais embaixo, na terra: sangue, fogo e nuvens de fumaça. O sol se converterá em trevas e a lua em sangue antes que chegue o grande e glorioso dia do Senhor. E todo aquele que invocar o nome do Senhor será salvo.'"</p>
+    </div>
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+    <div class="scripture">
+      <span class="ref">1 Coríntios 12.3b-13 · NVI</span>
+      <p>Ninguém pode dizer "Jesus é o Senhor", a não ser pelo Espírito Santo.</p>
+      <p>Há diversidade de dons, mas o Espírito é o mesmo. Há diversidade de ministérios, mas o Senhor é o mesmo. Há diversidade de operações, mas é o mesmo Deus que opera tudo em todos. Ora, a manifestação do Espírito é dada para o proveito comum. A um é dada pelo Espírito a palavra da sabedoria; a outro, pelo mesmo Espírito, a palavra do conhecimento; a outro, pela mesma fé; a outro, pelo mesmo Espírito, os dons de curar; a outro, operações de milagres; a outro, profecia; a outro, discernimento de espíritos; a outro, variedades de línguas; a outro, interpretação de línguas. Mas um só e o mesmo Espírito opera todas essas coisas, distribuindo a cada um individualmente como quer.</p>
+      <p>Porque assim como o corpo é um e tem muitos membros, e todos os membros do corpo, apesar de muitos, são um só corpo, assim também é Cristo. Pois em um só Espírito todos nós fomos batizados em um só corpo, quer judeus, quer gregos, quer escravos, quer livres, e todos bebemos de um só Espírito.</p>
+    </div>
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+    <div class="scripture">
+      <span class="ref">João 20.19-23 · NVI — Santo Evangelho de nosso Senhor Jesus Cristo</span>
+      <p>Na tarde daquele primeiro dia da semana, estando reunidos os discípulos a portas fechadas por medo dos judeus, Jesus veio e pôs-se no meio deles e disse: "Paz esteja convosco!" Depois de dizer isso, mostrou-lhes as mãos e o lado. Os discípulos ficaram contentes quando viram o Senhor.</p>
+      <p>Jesus disse-lhes outra vez: "Paz esteja convosco! Assim como o Pai me enviou, eu também vos envio." Dito isso, soprou sobre eles e disse: <strong>"Recebei o Espírito Santo. Se perdoardes os pecados de alguém, eles lhe serão perdoados; se os retiverdes de alguém, serão retidos."</strong></p>
+    </div>
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+  </section>
+  <section id="s8">
+    <h2><span class="step-num">8</span> Sermão</h2>
+    <p class="rubric">Pregação sobre <strong>Atos 2.1-21</strong> e <strong>João 20.19-23</strong> — o derramamento do Espírito Santo e o sopro de Jesus sobre os discípulos. Após o sermão, momento de reflexão partilhada com o grupo.</p>
+  </section>
+  <section id="s9">
+    <h2><span class="step-num">9</span> Credo Apostólico</h2>
+    <p class="rubric">Todos em pé, juntos:</p>
+    <div class="prayer">
+      Creio em Deus Pai, Todo-Poderoso, Criador do céu e da terra; e em Jesus Cristo, seu único Filho, nosso Senhor; que foi concebido pelo Espírito Santo, nasceu da Virgem Maria, padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado; desceu à mansão dos mortos; ressuscitou ao terceiro dia; subiu aos céus, está sentado à direita de Deus Pai Todo-Poderoso; de onde há de vir para julgar os vivos e os mortos. Creio no Espírito Santo, na Santa Igreja Católica, na comunhão dos santos, na remissão dos pecados, na ressurreição do corpo e na vida eterna. <strong>Amém.</strong>
+    </div>
+  </section>
+  <section id="s10">
+    <h2><span class="step-num">10</span> Intercessões</h2>
+    <p class="rubric">O ministro conduz as intenções — pela Igreja em todo o mundo; pela unidade dos cristãos; pelo derramamento do Espírito; pelos enfermos e atribulados; pela comunidade. Após cada intenção:</p>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> Vem, Espírito Santo!</p>
+      <p><span class="role">Povo:</span> Vem, Espírito Santo!</p>
+    </div>
+    <p class="rubric">Ao final das intercessões:</p>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> [intenção final]</p>
+      <p><span class="role">Povo:</span> Senhor, ouvi nossa oração.</p>
+    </div>
+  </section>
+  <section id="s11">
+    <h2><span class="step-num">11</span> Pai Nosso</h2>
+    <div class="prayer">
+      Pai nosso que estás nos céus, santificado seja o teu nome; venha o teu reino; seja feita a tua vontade, assim na terra como no céu. O pão nosso de cada dia nos dá hoje; e perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores; e não nos deixes cair em tentação, mas livra-nos do mal. Pois teu é o reino, o poder e a glória, para sempre. <strong>Amém.</strong>
+    </div>
+  </section>
+  <section id="s12">
+    <h2><span class="step-num">12</span> Santa Comunhão</h2>
+    <p class="rubric">Os elementos foram consagrados previamente pelo Bispo. O ministro local autorizado distribui o Sacramento Reservado.</p>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> Eis o Cordeiro de Deus, que tira o pecado do mundo. Bem-aventurados os chamados à ceia do Senhor.</p>
+      <p><span class="role">Povo:</span> Senhor, não sou digno de que entreis sob o meu teto, mas dizei somente uma palavra e serei salvo.</p>
+    </div>
+    <p class="rubric">Ao receber: <em>"O Corpo de Cristo, o pão do céu."</em> — Amém.<br><em>"O Sangue de Cristo, o cálice da salvação."</em> — Amém.</p>
+    <p class="rubric">Quem ainda não foi confirmado ou não deseja comungar pode cruzar os braços sobre o peito para receber uma bênção.</p>
+  </section>
+  <section id="s13">
+    <h2><span class="step-num">13</span> Louvor Durante a Comunhão</h2>
+    <div class="louvor">
+      <div class="louvor-icon">♪</div>
+      <div class="louvor-nome">Quero Conhecer Jesus</div>
+    </div>
+  </section>
+  <section id="s14">
+    <h2><span class="step-num">14</span> Oração Pós-Comunhão</h2>
+    <div class="prayer">
+      Ó Deus eterno, oferecemos-te nossa ação de graças por havermos sido alimentados com o corpo e o sangue de nosso Senhor Jesus Cristo. Concede que, sustentados por este Sacramento e cheios do teu Santo Espírito, possamos servir-te fielmente nos dias que estão por vir e testemunhar de Cristo em nossas casas, famílias e comunidades. <strong>Amém.</strong>
+    </div>
+  </section>
+  <section id="s15">
+    <h2><span class="step-num">15</span> Avisos Comunitários</h2>
+    <p class="rubric">Momento para partilha de avisos da comunidade, pedidos de oração espontâneos e celebrações da semana.</p>
+  </section>
+  <section id="s16">
+    <h2><span class="step-num">16</span> Louvor de Encerramento</h2>
+    <div class="louvor">
+      <div class="louvor-icon">♪</div>
+      <div class="louvor-nome">Quero Louvar-te</div>
+    </div>
+  </section>
+  <section id="s17">
+    <h2><span class="step-num">17</span> Bênção Final</h2>
+    <p class="rubric">Bênção própria de Pentecostes — LOC 2015:</p>
+    <div class="blessing-pentecost">
+      O Espírito da Verdade nos guie a toda a verdade e nos conceda a graça de confessar que Jesus Cristo é o Senhor, e de proclamar a Palavra e as obras de Deus; e a bênção de Deus onipotente — Pai, Filho e Espírito Santo — seja conosco, e conosco habite eternamente. <strong>Amém.</strong>
+    </div>
+  </section>
+  <section id="s18">
+    <h2><span class="step-num">18</span> Despedida</h2>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> Ide em paz, para amar e servir ao Senhor. Aleluia! Aleluia!</p>
+      <p><span class="role">Povo:</span> Graças a Deus. Aleluia! Aleluia!</p>
+    </div>
+  </section>
+  <div class="share-tip">📱 Salve este arquivo ou envie pelo WhatsApp para acompanhar o culto pelo celular.</div>
+  <footer>
+    <strong>Igreja Anglicana Rio</strong>
+    Rede Episcopal Brasileira<br>
+    Baseado no Livro de Oração Comum 2015<br>
+    Conforme Portaria Episcopal 01/2025<br><br>
+    <span style="color:var(--liturgical)">✦</span> www.redeepiscopalbrasileira.com.br <span style="color:var(--liturgical)">✦</span>
+  </footer>
+</div>
+<button class="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Voltar ao topo">↑</button>
+<script>
+const btn = document.querySelector('.to-top');
+window.addEventListener('scroll', () => { btn.classList.toggle('visible', window.scrollY > 400); });
+</script>
+</body>
+</html>

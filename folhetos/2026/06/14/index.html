@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Culto Dominical · 2º Domingo no Tempo Comum</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --navy: #1a3355;
+  --gold: #b08d3e;
+  --cream: #f7f4ee;
+  --bg: #faf8f3;
+  --ink: #1c1c1c;
+  --muted: #6b655a;
+  --border: #d8d0bd;
+  --liturgical: #2d6a4f;
+  --liturgical-light: #eef6f0;
+}
+html { scroll-behavior: smooth; }
+body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color: var(--ink); line-height: 1.6; font-size: 17px; -webkit-font-smoothing: antialiased; }
+.container { max-width: 680px; margin: 0 auto; padding: 24px 20px 60px; }
+header { text-align: center; padding: 28px 16px 32px; border-bottom: 3px solid var(--liturgical); margin-bottom: 24px; }
+.church { font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; font-weight: 500; }
+h1 { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--liturgical); line-height: 1.15; margin-bottom: 12px; }
+.subtitle { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.05rem; color: var(--muted); margin-bottom: 4px; }
+.date { font-size: 0.9rem; color: var(--gold); letter-spacing: 0.08em; font-weight: 500; }
+.cor-tag { display: inline-block; margin-top: 10px; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; background: var(--liturgical); color: white; padding: 3px 10px; border-radius: 20px; font-weight: 500; }
+.intro-box { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 18px 20px; margin-bottom: 24px; font-size: 0.98rem; line-height: 1.7; }
+.intro-box h3 { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--navy); margin-bottom: 10px; }
+.intro-box ul { margin: 10px 0 10px 20px; }
+.intro-box li { margin-bottom: 4px; }
+.opening-versicle { background: var(--liturgical-light); border-left: 4px solid var(--liturgical); padding: 14px 20px; margin-bottom: 28px; border-radius: 4px; text-align: center; font-style: italic; font-size: 1rem; }
+.opening-versicle strong { color: var(--liturgical); font-style: normal; }
+section { margin-bottom: 36px; scroll-margin-top: 16px; }
+h2 { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 700; color: var(--navy); margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border); display: flex; align-items: baseline; gap: 10px; }
+.step-num { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; background: var(--liturgical); color: white; border-radius: 50%; font-size: 0.85rem; font-weight: 600; font-family: 'EB Garamond', serif; flex-shrink: 0; }
+.dialogue { margin: 12px 0; padding: 12px 16px; background: white; border-left: 3px solid var(--navy); border-radius: 4px; }
+.dialogue p { margin-bottom: 6px; font-size: 1rem; }
+.dialogue p:last-child { margin-bottom: 0; }
+.role { font-weight: 600; color: var(--navy); }
+.scripture { background: var(--cream); border-left: 4px solid var(--gold); padding: 16px 20px; margin: 14px 0; border-radius: 4px; font-style: italic; font-size: 1rem; line-height: 1.65; }
+.scripture p { margin-bottom: 12px; }
+.scripture p:last-child { margin-bottom: 0; }
+.ref { display: block; font-size: 0.78rem; color: var(--gold); font-weight: 600; font-style: normal; margin-bottom: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
+.scripture strong { color: var(--navy); font-style: normal; }
+.home-box { background: white; border: 1px dashed var(--gold); border-radius: 8px; padding: 16px 20px; margin: 14px 0; }
+.home-box .home-label { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 10px; display: block; }
+.home-box .refrain { font-weight: 600; color: var(--navy); font-style: italic; margin-bottom: 10px; }
+.prayer { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 16px 20px; margin: 14px 0; font-size: 1rem; line-height: 1.7; }
+.prayer strong { color: var(--navy); }
+.louvor { background: linear-gradient(135deg, var(--liturgical) 0%, #1b4332 100%); color: white; padding: 18px 24px; margin: 14px 0; border-radius: 8px; text-align: center; box-shadow: 0 4px 12px rgba(45,106,79,0.22); }
+.louvor-icon { font-size: 1.2rem; color: #b7e4c7; margin-bottom: 4px; }
+.louvor-nome { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.25rem; font-weight: 600; }
+.louvor-nota { font-size: 0.82rem; opacity: 0.85; margin-top: 5px; font-style: normal; line-height: 1.5; }
+.louvor-lyrics { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 16px 20px; margin: 0 0 14px; font-size: 0.95rem; line-height: 1.65; text-align: left; }
+.louvor-lyrics .part { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin: 12px 0 6px; }
+.louvor-lyrics .part:first-child { margin-top: 0; }
+.louvor-lyrics p { margin-bottom: 8px; }
+.rubric { font-style: italic; color: var(--muted); font-size: 0.95rem; margin: 8px 0 12px; padding-left: 12px; border-left: 2px solid var(--border); }
+.blessing-box { background: var(--liturgical-light); border: 1px solid var(--liturgical); border-radius: 6px; padding: 16px 20px; margin: 14px 0; font-size: 1rem; line-height: 1.7; }
+.blessing-box strong { color: var(--liturgical); }
+footer { margin-top: 60px; padding-top: 28px; border-top: 1px solid var(--border); text-align: center; font-size: 0.85rem; color: var(--muted); line-height: 1.8; }
+footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font-size: 0.95rem; display: block; margin-bottom: 6px; }
+.share-tip { background: var(--cream); border: 1px dashed var(--gold); border-radius: 8px; padding: 14px 18px; margin-top: 24px; font-size: 0.9rem; color: var(--muted); text-align: center; }
+.to-top { position: fixed; bottom: 20px; right: 20px; background: var(--liturgical); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
+.to-top.visible { opacity: 1; }
+@media (max-width: 480px) { body { font-size: 16px; } .container { padding: 16px 14px 40px; } h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; } .step-num { width: 26px; height: 26px; font-size: 0.8rem; } .scripture, .prayer, .dialogue, .louvor-lyrics { padding: 14px 16px; } }
+@media print { .to-top, .share-tip { display: none; } body { font-size: 11pt; background: white; } section { page-break-inside: avoid; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="church">Igreja Anglicana Rio</div>
+    <h1>2º Domingo no Tempo Comum</h1>
+    <div class="subtitle">Próprio 6 · Ano A</div>
+    <div class="date">14 DE JUNHO DE 2026</div>
+    <span class="cor-tag">🟢 Cor litúrgica: Verde</span>
+  </header>
+
+  <div class="intro-box">
+    <h3>✠ Sobre o sinal da cruz neste culto</h3>
+    <p>Em alguns momentos deste folheto você verá o símbolo ✠. Ele indica quando a comunidade faz o sinal da cruz sobre si — um gesto antigo da fé cristã, comum em toda a Igreja desde os primeiros séculos.</p>
+    <p>Não é gesto “católico” em oposição ao evangelho: é gesto cristão. Marcamos o corpo com o nome trinitário que recebemos no Batismo — Pai, Filho e Espírito Santo — e confessamos com as mãos o que cremos com o coração.</p>
+    <ul>
+      <li><strong>✠</strong> um sinal — na maioria dos momentos</li>
+      <li><strong>✠ ✠ ✠</strong> três sinais — antes do Evangelho: fronte, lábios e peito</li>
+    </ul>
+    <p>Se ainda não estiver acostumado, observe em silêncio; com o tempo, o gesto se tornará natural. O importante é participar com reverência.</p>
+  </div>
+
+  <div class="opening-versicle">
+    <strong>Vendo Jesus as multidões, compadeceu-se delas,</strong><br>
+    porque estavam aflitas e desamparadas, como ovelhas sem pastor.
+  </div>
+
+  <section id="s1">
+    <h2><span class="step-num">1</span> Louvor de Abertura</h2>
+    <div class="louvor">
+      <div class="louvor-icon">▶</div>
+      <div class="louvor-nome">Cristo Centro</div>
+      <div class="louvor-nota">José Jr — reproduzir o vídeo; a assembleia canta o refrão</div>
+    </div>
+    <div class="louvor-lyrics">
+      <div class="part">Verso</div>
+      <p>O esplendor da glória do Pai<br>Tudo que existe subsiste pra Ti<br>A plenitude habita em um só Homem<br>Tu reténs toda a beleza que há</p>
+      <p>Tão majestoso, Rei manso e humilde<br>O mais ungido dentre todos que há<br>E nem a morte foi capaz de furtar Sua beleza<br>Agora, ressurreto glorioso à destra está</p>
+      <p>Se eu procurasse em toda a terra, em todo o céu<br>Em todo o mar, falharia em encontrar<br>Alguém que se compare a Ti, oh, meu Senhor<br>Nunca houve e nunca haverá</p>
+      <div class="part">Refrão</div>
+      <p><strong>Cristo centro<br>Cristo, és o centro de tudo</strong></p>
+    </div>
+  </section>
+
+  <section id="s2">
+    <h2><span class="step-num">2</span> Abertura Litúrgica</h2>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
+      <p><span class="role">Povo:</span> E também contigo.</p>
+      <p><span class="role">Ministro:</span> Reunidos em nome do Pai, do Filho e do Espírito Santo.</p>
+      <p><span class="role">Povo:</span> Amém.</p>
+    </div>
+    <p class="rubric">✠ Ao dizer "em nome do Pai, do Filho e do Espírito Santo", todos fazem o sinal da cruz sobre si.</p>
+  </section>
+
+  <section id="s3">
+    <h2><span class="step-num">3</span> Confissão de Pecados</h2>
+    <p class="rubric">Todos se ajoelham. Em silêncio, façamos o exame de consciência diante de Deus.</p>
+    <p class="rubric">Após um breve silêncio, confessemos juntos os nossos pecados:</p>
+    <div class="prayer">
+      Ó Deus, Pai todo-poderoso, reconhecemos que somos pecadores e confessamos nossos pecados. Fizemos aquilo que não deveríamos ter feito, e deixamos de fazer aquilo que deveríamos ter feito. Não há saúde em nós. Mas tu prometes misericórdia aos que verdadeiramente se arrependem. Por isso, suplicamos-te, ó Pai, ajuda-nos a deitar fora todos os nossos pecados, e dá-nos a graça de perseverar na nova vida em Cristo; por Jesus Cristo, nosso Senhor. <strong>Amém.</strong>
+    </div>
+  </section>
+
+  <section id="s4">
+    <h2><span class="step-num">4</span> Oração pelo Perdão</h2>
+    <p class="rubric">O ministro local, juntamente com o povo, ora pelo perdão divino:</p>
+    <div class="prayer">
+      Que o Deus Todo-Poderoso tenha misericórdia de nós, perdoe-nos todos os nossos pecados, e nos conceda graça, perseverança e a vida eterna, por Jesus Cristo nosso Senhor. <strong>Amém.</strong>
+    </div>
+    <p class="rubric">✠ Ao acolher o perdão, todos fazem o sinal da cruz sobre si.</p>
+  </section>
+
+  <section id="s5">
+    <h2><span class="step-num">5</span> Coleta do Dia</h2>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
+      <p><span class="role">Povo:</span> E também contigo.</p>
+      <p><span class="role">Ministro:</span> Oremos.</p>
+    </div>
+    <div class="prayer">
+      Ó Senhor, guarda tua família, a Igreja, com firmeza na fé e no amor; e concede-nos, pela tua graça, proclamar a tua verdade com ousadia e ministrar a tua justiça com compaixão; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e para sempre. <strong>Amém.</strong>
+    </div>
+  </section>
+
+  <section id="s6">
+    <h2><span class="step-num">6</span> Louvor</h2>
+    <div class="louvor">
+      <div class="louvor-icon">♪</div>
+      <div class="louvor-nome">Casa</div>
+      <div class="louvor-nota">Palavra Antiga — epiclese: Deus habita no seu povo antes da Palavra</div>
+    </div>
+    <div class="louvor-lyrics">
+      <div class="part">Refrão</div>
+      <p>Deus preferiu essa carne<br>Não quis os templos que eu posso construir<br>Com minhas mãos</p>
+      <p>Me fez casa<br>Eu sou morada<br>Lugar de Deus<br>Que não está lá fora<br>Mas sim mora dentro de mim</p>
+      <div class="part">Verso</div>
+      <p>Abri a porta e Ele entrou em casa.<br>Estou em obras.<br>Essa morada um dia será perfeição!</p>
+      <p>A minha janela são estes olhos que brilham<br>Uma coisa ela mostra<br>Quem a ilumina é o meu Amado<br>Mudando as coisas de lugar<br>Dentro de mim, dentro de mim</p>
+      <div class="part">Ponte</div>
+      <p>Lá fora é frio, lá fora é medo<br>É alto de monte, deserto, vazio</p>
+      <p>Morando em mim, Tu me aqueces<br>Me ensina a ser livre<br>Santo Espírito me enche de alegria</p>
+    </div>
+    <div class="louvor">
+      <div class="louvor-icon">♪</div>
+      <div class="louvor-nome">Vem, esta é a hora</div>
+      <div class="louvor-nota">Vineyard — convite à adoração antes da Palavra</div>
+    </div>
+    <div class="louvor-lyrics">
+      <div class="part">Refrão</div>
+      <p>Vem, esta é a hora da adoração<br>Vem dar a Ele teu coração<br>Vem, assim como estás, para adorar<br>Vem, assim como estás diante do Pai<br>Vem</p>
+      <div class="part">Verso</div>
+      <p>Toda língua confessará o Senhor<br>Todo joelho se dobrará<br>Mas aquele que a Ti escolher<br>O tesouro maior terá</p>
+      <div class="part">Final</div>
+      <p>Vem, assim como estás<br>Vem, para adorar<br>Vem</p>
+    </div>
+  </section>
+
+  <section id="s7">
+    <h2><span class="step-num">7</span> Leituras das Escrituras</h2>
+
+    <div class="home-box">
+      <span class="home-label">📖 Para meditar em casa durante a semana</span>
+      <span class="ref">Gênesis 18.1-15 · NVI</span>
+      <p>O Senhor apareceu a Abraão, na encosta de Manre, quando ele estava sentado à entrada de sua tenda, no maior calor do dia. Abraão ergueu os olhos e viu três homens em pé, próximos a ele. Ao avistá-los, correu da entrada de sua tenda ao encontro deles e curvou-se até o chão.</p>
+      <p>Disse Abraão: "Meu senhor, se puderes, não passes adiante sem antes ficar aqui com o teu servo. Traga-se um pouco de água, lavem-se os pés e descansem debaixo desta árvore. Vou trazer-lhes um pedaço de pão, para que se refresquem e, depois, sigam adiante. Afinal, passaram pelo seu servo". "Sim", responderam eles, "faze como disseste".</p>
+      <p>Abraão apressou-se em ir falar com Sara, à tenda: "Rápido, três medidas da melhor farinha! Amassa-a e faz pães". Depois, correu ao rebanho, escolheu um bezerro gordo e bonito e deu-o a um servo, que se apressou em prepará-lo. Em seguida, trouxe coalhada, leite e o bezerro que havia sido preparado, e os serviu. Enquanto comiam, permaneceu de pé, junto à árvore.</p>
+      <p>"Onde está Sara, tua mulher?", perguntaram. "Ali, na tenda", respondeu. Então, disse um deles: "Certamente voltarei a ti no próximo ano, e Sara, tua mulher, terá um filho". Sara escutava, à entrada da tenda, atrás dele. Abraão e Sara já eram velhos, de idade avançada; Sara já havia passado da idade de ter filhos.</p>
+      <p>Assim, Sara riu consigo mesma, pensando: "Depois de velha, terei prazer, sendo meu marido também idoso?" Disse o Senhor a Abraão: "Por que Sara riu, dizendo: 'Será verdade que darei à luz, estando velha?' Há alguma coisa difícil demais para o Senhor? No tempo certo, voltarei a ti, no próximo ano, e Sara terá um filho".</p>
+      <p>Sara, com medo, negou: "Eu não ri". Mas ele disse: "Sim, você riu".</p>
+      <span class="ref" style="margin-top:16px">Salmo 116.1-2; 12-19 · NVI</span>
+      <p class="refrain">Refrão: Que devolverei ao Senhor por todos os seus benefícios para comigo?</p>
+      <p>Eu amo o Senhor, porque ele ouviu a minha voz, a minha súplica. Porque inclinou para mim os seus ouvidos, invocarei o seu nome enquanto eu viver.</p>
+      <p>Como devolverei ao Senhor por todos os seus benefícios para comigo? Ergerei o cálice da salvação e invocarei o nome do Senhor. Cumprirei para com o Senhor os meus votos, na presença de todo o seu povo.</p>
+      <p>Para ti, Senhor, entregarei a minha vida. Preciosa aos teus olhos é a morte dos teus fiéis. Sou teu servo, filho da tua serva; quebraste as minhas correntes. Em ação de graças te oferecerei um sacrifício; invocarei o nome do Senhor. Cumprirei para com o Senhor os meus votos, na presença de todo o seu povo, nos átrios da casa do Senhor, no meio de ti, ó Jerusalém. Louvai ao Senhor!</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Romanos 5.1-8 · NVI · Primeira Leitura</span>
+      <p>Tendo sido, pois, justificados pela fé, temos paz com Deus, por nosso Senhor Jesus Cristo, por intermédio de quem obtivemos acesso, pela fé, a esta graça na qual nos firmamos; e nos gloriamos na esperança da glória de Deus.</p>
+      <p>Não só isso, como também nos gloriamos nas tribulações, sabendo que a tribulação produz perseverança; a perseverança, caráter aprovado; o caráter aprovado, esperança. E a esperança não nos decepciona, porque Deus derramou o seu amor nos nossos corações, por meio do Espírito Santo que nos foi dado.</p>
+      <p>De fato, quando ainda éramos fracos, ao tempo certo, Cristo morreu pelos ímpios. Dificilmente alguém morreria por um justo, embora por uma pessoa boa alguém ousasse morrer. Mas Deus prova o seu amor para conosco, em que Cristo morreu por nós, sendo nós ainda pecadores.</p>
+    </div>
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <p class="rubric">✠ ✠ ✠ Antes da leitura do Evangelho, todos fazem três pequenos sinais da cruz — sobre a fronte, os lábios e o peito — pedindo: "Que o Evangelho esteja na minha mente, nos meus lábios e no meu coração."</p>
+
+    <div class="scripture">
+      <span class="ref">Mateus 9.35-10.8 · NVI · Santo Evangelho de nosso Senhor Jesus Cristo</span>
+      <p>Jesus percorria todas as cidades e aldeias, ensinando nas sinagogas, pregando o evangelho do Reino e curando todas as enfermidades e doenças. Ao ver as multidões, teve compaixão delas, porque estavam aflitas e desamparadas, como ovelhas sem pastor. Então, disse aos seus discípulos: "A messe é grande, mas os obreiros são poucos. Peçam, pois, ao Senhor da messe que envie obreiros para a sua colheita".</p>
+      <p>Chamando os doze discípulos, deu-lhes autoridade sobre espíritos imundos, para expulsá-los e para curar todas as enfermidades e doenças. Estes são os nomes dos doze apóstolos: Simão, chamado Pedro, e André, seu irmão; Tiago, filho de Zebedeu, e João, seu irmão; Filipe e Bartolomeu; Tomé e Mateus, o publicano; Tiago, filho de Alfeu, e Tadeu; Simão, o zelote, e Judas Iscariotes, que o traiu.</p>
+      <p>Jesus enviou estes doze, dando-lhes as seguintes instruções: "Não se dirijam aos gentios, nem entrem em nenhuma cidade dos samaritanos. Vão, antes, às ovelhas perdidas de Israel. À medida que forem, preguem esta mensagem: 'O Reino dos céus está próximo'. Curem os enfermos, ressuscitem os mortos, purifiquem os leprosos, expulsem os demônios. De graça receberam; de graça deem".</p>
+    </div>
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+  </section>
+
+  <section id="s8">
+    <h2><span class="step-num">8</span> Sermão</h2>
+    <p class="rubric">Pregação sobre o Evangelho de Mateus — a compaixão de Jesus pelas multidões e o envio dos doze. Após o sermão, momento de reflexão partilhada com o grupo.</p>
+  </section>
+
+  <section id="s9">
+    <h2><span class="step-num">9</span> Credo Apostólico</h2>
+    <p class="rubric">Todos em pé, juntos:</p>
+    <div class="prayer">
+      Creio em Deus Pai, Todo-Poderoso, Criador do céu e da terra; e em Jesus Cristo, seu único Filho, nosso Senhor; que foi concebido pelo Espírito Santo, nasceu da Virgem Maria, padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado; desceu à mansão dos mortos; ressuscitou ao terceiro dia; subiu aos céus, está sentado à direita de Deus Pai Todo-Poderoso; de onde há de vir para julgar os vivos e os mortos. Creio no Espírito Santo, na Santa Igreja Católica, na comunhão dos santos, na remissão dos pecados, na ressurreição do corpo e na vida eterna. <strong>Amém.</strong>
+    </div>
+    <p class="rubric">✠ Ao confessar a "ressurreição do corpo e a vida eterna", todos fazem o sinal da cruz sobre si — sinal da nossa esperança no Cristo ressuscitado.</p>
+  </section>
+
+  <section id="s10">
+    <h2><span class="step-num">10</span> Intercessões</h2>
+    <p class="rubric">O ministro conduz as intenções — pela Igreja em todo o mundo; pelos obreiros da messe; pelos enfermos e atribulados; pela nossa comunidade. Após cada intenção:</p>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> [intenção de oração]</p>
+      <p><span class="role">Povo:</span> Senhor, ouvi nossa oração.</p>
+    </div>
+  </section>
+
+  <section id="s11">
+    <h2><span class="step-num">11</span> Pai Nosso</h2>
+    <p class="rubric">O Ministro coloca reverentemente sobre o altar os elementos já consagrados pelo Bispo. Em seguida, convida a assembleia:</p>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> Como nos ensinou Cristo, o Salvador, nos animamos a dizer:</p>
+    </div>
+    <div class="prayer">
+      Pai nosso, que estás nos céus, santificado seja o teu nome. Venha o teu Reino, seja feita a tua vontade, assim na terra como no céu. O pão nosso de cada dia nos dá hoje. E perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores. E não nos deixes cair em tentação, mas livra-nos do mal; pois teu é o Reino, e o poder, e a glória para sempre. <strong>Amém.</strong>
+    </div>
+  </section>
+
+  <section id="s12">
+    <h2><span class="step-num">12</span> Rito Eucarístico</h2>
+    <p class="rubric">Rito da Santa Comunhão em circunstâncias especiais — celebrado sem a presença do Presbítero, segundo o LOC 2015 da IEAB e a Portaria Episcopal 01/2025. O povo permanece em pé ou ajoelhado. Omite-se o Partir do Pão (já realizado pelo Bispo na consagração prévia).</p>
+    <p class="rubric">O Ministro recita as palavras de instituição:</p>
+    <div class="scripture">
+      <span class="ref">1 Coríntios 11.23-26 · Palavras da Instituição</span>
+      <p>Na 1ª Epístola aos Coríntios, capítulo 11 e versículos 23 a 26, o apóstolo Paulo nos diz: "Porque eu recebi do Senhor o que também vos entreguei: que o Senhor Jesus, na noite em que foi traído, tomou o pão; e, tendo dado graças, o partiu e disse: 'Isto é o meu Corpo, que é dado por vós; fazei isto em memória de mim.' Semelhantemente, depois de haver ceado, tomou também o cálice, dizendo: 'Este cálice é a nova aliança no meu Sangue; fazei isto, todas as vezes que o beberdes, em memória de mim.' Porque, todas as vezes que comerdes deste Pão e beberdes deste Cálice, anunciareis a morte do Senhor, até que ele venha."</p>
+    </div>
+    <div class="scripture">
+      <span class="ref">João 6.51.54-56 · Sentença</span>
+      <p>Jesus disse: "Eu sou o pão vivo que desceu do céu; se alguém dele comer, viverá eternamente; e o pão que eu darei pela vida do mundo é a minha carne. Quem comer a minha carne e beber o meu sangue tem a vida eterna; e eu o ressuscitarei no último dia. Pois a minha carne é verdadeira comida, e meu sangue é verdadeira bebida. Quem comer a minha carne e beber o meu sangue permanece em mim, e eu nele."</p>
+    </div>
+    <div class="prayer">
+      <strong>Coleta da Comunhão:</strong> Ó Pai onipotente, cujo dileto Filho, na noite anterior à sua paixão, instituiu o Sacramento do seu Corpo e Sangue: concede-nos, misericordioso, que dele participemos agradecidos, em memória daquele que nestes santos mistérios nos dá o penhor da vida eterna, Jesus Cristo, Teu Filho, nosso Senhor, que agora e para sempre vive e reina contigo e com o Espírito Santo, um só Deus, pelos séculos dos séculos. <strong>Amém.</strong>
+    </div>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> Eis o Cordeiro de Deus, que tira o pecado do mundo. Bem-aventurados os chamados à ceia do Senhor.</p>
+      <p><span class="role">Povo:</span> Senhor, não sou digno de que entreis sob o meu teto, mas dizei somente uma palavra e serei salvo.</p>
+    </div>
+    <p class="rubric"><strong>Ministração da Comunhão.</strong> Ao receber: <em>"O Corpo de Cristo, o pão do céu."</em> — Amém. <em>"O Sangue de Cristo, o cálice da salvação."</em> — Amém.</p>
+    <p class="rubric">✠ Ao retornar ao seu lugar após a Comunhão, é costume fazer o sinal da cruz sobre si — em ação de graças pela Mesa do Senhor.</p>
+    <p class="rubric">Quem ainda não foi confirmado ou não deseja comungar pode aproximar-se com os braços cruzados sobre o peito para receber uma bênção.</p>
+  </section>
+
+  <section id="s13">
+    <h2><span class="step-num">13</span> Louvor Durante a Comunhão</h2>
+    <div class="louvor">
+      <div class="louvor-icon">♪</div>
+      <div class="louvor-nome">Rendido Estou</div>
+      <div class="louvor-nota">Live Worship — cântico eucarístico de rendição à mesa</div>
+    </div>
+    <div class="louvor-lyrics">
+      <div class="part">Verso</div>
+      <p>Toma-me, rendido estou<br>Aos pés da cruz me encontrei<br>O que tenho Te entrego, oh Deus<br>Vem limpar as minhas mãos<br>Purificar meu coração<br>Que eu ande em tudo que Tu tens pra mim</p>
+      <div class="part">Refrão</div>
+      <p>Oh, oh, oh, oh — Eis-me aqui, rendido estou<br>Oh, oh, oh, oh — Eu sou Teu, e Tu és meu, Jesus</p>
+      <div class="part">Ponte</div>
+      <p>Minha vida dou a Ti, Senhor<br>Rendido a Ti estou<br>E pra sempre cantarei<br>Faz em mim o Teu querer</p>
+    </div>
+  </section>
+
+  <section id="s14">
+    <h2><span class="step-num">14</span> Oração Pós-Comunhão</h2>
+    <div class="prayer">
+      Ó Deus eterno, oferecemos-te nossa ação de graças por havermos sido alimentados com o corpo e o sangue de nosso Senhor Jesus Cristo. Concede que, sustentados por este Sacramento e firmes na fé que confessamos, sejamos enviados ao mundo como obreiros da tua messe, proclamando que o Reino dos céus está próximo. <strong>Amém.</strong>
+    </div>
+  </section>
+
+  <section id="s15">
+    <h2><span class="step-num">15</span> Avisos Comunitários</h2>
+    <p class="rubric">Momento para partilha de avisos da comunidade, pedidos de oração espontâneos e celebrações da semana.</p>
+  </section>
+
+  <section id="s16">
+    <h2><span class="step-num">16</span> Bênção Final</h2>
+    <p class="rubric">Proferida pelo ministro local autorizado — Portaria Episcopal 01/2025:</p>
+    <div class="blessing-box">
+      A paz de Deus, que excede todo entendimento, guarde os vossos corações e as vossas mentes em Cristo Jesus nosso Senhor. E a bênção de Deus Todo-Poderoso — o Pai, o Filho e o Espírito Santo — desça sobre vós e permaneça convosco para sempre. <strong>Amém.</strong>
+    </div>
+    <p class="rubric">✠ Ao receber a bênção trinitária — "Pai, Filho e Espírito Santo" — todos fazem o sinal da cruz sobre si.</p>
+  </section>
+
+  <section id="s17">
+    <h2><span class="step-num">17</span> Despedida</h2>
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> Ide em paz, para amar e servir ao Senhor, e anunciar o Reino que está próximo.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+  </section>
+
+  <div class="share-tip">📱 Salve este arquivo ou envie pelo WhatsApp para acompanhar o culto pelo celular.</div>
+
+  <footer>
+    <strong>Igreja Anglicana Rio</strong>
+    Rede Episcopal Brasileira<br>
+    Baseado no Livro de Oração Comum 2015<br>
+    Conforme Portaria Episcopal 01/2025<br><br>
+    <span style="color:var(--liturgical)">✦</span> www.redeepiscopalbrasileira.com.br <span style="color:var(--liturgical)">✦</span>
+  </footer>
+</div>
+<button class="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Voltar ao topo">↑</button>
+<script>
+const btn = document.querySelector('.to-top');
+window.addEventListener('scroll', () => { btn.classList.toggle('visible', window.scrollY > 400); });
+</script>
+</body>
+</html>
