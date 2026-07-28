@@ -5,7 +5,7 @@
   "bible_version": "nvi",
   "days": {
     "2026-01-01": {
-      "title": "Santo Nome e Circuncisão de Nosso Senhor Jesus Cristo",
+      "title": "Natal",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Natal",
@@ -21,7 +21,7 @@
       "is_sunday": false
     },
     "2026-01-02": {
-      "title": "Basílio Magno e Gregório de Nazianzo",
+      "title": "Semana após o Natal",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Natal",
@@ -36,7 +36,7 @@
       "is_sunday": false
     },
     "2026-01-03": {
-      "title": "Natal",
+      "title": "Semana após o Natal",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Natal",
@@ -67,7 +67,7 @@
       "is_sunday": true
     },
     "2026-01-05": {
-      "title": "Natal",
+      "title": "Semana após o Natal",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Natal",
@@ -82,7 +82,7 @@
       "is_sunday": false
     },
     "2026-01-06": {
-      "title": "Epifania de Nosso Senhor Jesus Cristo",
+      "title": "Natal",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Natal",
@@ -98,7 +98,7 @@
       "is_sunday": false
     },
     "2026-01-07": {
-      "title": "Natal",
+      "title": "Semana após o Natal",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Natal",
@@ -113,7 +113,7 @@
       "is_sunday": false
     },
     "2026-01-08": {
-      "title": "Natal",
+      "title": "Semana após o Natal",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Natal",
@@ -128,7 +128,7 @@
       "is_sunday": false
     },
     "2026-01-09": {
-      "title": "Natal",
+      "title": "Semana após o Natal",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Natal",
@@ -143,7 +143,7 @@
       "is_sunday": false
     },
     "2026-01-10": {
-      "title": "William Laud",
+      "title": "Semana após o Natal",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Natal",
@@ -174,7 +174,7 @@
       "is_sunday": true
     },
     "2026-01-12": {
-      "title": "Epifania",
+      "title": "1ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Epifania",
@@ -189,7 +189,7 @@
       "is_sunday": false
     },
     "2026-01-13": {
-      "title": "Hilário de Poitiers",
+      "title": "1ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Epifania",
@@ -204,7 +204,7 @@
       "is_sunday": false
     },
     "2026-01-14": {
-      "title": "Epifania",
+      "title": "1ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Epifania",
@@ -219,7 +219,7 @@
       "is_sunday": false
     },
     "2026-01-15": {
-      "title": "Epifania",
+      "title": "1ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Epifania",
@@ -234,7 +234,7 @@
       "is_sunday": false
     },
     "2026-01-16": {
-      "title": "Epifania",
+      "title": "1ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Epifania",
@@ -249,7 +249,7 @@
       "is_sunday": false
     },
     "2026-01-17": {
-      "title": "Antão do Egito",
+      "title": "1ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Epifania",
@@ -280,7 +280,7 @@
       "is_sunday": true
     },
     "2026-01-19": {
-      "title": "Confissão de Pedro",
+      "title": "2ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Epifania",
@@ -296,7 +296,7 @@
       "is_sunday": false
     },
     "2026-01-20": {
-      "title": "Fabiano",
+      "title": "2ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Epifania",
@@ -311,7 +311,7 @@
       "is_sunday": false
     },
     "2026-01-21": {
-      "title": "Agnes de Roma",
+      "title": "2ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Epifania",
@@ -326,7 +326,7 @@
       "is_sunday": false
     },
     "2026-01-22": {
-      "title": "Vicente de Saragoça",
+      "title": "2ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Epifania",
@@ -341,7 +341,7 @@
       "is_sunday": false
     },
     "2026-01-23": {
-      "title": "Sumio Takatsu",
+      "title": "2ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Epifania",
@@ -356,7 +356,7 @@
       "is_sunday": false
     },
     "2026-01-24": {
-      "title": "Epifania",
+      "title": "2ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Epifania",
@@ -387,7 +387,7 @@
       "is_sunday": true
     },
     "2026-01-26": {
-      "title": "Conversão de Paulo",
+      "title": "3ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Epifania",
@@ -403,7 +403,7 @@
       "is_sunday": false
     },
     "2026-01-27": {
-      "title": "João Crisóstomo",
+      "title": "3ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Epifania",
@@ -418,7 +418,7 @@
       "is_sunday": false
     },
     "2026-01-28": {
-      "title": "Tomás de Aquino",
+      "title": "3ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Epifania",
@@ -433,7 +433,7 @@
       "is_sunday": false
     },
     "2026-01-29": {
-      "title": "André Rublev",
+      "title": "3ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Epifania",
@@ -448,7 +448,7 @@
       "is_sunday": false
     },
     "2026-01-30": {
-      "title": "Carlos Stuart",
+      "title": "3ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Epifania",
@@ -463,7 +463,7 @@
       "is_sunday": false
     },
     "2026-01-31": {
-      "title": "João Bosco",
+      "title": "3ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Epifania",

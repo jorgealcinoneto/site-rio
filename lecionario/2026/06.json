@@ -5,7 +5,7 @@
   "bible_version": "nvi",
   "days": {
     "2026-06-01": {
-      "title": "Visitação da Bem-Aventurada Virgem Maria",
+      "title": "1ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Tempo Comum",
@@ -21,7 +21,7 @@
       "is_sunday": false
     },
     "2026-06-02": {
-      "title": "Mártires de Lyon",
+      "title": "1ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Tempo Comum",
@@ -36,7 +36,7 @@
       "is_sunday": false
     },
     "2026-06-03": {
-      "title": "Mártires de Uganda",
+      "title": "1ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Tempo Comum",
@@ -51,7 +51,7 @@
       "is_sunday": false
     },
     "2026-06-04": {
-      "title": "João XXIII (Angelo Giuseppe Roncalli)",
+      "title": "1ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Tempo Comum",
@@ -66,7 +66,7 @@
       "is_sunday": false
     },
     "2026-06-05": {
-      "title": "John Gaw Meem",
+      "title": "1ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Tempo Comum",
@@ -81,7 +81,7 @@
       "is_sunday": false
     },
     "2026-06-06": {
-      "title": "Américo Vespúcio Cabral",
+      "title": "1ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Tempo Comum",
@@ -112,7 +112,7 @@
       "is_sunday": true
     },
     "2026-06-08": {
-      "title": "Vicente Brande",
+      "title": "2ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Tempo Comum",
@@ -127,7 +127,7 @@
       "is_sunday": false
     },
     "2026-06-09": {
-      "title": "Columba",
+      "title": "2ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Tempo Comum",
@@ -142,7 +142,7 @@
       "is_sunday": false
     },
     "2026-06-10": {
-      "title": "Tempo Comum",
+      "title": "2ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Tempo Comum",
@@ -157,7 +157,7 @@
       "is_sunday": false
     },
     "2026-06-11": {
-      "title": "Barnabé",
+      "title": "2ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Tempo Comum",
@@ -173,7 +173,7 @@
       "is_sunday": false
     },
     "2026-06-12": {
-      "title": "Enmegahbowh",
+      "title": "2ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Tempo Comum",
@@ -188,7 +188,7 @@
       "is_sunday": false
     },
     "2026-06-13": {
-      "title": "Antônio de Lisboa",
+      "title": "2ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Tempo Comum",
@@ -219,7 +219,7 @@
       "is_sunday": true
     },
     "2026-06-15": {
-      "title": "Evelyn Underhill",
+      "title": "3ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Tempo Comum",
@@ -234,7 +234,7 @@
       "is_sunday": false
     },
     "2026-06-16": {
-      "title": "Tempo Comum",
+      "title": "3ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Tempo Comum",
@@ -249,7 +249,7 @@
       "is_sunday": false
     },
     "2026-06-17": {
-      "title": "Tempo Comum",
+      "title": "3ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Tempo Comum",
@@ -264,7 +264,7 @@
       "is_sunday": false
     },
     "2026-06-18": {
-      "title": "Bernard Mizeki",
+      "title": "3ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Tempo Comum",
@@ -279,7 +279,7 @@
       "is_sunday": false
     },
     "2026-06-19": {
-      "title": "Tempo Comum",
+      "title": "3ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Tempo Comum",
@@ -294,7 +294,7 @@
       "is_sunday": false
     },
     "2026-06-20": {
-      "title": "Tempo Comum",
+      "title": "3ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Tempo Comum",
@@ -325,7 +325,7 @@
       "is_sunday": true
     },
     "2026-06-22": {
-      "title": "Albano",
+      "title": "4ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Tempo Comum",
@@ -340,7 +340,7 @@
       "is_sunday": false
     },
     "2026-06-23": {
-      "title": "Tempo Comum",
+      "title": "4ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Tempo Comum",
@@ -355,7 +355,7 @@
       "is_sunday": false
     },
     "2026-06-24": {
-      "title": "Natividade de João Batista",
+      "title": "4ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Tempo Comum",
@@ -371,7 +371,7 @@
       "is_sunday": false
     },
     "2026-06-25": {
-      "title": "Tempo Comum",
+      "title": "4ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Tempo Comum",
@@ -386,7 +386,7 @@
       "is_sunday": false
     },
     "2026-06-26": {
-      "title": "Tempo Comum",
+      "title": "4ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Tempo Comum",
@@ -401,7 +401,7 @@
       "is_sunday": false
     },
     "2026-06-27": {
-      "title": "Cirilo de Alexandria",
+      "title": "4ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Tempo Comum",
@@ -432,7 +432,7 @@
       "is_sunday": true
     },
     "2026-06-29": {
-      "title": "Pedro e Paulo",
+      "title": "5ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Tempo Comum",
@@ -448,7 +448,7 @@
       "is_sunday": false
     },
     "2026-06-30": {
-      "title": "Jaci Correia Maraschin",
+      "title": "5ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Tempo Comum",

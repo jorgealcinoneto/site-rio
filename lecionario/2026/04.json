@@ -5,7 +5,7 @@
   "bible_version": "nvi",
   "days": {
     "2026-04-01": {
-      "title": "Quarta-feira Santa",
+      "title": "Quaresma",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Quaresma",
@@ -21,7 +21,7 @@
       "is_sunday": false
     },
     "2026-04-02": {
-      "title": "Quinta-Feira Santa",
+      "title": "Quaresma",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Quaresma",
@@ -37,7 +37,7 @@
       "is_sunday": false
     },
     "2026-04-03": {
-      "title": "Sexta-Feira da Paixão",
+      "title": "Quaresma",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Quaresma",
@@ -53,7 +53,7 @@
       "is_sunday": false
     },
     "2026-04-04": {
-      "title": "Vigília Pascal",
+      "title": "Quaresma",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Quaresma",
@@ -129,7 +129,7 @@
       "is_sunday": false
     },
     "2026-04-09": {
-      "title": "Dietrich Bonhoeffer",
+      "title": "Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Páscoa",
@@ -144,7 +144,7 @@
       "is_sunday": false
     },
     "2026-04-10": {
-      "title": "William Law",
+      "title": "Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Páscoa",
@@ -190,7 +190,7 @@
       "is_sunday": true
     },
     "2026-04-13": {
-      "title": "Páscoa",
+      "title": "2ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Páscoa",
@@ -205,7 +205,7 @@
       "is_sunday": false
     },
     "2026-04-14": {
-      "title": "Páscoa",
+      "title": "2ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Páscoa",
@@ -220,7 +220,7 @@
       "is_sunday": false
     },
     "2026-04-15": {
-      "title": "Páscoa",
+      "title": "2ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Páscoa",
@@ -235,7 +235,7 @@
       "is_sunday": false
     },
     "2026-04-16": {
-      "title": "Páscoa",
+      "title": "2ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Páscoa",
@@ -250,7 +250,7 @@
       "is_sunday": false
     },
     "2026-04-17": {
-      "title": "Páscoa",
+      "title": "2ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Páscoa",
@@ -265,7 +265,7 @@
       "is_sunday": false
     },
     "2026-04-18": {
-      "title": "Páscoa",
+      "title": "2ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Páscoa",
@@ -296,7 +296,7 @@
       "is_sunday": true
     },
     "2026-04-20": {
-      "title": "Páscoa",
+      "title": "3ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Páscoa",
@@ -311,7 +311,7 @@
       "is_sunday": false
     },
     "2026-04-21": {
-      "title": "Anselmo",
+      "title": "3ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Páscoa",
@@ -326,7 +326,7 @@
       "is_sunday": false
     },
     "2026-04-22": {
-      "title": "Mary Packard",
+      "title": "3ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Páscoa",
@@ -341,7 +341,7 @@
       "is_sunday": false
     },
     "2026-04-23": {
-      "title": "Jorge",
+      "title": "3ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Páscoa",
@@ -356,7 +356,7 @@
       "is_sunday": false
     },
     "2026-04-24": {
-      "title": "Sete Mártires da Irmandade Melanésia",
+      "title": "3ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Páscoa",
@@ -371,7 +371,7 @@
       "is_sunday": false
     },
     "2026-04-25": {
-      "title": "Marcos",
+      "title": "3ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Páscoa",
@@ -403,7 +403,7 @@
       "is_sunday": true
     },
     "2026-04-27": {
-      "title": "Páscoa",
+      "title": "4ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Páscoa",
@@ -418,7 +418,7 @@
       "is_sunday": false
     },
     "2026-04-28": {
-      "title": "Páscoa",
+      "title": "4ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Páscoa",
@@ -433,7 +433,7 @@
       "is_sunday": false
     },
     "2026-04-29": {
-      "title": "Catarina de Sena",
+      "title": "4ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Páscoa",
@@ -448,7 +448,7 @@
       "is_sunday": false
     },
     "2026-04-30": {
-      "title": "Páscoa",
+      "title": "4ª Semana da Páscoa",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Páscoa",

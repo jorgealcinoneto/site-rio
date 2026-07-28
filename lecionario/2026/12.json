@@ -5,7 +5,7 @@
   "bible_version": "nvi",
   "days": {
     "2026-12-01": {
-      "title": "Advento",
+      "title": "1ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Advento",
@@ -20,7 +20,7 @@
       "is_sunday": false
     },
     "2026-12-02": {
-      "title": "Advento",
+      "title": "1ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Advento",
@@ -35,7 +35,7 @@
       "is_sunday": false
     },
     "2026-12-03": {
-      "title": "Francisco Xavier",
+      "title": "1ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Advento",
@@ -50,7 +50,7 @@
       "is_sunday": false
     },
     "2026-12-04": {
-      "title": "João Damasceno",
+      "title": "1ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Advento",
@@ -65,7 +65,7 @@
       "is_sunday": false
     },
     "2026-12-05": {
-      "title": "Clemente de Alexandria",
+      "title": "1ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Sábado",
       "liturgical_season": "Advento",
@@ -96,7 +96,7 @@
       "is_sunday": true
     },
     "2026-12-07": {
-      "title": "Ambrósio de Milão",
+      "title": "2ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Advento",
@@ -111,7 +111,7 @@
       "is_sunday": false
     },
     "2026-12-08": {
-      "title": "Advento",
+      "title": "2ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Advento",
@@ -126,7 +126,7 @@
       "is_sunday": false
     },
     "2026-12-09": {
-      "title": "Advento",
+      "title": "2ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Advento",
@@ -141,7 +141,7 @@
       "is_sunday": false
     },
     "2026-12-10": {
-      "title": "Karl Barth",
+      "title": "2ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Advento",
@@ -156,7 +156,7 @@
       "is_sunday": false
     },
     "2026-12-11": {
-      "title": "Advento",
+      "title": "2ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Advento",
@@ -171,7 +171,7 @@
       "is_sunday": false
     },
     "2026-12-12": {
-      "title": "Advento",
+      "title": "2ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Sábado",
       "liturgical_season": "Advento",
@@ -202,7 +202,7 @@
       "is_sunday": true
     },
     "2026-12-14": {
-      "title": "João da Cruz",
+      "title": "3ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Advento",
@@ -217,7 +217,7 @@
       "is_sunday": false
     },
     "2026-12-15": {
-      "title": "Advento",
+      "title": "3ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Advento",
@@ -232,7 +232,7 @@
       "is_sunday": false
     },
     "2026-12-16": {
-      "title": "Advento",
+      "title": "3ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Advento",
@@ -247,7 +247,7 @@
       "is_sunday": false
     },
     "2026-12-17": {
-      "title": "Advento",
+      "title": "3ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Advento",
@@ -262,7 +262,7 @@
       "is_sunday": false
     },
     "2026-12-18": {
-      "title": "Advento",
+      "title": "3ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Advento",
@@ -277,7 +277,7 @@
       "is_sunday": false
     },
     "2026-12-19": {
-      "title": "Advento",
+      "title": "3ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Sábado",
       "liturgical_season": "Advento",
@@ -308,7 +308,7 @@
       "is_sunday": true
     },
     "2026-12-21": {
-      "title": "Tomé",
+      "title": "4ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Advento",
@@ -324,7 +324,7 @@
       "is_sunday": false
     },
     "2026-12-22": {
-      "title": "Chico Mendes",
+      "title": "4ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Advento",
@@ -339,7 +339,7 @@
       "is_sunday": false
     },
     "2026-12-23": {
-      "title": "Advento",
+      "title": "4ª Semana do Advento",
       "subtitle": "Ano B",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Advento",
@@ -354,7 +354,7 @@
       "is_sunday": false
     },
     "2026-12-24": {
-      "title": "Vigília de Natal",
+      "title": "Advento",
       "subtitle": "Ano B",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Advento",
@@ -370,7 +370,7 @@
       "is_sunday": false
     },
     "2026-12-25": {
-      "title": "Natividade de Nosso Senhor Jesus Cristo",
+      "title": "Natal",
       "subtitle": "Ano B",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Natal",
@@ -386,7 +386,7 @@
       "is_sunday": false
     },
     "2026-12-26": {
-      "title": "Estevão",
+      "title": "Natal",
       "subtitle": "Ano B",
       "day_of_week": "Sábado",
       "liturgical_season": "Natal",
@@ -418,7 +418,7 @@
       "is_sunday": true
     },
     "2026-12-28": {
-      "title": "João",
+      "title": "Natal",
       "subtitle": "Ano B",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Natal",
@@ -434,7 +434,7 @@
       "is_sunday": false
     },
     "2026-12-29": {
-      "title": "Thomas Becket",
+      "title": "Natal",
       "subtitle": "Ano B",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Natal",
@@ -464,7 +464,7 @@
       "is_sunday": false
     },
     "2026-12-31": {
-      "title": "John Wyclif",
+      "title": "Natal",
       "subtitle": "Ano B",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Natal",

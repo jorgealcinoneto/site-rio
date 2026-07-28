@@ -28,6 +28,17 @@ ROOT = Path(__file__).parent
 LECIONARIO = ROOT / "lecionario"
 
 
+def liturgical_title(data: dict) -> str:
+    if data.get("sunday_name"):
+        return data["sunday_name"]
+    desc = data.get("description") or []
+    for line in desc:
+        lower = line.lower()
+        if "semana" in lower and not lower.startswith("próprio"):
+            return line
+    return data.get("liturgical_season") or ""
+
+
 def day_entry(data: dict) -> dict:
     readings = data.get("readings") or {}
     desc = data.get("description") or []
@@ -35,9 +46,8 @@ def day_entry(data: dict) -> dict:
     lit_year = data.get("liturgical_year", "")
     subtitle_parts = [p for p in [proper, f"Ano {lit_year}" if lit_year else ""] if p]
     subtitle = " · ".join(subtitle_parts) if subtitle_parts else " · ".join(desc[:2])
-    celebration = data.get("celebration") or {}
     return {
-        "title": data.get("sunday_name") or celebration.get("name") or data.get("liturgical_season", ""),
+        "title": liturgical_title(data),
         "subtitle": subtitle,
         "day_of_week": data.get("day_of_week"),
         "liturgical_season": data.get("liturgical_season"),
