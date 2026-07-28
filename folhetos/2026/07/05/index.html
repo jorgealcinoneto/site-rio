@@ -68,17 +68,100 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 .to-top { position: fixed; bottom: 20px; right: 20px; background: var(--liturgical); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
 .to-top.visible { opacity: 1; }
 @media (max-width: 480px) { body { font-size: 16px; } .container { padding: 16px 14px 40px; } h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; } .step-num { width: 26px; height: 26px; font-size: 0.8rem; } .scripture, .prayer, .dialogue, .louvor-lyrics { padding: 14px 16px; } }
-@media print { .to-top, .share-tip { display: none; } body { font-size: 11pt; background: white; } section { page-break-inside: avoid; } }
+@page { size: A4; margin: 10mm 12mm; }
+@media print {
+  .to-top, .share-tip, .print-bar { display: none !important; }
+  html, body {
+    background: #fff !important;
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.35;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .container { max-width: none; width: 100%; margin: 0; padding: 0; }
+  header { padding: 0 0 8pt; margin-bottom: 10pt; }
+  h1 { font-size: 16pt; margin-bottom: 6pt; }
+  .subtitle { font-size: 10pt; }
+  .date { font-size: 9pt; }
+  .church { font-size: 8pt; margin-bottom: 6pt; }
+  .cor-tag {
+    background: transparent !important;
+    color: #000 !important;
+    border: 0.8pt solid #333;
+    padding: 2pt 8pt;
+    font-size: 8pt;
+  }
+  h2 {
+    font-size: 11pt;
+    margin-bottom: 6pt;
+    padding-bottom: 3pt;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .step-num { width: 14pt; height: 14pt; font-size: 8pt; }
+  section {
+    margin-bottom: 9pt;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .intro-box, .opening-versicle, .dialogue, .scripture, .prayer,
+  .louvor-lyrics, .blessing-box, .louvor {
+    margin: 6pt 0;
+    padding: 7pt 9pt;
+    box-shadow: none !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .louvor {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1.2pt solid #2d6a4f;
+  }
+  .louvor-icon, .louvor-artista, .louvor-nota { color: #333 !important; opacity: 1 !important; }
+  .louvor-nome { font-size: 12pt; }
+  .louvor-lyrics .part { margin: 6pt 0 3pt; }
+  .louvor-lyrics p { margin-bottom: 4pt; }
+  .rubric { font-size: 9pt; margin: 4pt 0 6pt; }
+  .scripture, .dialogue, .prayer, .intro-box { font-size: 9.5pt; line-height: 1.4; }
+  .ref { font-size: 7.5pt; margin-bottom: 5pt; }
+  footer { margin-top: 10pt; padding-top: 8pt; font-size: 8pt; }
+  a { color: inherit; text-decoration: none; }
+}
+.print-bar {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+  padding: 10px 14px;
+  background: rgba(247,244,238,0.96);
+  border-bottom: 1px solid var(--border);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+}
+.print-bar button, .print-bar span {
+  font: inherit;
+}
+.print-bar button {
+  background: var(--liturgical); color: #fff; border: 0;
+  border-radius: 999px; padding: 8px 16px; cursor: pointer; font-weight: 600;
+}
+.print-bar span { color: var(--muted); align-self: center; }
+
 </style>
 </head>
 <body>
+<div class="print-bar">
+  <button type="button" onclick="window.print()">Imprimir folheto (A4 frente e verso)</button>
+  <span>Na impressora: A4 · frente e verso · margens padrão</span>
+</div>
 <div class="container">
   <header>
+    <!-- estevao:header -->
     <div class="church">Igreja Anglicana Rio</div>
     <h1>5º Domingo no Tempo Comum</h1>
     <div class="subtitle">Próprio 9 · Ano A</div>
-    <div class="date">05 DE JULHO DE 2026</div>
+    <div class="date">5 DE JULHO DE 2026</div>
     <span class="cor-tag">🟢 Cor litúrgica: Verde</span>
+<!-- /estevao:header -->
   </header>
 
   <div class="intro-box">
@@ -155,31 +238,16 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 
   <section id="s6">
     <h2><span class="step-num">6</span> Louvor</h2>
-    <div class="louvor">
-      <div class="louvor-icon">♪</div>
-      <div class="louvor-nome">Tu és</div>
-      <div class="louvor-artista">Pré-Palavra</div>
-      <div class="louvor-nota">Sede saciada em Cristo — eco de João 4 e Mateus 11</div>
+    <!-- estevao:collect -->
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
+      <p><span class="role">Povo:</span> E também contigo.</p>
+      <p><span class="role">Ministro:</span> Oremos.</p>
     </div>
-    <div class="louvor-lyrics">
-      <div class="part">Verso</div>
-      <p>Junto ao poço, estava eu<br>Quando um homem judeu<br>Viu a sede que havia em mim<br>Sem me ouvir, conheceu<br>E me ofereceu<br>Uma água que jorra sem fim</p>
-      <p>Dá-me de beber, pois tenho sede<br>Não quero mais buscar em outras fontes<br>Não precisarei aqui voltar pra minha sede saciar<br>Uma vez que já ouvi teu falar</p>
-      <div class="part">Refrão</div>
-      <p>Tu és por quem a minh'alma esperou<br>A fonte da vida que me encontrou<br>És o dom de Deus, o Messias<br>O meu salvador</p>
-      <div class="part">Verso</div>
-      <p>Junto ao poço, estava eu<br>Quando um homem judeu<br>Viu a sede que havia em mim<br>Sem me ouvir, conheceu<br>E me ofereceu<br>Uma água que jorra sem fim</p>
-      <p>Dá-me de beber, pois tenho sede<br>Não quero mais buscar em outras fontes<br>Não precisarei aqui voltar pra minha sede saciar<br>Uma vez que já ouvi teu falar</p>
-      <div class="part">Refrão</div>
-      <p>Tu és por quem a minh'alma esperou<br>A fonte da vida que me encontrou<br>És o dom de Deus, o Messias<br>O meu salvador</p>
-      <div class="part">Ponte</div>
-      <p>Quero beber do teu rio, senhor<br>Sacia minha sede, lava o meu interior<br>Eu quero fluir em tuas águas<br>Eu quero beber da tua fonte<br>Fonte de águas vivas</p>
-      <p>Quero beber do teu rio, senhor<br>Sacia minha sede, lava o meu interior<br>Eu quero fluir em tuas águas<br>Eu quero beber da tua fonte<br>Fonte de águas vivas</p>
-      <div class="part">Refrão final</div>
-      <p>Tu és por quem a minh'alma esperou<br>A fonte da vida que me encontrou<br>És o dom de Deus, o Messias<br>O meu salvador</p>
-      <p>Tu és por quem a minh'alma esperou<br>A fonte da vida que me encontrou<br>És o dom de Deus, o Messias<br>O meu salvador</p>
-      <p>Tu és por quem a minh'alma esperou<br>A fonte da vida que me encontrou<br>És o dom de Deus, o Messias<br>O meu salvador</p>
+    <div class="prayer">
+      Ó Deus, ensinaste-nos que amar a Ti e ao nosso próximo é guardar os teus mandamentos; concede-nos a graça do teu Espírito Santo para que sejamos consagrados a ti com todo o nosso coração e unidos uns aos outros com pura afeição; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. <strong>Amém.</strong>
     </div>
+<!-- /estevao:collect -->
   </section>
 
   <section id="s7">
@@ -224,8 +292,64 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
   </section>
 
   <section id="s8">
-    <h2><span class="step-num">8</span> Sermão</h2>
-    <p class="rubric">Pregação sobre Mateus 11 — <em>Vinde a mim</em>: Cristo manso e humilde; descanso para os cansados; o jugo suave do discipulado. Após o sermão, breve reflexão partilhada.</p>
+    <!-- estevao:readings -->
+    <h2><span class="step-num">8</span> Leituras das Escrituras</h2>
+
+    <div class="scripture">
+      <span class="ref">Gênesis 24.34-38, 42-49, 58-67 · NVI · Primeira Leitura</span>
+      <p>E ele disse: “Sou servo de Abraão. O SENHOR o abençoou muito, e ele se tornou muito rico. Deu-lhe ovelhas e bois, prata e ouro, servos e servas, camelos e jumentos.</p>
+      <p>Sara, mulher do meu senhor, na velhice lhe deu um filho, que é o herdeiro de tudo o que Abraão possui. E meu senhor fez-me jurar, dizendo: ‘Você não buscará mulher para meu filho entre as filhas dos cananeus, em cuja terra estou vivendo, mas irá à família de meu pai, ao meu próprio clã, buscar uma mulher para meu filho’. “Hoje, quando cheguei à fonte, eu disse: Ó SENHOR, Deus do meu senhor Abraão, se assim desejares, dá êxito à missão de que fui incumbido.</p>
+      <p>Aqui estou em pé diante desta fonte; se uma moça vier tirar água e eu lhe disser: Por favor, dê-me de beber um pouco de seu cântaro, e ela me responder: ‘Bebe. Também darei água aos teus camelos’, seja essa a que o SENHOR escolheu para o filho do meu senhor. “Antes de terminar de orar em meu coração, surgiu Rebeca, com o cântaro ao ombro. Dirigiu-se à fonte e tirou água, e eu lhe disse: Por favor, dê-me de beber. “Ela se apressou a tirar o cântaro do ombro e disse: ‘Bebe. Também darei água aos teus camelos’. Eu bebi, e ela deu de beber também aos camelos.</p>
+      <p>“Depois lhe perguntei: De quem você é filha? “Ela me respondeu: ‘De Betuel, filho de Naor e Milca’. “Então coloquei o pendente em seu nariz e as pulseiras em seus braços, e curvei-me em adoração ao SENHOR. Bendisse ao SENHOR, o Deus do meu senhor Abraão, que me guiou pelo caminho certo para buscar para o filho dele a neta do irmão do meu senhor.</p>
+      <p>Agora, se quiserem mostrar fidelidade e bondade a meu senhor, digam-me; e, se não quiserem, digam-me também, para que eu decida o que fazer”. Chamaram Rebeca e lhe perguntaram: “Você quer ir com este homem?” “Sim, quero”, respondeu ela.</p>
+      <p>Despediram-se, pois, de sua irmã Rebeca, de sua ama, do servo de Abraão e dos que o acompanhavam. E abençoaram Rebeca, dizendo-lhe: “Que você cresça, nossa irmã, até ser milhares de milhares; e que a sua descendência conquiste as cidades dos seus inimigos”.</p>
+      <p>Então Rebeca e suas servas se aprontaram, montaram seus camelos e partiram com o homem. E assim o servo partiu levando Rebeca. Isaque tinha voltado de Beer-Laai-Roi , pois habitava no Neguebe.</p>
+      <p>Certa tarde, saiu ao campo para meditar. Ao erguer os olhos, viu que se aproximavam camelos. Rebeca também ergueu os olhos e viu Isaque. Ela desceu do camelo e perguntou ao servo: “Quem é aquele homem que vem pelo campo ao nosso encontro?” “É meu senhor”, respondeu o servo. Então ela se cobriu com o véu.</p>
+      <p>Depois o servo contou a Isaque tudo o que havia feito. Isaque levou Rebeca para a tenda de sua mãe, Sara; fez dela sua mulher, e a amou; assim Isaque foi consolado após a morte de sua mãe.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Salmo 45.10-17 · NVI · Salmo responsorial</span>
+      <p>Ouça, ó filha, considere e incline os seus ouvidos: Esqueça o seu povo e a casa paterna. O rei foi cativado pela sua beleza; honre-o, pois ele é o seu senhor.</p>
+      <p>A cidade de Tiro trará seus presentes; seus moradores mais ricos buscarão o seu favor. Cheia de esplendor está a princesa em seus aposentos, com vestes enfeitadas de ouro.</p>
+      <p>Em roupas bordadas é conduzida ao rei, acompanhada de um cortejo de virgens; são levadas à tua presença. Com alegria e exultação são conduzidas ao palácio do rei.</p>
+      <p>Os teus filhos ocuparão o trono dos teus pais; por toda a terra os farás príncipes. Perpetuarei a tua lembrança por todas as gerações; por isso as nações te louvarão para todo o sempre.</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Romanos 7.15-25a · NVI · Segunda Leitura</span>
+      <p>Não entendo o que faço. Pois não faço o que desejo, mas o que odeio. E, se faço o que não desejo, admito que a Lei é boa.</p>
+      <p>Nesse caso, não sou mais eu quem o faz, mas o pecado que habita em mim. Sei que nada de bom habita em mim, isto é, em minha carne. Porque tenho o desejo de fazer o que é bom, mas não consigo realizá-lo.</p>
+      <p>Pois o que faço não é o bem que desejo, mas o mal que não quero fazer esse eu continuo fazendo. Ora, se faço o que não quero, já não sou eu quem o faz, mas o pecado que habita em mim.</p>
+      <p>Assim, encontro esta lei que atua em mim: Quando quero fazer o bem, o mal está junto de mim. No íntimo do meu ser tenho prazer na Lei de Deus; mas vejo outra lei atuando nos membros do meu corpo, guerreando contra a lei da minha mente, tornando-me prisioneiro da lei do pecado que atua em meus membros.</p>
+      <p>Miserável homem que eu sou! Quem me libertará do corpo sujeito a esta morte? Graças a Deus por Jesus Cristo, nosso Senhor! De modo que, com a mente, eu próprio sou escravo da Lei de Deus; mas, com a carne, da lei do pecado.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <p class="rubric">✠ Antes da leitura do Evangelho, um sinal da cruz sobre si — pedindo que a Palavra de Cristo habite em nós.</p>
+
+    <div class="scripture">
+      <span class="ref">Mateus 11.16-19, 25-30 · NVI · Santo Evangelho de nosso Senhor Jesus Cristo</span>
+      <p>“A que posso comparar esta geração? São como crianças que ficam sentadas nas praças e gritam umas às outras: “ ‘Nós tocamos flauta, mas vocês não dançaram; cantamos um lamento, mas vocês não se entristeceram’.</p>
+      <p>Pois veio João, que jejua e não bebe vinho , e dizem: ‘Ele tem demônio’. Veio o Filho do homem comendo e bebendo, e dizem: ‘Aí está um comilão e beberrão, amigo de publicanos e pecadores’. Mas a sabedoria é comprovada pelas obras que a acompanham”.</p>
+      <p>Naquela ocasião, Jesus disse: “Eu te louvo, Pai, Senhor dos céus e da terra, porque escondeste estas coisas dos sábios e cultos, e as revelaste aos pequeninos. Sim, Pai, pois assim foi do teu agrado. “Todas as coisas me foram entregues por meu Pai. Ninguém conhece o Filho a não ser o Pai, e ninguém conhece o Pai a não ser o Filho e aqueles a quem o Filho o quiser revelar. “Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.</p>
+      <p>Tomem sobre vocês o meu jugo e aprendam de mim, pois sou manso e humilde de coração, e vocês encontrarão descanso para as suas almas. Pois o meu jugo é suave e o meu fardo é leve”.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+<!-- /estevao:readings -->
   </section>
 
   <section id="s9">

@@ -67,17 +67,100 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 .to-top { position: fixed; bottom: 20px; right: 20px; background: var(--liturgical); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
 .to-top.visible { opacity: 1; }
 @media (max-width: 480px) { body { font-size: 16px; } .container { padding: 16px 14px 40px; } h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; } .step-num { width: 26px; height: 26px; font-size: 0.8rem; } .scripture, .prayer, .dialogue, .louvor-lyrics { padding: 14px 16px; } }
-@media print { .to-top, .share-tip { display: none; } body { font-size: 11pt; background: white; } section { page-break-inside: avoid; } }
+@page { size: A4; margin: 10mm 12mm; }
+@media print {
+  .to-top, .share-tip, .print-bar { display: none !important; }
+  html, body {
+    background: #fff !important;
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.35;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .container { max-width: none; width: 100%; margin: 0; padding: 0; }
+  header { padding: 0 0 8pt; margin-bottom: 10pt; }
+  h1 { font-size: 16pt; margin-bottom: 6pt; }
+  .subtitle { font-size: 10pt; }
+  .date { font-size: 9pt; }
+  .church { font-size: 8pt; margin-bottom: 6pt; }
+  .cor-tag {
+    background: transparent !important;
+    color: #000 !important;
+    border: 0.8pt solid #333;
+    padding: 2pt 8pt;
+    font-size: 8pt;
+  }
+  h2 {
+    font-size: 11pt;
+    margin-bottom: 6pt;
+    padding-bottom: 3pt;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .step-num { width: 14pt; height: 14pt; font-size: 8pt; }
+  section {
+    margin-bottom: 9pt;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .intro-box, .opening-versicle, .dialogue, .scripture, .prayer,
+  .louvor-lyrics, .blessing-box, .louvor {
+    margin: 6pt 0;
+    padding: 7pt 9pt;
+    box-shadow: none !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .louvor {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1.2pt solid #2d6a4f;
+  }
+  .louvor-icon, .louvor-artista, .louvor-nota { color: #333 !important; opacity: 1 !important; }
+  .louvor-nome { font-size: 12pt; }
+  .louvor-lyrics .part { margin: 6pt 0 3pt; }
+  .louvor-lyrics p { margin-bottom: 4pt; }
+  .rubric { font-size: 9pt; margin: 4pt 0 6pt; }
+  .scripture, .dialogue, .prayer, .intro-box { font-size: 9.5pt; line-height: 1.4; }
+  .ref { font-size: 7.5pt; margin-bottom: 5pt; }
+  footer { margin-top: 10pt; padding-top: 8pt; font-size: 8pt; }
+  a { color: inherit; text-decoration: none; }
+}
+.print-bar {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+  padding: 10px 14px;
+  background: rgba(247,244,238,0.96);
+  border-bottom: 1px solid var(--border);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+}
+.print-bar button, .print-bar span {
+  font: inherit;
+}
+.print-bar button {
+  background: var(--liturgical); color: #fff; border: 0;
+  border-radius: 999px; padding: 8px 16px; cursor: pointer; font-weight: 600;
+}
+.print-bar span { color: var(--muted); align-self: center; }
+
 </style>
 </head>
 <body>
+<div class="print-bar">
+  <button type="button" onclick="window.print()">Imprimir folheto (A4 frente e verso)</button>
+  <span>Na impressora: A4 · frente e verso · margens padrão</span>
+</div>
 <div class="container">
   <header>
+    <!-- estevao:header -->
     <div class="church">Igreja Anglicana Rio</div>
     <h1>2º Domingo no Tempo Comum</h1>
     <div class="subtitle">Próprio 6 · Ano A</div>
     <div class="date">14 DE JUNHO DE 2026</div>
     <span class="cor-tag">🟢 Cor litúrgica: Verde</span>
+<!-- /estevao:header -->
   </header>
 
   <div class="intro-box">
@@ -156,35 +239,16 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 
   <section id="s6">
     <h2><span class="step-num">6</span> Louvor</h2>
-    <div class="louvor">
-      <div class="louvor-icon">♪</div>
-      <div class="louvor-nome">Casa</div>
-      <div class="louvor-nota">Palavra Antiga — epiclese: Deus habita no seu povo antes da Palavra</div>
+    <!-- estevao:collect -->
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
+      <p><span class="role">Povo:</span> E também contigo.</p>
+      <p><span class="role">Ministro:</span> Oremos.</p>
     </div>
-    <div class="louvor-lyrics">
-      <div class="part">Refrão</div>
-      <p>Deus preferiu essa carne<br>Não quis os templos que eu posso construir<br>Com minhas mãos</p>
-      <p>Me fez casa<br>Eu sou morada<br>Lugar de Deus<br>Que não está lá fora<br>Mas sim mora dentro de mim</p>
-      <div class="part">Verso</div>
-      <p>Abri a porta e Ele entrou em casa.<br>Estou em obras.<br>Essa morada um dia será perfeição!</p>
-      <p>A minha janela são estes olhos que brilham<br>Uma coisa ela mostra<br>Quem a ilumina é o meu Amado<br>Mudando as coisas de lugar<br>Dentro de mim, dentro de mim</p>
-      <div class="part">Ponte</div>
-      <p>Lá fora é frio, lá fora é medo<br>É alto de monte, deserto, vazio</p>
-      <p>Morando em mim, Tu me aqueces<br>Me ensina a ser livre<br>Santo Espírito me enche de alegria</p>
+    <div class="prayer">
+      Guarda, ó Senhor, tua Família, a Igreja, firme na fé, para que, pela tua graça, proclame tua verdade com ousadia e ministre a tua justiça com amor. Mediante nosso Salvador Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. <strong>Amém.</strong>
     </div>
-    <div class="louvor">
-      <div class="louvor-icon">♪</div>
-      <div class="louvor-nome">Vem, esta é a hora</div>
-      <div class="louvor-nota">Vineyard — convite à adoração antes da Palavra</div>
-    </div>
-    <div class="louvor-lyrics">
-      <div class="part">Refrão</div>
-      <p>Vem, esta é a hora da adoração<br>Vem dar a Ele teu coração<br>Vem, assim como estás, para adorar<br>Vem, assim como estás diante do Pai<br>Vem</p>
-      <div class="part">Verso</div>
-      <p>Toda língua confessará o Senhor<br>Todo joelho se dobrará<br>Mas aquele que a Ti escolher<br>O tesouro maior terá</p>
-      <div class="part">Final</div>
-      <p>Vem, assim como estás<br>Vem, para adorar<br>Vem</p>
-    </div>
+<!-- /estevao:collect -->
   </section>
 
   <section id="s7">
@@ -232,8 +296,60 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
   </section>
 
   <section id="s8">
-    <h2><span class="step-num">8</span> Sermão</h2>
-    <p class="rubric">Pregação sobre o Evangelho de Mateus — a compaixão de Jesus pelas multidões e o envio dos doze. Após o sermão, momento de reflexão partilhada com o grupo.</p>
+    <!-- estevao:readings -->
+    <h2><span class="step-num">8</span> Leituras das Escrituras</h2>
+
+    <div class="scripture">
+      <span class="ref">Gênesis 18.1-15, (21.1-7) · NVI · Primeira Leitura</span>
+      <p>O SENHOR apareceu a Abraão perto dos carvalhos de Manre, quando ele estava sentado à entrada de sua tenda, na hora mais quente do dia. Abraão ergueu os olhos e viu três homens em pé, a pouca distância. Quando os viu, saiu da entrada de sua tenda, correu ao encontro deles e curvou-se até o chão.</p>
+      <p>Disse ele: “Meu senhor, se mereço o seu favor, não passe pelo seu servo sem fazer uma parada. Mandarei buscar um pouco dʼágua para que lavem os pés e descansem debaixo desta árvore.</p>
+      <p>Vou trazer a vocês também o que comer, para que recuperem as forças e prossigam pelo caminho, agora que já chegaram até este seu servo”. “Está bem; faça como está dizendo”, responderam. Abraão foi apressadamente à tenda e disse a Sara: “Depressa, pegue três medidas da melhor farinha, amasse-a e faça uns pães”.</p>
+      <p>Depois correu ao rebanho e escolheu o melhor novilho, e o deu a um servo, que se apressou em prepará-lo. Trouxe então coalhada, leite e o novilho que havia sido preparado, e os serviu. Enquanto comiam, ele ficou perto deles em pé, debaixo da árvore. “Onde está Sara, sua mulher?”, perguntaram. “Ali na tenda”, respondeu ele.</p>
+      <p>Então disse o SENHOR : “Voltarei a você na primavera, e Sara, sua mulher, terá um filho”. Sara escutava à entrada da tenda, atrás dele. Abraão e Sara já eram velhos, de idade bem avançada, e Sara já tinha passado da idade de ter filhos.</p>
+      <p>Por isso riu consigo mesma, quando pensou: “Depois de já estar velha e meu senhor já idoso, ainda terei esse prazer?” Mas o SENHOR disse a Abraão: “Por que Sara riu e disse: ‘Poderei realmente dar à luz, agora que sou idosa?’</p>
+      <p>Existe alguma coisa impossível para o SENHOR? Na primavera voltarei a você, e Sara terá um filho”. Sara teve medo, e por isso mentiu: “Eu não ri”. Mas ele disse: “Não negue, você riu”.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Salmo 116.1-2 · NVI · Salmo responsorial</span>
+      <p>Eu amo o SENHOR, porque ele me ouviu quando lhe fiz a minha súplica. Ele inclinou os seus ouvidos para mim; eu o invocarei toda a minha vida.</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Romanos 5.1-8 · NVI · Segunda Leitura</span>
+      <p>Tendo sido, pois, justificados pela fé, temos paz com Deus, por nosso Senhor Jesus Cristo, por meio de quem obtivemos acesso pela fé a esta graça na qual agora estamos firmes; e nos gloriamos na esperança da glória de Deus.</p>
+      <p>Não só isso, mas também nos gloriamos nas tribulações, porque sabemos que a tribulação produz perseverança; a perseverança, um caráter aprovado; e o caráter aprovado, esperança.</p>
+      <p>E a esperança não nos decepciona, porque Deus derramou seu amor em nossos corações, por meio do Espírito Santo que ele nos concedeu. De fato, no devido tempo, quando ainda éramos fracos, Cristo morreu pelos ímpios.</p>
+      <p>Dificilmente haverá alguém que morra por um justo, embora pelo homem bom talvez alguém tenha coragem de morrer. Mas Deus demonstra seu amor por nós: Cristo morreu em nosso favor quando ainda éramos pecadores.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <p class="rubric">✠ Antes da leitura do Evangelho, um sinal da cruz sobre si — pedindo que a Palavra de Cristo habite em nós.</p>
+
+    <div class="scripture">
+      <span class="ref">Mateus 9.35-10.8, (9-23) · NVI · Santo Evangelho de nosso Senhor Jesus Cristo</span>
+      <p>Jesus ia passando por todas as cidades e povoados, ensinando nas sinagogas, pregando as boas-novas do Reino e curando todas as enfermidades e doenças. Ao ver as multidões, teve compaixão delas, porque estavam aflitas e desamparadas, como ovelhas sem pastor.</p>
+      <p>Então disse aos seus discípulos: “A colheita é grande, mas os trabalhadores são poucos. Peçam, pois, ao Senhor da colheita que envie trabalhadores para a sua colheita”.</p>
+      <p>Chamando seus doze discípulos, deu-lhes autoridade para expulsar espíritos imundos e curar todas as doenças e enfermidades. Estes são os nomes dos doze apóstolos: primeiro, Simão, chamado Pedro, e André, seu irmão; Tiago, filho de Zebedeu, e João, seu irmão;</p>
+      <p>Filipe e Bartolomeu; Tomé e Mateus, o publicano; Tiago, filho de Alfeu, e Tadeu; Simão, o zelote, e Judas Iscariotes, que o traiu.</p>
+      <p>Jesus enviou os doze com as seguintes instruções: “Não se dirijam aos gentios , nem entrem em cidade alguma dos samaritanos. Antes, dirijam-se às ovelhas perdidas de Israel.</p>
+      <p>Por onde forem, preguem esta mensagem: O Reino dos céus está próximo. Curem os enfermos, ressuscitem os mortos, purifiquem os leprosos , expulsem os demônios. Vocês receberam de graça; deem também de graça.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+<!-- /estevao:readings -->
   </section>
 
   <section id="s9">

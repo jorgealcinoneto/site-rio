@@ -1,0 +1,481 @@
+{
+  "year": 2026,
+  "month": 1,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-01-01": {
+      "title": "Santo Nome e Circuncisão de Nosso Senhor Jesus Cristo",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai misericordioso, ensinaste-nos não haver salvação noutro nome que não seja o de Jesus; ensina-nos a glorificar o seu nome e a tornar conhecida a sua salvação em todo o mundo. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Números 6:22-27",
+        "psalm": "Salmo 8",
+        "second_reading": "Gálatas 4:4-7",
+        "gospel": "Lucas 2:15-21"
+      },
+      "is_sunday": false
+    },
+    "2026-01-02": {
+      "title": "Basílio Magno e Gregório de Nazianzo",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, que derramaste sobre nós a nova luz do teu Verbo feito carne; concede que essa mesma luz, acesa em nossos corações, brilhe em nossas vidas; por Jesus Cristo, nosso Senhor, que vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 12.1-7",
+        "psalm": "Salmo 20",
+        "second_reading": "Hebreus 11.1-12"
+      },
+      "is_sunday": false
+    },
+    "2026-01-03": {
+      "title": "Natal",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, que derramaste sobre nós a nova luz do teu Verbo feito carne; concede que essa mesma luz, acesa em nossos corações, brilhe em nossas vidas; por Jesus Cristo, nosso Senhor, que vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 28.10-22",
+        "psalm": "Salmo 72",
+        "second_reading": "Hebreus 11.13-22"
+      },
+      "is_sunday": false
+    },
+    "2026-01-04": {
+      "title": "2º Domingo após Natal",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 31:7-14",
+        "psalm": "Salmo 147:12-20",
+        "second_reading": "Efésios 1:3-14",
+        "gospel": "João 1:(1-9), 10-18"
+      },
+      "is_sunday": true
+    },
+    "2026-01-05": {
+      "title": "Natal",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 1.1-9",
+        "psalm": "Salmo 72",
+        "second_reading": "Hebreus 11.32–12.2"
+      },
+      "is_sunday": false
+    },
+    "2026-01-06": {
+      "title": "Epifania de Nosso Senhor Jesus Cristo",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que pela Estrela manifestaste teu unigênito Filho a todos os povos da terra; guia-nos à tua presença, os que hoje te conhecemos pela fé; a fim de que desfrutemos de tua glória face a face; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 60:1-6",
+        "psalm": "Salmo 72:1-7",
+        "second_reading": "Efésios 3:1-12",
+        "gospel": "Mateus 2:1-12"
+      },
+      "is_sunday": false
+    },
+    "2026-01-07": {
+      "title": "Natal",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 10.1-13",
+        "psalm": "Salmo 72",
+        "second_reading": "Efésios 3.14-21"
+      },
+      "is_sunday": false
+    },
+    "2026-01-08": {
+      "title": "Natal",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 10.14-25",
+        "psalm": "Salmo 72",
+        "second_reading": "Efésios 4.7, 11-16"
+      },
+      "is_sunday": false
+    },
+    "2026-01-09": {
+      "title": "Natal",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Miqueias 5.2-9",
+        "psalm": "Salmo 72",
+        "second_reading": "Lucas 13.31-35"
+      },
+      "is_sunday": false
+    },
+    "2026-01-10": {
+      "title": "William Laud",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Natal",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Samuel 7.3-17",
+        "psalm": "Salmo 29",
+        "second_reading": "Atos 9.19b-31"
+      },
+      "is_sunday": false
+    },
+    "2026-01-11": {
+      "title": "Batismo de nosso Senhor Jesus Cristo",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 42:1-9",
+        "psalm": "Salmo 29",
+        "second_reading": "Atos 10:34-43",
+        "gospel": "Mateus 3:13-17"
+      },
+      "is_sunday": true
+    },
+    "2026-01-12": {
+      "title": "Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 35.1-15",
+        "psalm": "Salmo 89.5-37",
+        "second_reading": "Atos 10.44-48"
+      },
+      "is_sunday": false
+    },
+    "2026-01-13": {
+      "title": "Hilário de Poitiers",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 1.4-10",
+        "psalm": "Salmo 89.5-37",
+        "second_reading": "Atos 8.4-13"
+      },
+      "is_sunday": false
+    },
+    "2026-01-14": {
+      "title": "Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 51.1-16",
+        "psalm": "Salmo 89.5-37",
+        "second_reading": "Mateus 12.15-21"
+      },
+      "is_sunday": false
+    },
+    "2026-01-15": {
+      "title": "Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 22.15-25",
+        "psalm": "Salmo 40.1-11",
+        "second_reading": "Gálatas 1.6-12"
+      },
+      "is_sunday": false
+    },
+    "2026-01-16": {
+      "title": "Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 27.30-38",
+        "psalm": "Salmo 40.1-11",
+        "second_reading": "Atos 1.1-5"
+      },
+      "is_sunday": false
+    },
+    "2026-01-17": {
+      "title": "Antão do Egito",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 19.19-21",
+        "psalm": "Salmo 40.1-11",
+        "second_reading": "Lucas 5.1-11"
+      },
+      "is_sunday": false
+    },
+    "2026-01-18": {
+      "title": "2º Domingo da Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 49:1-7",
+        "psalm": "Salmo 40:1-11",
+        "second_reading": "1 Coríntios 1:1-9",
+        "gospel": "João 1:29-42"
+      },
+      "is_sunday": true
+    },
+    "2026-01-19": {
+      "title": "Confissão de Pedro",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Atos 4:8-13",
+        "psalm": "Salmo 23",
+        "second_reading": "1 Pedro 5:1-4",
+        "gospel": "Mateus 16:13-19"
+      },
+      "is_sunday": false
+    },
+    "2026-01-20": {
+      "title": "Fabiano",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 53.1-12",
+        "psalm": "Salmo 40.6-17",
+        "second_reading": "Hebreus 10.1-4"
+      },
+      "is_sunday": false
+    },
+    "2026-01-21": {
+      "title": "Agnes de Roma",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 48.12-21",
+        "psalm": "Salmo 40.6-17",
+        "second_reading": "Mateus 9.14-17"
+      },
+      "is_sunday": false
+    },
+    "2026-01-22": {
+      "title": "Vicente de Saragoça",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Samuel 1.1-20",
+        "psalm": "Salmo 27.1-6",
+        "second_reading": "Gálatas 1.11-24"
+      },
+      "is_sunday": false
+    },
+    "2026-01-23": {
+      "title": "Sumio Takatsu",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Samuel 9.27–10.8",
+        "psalm": "Salmo 27.1-6",
+        "second_reading": "Gálatas 2.1-10"
+      },
+      "is_sunday": false
+    },
+    "2026-01-24": {
+      "title": "Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Samuel 15.34–16.13",
+        "psalm": "Salmo 27.1-6",
+        "second_reading": "Lucas 5.27-32"
+      },
+      "is_sunday": false
+    },
+    "2026-01-25": {
+      "title": "3º Domingo da Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, instruíste o mundo inteiro com a palavra do Apóstolo Paulo de quem celebramos hoje a conversão; concede-nos a graça de, imitando-o, caminharmos para ti e sermos no mundo testemunhas do teu Evangelho. Por nosso Senhor Jesus Cristo, teu Filho, na unidade do Espírito Santo. Amém.",
+      "readings": {
+        "first_reading": "Isaías 9:1-4",
+        "psalm": "Salmo 27:1",
+        "second_reading": "1 Coríntios 1:10-18",
+        "gospel": "Mateus 4:12-23"
+      },
+      "is_sunday": true
+    },
+    "2026-01-26": {
+      "title": "Conversão de Paulo",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, instruíste o mundo inteiro com a palavra do Apóstolo Paulo de quem celebramos hoje a conversão; concede-nos a graça de, imitando-o, caminharmos para ti e sermos no mundo testemunhas do teu Evangelho. Por nosso Senhor Jesus Cristo, teu Filho, na unidade do Espírito Santo. Amém.",
+      "readings": {
+        "first_reading": "Atos 26:9-21",
+        "psalm": "Salmo 67",
+        "second_reading": "Gálatas 1:11-24",
+        "gospel": "Marcos 10:16-22"
+      },
+      "is_sunday": false
+    },
+    "2026-01-27": {
+      "title": "João Crisóstomo",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Juízes 7.12-22",
+        "psalm": "Salmo 27.7-14",
+        "second_reading": "Filipenses 2.12-18"
+      },
+      "is_sunday": false
+    },
+    "2026-01-28": {
+      "title": "Tomás de Aquino",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 49.1-2, 8-13, 21-26",
+        "psalm": "Salmo 27.7-14",
+        "second_reading": "Lucas 1.67-79"
+      },
+      "is_sunday": false
+    },
+    "2026-01-29": {
+      "title": "André Rublev",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 16.18-20",
+        "psalm": "Salmo 15",
+        "second_reading": "I Pedro 3.8-12"
+      },
+      "is_sunday": false
+    },
+    "2026-01-30": {
+      "title": "Carlos Stuart",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 24.17–25.4",
+        "psalm": "Salmo 15",
+        "second_reading": "I Timóteo 5.17-24"
+      },
+      "is_sunday": false
+    },
+    "2026-01-31": {
+      "title": "João Bosco",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Miqueias 3.1-4",
+        "psalm": "Salmo 15",
+        "second_reading": "João 13.31-35"
+      },
+      "is_sunday": false
+    }
+  }
+}

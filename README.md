@@ -60,6 +60,8 @@ Quando precisar adicionar/ajustar templates:
 ```
 index.html                ← bundle publicado (landing) — ver "Editar o site" abaixo
 build.py                  ← reempacota o index.html e gera o blog
+build_folheto.py          ← busca textos litúrgicos na API Estêvão (folhetos)
+build_leccionario.py      ← gera JSON mensal do lecionário (widget na home)
 build_blog.py             ← gera /blog a partir de posts/*.md
 posts/                    ← artigos do blog (Markdown + frontmatter)
 blog/                     ← HTML gerado (não editar à mão)
@@ -90,6 +92,16 @@ rsync -a --delete --exclude .git \
 ```
 
 Depois faça commit de `folhetos/` (e do `sitemap.xml` se regenerar com `python3 build.py`).
+
+**Textos da API Estêvão:** cabeçalho, coleta e leituras vêm da API em build time. Configure `.env` a partir de `.env.example` e rode:
+
+```bash
+python3 build_folheto.py --all
+python3 build_leccionario.py --year 2026
+python3 build.py
+```
+
+Ver `API-ESTEVAO.md` para documentação completa da API.
 
 ## Blog (Markdown)
 

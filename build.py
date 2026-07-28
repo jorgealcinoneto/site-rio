@@ -119,6 +119,18 @@ def main():
     code = build_blog_main()
     if code:
         return code
+
+    if "--skip-leccionario" not in sys.argv:
+        try:
+            from datetime import date
+            from build_leccionario import build_year
+            from build_folheto import load_api_key
+            build_year(date.today().year, load_api_key(), skip_existing=True)
+        except SystemExit:
+            print("AVISO: lecionário não gerado (defina ESTEVAO_API_KEY)")
+        except Exception as e:
+            print(f"AVISO: lecionário não gerado ({e})")
+
     return 0
 
 

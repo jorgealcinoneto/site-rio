@@ -1,0 +1,482 @@
+{
+  "year": 2026,
+  "month": 3,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-03-01": {
+      "title": "2º Domingo na Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 12:1-4a",
+        "psalm": "Salmo 121",
+        "second_reading": "Romanos 4:1-5, 13-17",
+        "gospel": "João 3:1-17"
+      },
+      "is_sunday": true
+    },
+    "2026-03-02": {
+      "title": "Chad de Lichfield",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Números 21.4-9",
+        "psalm": "Salmo 128",
+        "second_reading": "Hebreus 3.1-6"
+      },
+      "is_sunday": false
+    },
+    "2026-03-03": {
+      "title": "John e Charles Wesley",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 65.17-25",
+        "psalm": "Salmo 128",
+        "second_reading": "Romanos 4.6-13"
+      },
+      "is_sunday": false
+    },
+    "2026-03-04": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 36.22-32",
+        "psalm": "Salmo 128",
+        "second_reading": "João 7.53–8.11"
+      },
+      "is_sunday": false
+    },
+    "2026-03-05": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 16.1-8",
+        "psalm": "Salmo 95",
+        "second_reading": "Colossenses 1.15-23"
+      },
+      "is_sunday": false
+    },
+    "2026-03-06": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 16.9-21",
+        "psalm": "Salmo 95",
+        "second_reading": "Efésios 2.11-22"
+      },
+      "is_sunday": false
+    },
+    "2026-03-07": {
+      "title": "Perpétua e Felicidade",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 16.27-35",
+        "psalm": "Salmo 95",
+        "second_reading": "João 4.1-6"
+      },
+      "is_sunday": false
+    },
+    "2026-03-08": {
+      "title": "3º Domingo na Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 17:1-7",
+        "psalm": "Salmo 95",
+        "second_reading": "Romanos 5:1-11",
+        "gospel": "João 4:5-42"
+      },
+      "is_sunday": true
+    },
+    "2026-03-09": {
+      "title": "Gregório de Nissa",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 24.1-27",
+        "psalm": "Salmo 81",
+        "second_reading": "II João 1-13"
+      },
+      "is_sunday": false
+    },
+    "2026-03-10": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 29.1-14",
+        "psalm": "Salmo 81",
+        "second_reading": "I Coríntios 10.1-4"
+      },
+      "is_sunday": false
+    },
+    "2026-03-11": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 2.4-13",
+        "psalm": "Salmo 81",
+        "second_reading": "João 7.14-31, 37-39"
+      },
+      "is_sunday": false
+    },
+    "2026-03-12": {
+      "title": "Gregório Magno",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Samuel 15.10-21",
+        "psalm": "Salmo 23",
+        "second_reading": "Efésios 4.25-32"
+      },
+      "is_sunday": false
+    },
+    "2026-03-13": {
+      "title": "James Theodore Holly",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Samuel 15.22-31",
+        "psalm": "Salmo 23",
+        "second_reading": "Efésios 5.1-9"
+      },
+      "is_sunday": false
+    },
+    "2026-03-14": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Samuel 15.32-34",
+        "psalm": "Salmo 23",
+        "second_reading": "João 1.1-9"
+      },
+      "is_sunday": false
+    },
+    "2026-03-15": {
+      "title": "4º Domingo na Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "rosa",
+      "liturgical_year": "A",
+      "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "1 Samuel 16:1-13",
+        "psalm": "Salmo 23",
+        "second_reading": "Efésios 5:8-14",
+        "gospel": "João 9:1-41"
+      },
+      "is_sunday": true
+    },
+    "2026-03-16": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 59.9-19",
+        "psalm": "Salmo 146",
+        "second_reading": "Atos 9.1-20"
+      },
+      "is_sunday": false
+    },
+    "2026-03-17": {
+      "title": "Patrício",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 42.14-21",
+        "psalm": "Salmo 146",
+        "second_reading": "Colossenses 1.9-14"
+      },
+      "is_sunday": false
+    },
+    "2026-03-18": {
+      "title": "Cirilo",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 60.17-22",
+        "psalm": "Salmo 146",
+        "second_reading": "Mateus 9.27-34"
+      },
+      "is_sunday": false
+    },
+    "2026-03-19": {
+      "title": "José de Nazaré",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Deus onipotente, chamaste José a ser o esposo da Virgem Maria, e o guardião do teu único Filho; abre os nossos olhos e os nossos ouvidos às mensagens da tua santa vontade, e dá-nos a coragem de agir de acordo com ela. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "2 Samuel 7:4, 8-16",
+        "psalm": "Salmo 89:1-29",
+        "second_reading": "Romanos 4:13-18",
+        "gospel": "Lucas 2:41-52"
+      },
+      "is_sunday": false
+    },
+    "2026-03-20": {
+      "title": "Cuthbert de Lindisfarne",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 33.10-16",
+        "psalm": "Salmo 130",
+        "second_reading": "Apocalipse 11.15-19"
+      },
+      "is_sunday": false
+    },
+    "2026-03-21": {
+      "title": "Thomas Cranmer",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 36.8-15",
+        "psalm": "Salmo 130",
+        "second_reading": "Lucas 24.44-53"
+      },
+      "is_sunday": false
+    },
+    "2026-03-22": {
+      "title": "5º Domingo na Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 37:1-14",
+        "psalm": "Salmo 130",
+        "second_reading": "Romanos 8:6-11",
+        "gospel": "João 11:1-45"
+      },
+      "is_sunday": true
+    },
+    "2026-03-23": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 17.17-24",
+        "psalm": "Salmo 143",
+        "second_reading": "Atos 20.7-12"
+      },
+      "is_sunday": false
+    },
+    "2026-03-24": {
+      "title": "Oscar Romero",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "II Reis 4.18-37",
+        "psalm": "Salmo 143",
+        "second_reading": "Efésios 2.1-10"
+      },
+      "is_sunday": false
+    },
+    "2026-03-25": {
+      "title": "Anunciação de Nosso Senhor Jesus Cristo à Bem-Aventurada Virgem Maria",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Suplicamos-te, Senhor, que, derrames a tua graça nos nossos corações, para que assim como conhecemos a encarnação de teu Filho Jesus Cristo, também pela sua cruz e paixão alcancemos a glória da sua ressurreição. Mediante o mesmo Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 7:10-14",
+        "psalm": "Salmo 45",
+        "second_reading": "Hebreus 10:4-10",
+        "gospel": "Lucas 1:26-38"
+      },
+      "is_sunday": false
+    },
+    "2026-03-26": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Samuel 16.11-13",
+        "psalm": "Salmo 31.9-16",
+        "second_reading": "Filipenses 1.1-11"
+      },
+      "is_sunday": false
+    },
+    "2026-03-27": {
+      "title": "Charles Henry Brent",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jó 13.13-19",
+        "psalm": "Salmo 31.9-16",
+        "second_reading": "Filipenses 1.21-30"
+      },
+      "is_sunday": false
+    },
+    "2026-03-28": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Lamentações 3.55-66",
+        "psalm": "Salmo 31.9-16",
+        "second_reading": "Marcos 10.32-34"
+      },
+      "is_sunday": false
+    },
+    "2026-03-29": {
+      "title": "Domingo de Ramos",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Onipotente e Eterno Deus, de tal modo amaste o mundo, que enviaste teu Filho, nosso Salvador Jesus Cristo, para tomar sobre si a nossa carne e sofrer morte na cruz, dando ao gênero humano exemplo de sua profunda humildade; concede, em tua misericórdia, que imitemos a sua paciência no sofrimento e possamos participar também de sua ressurreição; mediante o mesmo Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 50:4-9a",
+        "psalm": "Salmo 31:9-16",
+        "second_reading": "Filipenses 2:5-11",
+        "gospel": "Mateus 26:14-27:66"
+      },
+      "is_sunday": true
+    },
+    "2026-03-30": {
+      "title": "Segunda-feira Santa",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, cujo Filho muito amado não gozou perfeita alegria, senão após o sofrimento, e só subiu à glória depois de crucificado; concede-nos misericordioso que, seguindo o caminho da cruz, seja este para nós vereda de vida e paz; por Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 42:1-9",
+        "psalm": "Salmo 36:5-11",
+        "second_reading": "Hebreus 9:11-15",
+        "gospel": "João 12:1-11"
+      },
+      "is_sunday": false
+    },
+    "2026-03-31": {
+      "title": "Terça-feira Santa",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que pela paixão de teu bendito Filho, fizeste com que o instrumento da morte vergonhosa se tornasse para nós símbolo de vida; concede que nos glorifiquemos na cruz de Cristo, a fim de que alegremente suportemos infâmias e privações, por amor de teu Filho, nosso Salvador Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 49:1-7",
+        "psalm": "Salmo 71:1-14",
+        "second_reading": "1 Coríntios 1:18-31",
+        "gospel": "João 12:20-36"
+      },
+      "is_sunday": false
+    }
+  }
+}

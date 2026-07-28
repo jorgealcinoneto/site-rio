@@ -1,0 +1,464 @@
+{
+  "year": 2026,
+  "month": 11,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-11-01": {
+      "title": "22º Domingo no Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor de toda a graça, juntaste os teus santos na comunhão da tua Igreja e criaste para eles alegrias que ultrapassam o nosso entendimento; ajuda-nos a imitá-los na nossa vida diária e conduz-nos com eles à glória eterna. Mediante Jesus Cristo, nosso Senhor Amém.",
+      "readings": {
+        "first_reading": "Eclesiástico 44:1-10, 13-14",
+        "psalm": "Salmo 34:1-10, 22",
+        "second_reading": "Efésios 1:(11-14) 15-23",
+        "gospel": "Mateus 5:1-12"
+      },
+      "is_sunday": true
+    },
+    "2026-11-02": {
+      "title": "Memorial de Todas as Almas",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente e misericordioso Deus, de quem procede a graça de teus servos te servirem bem e agradavelmente; permite que te sirvamos com tanta fidelidade nesta vida, que alcancemos finalmente as tuas promessas celestiais; pelos merecimentos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 4.1-24",
+        "psalm": "Salmo 128",
+        "second_reading": "I Tessalonicenses 2.13-20"
+      },
+      "is_sunday": false
+    },
+    "2026-11-03": {
+      "title": "Richard Hooker",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente e misericordioso Deus, de quem procede a graça de teus servos te servirem bem e agradavelmente; permite que te sirvamos com tanta fidelidade nesta vida, que alcancemos finalmente as tuas promessas celestiais; pelos merecimentos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 6.1-16, 20",
+        "psalm": "Salmo 128",
+        "second_reading": "Atos 13.1-12"
+      },
+      "is_sunday": false
+    },
+    "2026-11-04": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e misericordioso Deus, de quem procede a graça de teus servos te servirem bem e agradavelmente; permite que te sirvamos com tanta fidelidade nesta vida, que alcancemos finalmente as tuas promessas celestiais; pelos merecimentos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 10.12-14",
+        "psalm": "Salmo 128",
+        "second_reading": "Mateus 15.1-9"
+      },
+      "is_sunday": false
+    },
+    "2026-11-05": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e misericordioso Deus, de quem procede a graça de teus servos te servirem bem e agradavelmente; permite que te sirvamos com tanta fidelidade nesta vida, que alcancemos finalmente as tuas promessas celestiais; pelos merecimentos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 5.10-12",
+        "psalm": "Salmo 78.1-7",
+        "second_reading": "Apocalipse 8.6-9.12"
+      },
+      "is_sunday": false
+    },
+    "2026-11-06": {
+      "title": "William Temple",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente e misericordioso Deus, de quem procede a graça de teus servos te servirem bem e agradavelmente; permite que te sirvamos com tanta fidelidade nesta vida, que alcancemos finalmente as tuas promessas celestiais; pelos merecimentos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 8.30-35",
+        "psalm": "Salmo 78.1-7",
+        "second_reading": "Apocalipse 9.13-21"
+      },
+      "is_sunday": false
+    },
+    "2026-11-07": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e misericordioso Deus, de quem procede a graça de teus servos te servirem bem e agradavelmente; permite que te sirvamos com tanta fidelidade nesta vida, que alcancemos finalmente as tuas promessas celestiais; pelos merecimentos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 20.1-9",
+        "psalm": "Salmo 78.1-7",
+        "second_reading": "Mateus 24.1-14"
+      },
+      "is_sunday": false
+    },
+    "2026-11-08": {
+      "title": "23º Domingo no Tempo Comum",
+      "subtitle": "Próprio 27 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho, para sempre bendito, foi manifestado para destruir as obras do maligno e tornar-nos filhos de Deus e herdeiros da vida eterna; permite, nós te suplicamos, que nesta esperança nos purifiquemos, assim como Ele é puro; para que, quando vier outra vez com poder e grande glória, sejamos feitos semelhantes a Ele no seu eterno e glorioso reino, onde contigo, Pai, e com o Espírito Santo, vive e reina sempre, um só Deus, pelos séculos dos séculos. Amém.",
+      "readings": {
+        "first_reading": "Josué 24:1-3a, 14-25",
+        "psalm": "Salmo 78:1-7",
+        "second_reading": "1 Tessalonicenses 4:13-18",
+        "gospel": "Mateus 25:1-13"
+      },
+      "is_sunday": true
+    },
+    "2026-11-09": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho, para sempre bendito, foi manifestado para destruir as obras do maligno e tornar-nos filhos de Deus e herdeiros da vida eterna; permite, nós te suplicamos, que nesta esperança nos purifiquemos, assim como Ele é puro; para que, quando vier outra vez com poder e grande glória, sejamos feitos semelhantes a Ele no seu eterno e glorioso reino, onde contigo, Pai, e com o Espírito Santo, vive e reina sempre, um só Deus, pelos séculos dos séculos. Amém.",
+      "readings": {
+        "first_reading": "Josué 24.25-33",
+        "psalm": "Salmo 78",
+        "second_reading": "I Coríntios 14.20-25"
+      },
+      "is_sunday": false
+    },
+    "2026-11-10": {
+      "title": "Alice Kinsolving",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho, para sempre bendito, foi manifestado para destruir as obras do maligno e tornar-nos filhos de Deus e herdeiros da vida eterna; permite, nós te suplicamos, que nesta esperança nos purifiquemos, assim como Ele é puro; para que, quando vier outra vez com poder e grande glória, sejamos feitos semelhantes a Ele no seu eterno e glorioso reino, onde contigo, Pai, e com o Espírito Santo, vive e reina sempre, um só Deus, pelos séculos dos séculos. Amém.",
+      "readings": {
+        "first_reading": "Neemias 8.1-12",
+        "psalm": "Salmo 78",
+        "second_reading": "I Tessalonicenses 3.6-13"
+      },
+      "is_sunday": false
+    },
+    "2026-11-11": {
+      "title": "Martinho de Tours",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho, para sempre bendito, foi manifestado para destruir as obras do maligno e tornar-nos filhos de Deus e herdeiros da vida eterna; permite, nós te suplicamos, que nesta esperança nos purifiquemos, assim como Ele é puro; para que, quando vier outra vez com poder e grande glória, sejamos feitos semelhantes a Ele no seu eterno e glorioso reino, onde contigo, Pai, e com o Espírito Santo, vive e reina sempre, um só Deus, pelos séculos dos séculos. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 31.31-34",
+        "psalm": "Salmo 78",
+        "second_reading": "Mateus 24.29-35"
+      },
+      "is_sunday": false
+    },
+    "2026-11-12": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho, para sempre bendito, foi manifestado para destruir as obras do maligno e tornar-nos filhos de Deus e herdeiros da vida eterna; permite, nós te suplicamos, que nesta esperança nos purifiquemos, assim como Ele é puro; para que, quando vier outra vez com poder e grande glória, sejamos feitos semelhantes a Ele no seu eterno e glorioso reino, onde contigo, Pai, e com o Espírito Santo, vive e reina sempre, um só Deus, pelos séculos dos séculos. Amém.",
+      "readings": {
+        "first_reading": "Juízes 2.6-15",
+        "psalm": "Salmo 123",
+        "second_reading": "Apocalipse 16.1-7"
+      },
+      "is_sunday": false
+    },
+    "2026-11-13": {
+      "title": "Charles Simeon",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho, para sempre bendito, foi manifestado para destruir as obras do maligno e tornar-nos filhos de Deus e herdeiros da vida eterna; permite, nós te suplicamos, que nesta esperança nos purifiquemos, assim como Ele é puro; para que, quando vier outra vez com poder e grande glória, sejamos feitos semelhantes a Ele no seu eterno e glorioso reino, onde contigo, Pai, e com o Espírito Santo, vive e reina sempre, um só Deus, pelos séculos dos séculos. Amém.",
+      "readings": {
+        "first_reading": "Juízes 2.16-23",
+        "psalm": "Salmo 123",
+        "second_reading": "Apocalipse 16.8-21"
+      },
+      "is_sunday": false
+    },
+    "2026-11-14": {
+      "title": "Samuel Seabury",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho, para sempre bendito, foi manifestado para destruir as obras do maligno e tornar-nos filhos de Deus e herdeiros da vida eterna; permite, nós te suplicamos, que nesta esperança nos purifiquemos, assim como Ele é puro; para que, quando vier outra vez com poder e grande glória, sejamos feitos semelhantes a Ele no seu eterno e glorioso reino, onde contigo, Pai, e com o Espírito Santo, vive e reina sempre, um só Deus, pelos séculos dos séculos. Amém.",
+      "readings": {
+        "first_reading": "Juízes 5.1-12",
+        "psalm": "Salmo 123",
+        "second_reading": "Mateus 12.43-45"
+      },
+      "is_sunday": false
+    },
+    "2026-11-15": {
+      "title": "24º Domingo no Tempo Comum",
+      "subtitle": "Próprio 28 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, que enviaste a tua Igreja até os confins da terra para reunir um povo agradável aos teus olhos; concede que permaneçamos vigilantes e fiéis nesta Missão, de tal maneira que, mesmo que se abalem as estruturas deste mundo, proclamemos que Jesus Cristo teu Filho, vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Sofonias 1:7, 12-18",
+        "psalm": "Salmo 90:1-8",
+        "second_reading": "1 Tessalonicenses 5:1-11",
+        "gospel": "Mateus 25:14-30"
+      },
+      "is_sunday": true
+    },
+    "2026-11-16": {
+      "title": "Margarida da Escócia",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, que enviaste a tua Igreja até os confins da terra para reunir um povo agradável aos teus olhos; concede que permaneçamos vigilantes e fiéis nesta Missão, de tal maneira que, mesmo que se abalem as estruturas deste mundo, proclamemos que Jesus Cristo teu Filho, vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Juízes 4.8-24",
+        "psalm": "Salmo 83.1-4",
+        "second_reading": "Romanos 2.1-11"
+      },
+      "is_sunday": false
+    },
+    "2026-11-17": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, que enviaste a tua Igreja até os confins da terra para reunir um povo agradável aos teus olhos; concede que permaneçamos vigilantes e fiéis nesta Missão, de tal maneira que, mesmo que se abalem as estruturas deste mundo, proclamemos que Jesus Cristo teu Filho, vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 2.1-10",
+        "psalm": "Salmo 83.1-4",
+        "second_reading": "I Tessalonicenses 5.12-18"
+      },
+      "is_sunday": false
+    },
+    "2026-11-18": {
+      "title": "Hilda de Whitby",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, que enviaste a tua Igreja até os confins da terra para reunir um povo agradável aos teus olhos; concede que permaneçamos vigilantes e fiéis nesta Missão, de tal maneira que, mesmo que se abalem as estruturas deste mundo, proclamemos que Jesus Cristo teu Filho, vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ester 7.1-10",
+        "psalm": "Salmo 83.1-4",
+        "second_reading": "Mateus 24.45-51"
+      },
+      "is_sunday": false
+    },
+    "2026-11-19": {
+      "title": "Isabel da Hungria",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, que enviaste a tua Igreja até os confins da terra para reunir um povo agradável aos teus olhos; concede que permaneçamos vigilantes e fiéis nesta Missão, de tal maneira que, mesmo que se abalem as estruturas deste mundo, proclamemos que Jesus Cristo teu Filho, vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 48.15-22",
+        "psalm": "Salmo 100",
+        "second_reading": "Apocalipse 14.1-11"
+      },
+      "is_sunday": false
+    },
+    "2026-11-20": {
+      "title": "Zumbi dos Palmares",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, que enviaste a tua Igreja até os confins da terra para reunir um povo agradável aos teus olhos; concede que permaneçamos vigilantes e fiéis nesta Missão, de tal maneira que, mesmo que se abalem as estruturas deste mundo, proclamemos que Jesus Cristo teu Filho, vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 40.1-11",
+        "psalm": "Salmo 100",
+        "second_reading": "Apocalipse 22.1-9"
+      },
+      "is_sunday": false
+    },
+    "2026-11-21": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, que enviaste a tua Igreja até os confins da terra para reunir um povo agradável aos teus olhos; concede que permaneçamos vigilantes e fiéis nesta Missão, de tal maneira que, mesmo que se abalem as estruturas deste mundo, proclamemos que Jesus Cristo teu Filho, vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 34.25-31",
+        "psalm": "Salmo 100",
+        "second_reading": "Mateus 12.46-50"
+      },
+      "is_sunday": false
+    },
+    "2026-11-22": {
+      "title": "Cristo Rei do Universo",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor soberano, Onipotente e sempiterno Deus, cuja vontade é restaurar todas as coisas em teu amado Filho, o Rei dos Reis e Senhor dos senhores; concede misericordiosamente que os povos da terra, divididos e escravizados pelo pecado, sejam libertados e reunidos em Teu reino de amor, por meio de Cristo Jesus, Teu Filho, nosso Senhor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 34:11-16, 20-24",
+        "psalm": "Salmo 100",
+        "second_reading": "Efésios 1:15-23",
+        "gospel": "Mateus 25:31-46"
+      },
+      "is_sunday": true
+    },
+    "2026-11-23": {
+      "title": "Clemente de Roma",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor soberano, Onipotente e sempiterno Deus, cuja vontade é restaurar todas as coisas em teu amado Filho, o Rei dos Reis e Senhor dos senhores; concede misericordiosamente que os povos da terra, divididos e escravizados pelo pecado, sejam libertados e reunidos em Teu reino de amor, por meio de Cristo Jesus, Teu Filho, nosso Senhor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Números 27.15-23",
+        "psalm": "Salmo 28",
+        "second_reading": "II Timóteo 2.8-13"
+      },
+      "is_sunday": false
+    },
+    "2026-11-24": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Senhor soberano, Onipotente e sempiterno Deus, cuja vontade é restaurar todas as coisas em teu amado Filho, o Rei dos Reis e Senhor dos senhores; concede misericordiosamente que os povos da terra, divididos e escravizados pelo pecado, sejam libertados e reunidos em Teu reino de amor, por meio de Cristo Jesus, Teu Filho, nosso Senhor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Zacarias 11.4-17",
+        "psalm": "Salmo 28",
+        "second_reading": "Apocalipse 19.1-9"
+      },
+      "is_sunday": false
+    },
+    "2026-11-25": {
+      "title": "Catarina de Alexandria",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Senhor soberano, Onipotente e sempiterno Deus, cuja vontade é restaurar todas as coisas em teu amado Filho, o Rei dos Reis e Senhor dos senhores; concede misericordiosamente que os povos da terra, divididos e escravizados pelo pecado, sejam libertados e reunidos em Teu reino de amor, por meio de Cristo Jesus, Teu Filho, nosso Senhor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 31.10-14",
+        "psalm": "Salmo 28",
+        "second_reading": "João 5.19-40"
+      },
+      "is_sunday": false
+    },
+    "2026-11-26": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Senhor soberano, Onipotente e sempiterno Deus, cuja vontade é restaurar todas as coisas em teu amado Filho, o Rei dos Reis e Senhor dos senhores; concede misericordiosamente que os povos da terra, divididos e escravizados pelo pecado, sejam libertados e reunidos em Teu reino de amor, por meio de Cristo Jesus, Teu Filho, nosso Senhor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Daniel 9.15-19",
+        "psalm": "Salmo 122",
+        "second_reading": "Tiago 4.1-10"
+      },
+      "is_sunday": false
+    },
+    "2026-11-27": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Senhor soberano, Onipotente e sempiterno Deus, cuja vontade é restaurar todas as coisas em teu amado Filho, o Rei dos Reis e Senhor dos senhores; concede misericordiosamente que os povos da terra, divididos e escravizados pelo pecado, sejam libertados e reunidos em Teu reino de amor, por meio de Cristo Jesus, Teu Filho, nosso Senhor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 6.1-10",
+        "psalm": "Salmo 122",
+        "second_reading": "Hebreus 11.1-7"
+      },
+      "is_sunday": false
+    },
+    "2026-11-28": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Senhor soberano, Onipotente e sempiterno Deus, cuja vontade é restaurar todas as coisas em teu amado Filho, o Rei dos Reis e Senhor dos senhores; concede misericordiosamente que os povos da terra, divididos e escravizados pelo pecado, sejam libertados e reunidos em Teu reino de amor, por meio de Cristo Jesus, Teu Filho, nosso Senhor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 6.11-22",
+        "psalm": "Salmo 122",
+        "second_reading": "Mateus 24.1-22"
+      },
+      "is_sunday": false
+    },
+    "2026-11-29": {
+      "title": "1º Domingo do Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Deus Onipotente, dá-nos a graça de rejeitar as obras das trevas e vestir-nos das armas da luz, durante esta vida mortal, em que teu Filho Jesus Cristo, com grande humildade, veio visitar-nos; a fim de que, no último dia, quando ele vier em sua gloriosa majestade, para julgar os vivos e os mortos, ressuscitemos para a vida imortal, mediante Jesus Cristo, que vive e reina contigo e com o Espírito Santo, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 64:1-9",
+        "psalm": "Salmo 80:1-7",
+        "second_reading": "1 Coríntios 1:3-9",
+        "gospel": "Marcos 13:24-37"
+      },
+      "is_sunday": true
+    },
+    "2026-11-30": {
+      "title": "André",
+      "subtitle": "Ano B",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "B",
+      "collect": "Senhor Deus, pela tua graça o apóstolo André obedeceu à chamada do teu Filho Jesus Cristo e seguiu-o sem demora; concede-nos o dom de nos entregarmos a ti em alegre obediência. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 30:11-14",
+        "psalm": "Salmo 19",
+        "second_reading": "Romanos 10:8b-18",
+        "gospel": "Mateus 4:18-22"
+      },
+      "is_sunday": false
+    }
+  }
+}

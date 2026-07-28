@@ -1,0 +1,435 @@
+{
+  "year": 2026,
+  "month": 2,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-02-01": {
+      "title": "4º Domingo da Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Miqueias 6:1-8",
+        "psalm": "Salmo 15",
+        "second_reading": "1 Coríntios 1:18-31",
+        "gospel": "Mateus 5:1-12"
+      },
+      "is_sunday": true
+    },
+    "2026-02-02": {
+      "title": "Apresentação de Nosso Senhor Jesus Cristo no Templo",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai onipotente, teu Filho Jesus Cristo foi apresentado no templo, sendo proclamado a glória de Israel e a luz das nações; concede-nos que por Ele sejamos apresentados a ti e possamos refletir a tua glória no mundo. Mediante Jesus Cristo, nosso Senhor Amém.",
+      "readings": {
+        "first_reading": "Malaquias 3:1-4",
+        "psalm": "Salmo 84",
+        "second_reading": "Hebreus 2:14-18",
+        "gospel": "Lucas 2:22-40"
+      },
+      "is_sunday": false
+    },
+    "2026-02-03": {
+      "title": "Ansgário de Hamburgo",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Rute 2.1-16",
+        "psalm": "Salmo 37.1-17",
+        "second_reading": "Tiago 5.1-6"
+      },
+      "is_sunday": false
+    },
+    "2026-02-04": {
+      "title": "Cornélio o Centurião",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Rute 3.1-13, 4.13-22",
+        "psalm": "Salmo 37.1-17",
+        "second_reading": "Lucas 6.17-26"
+      },
+      "is_sunday": false
+    },
+    "2026-02-05": {
+      "title": "Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 4.1-14",
+        "psalm": "Salmo 112.1-9 10",
+        "second_reading": "I João 5.1-5"
+      },
+      "is_sunday": false
+    },
+    "2026-02-06": {
+      "title": "Mártires do Japão",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 29.1-12",
+        "psalm": "Salmo 112.1-9 10",
+        "second_reading": "Tiago 3.13-18"
+      },
+      "is_sunday": false
+    },
+    "2026-02-07": {
+      "title": "Sepé Tiaraju",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 29.13-16",
+        "psalm": "Salmo 112.1-9 10",
+        "second_reading": "Marcos 7.1-8"
+      },
+      "is_sunday": false
+    },
+    "2026-02-08": {
+      "title": "5º Domingo da Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 58:1-9a, (9b-12)",
+        "psalm": "Salmo 112:1-9",
+        "second_reading": "1 Coríntios 2:1-12, (13-16)",
+        "gospel": "Mateus 5:13-20"
+      },
+      "is_sunday": true
+    },
+    "2026-02-09": {
+      "title": "Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "II Reis 22.3-20",
+        "psalm": "Salmo 119.105-112",
+        "second_reading": "Romanos 11.2-10"
+      },
+      "is_sunday": false
+    },
+    "2026-02-10": {
+      "title": "Escolástica",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "II Reis 23.1-8, 21-25",
+        "psalm": "Salmo 119.105-112",
+        "second_reading": "II Coríntios 4.1-12"
+      },
+      "is_sunday": false
+    },
+    "2026-02-11": {
+      "title": "Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Provérbios 6.6-23",
+        "psalm": "Salmo 119.105-112",
+        "second_reading": "João 8.12-30"
+      },
+      "is_sunday": false
+    },
+    "2026-02-12": {
+      "title": "Dorothy Mae Stang",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 6.2-9",
+        "psalm": "Salmo 2",
+        "second_reading": "Hebreus 8.1-7"
+      },
+      "is_sunday": false
+    },
+    "2026-02-13": {
+      "title": "Absalom Jones",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 19.9b-25",
+        "psalm": "Salmo 2",
+        "second_reading": "Hebreus 11.23-28"
+      },
+      "is_sunday": false
+    },
+    "2026-02-14": {
+      "title": "Cirilo e Metódio",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 21.20-29",
+        "psalm": "Salmo 2",
+        "second_reading": "Marcos 9.9-13"
+      },
+      "is_sunday": false
+    },
+    "2026-02-15": {
+      "title": "6º Domingo da Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 24:12-18",
+        "psalm": "Salmo 2",
+        "second_reading": "2 Pedro 1:16-21",
+        "gospel": "Mateus 17:1-9"
+      },
+      "is_sunday": true
+    },
+    "2026-02-16": {
+      "title": "Epifania",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 33.7-23",
+        "psalm": "Salmo 78.17-20; 52-55",
+        "second_reading": "Atos 7.30-34"
+      },
+      "is_sunday": false
+    },
+    "2026-02-17": {
+      "title": "Janani Luwum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Epifania",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 19.9-18",
+        "psalm": "Salmo 78.17-20; 52-55",
+        "second_reading": "Romanos 11.1-6"
+      },
+      "is_sunday": false
+    },
+    "2026-02-18": {
+      "title": "Quarta-Feira de Cinzas",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Onipotente e Eterno Deus, que amas tudo quanto criaste, e que perdoas a todos os penitentes; cria em nós corações novos e contritos, para que, lamentando deveras os nossos pecados e confessando a nossa miséria, alcancemos de ti, Deus de suma piedade, perfeita remissão e perdão; por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Joel 2:1-2, 12-17",
+        "psalm": "Salmo 51:1-17",
+        "second_reading": "2 Coríntios 5:20b-6:10",
+        "gospel": "Mateus 6:1-6, 16-21"
+      },
+      "is_sunday": false
+    },
+    "2026-02-19": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jonas 3.1-10",
+        "psalm": "Salmo 51",
+        "second_reading": "Romanos 1.1-7"
+      },
+      "is_sunday": false
+    },
+    "2026-02-20": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jonas 4.1-11",
+        "psalm": "Salmo 51",
+        "second_reading": "Romanos 1.8-17"
+      },
+      "is_sunday": false
+    },
+    "2026-02-21": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 58.1-12",
+        "psalm": "Salmo 51",
+        "second_reading": "Mateus 18.1-7"
+      },
+      "is_sunday": false
+    },
+    "2026-02-22": {
+      "title": "1º Domingo na Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 2:15-17; 3:1-7",
+        "psalm": "Salmo 32",
+        "second_reading": "Romanos 5:12-19",
+        "gospel": "Mateus 4:1-11"
+      },
+      "is_sunday": true
+    },
+    "2026-02-23": {
+      "title": "Policarpo de Esmirna",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 19.1-8",
+        "psalm": "Salmo 32",
+        "second_reading": "Hebreus 2.10-18"
+      },
+      "is_sunday": false
+    },
+    "2026-02-24": {
+      "title": "Matias",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Senhor Deus, o teu servo Matias foi escolhido em substituição de Judas Iscariotes, para ser um dos apóstolos; preserva a tua Igreja de falsos apóstolos, e, pelo ministério de pastores e mestres fiéis, guarda-nos firmes na tua verdade. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Atos 1:15-26",
+        "psalm": "Salmo 15",
+        "second_reading": "Filipenses 3:13-21",
+        "gospel": "João 15:1, 6-16"
+      },
+      "is_sunday": false
+    },
+    "2026-02-25": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 34.1-9, 27-28",
+        "psalm": "Salmo 32",
+        "second_reading": "Mateus 18.10-14"
+      },
+      "is_sunday": false
+    },
+    "2026-02-26": {
+      "title": "Florence Li Tim Oi",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 51.1-3",
+        "psalm": "Salmo 121",
+        "second_reading": "II Timóteo 1.3-7"
+      },
+      "is_sunday": false
+    },
+    "2026-02-27": {
+      "title": "George Herbert",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Miqueias 7.18-20",
+        "psalm": "Salmo 121",
+        "second_reading": "Romanos 3.21-31"
+      },
+      "is_sunday": false
+    },
+    "2026-02-28": {
+      "title": "Quaresma",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 51.4-8",
+        "psalm": "Salmo 121",
+        "second_reading": "Lucas 7.1-10"
+      },
+      "is_sunday": false
+    }
+  }
+}

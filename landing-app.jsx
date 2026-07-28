@@ -89,6 +89,146 @@ function Nav() {
   );
 }
 
+function todayIsoSaoPaulo() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
+
+const LITURGY_COLORS = {
+  verde: { label: "Verde", dot: "#2d6a4f" },
+  branco: { label: "Branco", dot: "#e8e4dc" },
+  roxo: { label: "Roxo", dot: "#5b2d82" },
+  vermelho: { label: "Vermelho", dot: "#9b2b2b" },
+  rosa: { label: "Rosa", dot: "#c76b8a" },
+};
+
+const READING_LABELS = {
+  first_reading: "1ª leitura",
+  psalm: "Salmo",
+  second_reading: "2ª leitura",
+  gospel: "Evangelho",
+};
+
+function formatLiturgyDate(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Intl.DateTimeFormat("pt-BR", {
+    timeZone: "America/Sao_Paulo",
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  }).format(new Date(y, m - 1, d));
+}
+
+function LiturgyWidget() {
+  const [day, setDay] = useState(null);
+  const [collectOpen, setCollectOpen] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    const iso = todayIsoSaoPaulo();
+    const [year, month] = iso.split("-");
+    const cacheKey = `lecionario-${year}-${month}`;
+
+    const apply = (data) => {
+      const entry = data?.days?.[iso];
+      if (!cancelled && entry) setDay({ ...entry, date: iso });
+    };
+
+    try {
+      const cached = sessionStorage.getItem(cacheKey);
+      if (cached) apply(JSON.parse(cached));
+    } catch (_) {}
+
+    fetch(`/lecionario/${year}/${month}.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        if (!data) return;
+        try { sessionStorage.setItem(cacheKey, JSON.stringify(data)); } catch (_) {}
+        apply(data);
+      })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, []);
+
+  if (!day) return null;
+
+  const color = LITURGY_COLORS[day.liturgical_color] || LITURGY_COLORS.verde;
+  const collectLong = (day.collect || "").length > 200;
+  const collectText = collectLong && !collectOpen
+    ? `${day.collect.slice(0, 200).trim()}…`
+    : day.collect;
+
+  return (
+    <section className="liturgy-widget" aria-label="Lecionário de hoje">
+      <div className="liturgy-widget__inner">
+        <div className="liturgy-widget__head">
+          <div>
+            <div className="liturgy-widget__eyebrow">Lecionário de hoje</div>
+            <h2 className="liturgy-widget__title">{day.title}</h2>
+            {day.subtitle ? <div className="liturgy-widget__subtitle">{day.subtitle}</div> : null}
+          </div>
+          <div className="liturgy-widget__meta">
+            <span>{formatLiturgyDate(day.date)}</span>
+            <span className="liturgy-widget__color">
+              <span
+                aria-hidden="true"
+                style={{
+                  width: 10,
+                  height: 10,
+                  borderRadius: "50%",
+                  background: color.dot,
+                  border: color.label === "Branco" ? "1px solid var(--linha)" : "none",
+                }}
+              />
+              {color.label}
+            </span>
+          </div>
+        </div>
+
+        {day.readings && Object.keys(day.readings).length > 0 ? (
+          <dl className="liturgy-widget__readings">
+            {Object.entries(day.readings).map(([key, ref]) => (
+              <div className="liturgy-widget__reading" key={key}>
+                <dt>{READING_LABELS[key] || key}</dt>
+                <dd>{ref}</dd>
+              </div>
+            ))}
+          </dl>
+        ) : null}
+
+        {day.collect ? (
+          <p className="liturgy-widget__collect">
+            {collectText}
+            {collectLong ? (
+              <>
+                {" "}
+                <button
+                  type="button"
+                  className="liturgy-widget__toggle"
+                  onClick={() => setCollectOpen(!collectOpen)}
+                >
+                  {collectOpen ? "Ver menos" : "Ver coleta completa"}
+                </button>
+              </>
+            ) : null}
+          </p>
+        ) : null}
+
+        {day.is_sunday ? (
+          <div className="liturgy-widget__foot">
+            <a href="/folhetos/" className="liturgy-widget__link">Folheto deste domingo →</a>
+          </div>
+        ) : null}
+      </div>
+    </section>
+  );
+}
+
 function Hero() {
   return (
     <header className="hero-site" id="topo" data-screen-label="01 Hero">
@@ -618,6 +758,7 @@ function App() {
       <Nav />
       <main>
         <Hero />
+        <LiturgyWidget />
         <PrimeiraVez />
         <QuemSomos />
         <Cremos />

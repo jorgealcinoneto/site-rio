@@ -1,0 +1,482 @@
+{
+  "year": 2026,
+  "month": 12,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-12-01": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Deus Onipotente, dá-nos a graça de rejeitar as obras das trevas e vestir-nos das armas da luz, durante esta vida mortal, em que teu Filho Jesus Cristo, com grande humildade, veio visitar-nos; a fim de que, no último dia, quando ele vier em sua gloriosa majestade, para julgar os vivos e os mortos, ressuscitemos para a vida imortal, mediante Jesus Cristo, que vive e reina contigo e com o Espírito Santo, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Miqueias 4.6-13",
+        "psalm": "Salmo 79",
+        "second_reading": "Apocalipse 18.1-10"
+      },
+      "is_sunday": false
+    },
+    "2026-12-02": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Deus Onipotente, dá-nos a graça de rejeitar as obras das trevas e vestir-nos das armas da luz, durante esta vida mortal, em que teu Filho Jesus Cristo, com grande humildade, veio visitar-nos; a fim de que, no último dia, quando ele vier em sua gloriosa majestade, para julgar os vivos e os mortos, ressuscitemos para a vida imortal, mediante Jesus Cristo, que vive e reina contigo e com o Espírito Santo, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Miqueias 5.1-5a",
+        "psalm": "Salmo 79",
+        "second_reading": "Lucas 21.34-38"
+      },
+      "is_sunday": false
+    },
+    "2026-12-03": {
+      "title": "Francisco Xavier",
+      "subtitle": "Ano B",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Deus Onipotente, dá-nos a graça de rejeitar as obras das trevas e vestir-nos das armas da luz, durante esta vida mortal, em que teu Filho Jesus Cristo, com grande humildade, veio visitar-nos; a fim de que, no último dia, quando ele vier em sua gloriosa majestade, para julgar os vivos e os mortos, ressuscitemos para a vida imortal, mediante Jesus Cristo, que vive e reina contigo e com o Espírito Santo, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Oseias 6.1-6",
+        "psalm": "Salmo 85.1-2",
+        "second_reading": "I Tessalonicenses 1.2-10"
+      },
+      "is_sunday": false
+    },
+    "2026-12-04": {
+      "title": "João Damasceno",
+      "subtitle": "Ano B",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Deus Onipotente, dá-nos a graça de rejeitar as obras das trevas e vestir-nos das armas da luz, durante esta vida mortal, em que teu Filho Jesus Cristo, com grande humildade, veio visitar-nos; a fim de que, no último dia, quando ele vier em sua gloriosa majestade, para julgar os vivos e os mortos, ressuscitemos para a vida imortal, mediante Jesus Cristo, que vive e reina contigo e com o Espírito Santo, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 1.4-10",
+        "psalm": "Salmo 85.1-2",
+        "second_reading": "Atos 11.19-26"
+      },
+      "is_sunday": false
+    },
+    "2026-12-05": {
+      "title": "Clemente de Alexandria",
+      "subtitle": "Ano B",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Advento",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Deus Onipotente, dá-nos a graça de rejeitar as obras das trevas e vestir-nos das armas da luz, durante esta vida mortal, em que teu Filho Jesus Cristo, com grande humildade, veio visitar-nos; a fim de que, no último dia, quando ele vier em sua gloriosa majestade, para julgar os vivos e os mortos, ressuscitemos para a vida imortal, mediante Jesus Cristo, que vive e reina contigo e com o Espírito Santo, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 36.24-28",
+        "psalm": "Salmo 85.1-2",
+        "second_reading": "Marcos 11.27-33"
+      },
+      "is_sunday": false
+    },
+    "2026-12-06": {
+      "title": "2º Domingo do Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Deus Misericordioso, que enviaste teus mensageiros, os profetas, para pregar o arrependimento e preparar o caminho da nossa salvação; concede-nos a graça, para ouvirmos suas advertências e para abandonarmos os nossos pecados, a fim de saudarmos com alegria a vinda de Jesus Cristo, nosso Redentor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 40:1-11",
+        "psalm": "Salmo 85:1-2",
+        "second_reading": "2 Pedro 3:8-15a",
+        "gospel": "Marcos 1:1-8"
+      },
+      "is_sunday": true
+    },
+    "2026-12-07": {
+      "title": "Ambrósio de Milão",
+      "subtitle": "Ano B",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Deus Misericordioso, que enviaste teus mensageiros, os profetas, para pregar o arrependimento e preparar o caminho da nossa salvação; concede-nos a graça, para ouvirmos suas advertências e para abandonarmos os nossos pecados, a fim de saudarmos com alegria a vinda de Jesus Cristo, nosso Redentor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 26.7-15",
+        "psalm": "Salmo 27",
+        "second_reading": "Atos 2.37-42"
+      },
+      "is_sunday": false
+    },
+    "2026-12-08": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Deus Misericordioso, que enviaste teus mensageiros, os profetas, para pregar o arrependimento e preparar o caminho da nossa salvação; concede-nos a graça, para ouvirmos suas advertências e para abandonarmos os nossos pecados, a fim de saudarmos com alegria a vinda de Jesus Cristo, nosso Redentor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 4.2-6",
+        "psalm": "Salmo 27",
+        "second_reading": "Atos 11.1-18"
+      },
+      "is_sunday": false
+    },
+    "2026-12-09": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Deus Misericordioso, que enviaste teus mensageiros, os profetas, para pregar o arrependimento e preparar o caminho da nossa salvação; concede-nos a graça, para ouvirmos suas advertências e para abandonarmos os nossos pecados, a fim de saudarmos com alegria a vinda de Jesus Cristo, nosso Redentor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Malaquias 2.10-3.1",
+        "psalm": "Salmo 27",
+        "second_reading": "Lucas 1.5-17"
+      },
+      "is_sunday": false
+    },
+    "2026-12-10": {
+      "title": "Karl Barth",
+      "subtitle": "Ano B",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Deus Misericordioso, que enviaste teus mensageiros, os profetas, para pregar o arrependimento e preparar o caminho da nossa salvação; concede-nos a graça, para ouvirmos suas advertências e para abandonarmos os nossos pecados, a fim de saudarmos com alegria a vinda de Jesus Cristo, nosso Redentor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Habacuque 2.1-5",
+        "psalm": "Salmo 126",
+        "second_reading": "Filipenses 3.7-11"
+      },
+      "is_sunday": false
+    },
+    "2026-12-11": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Deus Misericordioso, que enviaste teus mensageiros, os profetas, para pregar o arrependimento e preparar o caminho da nossa salvação; concede-nos a graça, para ouvirmos suas advertências e para abandonarmos os nossos pecados, a fim de saudarmos com alegria a vinda de Jesus Cristo, nosso Redentor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Habacuque 3.2-6",
+        "psalm": "Salmo 126",
+        "second_reading": "Filipenses 3.12-16"
+      },
+      "is_sunday": false
+    },
+    "2026-12-12": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Deus Misericordioso, que enviaste teus mensageiros, os profetas, para pregar o arrependimento e preparar o caminho da nossa salvação; concede-nos a graça, para ouvirmos suas advertências e para abandonarmos os nossos pecados, a fim de saudarmos com alegria a vinda de Jesus Cristo, nosso Redentor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Habacuque 3.13-19",
+        "psalm": "Salmo 126",
+        "second_reading": "Mateus 21.28-32"
+      },
+      "is_sunday": false
+    },
+    "2026-12-13": {
+      "title": "3º Domingo do Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Advento",
+      "liturgical_color": "rosa",
+      "liturgical_year": "B",
+      "collect": "Senhor Jesus Cristo que, na tua primeira vinda, enviaste o precursor para preparar o teu caminho, concede à tua Igreja a graça e o poder para converter muitos ao caminho da justiça, a fim de que, na tua segunda vinda em glória, encontres um povo agradável aos teus olhos, ó Tu, que vives e reinas com o Pai e o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 61:1-4, 8-11",
+        "psalm": "Salmo 126",
+        "second_reading": "1 Tessalonicenses 5:16-24",
+        "gospel": "João 1:6-8, 19-28"
+      },
+      "is_sunday": true
+    },
+    "2026-12-14": {
+      "title": "João da Cruz",
+      "subtitle": "Ano B",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Senhor Jesus Cristo que, na tua primeira vinda, enviaste o precursor para preparar o teu caminho, concede à tua Igreja a graça e o poder para converter muitos ao caminho da justiça, a fim de que, na tua segunda vinda em glória, encontres um povo agradável aos teus olhos, ó Tu, que vives e reinas com o Pai e o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 18.1-18",
+        "psalm": "Salmo 125",
+        "second_reading": "Efésios 6.10-17"
+      },
+      "is_sunday": false
+    },
+    "2026-12-15": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Senhor Jesus Cristo que, na tua primeira vinda, enviaste o precursor para preparar o teu caminho, concede à tua Igreja a graça e o poder para converter muitos ao caminho da justiça, a fim de que, na tua segunda vinda em glória, encontres um povo agradável aos teus olhos, ó Tu, que vives e reinas com o Pai e o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "II Reis 2.9-22",
+        "psalm": "Salmo 125",
+        "second_reading": "Atos 3.17-4.4"
+      },
+      "is_sunday": false
+    },
+    "2026-12-16": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Senhor Jesus Cristo que, na tua primeira vinda, enviaste o precursor para preparar o teu caminho, concede à tua Igreja a graça e o poder para converter muitos ao caminho da justiça, a fim de que, na tua segunda vinda em glória, encontres um povo agradável aos teus olhos, ó Tu, que vives e reinas com o Pai e o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Malaquias 3.16-4.6",
+        "psalm": "Salmo 125",
+        "second_reading": "Marcos 9.9-13"
+      },
+      "is_sunday": false
+    },
+    "2026-12-17": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Senhor Jesus Cristo que, na tua primeira vinda, enviaste o precursor para preparar o teu caminho, concede à tua Igreja a graça e o poder para converter muitos ao caminho da justiça, a fim de que, na tua segunda vinda em glória, encontres um povo agradável aos teus olhos, ó Tu, que vives e reinas com o Pai e o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "II Samuel 6.1-11",
+        "psalm": "Salmo 89.1-4",
+        "second_reading": "Hebreus 1.1-4"
+      },
+      "is_sunday": false
+    },
+    "2026-12-18": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Senhor Jesus Cristo que, na tua primeira vinda, enviaste o precursor para preparar o teu caminho, concede à tua Igreja a graça e o poder para converter muitos ao caminho da justiça, a fim de que, na tua segunda vinda em glória, encontres um povo agradável aos teus olhos, ó Tu, que vives e reinas com o Pai e o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "II Samuel 6.12-19",
+        "psalm": "Salmo 89.1-4",
+        "second_reading": "Hebreus 1.5-14"
+      },
+      "is_sunday": false
+    },
+    "2026-12-19": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Senhor Jesus Cristo que, na tua primeira vinda, enviaste o precursor para preparar o teu caminho, concede à tua Igreja a graça e o poder para converter muitos ao caminho da justiça, a fim de que, na tua segunda vinda em glória, encontres um povo agradável aos teus olhos, ó Tu, que vives e reinas com o Pai e o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Juízes 13.2-24",
+        "psalm": "Salmo 89.1-4",
+        "second_reading": "João 7.40-52"
+      },
+      "is_sunday": false
+    },
+    "2026-12-20": {
+      "title": "4º Domingo do Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Ó Deus Onipotente, purifica a nossa consciência com tua visitação diária, para que o teu Filho Jesus Cristo, na sua vinda em glória, encontre em nós a morada preparada para Si; o qual vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "2 Samuel 7:1-11, 16",
+        "psalm": "Lucas 1:47-55",
+        "second_reading": "Romanos 16:25-27",
+        "gospel": "Lucas 1:26-38"
+      },
+      "is_sunday": true
+    },
+    "2026-12-21": {
+      "title": "Tomé",
+      "subtitle": "Ano B",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "B",
+      "collect": "Deus eterno, o teu apóstolo Tomé duvidou da ressurreição do teu Filho até que a palavra e a vista o convenceram; concede-nos, a nós que não vimos, a graça de não sermos infiéis, mas crentes. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Habacuque 2:1-4",
+        "psalm": "Salmo 126",
+        "second_reading": "Hebreus 10:35-11:1",
+        "gospel": "João 20:24-29"
+      },
+      "is_sunday": false
+    },
+    "2026-12-22": {
+      "title": "Chico Mendes",
+      "subtitle": "Ano B",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Ó Deus Onipotente, purifica a nossa consciência com tua visitação diária, para que o teu Filho Jesus Cristo, na sua vinda em glória, encontre em nós a morada preparada para Si; o qual vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Sofonias 3.8-13",
+        "psalm": "Salmo 96",
+        "second_reading": "Romanos 10.5-13"
+      },
+      "is_sunday": false
+    },
+    "2026-12-23": {
+      "title": "Advento",
+      "subtitle": "Ano B",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "violeta",
+      "liturgical_year": "B",
+      "collect": "Ó Deus Onipotente, purifica a nossa consciência com tua visitação diária, para que o teu Filho Jesus Cristo, na sua vinda em glória, encontre em nós a morada preparada para Si; o qual vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Sofonias 3.14-20",
+        "psalm": "Salmo 96",
+        "second_reading": "Romanos 13.11-14"
+      },
+      "is_sunday": false
+    },
+    "2026-12-24": {
+      "title": "Vigília de Natal",
+      "subtitle": "Ano B",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Advento",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Deus Onipotente, que nos deste teu unigênito Filho para que tomasse sobre si a nossa natureza, e nascesse neste tempo de uma Virgem pura; concede que nós, renascidos e feitos teus filhos por adoção e graça, sejamos de dia em dia renovados por teu Santo Espírito; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 9:2-7",
+        "psalm": "Salmo 96",
+        "second_reading": "Tito 2:11-14",
+        "gospel": "Lucas 2:1-14, (15-20)"
+      },
+      "is_sunday": false
+    },
+    "2026-12-25": {
+      "title": "Natividade de Nosso Senhor Jesus Cristo",
+      "subtitle": "Ano B",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Ó Deus Onipotente, purifica a nossa consciência com tua visitação diária, para que o teu Filho Jesus Cristo, na sua vinda em glória, encontre em nós a morada preparada para Si; o qual vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 52:7-10",
+        "psalm": "Salmo 98",
+        "second_reading": "Hebreus 1:1-4, (5-12)",
+        "gospel": "João 1:1-14"
+      },
+      "is_sunday": false
+    },
+    "2026-12-26": {
+      "title": "Estevão",
+      "subtitle": "Ano B",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Natal",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "B",
+      "collect": "Pai celestial, deste ao teu mártir Estevão a graça de orar por aqueles que o apedrejaram; concede que, ao sofrermos pela verdade, imitemos o seu exemplo de perdão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 26:1-9, 12-15",
+        "psalm": "Salmo 31",
+        "second_reading": "Atos 6:8-7:2a, 51-60",
+        "gospel": "Mateus 23:34-39"
+      },
+      "is_sunday": false
+    },
+    "2026-12-27": {
+      "title": "1º Domingo após Natal",
+      "subtitle": "Ano B",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Senhor misericordioso, iluminaste a tua Igreja com o ensino de João; lança sobre nós os brilhantes raios da tua luz para podermos caminhar na tua verdade e chegar finalmente ao teu eterno esplendor. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 61:10-62:3",
+        "psalm": "Salmo 148",
+        "second_reading": "Gálatas 4:4-7",
+        "gospel": "Lucas 2:22-40"
+      },
+      "is_sunday": true
+    },
+    "2026-12-28": {
+      "title": "João",
+      "subtitle": "Ano B",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Senhor misericordioso, iluminaste a tua Igreja com o ensino de João; lança sobre nós os brilhantes raios da tua luz para podermos caminhar na tua verdade e chegar finalmente ao teu eterno esplendor. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 33:18-23",
+        "psalm": "Salmo 92",
+        "second_reading": "1 João 1:1-9",
+        "gospel": "João 21:9b-24"
+      },
+      "is_sunday": false
+    },
+    "2026-12-29": {
+      "title": "Thomas Becket",
+      "subtitle": "Ano B",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "B",
+      "collect": "Onipotente Deus, que derramaste sobre nós a nova luz do teu Verbo feito carne; concede que essa mesma luz, acesa em nossos corações, brilhe em nossas vidas; por Jesus Cristo, nosso Senhor, que vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 49.5-15",
+        "psalm": "Salmo 148",
+        "second_reading": "Mateus 12.46-50"
+      },
+      "is_sunday": false
+    },
+    "2026-12-30": {
+      "title": "Natal",
+      "subtitle": "Ano B",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Onipotente Deus, que derramaste sobre nós a nova luz do teu Verbo feito carne; concede que essa mesma luz, acesa em nossos corações, brilhe em nossas vidas; por Jesus Cristo, nosso Senhor, que vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Provérbios 9.1-12",
+        "psalm": "Salmo 148",
+        "second_reading": "II Pedro 3.8-13"
+      },
+      "is_sunday": false
+    },
+    "2026-12-31": {
+      "title": "John Wyclif",
+      "subtitle": "Ano B",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Natal",
+      "liturgical_color": "branco",
+      "liturgical_year": "B",
+      "collect": "Onipotente Deus, que derramaste sobre nós a nova luz do teu Verbo feito carne; concede que essa mesma luz, acesa em nossos corações, brilhe em nossas vidas; por Jesus Cristo, nosso Senhor, que vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 3.5-14",
+        "psalm": "Salmo 148",
+        "second_reading": "João 8.12-19"
+      },
+      "is_sunday": false
+    }
+  }
+}

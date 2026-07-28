@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Culto Dominical · Trindade Santa</title>
+<title>Culto Dominical · Santíssima Trindade</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -76,17 +76,100 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 .to-top { position: fixed; bottom: 20px; right: 20px; background: var(--liturgical); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
 .to-top.visible { opacity: 1; }
 @media (max-width: 480px) { body { font-size: 16px; } .container { padding: 16px 14px 40px; } h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; } .step-num { width: 26px; height: 26px; font-size: 0.8rem; } .scripture, .prayer, .dialogue { padding: 14px 16px; } }
-@media print { .to-top, .share-tip { display: none; } body { font-size: 11pt; background: white; } section { page-break-inside: avoid; } }
+@page { size: A4; margin: 10mm 12mm; }
+@media print {
+  .to-top, .share-tip, .print-bar { display: none !important; }
+  html, body {
+    background: #fff !important;
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.35;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .container { max-width: none; width: 100%; margin: 0; padding: 0; }
+  header { padding: 0 0 8pt; margin-bottom: 10pt; }
+  h1 { font-size: 16pt; margin-bottom: 6pt; }
+  .subtitle { font-size: 10pt; }
+  .date { font-size: 9pt; }
+  .church { font-size: 8pt; margin-bottom: 6pt; }
+  .cor-tag {
+    background: transparent !important;
+    color: #000 !important;
+    border: 0.8pt solid #333;
+    padding: 2pt 8pt;
+    font-size: 8pt;
+  }
+  h2 {
+    font-size: 11pt;
+    margin-bottom: 6pt;
+    padding-bottom: 3pt;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .step-num { width: 14pt; height: 14pt; font-size: 8pt; }
+  section {
+    margin-bottom: 9pt;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .intro-box, .opening-versicle, .dialogue, .scripture, .prayer,
+  .louvor-lyrics, .blessing-box, .louvor {
+    margin: 6pt 0;
+    padding: 7pt 9pt;
+    box-shadow: none !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .louvor {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1.2pt solid #2d6a4f;
+  }
+  .louvor-icon, .louvor-artista, .louvor-nota { color: #333 !important; opacity: 1 !important; }
+  .louvor-nome { font-size: 12pt; }
+  .louvor-lyrics .part { margin: 6pt 0 3pt; }
+  .louvor-lyrics p { margin-bottom: 4pt; }
+  .rubric { font-size: 9pt; margin: 4pt 0 6pt; }
+  .scripture, .dialogue, .prayer, .intro-box { font-size: 9.5pt; line-height: 1.4; }
+  .ref { font-size: 7.5pt; margin-bottom: 5pt; }
+  footer { margin-top: 10pt; padding-top: 8pt; font-size: 8pt; }
+  a { color: inherit; text-decoration: none; }
+}
+.print-bar {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+  padding: 10px 14px;
+  background: rgba(247,244,238,0.96);
+  border-bottom: 1px solid var(--border);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+}
+.print-bar button, .print-bar span {
+  font: inherit;
+}
+.print-bar button {
+  background: var(--liturgical); color: #fff; border: 0;
+  border-radius: 999px; padding: 8px 16px; cursor: pointer; font-weight: 600;
+}
+.print-bar span { color: var(--muted); align-self: center; }
+
 </style>
 </head>
 <body>
+<div class="print-bar">
+  <button type="button" onclick="window.print()">Imprimir folheto (A4 frente e verso)</button>
+  <span>Na impressora: A4 · frente e verso · margens padrão</span>
+</div>
 <div class="container">
   <header>
+    <!-- estevao:header -->
     <div class="church">Igreja Anglicana Rio</div>
-    <h1>Trindade Santa</h1>
-    <div class="subtitle">1º Domingo após Pentecostes · Ano A</div>
+    <h1>Santíssima Trindade</h1>
+    <div class="subtitle">Ano A</div>
     <div class="date">31 DE MAIO DE 2026</div>
-    <span class="cor-tag">⚪🟡 Cor litúrgica: Branco / Dourado</span>
+    <span class="cor-tag">⚪ Cor litúrgica: Branco</span>
+<!-- /estevao:header -->
   </header>
   <div class="intro-liturgica">
     <h3><span class="cross-inline">✠</span> Sobre o sinal da cruz neste culto</h3>
@@ -196,36 +279,16 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
   </section>
   <section id="s6">
     <h2><span class="step-num">6</span> Louvor</h2>
-    <div class="louvor">
-      <div class="louvor-icon">♪</div>
-      <div class="louvor-nome">Santo Espírito</div>
-      <div class="louvor-nota">Laura Souguellis — epiclese sobre a Palavra antes das leituras</div>
+    <!-- estevao:collect -->
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
+      <p><span class="role">Povo:</span> E também contigo.</p>
+      <p><span class="role">Ministro:</span> Oremos.</p>
     </div>
-    <div class="letra">
-      <div class="estrofe">
-        <span class="marcador">Verso</span>
-        Não há nada igual, não há nada melhor<br>
-        Há que se comparar à esperança viva, tua presença<br>
-        Eu provei e vi o mais doce amor<br>
-        Que liberta o meu ser e a vergonha desfaz<br>
-        Tua presença
-      </div>
-      <div class="refrao">
-        <span class="marcador">Refrão</span>
-        Santo Espírito, és bem-vindo aqui<br>
-        Vem inundar e encher esse lugar<br>
-        É o desejo do meu coração<br>
-        Sermos inundados por Tua glória, Senhor
-      </div>
-      <div class="ponte">
-        <span class="marcador">Ponte</span>
-        Não há nada como a Tua glória<br>
-        Não há nada como a Tua glória<br>
-        Nada como a Tua glória que habita entre nós<br><br>
-        Vamos provar quão real é Tua presença<br>
-        Vamos provar da Tua glória e bondade
-      </div>
+    <div class="prayer">
+      Deus nosso Pai, enviaste ao mundo a Palavra da verdade e o Espírito da santidade para revelar aos homens o mistério admirável do teu Ser: concede-nos que na profissão da verdadeira fé reconheçamos a glória da eterna Trindade e adoremos a Unidade na sua onipotência. Mediante nosso Senhor Jesus Cristo. <strong>Amém.</strong>
     </div>
+<!-- /estevao:collect -->
   </section>
   <section id="s7">
     <h2><span class="step-num">7</span> Leituras das Escrituras</h2>
@@ -293,7 +356,67 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
   </section>
 
   <section id="s8">
-    <h2><span class="step-num">8</span> Sermão</h2>
+    <!-- estevao:readings -->
+    <h2><span class="step-num">8</span> Leituras das Escrituras</h2>
+
+    <div class="scripture">
+      <span class="ref">Gênesis 1.1-2.4a · NVI · Primeira Leitura</span>
+      <p>No princípio Deus criou os céus e a terra. Era a terra sem forma e vazia; trevas cobriam a face do abismo, e o Espírito de Deus se movia sobre a face das águas.</p>
+      <p>Disse Deus: “Haja luz”, e houve luz. Deus viu que a luz era boa, e separou a luz das trevas.</p>
+      <p>Deus chamou à luz dia, e às trevas chamou noite. Passaram-se a tarde e a manhã; esse foi o primeiro dia. Depois disse Deus: “Haja entre as águas um firmamento que separe águas de águas”.</p>
+      <p>Então Deus fez o firmamento e separou as águas que ficaram abaixo do firmamento das que ficaram por cima. E assim foi. Ao firmamento, Deus chamou céu. Passaram-se a tarde e a manhã; esse foi o segundo dia.</p>
+      <p>E disse Deus: “Ajuntem-se num só lugar as águas que estão debaixo do céu, e apareça a parte seca”. E assim foi. À parte seca Deus chamou terra, e chamou mares ao conjunto das águas. E Deus viu que ficou bom.</p>
+      <p>Então disse Deus: “Cubra-se a terra de vegetação: plantas que deem sementes e árvores cujos frutos produzam sementes de acordo com as suas espécies”. E assim foi. A terra fez brotar a vegetação: plantas que dão sementes de acordo com as suas espécies, e árvores cujos frutos produzem sementes de acordo com as suas espécies. E Deus viu que ficou bom.</p>
+      <p>Passaram-se a tarde e a manhã; esse foi o terceiro dia. Disse Deus: “Haja luminares no firmamento do céu para separar o dia da noite. Sirvam eles de sinais para marcar estações, dias e anos, e sirvam de luminares no firmamento do céu para iluminar a terra”. E assim foi.</p>
+      <p>Deus fez os dois grandes luminares: o maior para governar o dia e o menor para governar a noite; fez também as estrelas. Deus os colocou no firmamento do céu para iluminar a terra, governar o dia e a noite, e separar a luz das trevas. E Deus viu que ficou bom.</p>
+      <p>Passaram-se a tarde e a manhã; esse foi o quarto dia. Disse também Deus: “Encham-se as águas de seres vivos, e voem as aves sobre a terra, sob o firmamento do céu”.</p>
+      <p>Assim Deus criou os grandes animais aquáticos e os demais seres vivos que povoam as águas, de acordo com as suas espécies; e todas as aves, de acordo com as suas espécies. E Deus viu que ficou bom. Então Deus os abençoou, dizendo: “Sejam férteis e multipliquem-se! Encham as águas dos mares! E multipliquem-se as aves na terra”.</p>
+      <p>Passaram-se a tarde e a manhã; esse foi o quinto dia. E disse Deus: “Produza a terra seres vivos de acordo com as suas espécies: rebanhos domésticos, animais selvagens e os demais seres vivos da terra, cada um de acordo com a sua espécie”. E assim foi.</p>
+      <p>Deus fez os animais selvagens de acordo com as suas espécies, os rebanhos domésticos de acordo com as suas espécies, e os demais seres vivos da terra de acordo com as suas espécies. E Deus viu que ficou bom. Então disse Deus: “Façamos o homem à nossa imagem, conforme a nossa semelhança. Domine ele sobre os peixes do mar, sobre as aves do céu, sobre os grandes animais de toda a terra e sobre todos os pequenos animais que se movem rente ao chão”.</p>
+      <p>Criou Deus o homem à sua imagem, à imagem de Deus o criou; homem e mulher os criou. Deus os abençoou e lhes disse: “Sejam férteis e multipliquem-se! Encham e subjuguem a terra! Dominem sobre os peixes do mar, sobre as aves do céu e sobre todos os animais que se movem pela terra”.</p>
+      <p>Disse Deus: “Eis que dou a vocês todas as plantas que nascem em toda a terra e produzem sementes, e todas as árvores que dão frutos com sementes. Elas servirão de alimento para vocês. E dou todos os vegetais como alimento a tudo o que tem em si fôlego de vida: a todos os grandes animais da terra , a todas as aves do céu e a todas as criaturas que se movem rente ao chão”. E assim foi.</p>
+      <p>E Deus viu tudo o que havia feito, e tudo havia ficado muito bom. Passaram-se a tarde e a manhã; esse foi o sexto dia. Assim foram concluídos os céus e a terra, e tudo o que neles há.</p>
+      <p>No sétimo dia Deus já havia concluído a obra que realizara, e nesse dia descansou. Abençoou Deus o sétimo dia e o santificou, porque nele descansou de toda a obra que realizara na criação.</p>
+      <p>Esta é a história das origens dos céus e da terra, no tempo em que foram criados: Quando o SENHOR Deus fez a terra e os céus,</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Salmo 8 · NVI · Salmo responsorial</span>
+      <p>SENHOR, Senhor nosso, como é majestoso o teu nome em toda a terra! Tu, cuja glória é cantada nos céus. Dos lábios das crianças e dos recém-nascidos firmaste o teu nome como fortaleza , por causa dos teus adversários, para silenciar o inimigo que busca vingança.</p>
+      <p>Quando contemplo os teus céus, obra dos teus dedos, a lua e as estrelas que ali firmaste, pergunto: Que é o homem, para que com ele te importes? E o filho do homem, para que com ele te preocupes?</p>
+      <p>Tu o fizeste um pouco menor do que os seres celestiais e o coroaste de glória e de honra. Tu o fizeste dominar as obras das tuas mãos; sob os seus pés tudo puseste: todos os rebanhos e manadas, e até os animais selvagens, as aves do céu, os peixes do mar e tudo o que percorre as veredas dos mares.</p>
+      <p>SENHOR, Senhor nosso, como é majestoso o teu nome em toda a terra!</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">2 Coríntios 13.11-13 · NVI · Segunda Leitura</span>
+      <p>Sem mais, irmãos, despeço-me de vocês! Procurem aperfeiçoar-se, exortem-se mutuamente , tenham um só pensamento, vivam em paz. E o Deus de amor e paz estará com vocês. Saúdem uns aos outros com beijo santo.</p>
+      <p>Todos os santos enviam saudações.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <p class="rubric">✠ Antes da leitura do Evangelho, um sinal da cruz sobre si — pedindo que a Palavra de Cristo habite em nós.</p>
+
+    <div class="scripture">
+      <span class="ref">Mateus 28.16-20 · NVI · Santo Evangelho de nosso Senhor Jesus Cristo</span>
+      <p>Os onze discípulos foram para a Galileia, para o monte que Jesus lhes indicara. Quando o viram, o adoraram; mas alguns duvidaram.</p>
+      <p>Então, Jesus aproximou-se deles e disse: “Foi-me dada toda a autoridade nos céus e na terra. Portanto, vão e façam discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a obedecer a tudo o que eu ordenei a vocês. E eu estarei sempre com vocês, até o fim dos tempos”.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+<!-- /estevao:readings -->
   </section>
 
   <section id="s9">

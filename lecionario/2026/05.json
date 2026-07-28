@@ -1,0 +1,480 @@
+{
+  "year": 2026,
+  "month": 5,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-05-01": {
+      "title": "Felipe e Tiago Menor",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Pai eterno, os apóstolos Filipe e Tiago conheceram no teu Filho o caminho vivo e verdadeiro; concede-nos a graça de os seguirmos ao longo desse caminho que conduz à vida eterna. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 30:18-21",
+        "psalm": "Salmo 119:33-40",
+        "second_reading": "2 Coríntios 4:1-6",
+        "gospel": "João 14:6-14"
+      },
+      "is_sunday": false
+    },
+    "2026-05-02": {
+      "title": "Atanásio de Alexandria",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 26.20-24",
+        "psalm": "Salmo 31.1-5; 15-16",
+        "second_reading": "João 8.48-59"
+      },
+      "is_sunday": false
+    },
+    "2026-05-03": {
+      "title": "5º Domingo do Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Atos 7:55-60",
+        "psalm": "Salmo 31:1-5",
+        "second_reading": "1 Pedro 2:2-10",
+        "gospel": "João 14:1-14"
+      },
+      "is_sunday": true
+    },
+    "2026-05-04": {
+      "title": "Mônica",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 13.17-22",
+        "psalm": "Salmo 102.1-17",
+        "second_reading": "Atos 7.17-40"
+      },
+      "is_sunday": false
+    },
+    "2026-05-05": {
+      "title": "Primeira Ordenação Feminina na Igreja Episcopal Anglicana do Brasil",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Provérbios 3.5-12",
+        "psalm": "Salmo 102.1-17",
+        "second_reading": "Atos 7.44-56"
+      },
+      "is_sunday": false
+    },
+    "2026-05-06": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Provérbios 3.13-18",
+        "psalm": "Salmo 102.1-17",
+        "second_reading": "João 8.31-38"
+      },
+      "is_sunday": false
+    },
+    "2026-05-07": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 6.5-22",
+        "psalm": "Salmo 66.8-20",
+        "second_reading": "Atos 27.1-12"
+      },
+      "is_sunday": false
+    },
+    "2026-05-08": {
+      "title": "Juliana de Norwich",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 7.1-24",
+        "psalm": "Salmo 66.8-20",
+        "second_reading": "Atos 27.13-38"
+      },
+      "is_sunday": false
+    },
+    "2026-05-09": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 8.13-19",
+        "psalm": "Salmo 66.8-20",
+        "second_reading": "João 14.27-29"
+      },
+      "is_sunday": false
+    },
+    "2026-05-10": {
+      "title": "6º Domingo do Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Atos 17:22-31",
+        "psalm": "Salmo 66:8-20",
+        "second_reading": "1 Pedro 3:13-22",
+        "gospel": "João 14:15-21"
+      },
+      "is_sunday": true
+    },
+    "2026-05-11": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 9.8-17",
+        "psalm": "Salmo 93",
+        "second_reading": "Atos 27.39-44"
+      },
+      "is_sunday": false
+    },
+    "2026-05-12": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 5.22-33",
+        "psalm": "Salmo 93",
+        "second_reading": "I Pedro 3.8-12"
+      },
+      "is_sunday": false
+    },
+    "2026-05-13": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 31.1-13",
+        "psalm": "Salmo 93",
+        "second_reading": "João 16.16-24"
+      },
+      "is_sunday": false
+    },
+    "2026-05-14": {
+      "title": "Ascensão de Nosso Senhor Jesus Cristo",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor soberano, teu Filho ascendeu em triunfo para governar todo o universo em amor e glória; faz que todos os povos reconheçam a autoridade do seu reino. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Atos 1:1-11",
+        "psalm": "Salmo 47",
+        "second_reading": "Efésios 1:15-23",
+        "gospel": "Lucas 24:44-53"
+      },
+      "is_sunday": false
+    },
+    "2026-05-15": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "II Reis 2.1-12",
+        "psalm": "Salmo 93",
+        "second_reading": "Efésios 2.1-7"
+      },
+      "is_sunday": false
+    },
+    "2026-05-16": {
+      "title": "Mártires do Sudão",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "II Reis 2.13-15",
+        "psalm": "Salmo 93",
+        "second_reading": "João 8.21-30"
+      },
+      "is_sunday": false
+    },
+    "2026-05-17": {
+      "title": "Domingo após a Ascensão",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Atos 1:6-14",
+        "psalm": "Salmo 68:1-10",
+        "second_reading": "1 Pedro 4:12-14; 5:6-11",
+        "gospel": "João 17:1-11"
+      },
+      "is_sunday": true
+    },
+    "2026-05-18": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Levítico 9.1-11; 22-24",
+        "psalm": "Salmo 99",
+        "second_reading": "I Pedro 4.1-6"
+      },
+      "is_sunday": false
+    },
+    "2026-05-19": {
+      "title": "Dunstan",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Números 16.41-50",
+        "psalm": "Salmo 99",
+        "second_reading": "I Pedro 4.7-11"
+      },
+      "is_sunday": false
+    },
+    "2026-05-20": {
+      "title": "Alcuíno de York",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 8.54-65",
+        "psalm": "Salmo 99",
+        "second_reading": "João 3.31-36"
+      },
+      "is_sunday": false
+    },
+    "2026-05-21": {
+      "title": "Helena",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 19.1-9a",
+        "psalm": "Salmo 33.12-22",
+        "second_reading": "Atos 2.1-11"
+      },
+      "is_sunday": false
+    },
+    "2026-05-22": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 19.16-25",
+        "psalm": "Salmo 33.12-22",
+        "second_reading": "Romanos 8.14-17"
+      },
+      "is_sunday": false
+    },
+    "2026-05-23": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 20.1-21",
+        "psalm": "Salmo 33.12-22",
+        "second_reading": "Mateus 5.1-12"
+      },
+      "is_sunday": false
+    },
+    "2026-05-24": {
+      "title": "Pentecostes",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Atos 2:1-21",
+        "psalm": "Salmo 104:24-34, 35b",
+        "second_reading": "1 Coríntios 12:3b-13",
+        "gospel": "João 20:19-23"
+      },
+      "is_sunday": true
+    },
+    "2026-05-25": {
+      "title": "Venerável Beda",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Joel 2.18-29",
+        "psalm": "Salmo 104.24-34; 35b",
+        "second_reading": "Romanos 8.18-24"
+      },
+      "is_sunday": false
+    },
+    "2026-05-26": {
+      "title": "Agostinho de Cantuária",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 39.7-8, 21-29",
+        "psalm": "Salmo 104.24-34; 35b",
+        "second_reading": "Romanos 8.26-27"
+      },
+      "is_sunday": false
+    },
+    "2026-05-27": {
+      "title": "João Calvino",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Números 11.24-30",
+        "psalm": "Salmo 104.24-34; 35b",
+        "second_reading": "João 7.37-39"
+      },
+      "is_sunday": false
+    },
+    "2026-05-28": {
+      "title": "Lanfranco",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 1.1–2.4a",
+        "psalm": "Salmo 46",
+        "second_reading": "Romanos 2.17-29"
+      },
+      "is_sunday": false
+    },
+    "2026-05-29": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 2.4b-25",
+        "psalm": "Salmo 46",
+        "second_reading": "Romanos 9.6-13"
+      },
+      "is_sunday": false
+    },
+    "2026-05-30": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 3.1-24",
+        "psalm": "Salmo 46",
+        "second_reading": "Mateus 7.1-6"
+      },
+      "is_sunday": false
+    },
+    "2026-05-31": {
+      "title": "Santíssima Trindade",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Deus nosso Pai, enviaste ao mundo a Palavra da verdade e o Espírito da santidade para revelar aos homens o mistério admirável do teu Ser: concede-nos que na profissão da verdadeira fé reconheçamos a glória da eterna Trindade e adoremos a Unidade na sua onipotência. Mediante nosso Senhor Jesus Cristo. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 1:1-2:4a",
+        "psalm": "Salmo 8",
+        "second_reading": "2 Coríntios 13:11-13",
+        "gospel": "Mateus 28:16-20"
+      },
+      "is_sunday": true
+    }
+  }
+}

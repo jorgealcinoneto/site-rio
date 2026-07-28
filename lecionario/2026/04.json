@@ -1,0 +1,466 @@
+{
+  "year": 2026,
+  "month": 4,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-04-01": {
+      "title": "Quarta-feira Santa",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "roxo",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor Deus, cujo bendito Filho, nosso Salvador Jesus Cristo, teve o seu corpo torturado e seu rosto cuspido; concede-nos a graça de enfrentar com esperança os sofrimentos deste tempo e de confiar na glória que há de ser revelada; por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 50:4-9a",
+        "psalm": "Salmo 70",
+        "second_reading": "Hebreus 12:1-3",
+        "gospel": "João 13:21-32"
+      },
+      "is_sunday": false
+    },
+    "2026-04-02": {
+      "title": "Quinta-Feira Santa",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Pai Onipotente, cujo amado Filho, na noite anterior à sua paixão, instituiu o Sacramento do seu Corpo e Sangue; concede-nos, misericordioso, que dele participemos agradecidos, em memória daquele que nestes santos mistérios nos dá o penhor da vida eterna, teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 12:1-4, (5-10), 11-14",
+        "psalm": "Salmo 116:1-2",
+        "second_reading": "1 Coríntios 11:23-26",
+        "gospel": "João 13:1-17, 31b-35"
+      },
+      "is_sunday": false
+    },
+    "2026-04-03": {
+      "title": "Sexta-Feira da Paixão",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, nós te suplicamos olhes com misericórdia para esta família que é tua, e pela qual nosso Senhor Jesus Cristo não hesitou em entregar-se, traído, às mãos de homens iníquos, e sofrer morte de cruz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 52:13-53:12",
+        "psalm": "Salmo 22",
+        "second_reading": "Hebreus 10:16-25",
+        "gospel": "João 18:1-19:42"
+      },
+      "is_sunday": false
+    },
+    "2026-04-04": {
+      "title": "Vigília Pascal",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Quaresma",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor Deus, Tu fizeste resplandecer esta noite com a glória da ressurreição de Cristo; faz com que a sua luz brilhe na tua Igreja para que sejamos renovados no corpo e na alma e nos entreguemos plenamente ao teu serviço. Amém.",
+      "readings": {
+        "first_reading": "Jó 38.22-38",
+        "psalm": "Salmo 8",
+        "second_reading": "João 14.15-17"
+      },
+      "is_sunday": false
+    },
+    "2026-04-05": {
+      "title": "Domingo da Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Atos 10:34-43",
+        "psalm": "Salmo 118:1-2",
+        "second_reading": "Colossenses 3:1-4",
+        "gospel": "João 20:1-18"
+      },
+      "is_sunday": true
+    },
+    "2026-04-06": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 14.10-31; 15.20-21",
+        "psalm": "Salmo 118.1-2; 14-24",
+        "second_reading": "Colossenses 3.5-11"
+      },
+      "is_sunday": false
+    },
+    "2026-04-07": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 15.1-18",
+        "psalm": "Salmo 118.1-2; 14-24",
+        "second_reading": "Colossenses 3.12-17"
+      },
+      "is_sunday": false
+    },
+    "2026-04-08": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 3.1-17",
+        "psalm": "Salmo 118.1-2; 14-24",
+        "second_reading": "Mateus 28.1-10"
+      },
+      "is_sunday": false
+    },
+    "2026-04-09": {
+      "title": "Dietrich Bonhoeffer",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Cântico dos Cânticos 2.8-15",
+        "psalm": "Salmo 16",
+        "second_reading": "Colossenses 4.2-5"
+      },
+      "is_sunday": false
+    },
+    "2026-04-10": {
+      "title": "William Law",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Cântico dos Cânticos 5.9–6.3",
+        "psalm": "Salmo 16",
+        "second_reading": "I Coríntios 15.1-11"
+      },
+      "is_sunday": false
+    },
+    "2026-04-11": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Cântico dos Cânticos 8.6-7",
+        "psalm": "Salmo 16",
+        "second_reading": "João 20.11-20"
+      },
+      "is_sunday": false
+    },
+    "2026-04-12": {
+      "title": "2º Domingo do Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Atos 2:14a, 22-32",
+        "psalm": "Salmo 16",
+        "second_reading": "1 Pedro 1:3-9",
+        "gospel": "João 20:19-31"
+      },
+      "is_sunday": true
+    },
+    "2026-04-13": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Juízes 6.36-40",
+        "psalm": "Salmo 114",
+        "second_reading": "I Coríntios 15.12-20"
+      },
+      "is_sunday": false
+    },
+    "2026-04-14": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Jonas 1.1-17",
+        "psalm": "Salmo 114",
+        "second_reading": "I Coríntios 15.19-28"
+      },
+      "is_sunday": false
+    },
+    "2026-04-15": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Jonas 2.1-10",
+        "psalm": "Salmo 114",
+        "second_reading": "Mateus 12.38-42"
+      },
+      "is_sunday": false
+    },
+    "2026-04-16": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 25.1-5",
+        "psalm": "Salmo 116.1-4; 12-19",
+        "second_reading": "I Pedro 1.8b-12"
+      },
+      "is_sunday": false
+    },
+    "2026-04-17": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 26.1-4",
+        "psalm": "Salmo 116.1-4; 12-19",
+        "second_reading": "I Pedro 1.13-16"
+      },
+      "is_sunday": false
+    },
+    "2026-04-18": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 25.6-9",
+        "psalm": "Salmo 116.1-4; 12-19",
+        "second_reading": "Lucas 14.12-14"
+      },
+      "is_sunday": false
+    },
+    "2026-04-19": {
+      "title": "3º Domingo do Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Atos 2:14a, 36-41",
+        "psalm": "Salmo 116:1-4",
+        "second_reading": "1 Pedro 1:17-23",
+        "gospel": "Lucas 24:13-35"
+      },
+      "is_sunday": true
+    },
+    "2026-04-20": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 18.1-14",
+        "psalm": "Salmo 134",
+        "second_reading": "I Pedro 1.23-25"
+      },
+      "is_sunday": false
+    },
+    "2026-04-21": {
+      "title": "Anselmo",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Provérbios 8.32–9.6",
+        "psalm": "Salmo 134",
+        "second_reading": "I Pedro 2.1-3"
+      },
+      "is_sunday": false
+    },
+    "2026-04-22": {
+      "title": "Mary Packard",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 24.1-11",
+        "psalm": "Salmo 134",
+        "second_reading": "João 21.1-14"
+      },
+      "is_sunday": false
+    },
+    "2026-04-23": {
+      "title": "Jorge",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 2.15b-25",
+        "psalm": "Salmo 23",
+        "second_reading": "I Pedro 2.9-12"
+      },
+      "is_sunday": false
+    },
+    "2026-04-24": {
+      "title": "Sete Mártires da Irmandade Melanésia",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 3.16-22; 4.18-20",
+        "psalm": "Salmo 23",
+        "second_reading": "I Pedro 2.13-17"
+      },
+      "is_sunday": false
+    },
+    "2026-04-25": {
+      "title": "Marcos",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Deus onipotente, iluminaste a tua Igreja através do testemunho inspirado do teu evangelista Marcos; fundamenta-nos firmemente na verdade do Evangelho, e faz-nos fiéis ao seu ensino. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 52:7-10",
+        "psalm": "Salmo 2",
+        "second_reading": "Efésios 4:7-8, 11-16",
+        "gospel": "Marcos 1:1-15"
+      },
+      "is_sunday": false
+    },
+    "2026-04-26": {
+      "title": "4º Domingo do Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Atos 2:42-47",
+        "psalm": "Salmo 23",
+        "second_reading": "1 Pedro 2:19-25",
+        "gospel": "João 10:1-10"
+      },
+      "is_sunday": true
+    },
+    "2026-04-27": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 34.17-23",
+        "psalm": "Salmo 100",
+        "second_reading": "I Pedro 5.1-5"
+      },
+      "is_sunday": false
+    },
+    "2026-04-28": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 34.23-31",
+        "psalm": "Salmo 100",
+        "second_reading": "Hebreus 13.20-21"
+      },
+      "is_sunday": false
+    },
+    "2026-04-29": {
+      "title": "Catarina de Sena",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 23.1-8",
+        "psalm": "Salmo 100",
+        "second_reading": "Mateus 20.17-28"
+      },
+      "is_sunday": false
+    },
+    "2026-04-30": {
+      "title": "Páscoa",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Páscoa",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 12.1-3",
+        "psalm": "Salmo 31.1-5; 15-16",
+        "second_reading": "Atos 6.8-15"
+      },
+      "is_sunday": false
+    }
+  }
+}

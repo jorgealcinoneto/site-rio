@@ -1,0 +1,40 @@
+---
+description: Consultar e gerar textos litúrgicos via API Estêvão
+globs: folhetos/**/*,build_folheto.py,build_leccionario.py,landing-app.jsx,lecionario/**/*,API-ESTEVAO.md
+alwaysApply: false
+---
+
+# Liturgia · API Estêvão
+
+Textos litúrgicos vêm da **API Estêvão** em build time. Não hardcode cabeçalho, coleta ou leituras.
+
+## Widget na home (`landing-app.jsx`)
+
+Consome JSON estático em `/lecionario/AAAA/MM.json` (fuso `America/Sao_Paulo`).
+
+```bash
+python3 build_leccionario.py --year 2026
+python3 build_leccionario.py --month 2026-07
+python3 build_leccionario.py --preview 2026-07-27
+```
+
+`python3 build.py` também atualiza o ano corrente (use `--skip-leccionario` para pular).
+
+## Folhetos dominicais
+
+```bash
+python3 build_folheto.py --preview 2026-08-02
+python3 build_folheto.py 2026-08-02
+python3 build_folheto.py --all
+```
+
+Marcadores HTML: `<!-- estevao:header -->`, `<!-- estevao:collect -->`, `<!-- estevao:readings -->`.
+
+## Curl direto (debug)
+
+```bash
+curl -s "https://api.caminhoanglicano.com.br/api/v1/calendar/2026/08/02?preferences=%7B%22prayer_book_code%22%3A%22loc_2015%22%2C%22bible_version%22%3A%22nvi%22%7D" \
+  -H "X-API-Key: $ESTEVAO_API_KEY"
+```
+
+Chave em `.env` (`ESTEVAO_API_KEY`). Ver `API-ESTEVAO.md`.

@@ -1,0 +1,479 @@
+{
+  "year": 2026,
+  "month": 7,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-07-01": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, que edificaste tua Igreja sobre o fundamento dos Apóstolos e Profetas, sendo Jesus Cristo mesmo a principal pedra angular; concede que sejamos unidos em espírito por meio de seu ensino e feitos um santo templo aceitável a teus olhos; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 51.1-3",
+        "psalm": "Salmo 47",
+        "second_reading": "Mateus 11.20-24"
+      },
+      "is_sunday": false
+    },
+    "2026-07-02": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, que edificaste tua Igreja sobre o fundamento dos Apóstolos e Profetas, sendo Jesus Cristo mesmo a principal pedra angular; concede que sejamos unidos em espírito por meio de seu ensino e feitos um santo templo aceitável a teus olhos; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 25.19-27",
+        "psalm": "Salmo 45.10-17",
+        "second_reading": "Romanos 7.1-6"
+      },
+      "is_sunday": false
+    },
+    "2026-07-03": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, que edificaste tua Igreja sobre o fundamento dos Apóstolos e Profetas, sendo Jesus Cristo mesmo a principal pedra angular; concede que sejamos unidos em espírito por meio de seu ensino e feitos um santo templo aceitável a teus olhos; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 27.1-17",
+        "psalm": "Salmo 45.10-17",
+        "second_reading": "Romanos 7.7-20"
+      },
+      "is_sunday": false
+    },
+    "2026-07-04": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, que edificaste tua Igreja sobre o fundamento dos Apóstolos e Profetas, sendo Jesus Cristo mesmo a principal pedra angular; concede que sejamos unidos em espírito por meio de seu ensino e feitos um santo templo aceitável a teus olhos; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 27.18-29",
+        "psalm": "Salmo 45.10-17",
+        "second_reading": "Lucas 10.21-24"
+      },
+      "is_sunday": false
+    },
+    "2026-07-05": {
+      "title": "5º Domingo no Tempo Comum",
+      "subtitle": "Próprio 9 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, ensinaste-nos que amar a Ti e ao nosso próximo é guardar os teus mandamentos; concede-nos a graça do teu Espírito Santo para que sejamos consagrados a ti com todo o nosso coração e unidos uns aos outros com pura afeição; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 24:34-38, 42-49, 58-67",
+        "psalm": "Salmo 45:10-17",
+        "second_reading": "Romanos 7:15-25a",
+        "gospel": "Mateus 11:16-19, 25-30"
+      },
+      "is_sunday": true
+    },
+    "2026-07-06": {
+      "title": "Jan Hus",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, ensinaste-nos que amar a Ti e ao nosso próximo é guardar os teus mandamentos; concede-nos a graça do teu Espírito Santo para que sejamos consagrados a ti com todo o nosso coração e unidos uns aos outros com pura afeição; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 27.30-46",
+        "psalm": "Cântico dos Cânticos 2.8-13",
+        "second_reading": "Romanos 1.18-25"
+      },
+      "is_sunday": false
+    },
+    "2026-07-07": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, ensinaste-nos que amar a Ti e ao nosso próximo é guardar os teus mandamentos; concede-nos a graça do teu Espírito Santo para que sejamos consagrados a ti com todo o nosso coração e unidos uns aos outros com pura afeição; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 29.1-14",
+        "psalm": "Cântico dos Cânticos 2.8-13",
+        "second_reading": "Romanos 3.1-8"
+      },
+      "is_sunday": false
+    },
+    "2026-07-08": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, ensinaste-nos que amar a Ti e ao nosso próximo é guardar os teus mandamentos; concede-nos a graça do teu Espírito Santo para que sejamos consagrados a ti com todo o nosso coração e unidos uns aos outros com pura afeição; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 29.31-35",
+        "psalm": "Cântico dos Cânticos 2.8-13",
+        "second_reading": "João 13.1-17"
+      },
+      "is_sunday": false
+    },
+    "2026-07-09": {
+      "title": "Mártires da China",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, ensinaste-nos que amar a Ti e ao nosso próximo é guardar os teus mandamentos; concede-nos a graça do teu Espírito Santo para que sejamos consagrados a ti com todo o nosso coração e unidos uns aos outros com pura afeição; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 3.1-6",
+        "psalm": "Salmo 119.105-112",
+        "second_reading": "Romanos 2.12-16"
+      },
+      "is_sunday": false
+    },
+    "2026-07-10": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, ensinaste-nos que amar a Ti e ao nosso próximo é guardar os teus mandamentos; concede-nos a graça do teu Espírito Santo para que sejamos consagrados a ti com todo o nosso coração e unidos uns aos outros com pura afeição; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 32.1-10",
+        "psalm": "Salmo 119.105-112",
+        "second_reading": "Romanos 15.14-21"
+      },
+      "is_sunday": false
+    },
+    "2026-07-11": {
+      "title": "Bento de Núrsia",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, ensinaste-nos que amar a Ti e ao nosso próximo é guardar os teus mandamentos; concede-nos a graça do teu Espírito Santo para que sejamos consagrados a ti com todo o nosso coração e unidos uns aos outros com pura afeição; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 2.1-4",
+        "psalm": "Salmo 119.105-112",
+        "second_reading": "João 12.44-50"
+      },
+      "is_sunday": false
+    },
+    "2026-07-12": {
+      "title": "6º Domingo no Tempo Comum",
+      "subtitle": "Próprio 10 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, suplicamos-te que recebas, com piedade celestial, as orações do teu povo que te invoca; e concede que todos saibam e compreendam o que devem fazer e tenham a graça e poder para fielmente o realizar. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 55:10-13",
+        "psalm": "Salmo 65:(1-8), 9-13",
+        "second_reading": "Romanos 8:1-11",
+        "gospel": "Mateus 13:1-9, 18-23"
+      },
+      "is_sunday": true
+    },
+    "2026-07-13": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, suplicamos-te que recebas, com piedade celestial, as orações do teu povo que te invoca; e concede que todos saibam e compreendam o que devem fazer e tenham a graça e poder para fielmente o realizar. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Miqueias 1.1-5",
+        "psalm": "Salmo 142",
+        "second_reading": "I Tessalonicenses 4.1-8"
+      },
+      "is_sunday": false
+    },
+    "2026-07-14": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, suplicamos-te que recebas, com piedade celestial, as orações do teu povo que te invoca; e concede que todos saibam e compreendam o que devem fazer e tenham a graça e poder para fielmente o realizar. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 49.7-11",
+        "psalm": "Salmo 142",
+        "second_reading": "Efésios 4.17–5.2"
+      },
+      "is_sunday": false
+    },
+    "2026-07-15": {
+      "title": "Boaventura",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, suplicamos-te que recebas, com piedade celestial, as orações do teu povo que te invoca; e concede que todos saibam e compreendam o que devem fazer e tenham a graça e poder para fielmente o realizar. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Obadias 15-21",
+        "psalm": "Salmo 142",
+        "second_reading": "Mateus 13.10-17"
+      },
+      "is_sunday": false
+    },
+    "2026-07-16": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, suplicamos-te que recebas, com piedade celestial, as orações do teu povo que te invoca; e concede que todos saibam e compreendam o que devem fazer e tenham a graça e poder para fielmente o realizar. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 44.1-5",
+        "psalm": "Salmo 139.1-12; 23-24",
+        "second_reading": "Hebreus 2.1-9"
+      },
+      "is_sunday": false
+    },
+    "2026-07-17": {
+      "title": "William White",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, suplicamos-te que recebas, com piedade celestial, as orações do teu povo que te invoca; e concede que todos saibam e compreendam o que devem fazer e tenham a graça e poder para fielmente o realizar. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 39.21-29",
+        "psalm": "Salmo 139.1-12; 23-24",
+        "second_reading": "Hebreus 6.13-20"
+      },
+      "is_sunday": false
+    },
+    "2026-07-18": {
+      "title": "Antônio Vieira",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, suplicamos-te que recebas, com piedade celestial, as orações do teu povo que te invoca; e concede que todos saibam e compreendam o que devem fazer e tenham a graça e poder para fielmente o realizar. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 14.9-25",
+        "psalm": "Salmo 139.1-12; 23-24",
+        "second_reading": "Mateus 7.15-20"
+      },
+      "is_sunday": false
+    },
+    "2026-07-19": {
+      "title": "7º Domingo no Tempo Comum",
+      "subtitle": "Próprio 11 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, fonte de toda a sabedoria, que tanto conheces de antemão as nossas necessidades, quanto nós ignoramos o que pedir; tem compaixão de nossas fraquezas, e concede-nos tudo o que, por indignidade ou cegueira nossa, não ousamos nem sabemos suplicar, senão pelos merecimentos de teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 28:10-19a",
+        "psalm": "Salmo 139:1-12",
+        "second_reading": "Romanos 8:12-25",
+        "gospel": "Mateus 13:24-30, 36-43"
+      },
+      "is_sunday": true
+    },
+    "2026-07-20": {
+      "title": "Margarida de Antioquia",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, fonte de toda a sabedoria, que tanto conheces de antemão as nossas necessidades, quanto nós ignoramos o que pedir; tem compaixão de nossas fraquezas, e concede-nos tudo o que, por indignidade ou cegueira nossa, não ousamos nem sabemos suplicar, senão pelos merecimentos de teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 32.3-21",
+        "psalm": "Salmo 139.13-18",
+        "second_reading": "Apocalipse 14.12-20"
+      },
+      "is_sunday": false
+    },
+    "2026-07-21": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, fonte de toda a sabedoria, que tanto conheces de antemão as nossas necessidades, quanto nós ignoramos o que pedir; tem compaixão de nossas fraquezas, e concede-nos tudo o que, por indignidade ou cegueira nossa, não ousamos nem sabemos suplicar, senão pelos merecimentos de teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 33.1-17",
+        "psalm": "Salmo 139.13-18",
+        "second_reading": "Gálatas 4.21–5.1"
+      },
+      "is_sunday": false
+    },
+    "2026-07-22": {
+      "title": "Maria Madalena",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor misericordioso, teu Filho restituiu a Maria Madalena a saúde do corpo e da mente e chamou-a a ser testemunha da sua ressurreição; purifica-nos e renova-nos para te servirmos no poder da vida ressuscitada de Jesus, o qual, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Judite 9:1, 11-14",
+        "psalm": "Salmo 42:1-7",
+        "second_reading": "2 Coríntios 5:14-18",
+        "gospel": "João 20:11-18"
+      },
+      "is_sunday": false
+    },
+    "2026-07-23": {
+      "title": "Brígida da Suécia",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, fonte de toda a sabedoria, que tanto conheces de antemão as nossas necessidades, quanto nós ignoramos o que pedir; tem compaixão de nossas fraquezas, e concede-nos tudo o que, por indignidade ou cegueira nossa, não ousamos nem sabemos suplicar, senão pelos merecimentos de teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 29.1-8",
+        "psalm": "Salmo 105.1-11; 45b",
+        "second_reading": "I Coríntios 4.14-20"
+      },
+      "is_sunday": false
+    },
+    "2026-07-24": {
+      "title": "Thomas Kempis",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, fonte de toda a sabedoria, que tanto conheces de antemão as nossas necessidades, quanto nós ignoramos o que pedir; tem compaixão de nossas fraquezas, e concede-nos tudo o que, por indignidade ou cegueira nossa, não ousamos nem sabemos suplicar, senão pelos merecimentos de teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 29.9-14",
+        "psalm": "Salmo 105.1-11; 45b",
+        "second_reading": "Atos 7.44-53"
+      },
+      "is_sunday": false
+    },
+    "2026-07-25": {
+      "title": "Tiago",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Senhor Deus, o teu apóstolo Tiago consentiu em deixar seu pai e tudo o que possuía e ainda em sofrer pelo nome do teu Filho; ajuda-nos misericordioso para que nenhum dos laços terrenos nos afastem do teu serviço. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Jeremias 45:1-5",
+        "psalm": "Salmo 7:1-10",
+        "second_reading": "Atos 11:27-12:3",
+        "gospel": "Mateus 20:20-28"
+      },
+      "is_sunday": false
+    },
+    "2026-07-26": {
+      "title": "8º Domingo no Tempo Comum",
+      "subtitle": "Próprio 12 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, protetor dos que em ti confiam, sem o qual nada é forte, nada é santo; acrescenta e multiplica a tua misericórdia para conosco, a fim de que, sob o teu governo e direção, vivamos esta vida de tal maneira que não percamos a vida eterna. Por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 29:15-28",
+        "psalm": "Salmo 105:1-11, 45b",
+        "second_reading": "Romanos 8:26-39",
+        "gospel": "Mateus 13:31-33, 44-52"
+      },
+      "is_sunday": true
+    },
+    "2026-07-27": {
+      "title": "William Reed Huntington",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, protetor dos que em ti confiam, sem o qual nada é forte, nada é santo; acrescenta e multiplica a tua misericórdia para conosco, a fim de que, sob o teu governo e direção, vivamos esta vida de tal maneira que não percamos a vida eterna. Por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 30.25-36",
+        "psalm": "Salmo 65.8-13",
+        "second_reading": "Tiago 3.13-18"
+      },
+      "is_sunday": false
+    },
+    "2026-07-28": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, protetor dos que em ti confiam, sem o qual nada é forte, nada é santo; acrescenta e multiplica a tua misericórdia para conosco, a fim de que, sob o teu governo e direção, vivamos esta vida de tal maneira que não percamos a vida eterna. Por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 30.37-43",
+        "psalm": "Salmo 65.8-13",
+        "second_reading": "Efésios 6.10-18"
+      },
+      "is_sunday": false
+    },
+    "2026-07-29": {
+      "title": "Maria Marta e Lázaro",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, protetor dos que em ti confiam, sem o qual nada é forte, nada é santo; acrescenta e multiplica a tua misericórdia para conosco, a fim de que, sob o teu governo e direção, vivamos esta vida de tal maneira que não percamos a vida eterna. Por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 46.2–47.12",
+        "psalm": "Salmo 65.8-13",
+        "second_reading": "Marcos 4.30-34"
+      },
+      "is_sunday": false
+    },
+    "2026-07-30": {
+      "title": "William Wilberforce",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, protetor dos que em ti confiam, sem o qual nada é forte, nada é santo; acrescenta e multiplica a tua misericórdia para conosco, a fim de que, sob o teu governo e direção, vivamos esta vida de tal maneira que não percamos a vida eterna. Por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 14.1-2",
+        "psalm": "Salmo 17.1-7; 15",
+        "second_reading": "Filipenses 4.10-15"
+      },
+      "is_sunday": false
+    },
+    "2026-07-31": {
+      "title": "José de Arimateia",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, protetor dos que em ti confiam, sem o qual nada é forte, nada é santo; acrescenta e multiplica a tua misericórdia para conosco, a fim de que, sob o teu governo e direção, vivamos esta vida de tal maneira que não percamos a vida eterna. Por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Isaías 41.8-10",
+        "psalm": "Salmo 17.1-7; 15",
+        "second_reading": "Romanos 9.6-13"
+      },
+      "is_sunday": false
+    }
+  }
+}

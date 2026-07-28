@@ -1,0 +1,480 @@
+{
+  "year": 2026,
+  "month": 10,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-10-01": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja onipotência se revela principalmente em misericórdia e compaixão; concede-nos a plenitude da tua graça, para que, esforçando-nos para alcançar as tuas promessas, sejamos feitos participantes do teu tesouro celestial; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 23.1-9",
+        "psalm": "Salmo 19",
+        "second_reading": "Colossenses 2.16-23"
+      },
+      "is_sunday": false
+    },
+    "2026-10-02": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja onipotência se revela principalmente em misericórdia e compaixão; concede-nos a plenitude da tua graça, para que, esforçando-nos para alcançar as tuas promessas, sejamos feitos participantes do teu tesouro celestial; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 23.14-19",
+        "psalm": "Salmo 19",
+        "second_reading": "Filipenses 2.14-18; 3.1-4a"
+      },
+      "is_sunday": false
+    },
+    "2026-10-03": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Deus, cuja onipotência se revela principalmente em misericórdia e compaixão; concede-nos a plenitude da tua graça, para que, esforçando-nos para alcançar as tuas promessas, sejamos feitos participantes do teu tesouro celestial; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 23.10-13",
+        "psalm": "Salmo 19",
+        "second_reading": "João 7.40-52"
+      },
+      "is_sunday": false
+    },
+    "2026-10-04": {
+      "title": "18º Domingo no Tempo Comum",
+      "subtitle": "Próprio 22 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 20:1-4, 7-9, 12-20",
+        "psalm": "Salmo 19",
+        "second_reading": "Filipenses 3:4b-14",
+        "gospel": "Mateus 21:33-46"
+      },
+      "is_sunday": true
+    },
+    "2026-10-05": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 5.1-21",
+        "psalm": "Salmo 119.49-56",
+        "second_reading": "I Pedro 2.4-10"
+      },
+      "is_sunday": false
+    },
+    "2026-10-06": {
+      "title": "William Tyndale e Miles Coverdale",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 5.22–6.3",
+        "psalm": "Salmo 119.49-56",
+        "second_reading": "II Coríntios 5.17-21"
+      },
+      "is_sunday": false
+    },
+    "2026-10-07": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 6.10-25",
+        "psalm": "Salmo 119.49-56",
+        "second_reading": "João 11.45-57"
+      },
+      "is_sunday": false
+    },
+    "2026-10-08": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 24.1-8",
+        "psalm": "Salmo 106.1-6; 19-23",
+        "second_reading": "I Pedro 5.1-5, 12-14"
+      },
+      "is_sunday": false
+    },
+    "2026-10-09": {
+      "title": "Dinis de Paris e seus confrades",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 24.9-11",
+        "psalm": "Salmo 106.1-6; 19-23",
+        "second_reading": "Tiago 4.4-10"
+      },
+      "is_sunday": false
+    },
+    "2026-10-10": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 24.12-18",
+        "psalm": "Salmo 106.1-6; 19-23",
+        "second_reading": "Marcos 2.18-22"
+      },
+      "is_sunday": false
+    },
+    "2026-10-11": {
+      "title": "19º Domingo no Tempo Comum",
+      "subtitle": "Próprio 23 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 32:1-14",
+        "psalm": "Salmo 106:1-6",
+        "second_reading": "Filipenses 4:1-9",
+        "gospel": "Mateus 22:1-14"
+      },
+      "is_sunday": true
+    },
+    "2026-10-12": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 32.15-35",
+        "psalm": "Salmo 97",
+        "second_reading": "Judas 17-25"
+      },
+      "is_sunday": false
+    },
+    "2026-10-13": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 33.1-6",
+        "psalm": "Salmo 97",
+        "second_reading": "Filipenses 3.13–4.1"
+      },
+      "is_sunday": false
+    },
+    "2026-10-14": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "II Reis 17.7-20",
+        "psalm": "Salmo 97",
+        "second_reading": "João 6.25-35"
+      },
+      "is_sunday": false
+    },
+    "2026-10-15": {
+      "title": "Teresa de Ávila",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 33.7-11",
+        "psalm": "Salmo 99",
+        "second_reading": "III João 9-12"
+      },
+      "is_sunday": false
+    },
+    "2026-10-16": {
+      "title": "Nicholas Ridley e Hugh Latimer",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 31.1-11",
+        "psalm": "Salmo 99",
+        "second_reading": "I Pedro 5.1-5"
+      },
+      "is_sunday": false
+    },
+    "2026-10-17": {
+      "title": "Inácio de Antioquia",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 39.32-43",
+        "psalm": "Salmo 99",
+        "second_reading": "Mateus 14.1-12"
+      },
+      "is_sunday": false
+    },
+    "2026-10-18": {
+      "title": "20º Domingo no Tempo Comum",
+      "subtitle": "Próprio 24 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Pai de toda a graça, tu inspiraste o médico Lucas a anunciar o amor e o poder de cura do teu Filho; dá à tua Igreja, pela graça do Espírito, o mesmo amor e o mesmo poder de curar. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Eclesiástico 38:1-4, 6-10, 12-14",
+        "psalm": "Salmo 147",
+        "second_reading": "2 Timóteo 4:5-13",
+        "gospel": "Lucas 4:14-21"
+      },
+      "is_sunday": true
+    },
+    "2026-10-19": {
+      "title": "Lucas",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Pai de toda a graça, tu inspiraste o médico Lucas a anunciar o amor e o poder de cura do teu Filho; dá à tua Igreja, pela graça do Espírito, o mesmo amor e o mesmo poder de curar. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Eclesiástico 38:1-4, 6-10, 12-14",
+        "psalm": "Salmo 147",
+        "second_reading": "2 Timóteo 4:5-13",
+        "gospel": "Lucas 4:14-21"
+      },
+      "is_sunday": false
+    },
+    "2026-10-20": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que em Cristo tens revelado tua glória entre as nações. Mantém viva esta obra, por tua misericórdia, para que a tua Igreja pelo mundo inteiro persevere com fé inabalável na confissão do teu nome; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Números 12.1-9",
+        "psalm": "Salmo 63.1-8",
+        "second_reading": "Apocalipse 18.21-24"
+      },
+      "is_sunday": false
+    },
+    "2026-10-21": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que em Cristo tens revelado tua glória entre as nações. Mantém viva esta obra, por tua misericórdia, para que a tua Igreja pelo mundo inteiro persevere com fé inabalável na confissão do teu nome; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Mateus 17.22-27",
+        "psalm": "Salmo 63.1-8",
+        "second_reading": "Mateus 17.22-27"
+      },
+      "is_sunday": false
+    },
+    "2026-10-22": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que em Cristo tens revelado tua glória entre as nações. Mantém viva esta obra, por tua misericórdia, para que a tua Igreja pelo mundo inteiro persevere com fé inabalável na confissão do teu nome; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 31.14-22",
+        "psalm": "Salmo 90.1-6; 13-17",
+        "second_reading": "Tito 1.5-16"
+      },
+      "is_sunday": false
+    },
+    "2026-10-23": {
+      "title": "Tiago de Jerusalém",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Onipotente Deus, que deste ao teu servo Tiago de Jerusalém a ousadia de confessar o nome de nosso Senhor e Salvador Jesus Cristo diante das autoridades deste mundo, e a coragem de morrer por nossa fé. Concede que sempre possamos dar a razão da esperança que está em nós, e sofrer alegremente por amor de nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Atos 15:12-22a",
+        "psalm": "Salmo 1",
+        "second_reading": "1 Coríntios 15:1-11",
+        "gospel": "Mateus 13:54-58"
+      },
+      "is_sunday": false
+    },
+    "2026-10-24": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e sempiterno Deus, que em Cristo tens revelado tua glória entre as nações. Mantém viva esta obra, por tua misericórdia, para que a tua Igreja pelo mundo inteiro persevere com fé inabalável na confissão do teu nome; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 32.44-47",
+        "psalm": "Salmo 90.1-6; 13-17",
+        "second_reading": "João 5.39-47"
+      },
+      "is_sunday": false
+    },
+    "2026-10-25": {
+      "title": "21º Domingo no Tempo Comum",
+      "subtitle": "Próprio 25 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Levítico 19:1-2, 15-18",
+        "psalm": "Salmo 1",
+        "second_reading": "1 Tessalonicenses 2:1-8",
+        "gospel": "Mateus 22:34-46"
+      },
+      "is_sunday": true
+    },
+    "2026-10-26": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Números 33.38-39",
+        "psalm": "Salmo 119.41-48",
+        "second_reading": "Tiago 2.8-13"
+      },
+      "is_sunday": false
+    },
+    "2026-10-27": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 34.29-35",
+        "psalm": "Salmo 119.41-48",
+        "second_reading": "Tiago 2.14-26"
+      },
+      "is_sunday": false
+    },
+    "2026-10-28": {
+      "title": "Simão e Judas",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Senhor Deus, edificaste a tua Igreja mediante apóstolos e profetas, sendo Jesus Cristo a sua pedra angular; permite que, auxiliados pela sua doutrina, nos reunamos na unidade do Espírito e nos tomemos templo santo aceitável por ti. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Deuteronômio 32:1-4",
+        "psalm": "Salmo 119:89-96",
+        "second_reading": "Efésios 2:13-22",
+        "gospel": "João 15:17-27"
+      },
+      "is_sunday": false
+    },
+    "2026-10-29": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 1.1-11",
+        "psalm": "I Samuel 2.27-36",
+        "second_reading": "Romanos 2.17-29"
+      },
+      "is_sunday": false
+    },
+    "2026-10-30": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 2.1-14",
+        "psalm": "Salmo 107.1-7; 33-37",
+        "second_reading": "II Pedro 2.1-3"
+      },
+      "is_sunday": false
+    },
+    "2026-10-31": {
+      "title": "Dia da Reforma",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Josué 2.15-24",
+        "psalm": "Salmo 107.1-7; 33-37",
+        "second_reading": "Mateus 23.13-28"
+      },
+      "is_sunday": false
+    }
+  }
+}

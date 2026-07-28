@@ -64,17 +64,100 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 .to-top { position: fixed; bottom: 20px; right: 20px; background: var(--liturgical); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
 .to-top.visible { opacity: 1; }
 @media (max-width: 480px) { body { font-size: 16px; } .container { padding: 16px 14px 40px; } h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; } .step-num { width: 26px; height: 26px; font-size: 0.8rem; } .scripture, .prayer, .dialogue, .louvor-lyrics { padding: 14px 16px; } }
-@media print { .to-top, .share-tip { display: none; } body { font-size: 11pt; background: white; } section { page-break-inside: avoid; } }
+@page { size: A4; margin: 10mm 12mm; }
+@media print {
+  .to-top, .share-tip, .print-bar { display: none !important; }
+  html, body {
+    background: #fff !important;
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.35;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .container { max-width: none; width: 100%; margin: 0; padding: 0; }
+  header { padding: 0 0 8pt; margin-bottom: 10pt; }
+  h1 { font-size: 16pt; margin-bottom: 6pt; }
+  .subtitle { font-size: 10pt; }
+  .date { font-size: 9pt; }
+  .church { font-size: 8pt; margin-bottom: 6pt; }
+  .cor-tag {
+    background: transparent !important;
+    color: #000 !important;
+    border: 0.8pt solid #333;
+    padding: 2pt 8pt;
+    font-size: 8pt;
+  }
+  h2 {
+    font-size: 11pt;
+    margin-bottom: 6pt;
+    padding-bottom: 3pt;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .step-num { width: 14pt; height: 14pt; font-size: 8pt; }
+  section {
+    margin-bottom: 9pt;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .intro-box, .opening-versicle, .dialogue, .scripture, .prayer,
+  .louvor-lyrics, .blessing-box, .louvor {
+    margin: 6pt 0;
+    padding: 7pt 9pt;
+    box-shadow: none !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .louvor {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1.2pt solid #2d6a4f;
+  }
+  .louvor-icon, .louvor-artista, .louvor-nota { color: #333 !important; opacity: 1 !important; }
+  .louvor-nome { font-size: 12pt; }
+  .louvor-lyrics .part { margin: 6pt 0 3pt; }
+  .louvor-lyrics p { margin-bottom: 4pt; }
+  .rubric { font-size: 9pt; margin: 4pt 0 6pt; }
+  .scripture, .dialogue, .prayer, .intro-box { font-size: 9.5pt; line-height: 1.4; }
+  .ref { font-size: 7.5pt; margin-bottom: 5pt; }
+  footer { margin-top: 10pt; padding-top: 8pt; font-size: 8pt; }
+  a { color: inherit; text-decoration: none; }
+}
+.print-bar {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+  padding: 10px 14px;
+  background: rgba(247,244,238,0.96);
+  border-bottom: 1px solid var(--border);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+}
+.print-bar button, .print-bar span {
+  font: inherit;
+}
+.print-bar button {
+  background: var(--liturgical); color: #fff; border: 0;
+  border-radius: 999px; padding: 8px 16px; cursor: pointer; font-weight: 600;
+}
+.print-bar span { color: var(--muted); align-self: center; }
+
 </style>
 </head>
 <body>
+<div class="print-bar">
+  <button type="button" onclick="window.print()">Imprimir folheto (A4 frente e verso)</button>
+  <span>Na impressora: A4 · frente e verso · margens padrão</span>
+</div>
 <div class="container">
   <header>
+    <!-- estevao:header -->
     <div class="church">Igreja Anglicana Rio</div>
     <h1>8º Domingo no Tempo Comum</h1>
     <div class="subtitle">Próprio 12 · Ano A</div>
     <div class="date">26 DE JULHO DE 2026</div>
     <span class="cor-tag">🟢 Cor litúrgica: Verde</span>
+<!-- /estevao:header -->
   </header>
 
   <div class="intro-box">
@@ -177,6 +260,7 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 
   <section id="s6">
     <h2><span class="step-num">6</span> Coleta do Dia</h2>
+    <!-- estevao:collect -->
     <div class="dialogue">
       <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
       <p><span class="role">Povo:</span> E também contigo.</p>
@@ -185,6 +269,7 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
     <div class="prayer">
       Ó Deus, protetor dos que em ti confiam, sem o qual nada é forte, nada é santo; acrescenta e multiplica a tua misericórdia para conosco, a fim de que, sob o teu governo e direção, vivamos esta vida de tal maneira que não percamos a vida eterna. Por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. <strong>Amém.</strong>
     </div>
+<!-- /estevao:collect -->
   </section>
 
   <section id="s7">
@@ -218,34 +303,45 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
   </section>
 
   <section id="s8">
+    <!-- estevao:readings -->
     <h2><span class="step-num">8</span> Leituras das Escrituras</h2>
 
     <div class="scripture">
       <span class="ref">Gênesis 29.15-28 · NVI · Primeira Leitura</span>
-      <p>Então Labão disse a Jacó: "Só porque você é meu parente, deveria trabalhar de graça para mim? Diga-me quanto quer ganhar." Ora, Labão tinha duas filhas; a mais velha chamava-se Lia, e a mais nova, Raquel. Lia tinha olhos ternos, mas Raquel era de corpo e rosto formosos. Jacó amava Raquel e disse: "Trabalharei sete anos para poder casar-me com Raquel, sua filha mais nova." Disse Labão: "É melhor que eu a dê a você do que a outro homem. Fique comigo." Assim Jacó serviu sete anos por Raquel, mas pareciam-lhe poucos dias, tal o amor que tinha por ela.</p>
-      <p>Depois Jacó disse a Labão: "Dê-me minha mulher. Meu tempo já se cumpriu; quero desposá-la." Labão reuniu todos os homens do lugar e deu uma festa. Ao cair da noite, pegou sua filha Lia e a entregou a Jacó, que se uniu a ela. E Labão deu sua serva Zilpa à sua filha Lia. Na manhã seguinte, Jacó viu que era Lia! Disse então a Labão: "Que foi que você me fez? Não trabalhei para ficar com Raquel? Por que você me enganou?"</p>
-      <p>Labão respondeu: "Aqui não é costume dar a caçula em casamento antes da mais velha. Espere terminar a semana nupcial desta filha; depois lhe daremos também a outra, em troca de mais sete anos de trabalho." Foi o que Jacó fez. Completou a semana com Lia, e então Labão lhe deu por mulher sua filha Raquel, e deu também sua serva Bila à sua filha Raquel. Jacó uniu-se também a Raquel, e a amava mais que a Lia. E trabalhou para Labão outros sete anos.</p>
+      <p>Quando este lhe disse: “Só por ser meu parente você vai trabalhar de graça? Diga-me qual deve ser o seu salário”. Ora, Labão tinha duas filhas; o nome da mais velha era Lia, e o da mais nova, Raquel.</p>
+      <p>Lia tinha olhos meigos , mas Raquel era bonita e atraente. Como Jacó gostava muito de Raquel, disse: “Trabalharei sete anos em troca de Raquel, sua filha mais nova”.</p>
+      <p>Labão respondeu: “Será melhor dá-la a você do que a algum outro homem. Fique aqui comigo”. Então Jacó trabalhou sete anos por Raquel, mas lhe pareceram poucos dias, pelo tanto que a amava.</p>
+      <p>Então disse Jacó a Labão: “Entregue-me a minha mulher. Cumpri o prazo previsto e quero deitar-me com ela”. Então Labão reuniu todo o povo daquele lugar e deu uma festa.</p>
+      <p>Mas, quando a noite chegou, deu sua filha Lia a Jacó, e Jacó deitou-se com ela. Labão também entregou sua serva Zilpa à sua filha, para que ficasse a serviço dela.</p>
+      <p>Quando chegou a manhã, lá estava Lia. Então Jacó disse a Labão: “Que foi que você me fez? Eu não trabalhei por Raquel? Por que você me enganou?” Labão respondeu: “Aqui não é costume entregar em casamento a filha mais nova antes da mais velha.</p>
+      <p>Deixe passar esta semana de núpcias e daremos a você também a mais nova, em troca de mais sete anos de trabalho”. Jacó concordou. Passou aquela semana de núpcias com Lia, e Labão lhe deu sua filha Raquel por mulher.</p>
     </div>
+
     <div class="dialogue">
       <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
       <p><span class="role">Povo:</span> Graças a Deus.</p>
     </div>
 
     <div class="scripture">
-      <span class="ref">Salmo 105.1-11.45b · NVI · Salmo responsorial</span>
-      <p style="font-style:normal;font-weight:600;color:var(--navy);margin-bottom:12px">Refrão: Ele se lembra da sua aliança para sempre.</p>
-      <p>Deem graças ao Senhor, invoquem o seu nome; anunciem entre as nações o que ele tem feito. Cantem para ele, louvem-no; falem de todas as suas maravilhas. Gloriem-se em seu santo nome; alegre-se o coração dos que buscam o Senhor. Busquem ao Senhor e à sua força; busquem sempre a sua face. Lembrem-se das maravilhas que ele fez, dos seus prodígios e das sentenças que pronunciou, descendência de Abraão, seu servo, filhos de Jacó, seus escolhidos.</p>
-      <p>Ele é o Senhor, o nosso Deus; os seus juízos alcançam toda a terra. Ele se lembra da sua aliança para sempre, da promessa que fez, para mil gerações, aliança que fez com Abraão, o juramento que fez a Isaque. Ele a confirmou a Jacó como decreto, a Israel, como aliança eterna, dizendo: "A você darei a terra de Canaã como herança que lhe pertencerá."</p>
-      <p>Aleluia!</p>
+      <span class="ref">Salmo 105.1-11, 45b · NVI · Salmo responsorial</span>
+      <p>Deem graças ao SENHOR, proclamem o seu nome; divulguem os seus feitos entre as nações. Cantem para ele e louvem-no; relatem todas as suas maravilhas.</p>
+      <p>Gloriem-se no seu santo nome; alegre-se o coração dos que buscam o SENHOR. Recorram ao SENHOR e ao seu poder; busquem sempre a sua presença.</p>
+      <p>Lembrem-se das maravilhas que ele fez, dos seus prodígios e das sentenças de juízo que pronunciou, ó descendentes de Abraão, seu servo, ó filhos de Jacó, seus escolhidos.</p>
+      <p>Ele é o SENHOR, o nosso Deus; seus decretos são para toda a terra. Ele se lembra para sempre da sua aliança, por mil gerações, da palavra que ordenou, da aliança que fez com Abraão, do juramento que fez a Isaque.</p>
+      <p>Ele o confirmou como decreto a Jacó, a Israel como aliança eterna, quando disse: “Darei a você a terra de Canaã, a herança que lhe pertence”. para que obedecessem aos seus decretos e guardassem as suas leis. Aleluia!</p>
     </div>
 
     <div class="scripture">
       <span class="ref">Romanos 8.26-39 · NVI · Segunda Leitura</span>
-      <p>Da mesma forma, o Espírito nos ajuda em nossa fraqueza, pois não sabemos como orar, mas o próprio Espírito intercede por nós com gemidos inexprimíveis. E aquele que sonda os corações conhece a intenção do Espírito, porque o Espírito intercede pelos santos de acordo com a vontade de Deus.</p>
-      <p>Sabemos que Deus age em todas as coisas para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito. Pois aqueles que de antemão conheceu, também os predestinou para serem conformes à imagem de seu Filho, a fim de que ele seja o primogênito entre muitos irmãos. E aos que predestinou, também chamou; aos que chamou, também justificou; aos que justificou, também glorificou.</p>
-      <p>Que diremos, pois, diante dessas coisas? Se Deus é por nós, quem será contra nós? Aquele que não poupou seu próprio Filho, mas o entregou por todos nós, como não nos dará juntamente com ele, e de graça, todas as coisas? Quem fará alguma acusação contra os eleitos de Deus? É Deus quem os justifica. Quem os condenará? Cristo Jesus, que morreu, mais que isso, ressuscitou, e está à direita de Deus, e também intercede por nós.</p>
-      <p>Quem nos separará do amor de Cristo? Será tribulação, ou angústia, ou perseguição, ou fome, ou nudez, ou perigo, ou espada? Não, em todas estas coisas somos mais que vencedores, por meio daquele que nos amou. Pois estou convencido de que nem morte nem vida, nem anjos nem demônios, nem o presente nem o futuro, nem quaisquer poderes, nem altura nem profundidade, nem qualquer outra coisa na criação será capaz de nos separar do amor de Deus que está em Cristo Jesus, nosso Senhor.</p>
+      <p>Da mesma forma o Espírito nos ajuda em nossa fraqueza, pois não sabemos como orar, mas o próprio Espírito intercede por nós com gemidos inexprimíveis. E aquele que sonda os corações conhece a intenção do Espírito, porque o Espírito intercede pelos santos de acordo com a vontade de Deus.</p>
+      <p>Sabemos que Deus age em todas as coisas para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito. Pois aqueles que de antemão conheceu, também os predestinou para serem conformes à imagem de seu Filho, a fim de que ele seja o primogênito entre muitos irmãos.</p>
+      <p>E aos que predestinou, também chamou; aos que chamou, também justificou; aos que justificou, também glorificou. Que diremos, pois, diante dessas coisas? Se Deus é por nós, quem será contra nós?</p>
+      <p>Aquele que não poupou seu próprio Filho, mas o entregou por todos nós, como não nos dará com ele, e de graça, todas as coisas? Quem fará alguma acusação contra os escolhidos de Deus? É Deus quem os justifica.</p>
+      <p>Quem os condenará? Foi Cristo Jesus que morreu; e mais, que ressuscitou e está à direita de Deus, e também intercede por nós. Quem nos separará do amor de Cristo? Será tribulação, ou angústia, ou perseguição, ou fome, ou nudez, ou perigo, ou espada?</p>
+      <p>Como está escrito: “Por amor de ti enfrentamos a morte todos os dias; somos considerados como ovelhas destinadas ao matadouro”. Mas em todas estas coisas somos mais que vencedores, por meio daquele que nos amou.</p>
+      <p>Pois estou convencido de que nem morte nem vida, nem anjos nem demônios , nem o presente nem o futuro, nem quaisquer poderes, nem altura nem profundidade, nem qualquer outra coisa na criação será capaz de nos separar do amor de Deus que está em Cristo Jesus, nosso Senhor.</p>
     </div>
+
     <div class="dialogue">
       <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
       <p><span class="role">Povo:</span> Graças a Deus.</p>
@@ -254,17 +350,19 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
     <p class="rubric">✠ Antes da leitura do Evangelho, um sinal da cruz sobre si — pedindo que a Palavra de Cristo habite em nós.</p>
 
     <div class="scripture">
-      <span class="ref">Mateus 13.31-33.44-52 · NVI · Santo Evangelho de nosso Senhor Jesus Cristo</span>
-      <p>Jesus lhes contou ainda outra parábola: "O Reino dos céus é como um grão de mostarda que um homem plantou em seu campo. Ainda que seja a menor de todas as sementes, quando cresce, torna-se a maior das plantas, e se transforma numa árvore, de modo que as aves do céu vêm construir seus ninhos em seus ramos."</p>
-      <p>Ele lhes contou ainda outra parábola: "O Reino dos céus é como o fermento que uma mulher tomou e misturou em três medidas de farinha, até que a massa toda ficasse fermentada."</p>
-      <p>"O Reino dos céus é como um tesouro escondido num campo, que um homem encontrou e escondeu de novo; e, cheio de alegria, foi, vendeu tudo o que tinha e comprou aquele campo. Também o Reino dos céus é como um comerciante que procurava pérolas preciosas. Encontrando uma pérola de grande valor, foi, vendeu tudo o que tinha e a comprou."</p>
-      <p>"Também o Reino dos céus é como uma rede que, lançada ao mar, apanha toda espécie de peixes. Quando se enche, os pescadores a puxam para a praia. Depois se assentam e ajuntam os bons em cestos e jogam fora os inservíveis. Assim acontecerá no fim desta era: os anjos virão e separarão os maus dos justos, e os lançarão na fornalha ardente, onde haverá choro e ranger de dentes."</p>
-      <p>"Vocês entenderam todas estas coisas?", perguntou Jesus. "Sim", responderam eles. Então Jesus lhes disse: "Por isso, todo mestre da lei que se tornou discípulo do Reino dos céus é semelhante ao dono de uma casa que tira do seu depósito coisas novas e coisas velhas."</p>
+      <span class="ref">Mateus 13.31-33, 44-52 · NVI · Santo Evangelho de nosso Senhor Jesus Cristo</span>
+      <p>E contou-lhes outra parábola: “O Reino dos céus é como um grão de mostarda que um homem plantou em seu campo. Embora seja a menor entre todas as sementes, quando cresce, torna-se uma das maiores plantas e atinge a altura de uma árvore, de modo que as aves do céu vêm fazer os seus ninhos em seus ramos”.</p>
+      <p>E contou-lhes ainda outra parábola: “O Reino dos céus é como o fermento que uma mulher tomou e misturou com uma grande quantidade de farinha, e toda a massa ficou fermentada”. “O Reino dos céus é como um tesouro escondido num campo. Certo homem, tendo-o encontrado, escondeu-o de novo e, então, cheio de alegria, foi, vendeu tudo o que tinha e comprou aquele campo. “O Reino dos céus também é como um negociante que procura pérolas preciosas.</p>
+      <p>Encontrando uma pérola de grande valor, foi, vendeu tudo o que tinha e a comprou. “O Reino dos céus é ainda como uma rede que é lançada ao mar e apanha toda sorte de peixes.</p>
+      <p>Quando está cheia, os pescadores a puxam para a praia. Então assentam-se e juntam os peixes bons em cestos, mas jogam fora os ruins. Assim acontecerá no fim desta era. Os anjos virão, separarão os perversos dos justos e lançarão aqueles na fornalha ardente, onde haverá choro e ranger de dentes”.</p>
+      <p>Então perguntou Jesus: “Vocês entenderam todas essas coisas?” “Sim”, responderam eles. Ele lhes disse: “Por isso, todo mestre da lei instruído quanto ao Reino dos céus é como o dono de uma casa que tira do seu tesouro coisas novas e coisas velhas”.</p>
     </div>
+
     <div class="dialogue">
       <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
       <p><span class="role">Povo:</span> Graças a Deus.</p>
     </div>
+<!-- /estevao:readings -->
   </section>
 
   <section id="s9">

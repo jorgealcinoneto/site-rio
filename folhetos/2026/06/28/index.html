@@ -68,17 +68,100 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 .to-top { position: fixed; bottom: 20px; right: 20px; background: var(--liturgical); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
 .to-top.visible { opacity: 1; }
 @media (max-width: 480px) { body { font-size: 16px; } .container { padding: 16px 14px 40px; } h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; } .step-num { width: 26px; height: 26px; font-size: 0.8rem; } .scripture, .prayer, .dialogue, .louvor-lyrics { padding: 14px 16px; } }
-@media print { .to-top, .share-tip { display: none; } body { font-size: 11pt; background: white; } section { page-break-inside: avoid; } }
+@page { size: A4; margin: 10mm 12mm; }
+@media print {
+  .to-top, .share-tip, .print-bar { display: none !important; }
+  html, body {
+    background: #fff !important;
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.35;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .container { max-width: none; width: 100%; margin: 0; padding: 0; }
+  header { padding: 0 0 8pt; margin-bottom: 10pt; }
+  h1 { font-size: 16pt; margin-bottom: 6pt; }
+  .subtitle { font-size: 10pt; }
+  .date { font-size: 9pt; }
+  .church { font-size: 8pt; margin-bottom: 6pt; }
+  .cor-tag {
+    background: transparent !important;
+    color: #000 !important;
+    border: 0.8pt solid #333;
+    padding: 2pt 8pt;
+    font-size: 8pt;
+  }
+  h2 {
+    font-size: 11pt;
+    margin-bottom: 6pt;
+    padding-bottom: 3pt;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .step-num { width: 14pt; height: 14pt; font-size: 8pt; }
+  section {
+    margin-bottom: 9pt;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .intro-box, .opening-versicle, .dialogue, .scripture, .prayer,
+  .louvor-lyrics, .blessing-box, .louvor {
+    margin: 6pt 0;
+    padding: 7pt 9pt;
+    box-shadow: none !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .louvor {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1.2pt solid #2d6a4f;
+  }
+  .louvor-icon, .louvor-artista, .louvor-nota { color: #333 !important; opacity: 1 !important; }
+  .louvor-nome { font-size: 12pt; }
+  .louvor-lyrics .part { margin: 6pt 0 3pt; }
+  .louvor-lyrics p { margin-bottom: 4pt; }
+  .rubric { font-size: 9pt; margin: 4pt 0 6pt; }
+  .scripture, .dialogue, .prayer, .intro-box { font-size: 9.5pt; line-height: 1.4; }
+  .ref { font-size: 7.5pt; margin-bottom: 5pt; }
+  footer { margin-top: 10pt; padding-top: 8pt; font-size: 8pt; }
+  a { color: inherit; text-decoration: none; }
+}
+.print-bar {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+  padding: 10px 14px;
+  background: rgba(247,244,238,0.96);
+  border-bottom: 1px solid var(--border);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+}
+.print-bar button, .print-bar span {
+  font: inherit;
+}
+.print-bar button {
+  background: var(--liturgical); color: #fff; border: 0;
+  border-radius: 999px; padding: 8px 16px; cursor: pointer; font-weight: 600;
+}
+.print-bar span { color: var(--muted); align-self: center; }
+
 </style>
 </head>
 <body>
+<div class="print-bar">
+  <button type="button" onclick="window.print()">Imprimir folheto (A4 frente e verso)</button>
+  <span>Na impressora: A4 · frente e verso · margens padrão</span>
+</div>
 <div class="container">
   <header>
+    <!-- estevao:header -->
     <div class="church">Igreja Anglicana Rio</div>
     <h1>4º Domingo no Tempo Comum</h1>
     <div class="subtitle">Próprio 8 · Ano A</div>
     <div class="date">28 DE JUNHO DE 2026</div>
     <span class="cor-tag">🟢 Cor litúrgica: Verde</span>
+<!-- /estevao:header -->
   </header>
 
   <div class="intro-box">
@@ -179,39 +262,16 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 
   <section id="s6">
     <h2><span class="step-num">6</span> Louvor</h2>
-    <div class="louvor">
-      <div class="louvor-icon">♪</div>
-      <div class="louvor-nome">Para Sempre</div>
-      <div class="louvor-artista">Ministério Canto do Espírito</div>
-      <div class="louvor-nota">Pré-Palavra — a luz que guia quando tudo se apagar; eco de Romanos 6 e da fé de Abraão</div>
+    <!-- estevao:collect -->
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
+      <p><span class="role">Povo:</span> E também contigo.</p>
+      <p><span class="role">Ministro:</span> Oremos.</p>
     </div>
-    <div class="louvor-lyrics">
-      <div class="part">Verso</div>
-      <p>Por mil vezes falhei, recebi teu perdão<br>Tropeçando outra vez, tu me estendes a mão</p>
-      <div class="part">Refrão</div>
-      <p>Para Sempre se tudo se apagar eu sei<br>Para Sempre tua luz me guiará a fé</p>
-      <div class="part">Verso 2</div>
-      <p>Permanece assim teu propósito em mim<br>De viver aos teus pés e servir ao meu Deus</p>
-      <div class="part">Refrão</div>
-      <p>Para Sempre se tudo se apagar, eu sei<br>Para Sempre tua luz me guiará, a fé</p>
-      <div class="part">Ponte</div>
-      <p>Contudo que sou, controle eu te dou<br>Consome o meu interior, Deus<br>Justiça verei, contigo estarei<br>O amor de Deus está em mim</p>
-      <div class="part">Verso 2</div>
-      <p>Permanece assim teu propósito em mim<br>E viver aos teus pés e servir ao meu Deus</p>
-      <div class="part">Refrão</div>
-      <p>Para Sempre se tudo se apagar, eu sei<br>Para Sempre tua luz me guiará, a fé</p>
-      <div class="part">Ponte</div>
-      <p>Contudo que sou, controle eu te dou<br>Consome o meu interior, Deus<br>Justiça verei, contigo estarei<br>O amor de Deus está em mim</p>
-      <div class="part">Refrão</div>
-      <p>Para Sempre se tudo se apagar, eu sei<br>Para Sempre tua luz me guiará a fé<br>E toda vez que eu clamar e entregar o meu ser a ti<br>A graça de Deus verei</p>
-      <p>Para Sempre se tudo se apagar, eu sei<br>Para Sempre tua luz me guiará a fé<br>E toda vez que eu clamar e entregar o meu ser a ti<br>A graça de Deus verei</p>
-      <div class="part">Final</div>
-      <p>Tua Graça verei, Jesus</p>
-      <div class="part">Ponte</div>
-      <p>Contudo que sou, controle eu te dou<br>Consome o meu interior, Deus<br>Justiça verei, contigo estarei<br>O amor de Deus está em mim</p>
-      <div class="part">Refrão final</div>
-      <p>Para Sempre se tudo se apagar, eu sei<br>Para Sempre tua luz me guiará a fé<br>E toda vez que eu clamar, e entregar, o meu ser a ti<br>A graça de Deus, A Graça de Deus, A Graça de Deus verei</p>
+    <div class="prayer">
+      Deus Onipotente, que edificaste tua Igreja sobre o fundamento dos Apóstolos e Profetas, sendo Jesus Cristo mesmo a principal pedra angular; concede que sejamos unidos em espírito por meio de seu ensino e feitos um santo templo aceitável a teus olhos; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. <strong>Amém.</strong>
     </div>
+<!-- /estevao:collect -->
   </section>
 
   <section id="s7">
@@ -263,8 +323,60 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
   </section>
 
   <section id="s8">
-    <h2><span class="step-num">8</span> Sermão</h2>
-    <p class="rubric">Pregação sobre Gênesis 22 e Mateus 10 — <em>Um Deus que Salta</em>: a prova de Abraão e o salto da fé; receber o enviado de Cristo e o gesto mínimo de hospitalidade. Após o sermão, momento de reflexão partilhada com o grupo.</p>
+    <!-- estevao:readings -->
+    <h2><span class="step-num">8</span> Leituras das Escrituras</h2>
+
+    <div class="scripture">
+      <span class="ref">Gênesis 22.1-14 · NVI · Primeira Leitura</span>
+      <p>Passado algum tempo, Deus pôs Abraão à prova, dizendo-lhe: “Abraão!” Ele respondeu: “Eis-me aqui”. Então disse Deus: “Tome seu filho, seu único filho, Isaque, a quem você ama, e vá para a região de Moriá. Sacrifique-o ali como holocausto num dos montes que lhe indicarei”.</p>
+      <p>Na manhã seguinte, Abraão levantou-se e preparou o seu jumento. Levou consigo dois de seus servos e Isaque, seu filho. Depois de cortar lenha para o holocausto, partiu em direção ao lugar que Deus lhe havia indicado. No terceiro dia de viagem, Abraão olhou e viu o lugar ao longe.</p>
+      <p>Disse ele a seus servos: “Fiquem aqui com o jumento enquanto eu e o rapaz vamos até lá. Depois de adorar, voltaremos”. Abraão pegou a lenha para o holocausto e a colocou nos ombros de seu filho Isaque, e ele mesmo levou as brasas para o fogo, e a faca. E, caminhando os dois juntos,</p>
+      <p>Isaque disse a seu pai, Abraão: “Meu pai!” “Sim, meu filho”, respondeu Abraão. Isaque perguntou: “As brasas e a lenha estão aqui, mas onde está o cordeiro para o holocausto?” Respondeu Abraão: “Deus mesmo há de prover o cordeiro para o holocausto, meu filho”. E os dois continuaram a caminhar juntos.</p>
+      <p>Quando chegaram ao lugar que Deus lhe havia indicado, Abraão construiu um altar e sobre ele arrumou a lenha. Amarrou seu filho Isaque e o colocou sobre o altar, em cima da lenha. Então estendeu a mão e pegou a faca para sacrificar seu filho.</p>
+      <p>Mas o Anjo do SENHOR o chamou do céu: “Abraão! Abraão!” “Eis-me aqui”, respondeu ele. “Não toque no rapaz”, disse o Anjo. “Não lhe faça nada. Agora sei que você teme a Deus, porque não me negou seu filho, o seu único filho.”</p>
+      <p>Abraão ergueu os olhos e viu um carneiro preso pelos chifres num arbusto. Foi lá pegá-lo, e o sacrificou como holocausto em lugar de seu filho. Abraão deu àquele lugar o nome de “O SENHOR Proverá”. Por isso até hoje se diz: “No monte do SENHOR se proverá”.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Salmo 13 · NVI · Salmo responsorial</span>
+      <p>Até quando, SENHOR? Para sempre te esquecerás de mim? Até quando esconderás de mim o teu rosto? Até quando terei inquietações e tristeza no coração dia após dia? Até quando o meu inimigo triunfará sobre mim?</p>
+      <p>Olha para mim e responde, SENHOR, meu Deus. Ilumina os meus olhos, ou do contrário dormirei o sono da morte; os meus inimigos dirão: “Eu o venci”, e os meus adversários festejarão o meu fracasso.</p>
+      <p>Eu, porém, confio em teu amor; o meu coração exulta em tua salvação. Quero cantar ao SENHOR pelo bem que me tem feito.</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Romanos 6.12-23 · NVI · Segunda Leitura</span>
+      <p>Portanto, não permitam que o pecado continue dominando o corpo mortal de vocês, fazendo que obedeçam aos seus desejos. Não ofereçam os membros do corpo de vocês ao pecado, como instrumentos de injustiça; antes ofereçam-se a Deus como quem voltou da morte para a vida; e ofereçam os membros do corpo de vocês a ele, como instrumentos de justiça.</p>
+      <p>Pois o pecado não os dominará, porque vocês não estão debaixo da Lei, mas debaixo da graça. E então? Vamos pecar porque não estamos debaixo da Lei, mas debaixo da graça? De maneira nenhuma!</p>
+      <p>Não sabem que, quando vocês se oferecem a alguém para lhe obedecer como escravos, tornam-se escravos daquele a quem obedecem: escravos do pecado que leva à morte, ou da obediência que leva à justiça? Mas, graças a Deus, porque, embora vocês tenham sido escravos do pecado, passaram a obedecer de coração à forma de ensino que lhes foi transmitida.</p>
+      <p>Vocês foram libertados do pecado e tornaram-se escravos da justiça. Falo isso em termos humanos, por causa das suas limitações humanas. Assim como vocês ofereceram os membros do seu corpo em escravidão à impureza e à maldade que leva à maldade, ofereçam-nos agora em escravidão à justiça que leva à santidade.</p>
+      <p>Quando vocês eram escravos do pecado, estavam livres da justiça. Que fruto colheram então das coisas das quais agora vocês se envergonham? O fim delas é a morte!</p>
+      <p>Mas agora que vocês foram libertados do pecado e se tornaram escravos de Deus o fruto que colhem leva à santidade, e o seu fim é a vida eterna. Pois o salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus, nosso Senhor.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <p class="rubric">✠ Antes da leitura do Evangelho, um sinal da cruz sobre si — pedindo que a Palavra de Cristo habite em nós.</p>
+
+    <div class="scripture">
+      <span class="ref">Mateus 10.40-42 · NVI · Santo Evangelho de nosso Senhor Jesus Cristo</span>
+      <p>“Quem recebe vocês, recebe a mim; e quem me recebe, recebe aquele que me enviou. Quem recebe um profeta, porque ele é profeta, receberá a recompensa de profeta, e quem recebe um justo, porque ele é justo, receberá a recompensa de justo.</p>
+      <p>E, se alguém der mesmo que seja apenas um copo de água fria a um destes pequeninos, porque ele é meu discípulo, eu asseguro que não perderá a sua recompensa”.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+<!-- /estevao:readings -->
   </section>
 
   <section id="s9">

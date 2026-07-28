@@ -67,17 +67,100 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 .to-top { position: fixed; bottom: 20px; right: 20px; background: var(--liturgical); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.2rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.3s; z-index: 100; }
 .to-top.visible { opacity: 1; }
 @media (max-width: 480px) { body { font-size: 16px; } .container { padding: 16px 14px 40px; } h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; } .step-num { width: 26px; height: 26px; font-size: 0.8rem; } .scripture, .prayer, .dialogue, .louvor-lyrics { padding: 14px 16px; } }
-@media print { .to-top, .share-tip { display: none; } body { font-size: 11pt; background: white; } section { page-break-inside: avoid; } }
+@page { size: A4; margin: 10mm 12mm; }
+@media print {
+  .to-top, .share-tip, .print-bar { display: none !important; }
+  html, body {
+    background: #fff !important;
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.35;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .container { max-width: none; width: 100%; margin: 0; padding: 0; }
+  header { padding: 0 0 8pt; margin-bottom: 10pt; }
+  h1 { font-size: 16pt; margin-bottom: 6pt; }
+  .subtitle { font-size: 10pt; }
+  .date { font-size: 9pt; }
+  .church { font-size: 8pt; margin-bottom: 6pt; }
+  .cor-tag {
+    background: transparent !important;
+    color: #000 !important;
+    border: 0.8pt solid #333;
+    padding: 2pt 8pt;
+    font-size: 8pt;
+  }
+  h2 {
+    font-size: 11pt;
+    margin-bottom: 6pt;
+    padding-bottom: 3pt;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .step-num { width: 14pt; height: 14pt; font-size: 8pt; }
+  section {
+    margin-bottom: 9pt;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .intro-box, .opening-versicle, .dialogue, .scripture, .prayer,
+  .louvor-lyrics, .blessing-box, .louvor {
+    margin: 6pt 0;
+    padding: 7pt 9pt;
+    box-shadow: none !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .louvor {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1.2pt solid #2d6a4f;
+  }
+  .louvor-icon, .louvor-artista, .louvor-nota { color: #333 !important; opacity: 1 !important; }
+  .louvor-nome { font-size: 12pt; }
+  .louvor-lyrics .part { margin: 6pt 0 3pt; }
+  .louvor-lyrics p { margin-bottom: 4pt; }
+  .rubric { font-size: 9pt; margin: 4pt 0 6pt; }
+  .scripture, .dialogue, .prayer, .intro-box { font-size: 9.5pt; line-height: 1.4; }
+  .ref { font-size: 7.5pt; margin-bottom: 5pt; }
+  footer { margin-top: 10pt; padding-top: 8pt; font-size: 8pt; }
+  a { color: inherit; text-decoration: none; }
+}
+.print-bar {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+  padding: 10px 14px;
+  background: rgba(247,244,238,0.96);
+  border-bottom: 1px solid var(--border);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+}
+.print-bar button, .print-bar span {
+  font: inherit;
+}
+.print-bar button {
+  background: var(--liturgical); color: #fff; border: 0;
+  border-radius: 999px; padding: 8px 16px; cursor: pointer; font-weight: 600;
+}
+.print-bar span { color: var(--muted); align-self: center; }
+
 </style>
 </head>
 <body>
+<div class="print-bar">
+  <button type="button" onclick="window.print()">Imprimir folheto (A4 frente e verso)</button>
+  <span>Na impressora: A4 · frente e verso · margens padrão</span>
+</div>
 <div class="container">
   <header>
+    <!-- estevao:header -->
     <div class="church">Igreja Anglicana Rio</div>
     <h1>3º Domingo no Tempo Comum</h1>
     <div class="subtitle">Próprio 7 · Ano A</div>
     <div class="date">21 DE JUNHO DE 2026</div>
     <span class="cor-tag">🟢 Cor litúrgica: Verde</span>
+<!-- /estevao:header -->
   </header>
 
   <div class="intro-box">
@@ -158,24 +241,16 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
 
   <section id="s6">
     <h2><span class="step-num">6</span> Louvor</h2>
-    <div class="louvor">
-      <div class="louvor-icon">♪</div>
-      <div class="louvor-nome">Louvemos ao Senhor</div>
-      <div class="louvor-nota">Pré-Palavra — santidade do Nome e "Cristo é a nossa vida" (eco de Romanos 6); preparação para ouvir a Escritura</div>
+    <!-- estevao:collect -->
+    <div class="dialogue">
+      <p><span class="role">Ministro:</span> O Senhor seja convosco.</p>
+      <p><span class="role">Povo:</span> E também contigo.</p>
+      <p><span class="role">Ministro:</span> Oremos.</p>
     </div>
-    <div class="louvor-lyrics">
-      <div class="part">Refrão</div>
-      <p>Louvemos ao Senhor<br>Louvemos ao Senhor<br>Adoremos no Seu santo monte<br>Nosso amado Pai, Seu nome é santo</p>
-      <p>Louvemos ao Senhor, pois Seu nome é santo<br>Louvemos ao Senhor, pois Seu nome é santo</p>
-      <div class="part">Verso</div>
-      <p>Magnifiquemos ao Senhor<br>Ao Rei que é digno de louvor<br>Excelso, supremo e mui digno de louvor<br>Excelso, supremo e mui digno de louvor</p>
-      <div class="part">Hosana</div>
-      <p>Hosana, hosana, hosana ao nosso Rei<br>Hosana, hosana, hosana ao nosso Rei</p>
-      <div class="part">Ponte</div>
-      <p>Cristo é a nossa vida, o motivo de louvor<br>Em nosso novo coração<br>Pois morreu a nossa morte<br>Pra vivermos Sua vida<br>Nos trouxe grande salvação</p>
-      <div class="part">Final</div>
-      <p>Louvemos ao Senhor, pois Seu nome é santo<br>Louvemos ao Senhor, pois Seu nome é santo, santo, santo</p>
+    <div class="prayer">
+      Ó Senhor, faze com que tenhamos amor e reverência constantes, porque nunca deixas de ajudar e governar os que colocaste sobre o fundamento seguro de tua bondade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. <strong>Amém.</strong>
     </div>
+<!-- /estevao:collect -->
   </section>
 
   <section id="s7">
@@ -226,8 +301,66 @@ footer strong { font-family: 'Playfair Display', serif; color: var(--navy); font
   </section>
 
   <section id="s8">
-    <h2><span class="step-num">8</span> Sermão</h2>
-    <p class="rubric">Pregação sobre Mateus 10 — do <em>"não temais"</em> (o Pai conta cada pardal e cada cabelo) à coragem de confessar Cristo diante dos homens, e ao custo de tomar a cruz e segui-lo. Após o sermão, momento de reflexão partilhada com o grupo.</p>
+    <!-- estevao:readings -->
+    <h2><span class="step-num">8</span> Leituras das Escrituras</h2>
+
+    <div class="scripture">
+      <span class="ref">Gênesis 21.8-21 · NVI · Primeira Leitura</span>
+      <p>O menino cresceu e foi desmamado. No dia em que Isaque foi desmamado, Abraão deu uma grande festa. Sara, porém, viu que o filho que Hagar, a egípcia, dera a Abraão estava rindo de Isaque, e disse a Abraão: “Livre-se daquela escrava e do seu filho, porque ele jamais será herdeiro com o meu filho Isaque”.</p>
+      <p>Isso perturbou demais Abraão, pois envolvia um filho seu. Mas Deus lhe disse: “Não se perturbe por causa do menino e da escrava. Atenda a tudo o que Sara lhe pedir, porque será por meio de Isaque que a sua descendência há de ser considerada.</p>
+      <p>Mas também do filho da escrava farei um povo; pois ele é seu descendente”. Na manhã seguinte, Abraão pegou alguns pães e uma vasilha de couro cheia dʼágua, entregou-os a Hagar e, tendo-os colocado nos ombros dela, despediu-a com o menino. Ela se pôs a caminho e ficou vagando pelo deserto de Berseba.</p>
+      <p>Quando acabou a água da vasilha, ela deixou o menino debaixo de um arbusto e foi sentar-se perto dali, à distância de um tiro de flecha, porque pensou: “Não posso ver o menino morrer”. Sentada ali perto, começou a chorar.</p>
+      <p>Deus ouviu o choro do menino, e o anjo de Deus, do céu, chamou Hagar e lhe disse: “O que a aflige, Hagar? Não tenha medo; Deus ouviu o menino chorar, lá onde você o deixou. Levante o menino e tome-o pela mão, porque dele farei um grande povo”.</p>
+      <p>Então Deus lhe abriu os olhos, e ela viu uma fonte. Foi até lá, encheu de água a vasilha e deu de beber ao menino. Deus estava com o menino. Ele cresceu, viveu no deserto e tornou-se flecheiro.</p>
+      <p>Vivia no deserto de Parã, e sua mãe conseguiu-lhe uma mulher da terra do Egito.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Salmo 86.1-10 · NVI · Salmo responsorial</span>
+      <p>Inclina os teus ouvidos, ó SENHOR, e responde-me, pois sou pobre e necessitado. Guarda a minha vida, pois sou fiel a ti. Tu és o meu Deus; salva o teu servo que em ti confia!</p>
+      <p>Misericórdia, Senhor, pois clamo a ti sem cessar. Alegra o coração do teu servo, pois a ti, Senhor, elevo a minha alma.</p>
+      <p>Tu és bondoso e perdoador, Senhor, rico em graça para com todos os que te invocam. Escuta a minha oração, SENHOR; atenta para a minha súplica!</p>
+      <p>No dia da minha angústia clamarei a ti, pois tu me responderás. Nenhum dos deuses é comparável a ti, Senhor, nenhum deles pode fazer o que tu fazes.</p>
+      <p>Todas as nações que tu formaste virão e te adorarão, Senhor, e glorificarão o teu nome. Pois tu és grande e realizas feitos maravilhosos; só tu és Deus!</p>
+    </div>
+
+    <div class="scripture">
+      <span class="ref">Romanos 6.1b-11 · NVI · Segunda Leitura</span>
+      <p>Que diremos então? Continuaremos pecando para que a graça aumente? De maneira nenhuma! Nós, os que morremos para o pecado, como podemos continuar vivendo nele?</p>
+      <p>Ou vocês não sabem que todos nós, que fomos batizados em Cristo Jesus, fomos batizados em sua morte? Portanto, fomos sepultados com ele na morte por meio do batismo, a fim de que, assim como Cristo foi ressuscitado dos mortos mediante a glória do Pai, também nós vivamos uma vida nova.</p>
+      <p>Se dessa forma fomos unidos a ele na semelhança da sua morte, certamente o seremos também na semelhança da sua ressurreição. Pois sabemos que o nosso velho homem foi crucificado com ele, para que o corpo do pecado seja destruído , e não mais sejamos escravos do pecado; pois quem morreu foi justificado do pecado.</p>
+      <p>Ora, se morremos com Cristo, cremos que também com ele viveremos. Pois sabemos que, tendo sido ressuscitado dos mortos, Cristo não pode morrer outra vez: a morte não tem mais domínio sobre ele.</p>
+      <p>Porque, morrendo, ele morreu para o pecado uma vez por todas; mas, vivendo, vive para Deus. Da mesma forma, considerem-se mortos para o pecado, mas vivos para Deus em Cristo Jesus.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+
+    <p class="rubric">✠ Antes da leitura do Evangelho, um sinal da cruz sobre si — pedindo que a Palavra de Cristo habite em nós.</p>
+
+    <div class="scripture">
+      <span class="ref">Mateus 10.24-39 · NVI · Santo Evangelho de nosso Senhor Jesus Cristo</span>
+      <p>“O discípulo não está acima do seu mestre, nem o servo acima do seu senhor. Basta ao discípulo ser como o seu mestre, e ao servo, como o seu senhor. Se o dono da casa foi chamado Belzebu, quanto mais os membros da sua família! “Portanto, não tenham medo deles. Não há nada escondido que não venha a ser revelado, nem oculto que não venha a se tornar conhecido.</p>
+      <p>O que eu digo a vocês na escuridão, falem à luz do dia; o que é sussurrado em seus ouvidos, proclamem dos telhados. Não tenham medo dos que matam o corpo, mas não podem matar a alma. Antes, tenham medo daquele que pode destruir tanto a alma como o corpo no inferno.</p>
+      <p>Não se vendem dois pardais por uma moedinha? Contudo, nenhum deles cai no chão sem o consentimento do Pai de vocês. Até os cabelos da cabeça de vocês estão todos contados.</p>
+      <p>Portanto, não tenham medo; vocês valem mais do que muitos pardais! “Quem, pois, me confessar diante dos homens, eu também o confessarei diante do meu Pai que está nos céus.</p>
+      <p>Mas aquele que me negar diante dos homens, eu também o negarei diante do meu Pai que está nos céus. “Não pensem que vim trazer paz à terra; não vim trazer paz, mas espada.</p>
+      <p>Pois eu vim para fazer que “ ‘o homem fique contra seu pai, a filha contra sua mãe, a nora contra sua sogra; os inimigos do homem serão os da sua própria família’. “Quem ama seu pai ou sua mãe mais do que a mim não é digno de mim; quem ama seu filho ou sua filha mais do que a mim não é digno de mim; e quem não toma a sua cruz e não me segue, não é digno de mim.</p>
+      <p>Quem acha a sua vida a perderá, e quem perde a sua vida por minha causa a encontrará.</p>
+    </div>
+
+    <div class="dialogue">
+      <p><span class="role">Leitor:</span> Palavra do Senhor.</p>
+      <p><span class="role">Povo:</span> Graças a Deus.</p>
+    </div>
+<!-- /estevao:readings -->
   </section>
 
   <section id="s9">

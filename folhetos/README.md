@@ -7,6 +7,11 @@ Folhetos litúrgicos dos cultos dominicais da Igreja Anglicana Rio, vinculada à
 - **Folheto da semana**: <https://anglicanario.com.br/folhetos/>
 - **Arquivo por data**: `https://anglicanario.com.br/folhetos/AAAA/MM/DD/`
 
+## Impressão
+
+No navegador, use o botão **Imprimir folheto (A4 frente e verso)** ou `Cmd/Ctrl+P`.
+
+Configuração sugerida: **A4**, **frente e verso**, margens padrão. O CSS de impressão compacta tipografia e esconde elementos só de tela.
 ## Estrutura
 
 ```
@@ -29,3 +34,15 @@ Folhetos litúrgicos dos cultos dominicais da Igreja Anglicana Rio, vinculada à
 ---
 
 Liturgia baseada no *Livro de Oração Comum 2015* e na *Portaria Episcopal 01/2025* da Rede Episcopal Brasileira.
+
+## Textos litúrgicos (API Estêvão)
+
+Cabeçalho, coleta e leituras bíblicas são buscados da [API Estêvão](https://api.caminhoanglicano.com.br/api/v1) em build time:
+
+```bash
+cp .env.example .env   # configure ESTEVAO_API_KEY
+python3 build_folheto.py 2026-07-26
+python3 build_folheto.py --all
+```
+
+Louvores, rubricas, sermão e liturgia fixa continuam editados manualmente no HTML.

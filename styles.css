@@ -797,3 +797,131 @@ ul { margin: 0; padding: 0; list-style: none; }
   .voice-grid { grid-template-columns: 1fr; }
   .guide-nav__links { display: none; }
 }
+
+/* ============================================
+   Lecionário — widget na landing
+============================================ */
+.liturgy-widget {
+  max-width: var(--maxw);
+  margin: -32px auto 0;
+  padding: 0 24px 48px;
+  position: relative;
+  z-index: 2;
+}
+.liturgy-widget__inner {
+  background: var(--vela);
+  border: 1px solid var(--linha);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  box-shadow: 0 8px 32px rgba(14, 42, 71, 0.08);
+}
+.liturgy-widget__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px 20px;
+  margin-bottom: 16px;
+}
+.liturgy-widget__eyebrow {
+  font-family: var(--font-wide);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ambar-escuro);
+  margin-bottom: 6px;
+}
+.liturgy-widget__title {
+  font-family: var(--font-serif);
+  font-size: clamp(22px, 3vw, 28px);
+  font-weight: 500;
+  color: var(--marinho);
+  line-height: 1.2;
+  margin: 0 0 4px;
+}
+.liturgy-widget__subtitle {
+  font-size: 14px;
+  color: var(--grafite-3);
+}
+.liturgy-widget__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--grafite-2);
+}
+.liturgy-widget__color {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--papel);
+  border: 1px solid var(--linha);
+  font-size: 12px;
+  font-weight: 500;
+}
+.liturgy-widget__readings {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.liturgy-widget__reading {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 8px 12px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.liturgy-widget__reading dt {
+  font-family: var(--font-wide);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--grafite-3);
+}
+.liturgy-widget__reading dd {
+  margin: 0;
+  color: var(--grafite);
+}
+.liturgy-widget__collect {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--grafite-2);
+  border-top: 1px solid var(--linha);
+  padding-top: 14px;
+  margin: 0 0 14px;
+}
+.liturgy-widget__toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--estola);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.liturgy-widget__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.liturgy-widget__link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--estola);
+  text-decoration: none;
+}
+.liturgy-widget__link:hover { text-decoration: underline; }
+@media (max-width: 640px) {
+  .liturgy-widget { margin-top: -16px; padding-bottom: 32px; }
+  .liturgy-widget__reading { grid-template-columns: 1fr; gap: 2px; }
+}

@@ -1,0 +1,466 @@
+{
+  "year": 2026,
+  "month": 6,
+  "prayer_book": "loc_2015",
+  "bible_version": "nvi",
+  "days": {
+    "2026-06-01": {
+      "title": "Visitação da Bem-Aventurada Virgem Maria",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Deus onipotente, escolheste a bem-aventurada Virgem Maria para ser a mãe do teu único Filho; concede-nos a nós, redimidos pelo Sangue de Jesus, a graça de estarmos com ela na glória do teu reino eterno. Mediante Jesus Cristo, nosso Senhor, que vive e reina, contigo e com o Espírito Santo. Amém.",
+      "readings": {
+        "first_reading": "1 Samuel 2:1-10",
+        "psalm": "Salmo 113",
+        "second_reading": "Romanos 12:9-16b",
+        "gospel": "Lucas 1:39-57"
+      },
+      "is_sunday": false
+    },
+    "2026-06-02": {
+      "title": "Mártires de Lyon",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "O Deus, cuja infalível providência ordena todas as coisas no céu e na terra, com humildade te imploramos que de nós afastes tudo o que nos possa causar dano e nos outorgues quanto nos seja proveitoso; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 4.17–5.5",
+        "psalm": "Salmo 69.1-3; 13-16; 30-36",
+        "second_reading": "Romanos 3.9-22a"
+      },
+      "is_sunday": false
+    },
+    "2026-06-03": {
+      "title": "Mártires de Uganda",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "O Deus, cuja infalível providência ordena todas as coisas no céu e na terra, com humildade te imploramos que de nós afastes tudo o que nos possa causar dano e nos outorgues quanto nos seja proveitoso; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 11.1-9",
+        "psalm": "Salmo 69.1-3; 13-16; 30-36",
+        "second_reading": "Mateus 7.13-20"
+      },
+      "is_sunday": false
+    },
+    "2026-06-04": {
+      "title": "João XXIII (Angelo Giuseppe Roncalli)",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "O Deus, cuja infalível providência ordena todas as coisas no céu e na terra, com humildade te imploramos que de nós afastes tudo o que nos possa causar dano e nos outorgues quanto nos seja proveitoso; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 13.1-18",
+        "psalm": "Salmo 33.1-12",
+        "second_reading": "II Pedro 2.17-22"
+      },
+      "is_sunday": false
+    },
+    "2026-06-05": {
+      "title": "John Gaw Meem",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "O Deus, cuja infalível providência ordena todas as coisas no céu e na terra, com humildade te imploramos que de nós afastes tudo o que nos possa causar dano e nos outorgues quanto nos seja proveitoso; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 14.17-24",
+        "psalm": "Salmo 33.1-12",
+        "second_reading": "Atos 28.1-10"
+      },
+      "is_sunday": false
+    },
+    "2026-06-06": {
+      "title": "Américo Vespúcio Cabral",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "O Deus, cuja infalível providência ordena todas as coisas no céu e na terra, com humildade te imploramos que de nós afastes tudo o que nos possa causar dano e nos outorgues quanto nos seja proveitoso; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 15.1-20",
+        "psalm": "Salmo 33.1-12",
+        "second_reading": "Mateus 9.27-34"
+      },
+      "is_sunday": false
+    },
+    "2026-06-07": {
+      "title": "1º Domingo no Tempo Comum",
+      "subtitle": "Próprio 5 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, de quem procede todo o bem, concede que, por tua santa inspiração, cogitemos o que é bom, e por tua orientação misericordiosa o executemos. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 12:1-9",
+        "psalm": "Salmo 33:1-12",
+        "second_reading": "Romanos 4:13-25",
+        "gospel": "Mateus 9:9-13, 18-26"
+      },
+      "is_sunday": true
+    },
+    "2026-06-08": {
+      "title": "Vicente Brande",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, de quem procede todo o bem, concede que, por tua santa inspiração, cogitemos o que é bom, e por tua orientação misericordiosa o executemos. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 16.1-15",
+        "psalm": "Salmo 119.41-48",
+        "second_reading": "II Coríntios 6.14–7.2"
+      },
+      "is_sunday": false
+    },
+    "2026-06-09": {
+      "title": "Columba",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, de quem procede todo o bem, concede que, por tua santa inspiração, cogitemos o que é bom, e por tua orientação misericordiosa o executemos. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 17.1-27",
+        "psalm": "Salmo 119.41-48",
+        "second_reading": "Hebreus 13.1-16"
+      },
+      "is_sunday": false
+    },
+    "2026-06-10": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, de quem procede todo o bem, concede que, por tua santa inspiração, cogitemos o que é bom, e por tua orientação misericordiosa o executemos. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 18.16-33",
+        "psalm": "Salmo 119.41-48",
+        "second_reading": "Mateus 12.1-8"
+      },
+      "is_sunday": false
+    },
+    "2026-06-11": {
+      "title": "Barnabé",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Senhor Deus, teu Filho Jesus Cristo ensinou-nos ser coisa mais abençoada dar que receber; ajuda-nos, com o exemplo do teu apóstolo Barnabé, a ser magnânimos a julgar e generosos a servir. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "readings": {
+        "first_reading": "Isaías 42:5-12",
+        "psalm": "Salmo 112",
+        "second_reading": "Atos 11:19-30; 13:1-3",
+        "gospel": "Mateus 10:7-16"
+      },
+      "is_sunday": false
+    },
+    "2026-06-12": {
+      "title": "Enmegahbowh",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, de quem procede todo o bem, concede que, por tua santa inspiração, cogitemos o que é bom, e por tua orientação misericordiosa o executemos. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 24.1-9",
+        "psalm": "Salmo 116.1-2; 12-19",
+        "second_reading": "Atos 7.35-43"
+      },
+      "is_sunday": false
+    },
+    "2026-06-13": {
+      "title": "Antônio de Lisboa",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, de quem procede todo o bem, concede que, por tua santa inspiração, cogitemos o que é bom, e por tua orientação misericordiosa o executemos. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 24.10-52",
+        "psalm": "Salmo 116.1-2; 12-19",
+        "second_reading": "Marcos 7.1-13"
+      },
+      "is_sunday": false
+    },
+    "2026-06-14": {
+      "title": "2º Domingo no Tempo Comum",
+      "subtitle": "Próprio 6 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Guarda, ó Senhor, tua Família, a Igreja, firme na fé, para que, pela tua graça, proclame tua verdade com ousadia e ministre a tua justiça com amor. Mediante nosso Salvador Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 18:1-15, (21:1-7)",
+        "psalm": "Salmo 116:1-2",
+        "second_reading": "Romanos 5:1-8",
+        "gospel": "Mateus 9:35-10:8, (9-23)"
+      },
+      "is_sunday": true
+    },
+    "2026-06-15": {
+      "title": "Evelyn Underhill",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Guarda, ó Senhor, tua Família, a Igreja, firme na fé, para que, pela tua graça, proclame tua verdade com ousadia e ministre a tua justiça com amor. Mediante nosso Salvador Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 23.1-19",
+        "psalm": "Salmo 126",
+        "second_reading": "I Tessalonicenses 3.1-5"
+      },
+      "is_sunday": false
+    },
+    "2026-06-16": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Guarda, ó Senhor, tua Família, a Igreja, firme na fé, para que, pela tua graça, proclame tua verdade com ousadia e ministre a tua justiça com amor. Mediante nosso Salvador Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 25.7-11",
+        "psalm": "Salmo 126",
+        "second_reading": "II Tessalonicenses 2.13–3.5"
+      },
+      "is_sunday": false
+    },
+    "2026-06-17": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Guarda, ó Senhor, tua Família, a Igreja, firme na fé, para que, pela tua graça, proclame tua verdade com ousadia e ministre a tua justiça com amor. Mediante nosso Salvador Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Neemias 9.1-8",
+        "psalm": "Salmo 126",
+        "second_reading": "Lucas 6.12-19"
+      },
+      "is_sunday": false
+    },
+    "2026-06-18": {
+      "title": "Bernard Mizeki",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Guarda, ó Senhor, tua Família, a Igreja, firme na fé, para que, pela tua graça, proclame tua verdade com ousadia e ministre a tua justiça com amor. Mediante nosso Salvador Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Êxodo 12.43-49",
+        "psalm": "Salmo 86.1-10",
+        "second_reading": "Hebreus 2.5-9"
+      },
+      "is_sunday": false
+    },
+    "2026-06-19": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Guarda, ó Senhor, tua Família, a Igreja, firme na fé, para que, pela tua graça, proclame tua verdade com ousadia e ministre a tua justiça com amor. Mediante nosso Salvador Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 35.1-4",
+        "psalm": "Salmo 86.1-10",
+        "second_reading": "Atos 5.17-26"
+      },
+      "is_sunday": false
+    },
+    "2026-06-20": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Guarda, ó Senhor, tua Família, a Igreja, firme na fé, para que, pela tua graça, proclame tua verdade com ousadia e ministre a tua justiça com amor. Mediante nosso Salvador Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 29.3-7",
+        "psalm": "Salmo 86.1-10",
+        "second_reading": "Lucas 11.53–12.3"
+      },
+      "is_sunday": false
+    },
+    "2026-06-21": {
+      "title": "3º Domingo no Tempo Comum",
+      "subtitle": "Próprio 7 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, faze com que tenhamos amor e reverência constantes, porque nunca deixas de ajudar e governar os que colocaste sobre o fundamento seguro de tua bondade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 21:8-21",
+        "psalm": "Salmo 86:1-10",
+        "second_reading": "Romanos 6:1b-11",
+        "gospel": "Mateus 10:24-39"
+      },
+      "is_sunday": true
+    },
+    "2026-06-22": {
+      "title": "Albano",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, faze com que tenhamos amor e reverência constantes, porque nunca deixas de ajudar e governar os que colocaste sobre o fundamento seguro de tua bondade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 16.1-15",
+        "psalm": "Salmo 86.11-17",
+        "second_reading": "Apocalipse 2.1-7"
+      },
+      "is_sunday": false
+    },
+    "2026-06-23": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, faze com que tenhamos amor e reverência constantes, porque nunca deixas de ajudar e governar os que colocaste sobre o fundamento seguro de tua bondade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 25.12-18",
+        "psalm": "Salmo 86.11-17",
+        "second_reading": "Apocalipse 2.8-11"
+      },
+      "is_sunday": false
+    },
+    "2026-06-24": {
+      "title": "Natividade de João Batista",
+      "subtitle": "Ano A",
+      "day_of_week": "Quarta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Senhor Deus, o teu servo João Batista nasceu maravilhosamente e preparou o caminho para o advento de teu Filho; ajuda-nos a conhecer Jesus Cristo como nosso Salvador e a obter por meio d'Ele o perdão dos nossos pecados. Ele que vive e reina, contigo e com o Espírito Santo, um só Deus, para todo o sempre Amém.",
+      "readings": {
+        "first_reading": "Isaías 40:1-11",
+        "psalm": "Salmo 85",
+        "second_reading": "Atos 13:14b-26",
+        "gospel": "Lucas 1:57-80"
+      },
+      "is_sunday": false
+    },
+    "2026-06-25": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Quinta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, faze com que tenhamos amor e reverência constantes, porque nunca deixas de ajudar e governar os que colocaste sobre o fundamento seguro de tua bondade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Miqueias 7.18-20",
+        "psalm": "Salmo 13",
+        "second_reading": "Gálatas 5.2-6"
+      },
+      "is_sunday": false
+    },
+    "2026-06-26": {
+      "title": "Tempo Comum",
+      "subtitle": "Ano A",
+      "day_of_week": "Sexta-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, faze com que tenhamos amor e reverência constantes, porque nunca deixas de ajudar e governar os que colocaste sobre o fundamento seguro de tua bondade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "II Crônicas 20.5-12",
+        "psalm": "Salmo 13",
+        "second_reading": "Gálatas 5.7-12"
+      },
+      "is_sunday": false
+    },
+    "2026-06-27": {
+      "title": "Cirilo de Alexandria",
+      "subtitle": "Ano A",
+      "day_of_week": "Sábado",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Ó Senhor, faze com que tenhamos amor e reverência constantes, porque nunca deixas de ajudar e governar os que colocaste sobre o fundamento seguro de tua bondade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 26.23-25",
+        "psalm": "Salmo 13",
+        "second_reading": "Lucas 17.1-4"
+      },
+      "is_sunday": false
+    },
+    "2026-06-28": {
+      "title": "4º Domingo no Tempo Comum",
+      "subtitle": "Próprio 8 · Ano A",
+      "day_of_week": "Domingo",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "verde",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, que edificaste tua Igreja sobre o fundamento dos Apóstolos e Profetas, sendo Jesus Cristo mesmo a principal pedra angular; concede que sejamos unidos em espírito por meio de seu ensino e feitos um santo templo aceitável a teus olhos; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "Gênesis 22:1-14",
+        "psalm": "Salmo 13",
+        "second_reading": "Romanos 6:12-23",
+        "gospel": "Mateus 10:40-42"
+      },
+      "is_sunday": true
+    },
+    "2026-06-29": {
+      "title": "Pedro e Paulo",
+      "subtitle": "Ano A",
+      "day_of_week": "Segunda-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "vermelho",
+      "liturgical_year": "A",
+      "collect": "Deus onipotente, os teus apóstolos Pedro e Paulo glorificaram-te tanto na vida como na morte; inspira a tua Igreja a seguir os seus exemplos e a permanecer firme no único fundamento que é Cristo, nosso Senhor, a quem, contigo e com o Espírito Santo, seja dada honra e glória, agora e para sempre. Amém.",
+      "readings": {
+        "first_reading": "Ezequiel 34:11-16",
+        "psalm": "Salmo 87",
+        "second_reading": "2 Timóteo 4:1-8",
+        "gospel": "João 21:15-19"
+      },
+      "is_sunday": false
+    },
+    "2026-06-30": {
+      "title": "Jaci Correia Maraschin",
+      "subtitle": "Ano A",
+      "day_of_week": "Terça-feira",
+      "liturgical_season": "Tempo Comum",
+      "liturgical_color": "branco",
+      "liturgical_year": "A",
+      "collect": "Deus Onipotente, que edificaste tua Igreja sobre o fundamento dos Apóstolos e Profetas, sendo Jesus Cristo mesmo a principal pedra angular; concede que sejamos unidos em espírito por meio de seu ensino e feitos um santo templo aceitável a teus olhos; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "readings": {
+        "first_reading": "I Reis 18.36-39",
+        "psalm": "Salmo 47",
+        "second_reading": "I João 4.1-6"
+      },
+      "is_sunday": false
+    }
+  }
+}
