@@ -545,7 +545,7 @@ python3 build_leccionario.py --preview 2026-07-27
 | Leituras bíblicas (texto NVI) | API (folhetos) / refs (widget home) |
 | Widget home (`/lecionario/*.json`) | API via `build_leccionario.py` |
 | Louvores, rubricas, sermão | HTML manual |
-| Confissão, credo, eucaristia | HTML manual (LOC 2015) |
+| Confissão, credo, eucaristia | HTML manual (LOC REB 2027) |
 
 Marcadores no HTML: `<!-- estevao:header -->`, `<!-- estevao:collect -->`, `<!-- estevao:readings -->`.
 
