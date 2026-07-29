@@ -335,7 +335,7 @@ function QuemSomos() {
             Somos uma comunidade cristã sediada em Irajá, Zona Norte do Rio de Janeiro, <strong><a href="https://redeepiscopalbrasileira.com.br/" target="_blank" rel="noopener">integrante da Rede Episcopal Brasileira</a></strong>.
           </p>
           <p>
-            Somos uma igreja <strong>sacramental, liturgica, contemporanea e carismática</strong>, centrada na Eucaristia e na Palavra.
+            Somos uma igreja <strong>sacramental, litúrgica, contemporânea e carismática</strong>, centrada na Eucaristia e na Palavra.
           </p>
           <div className="bispo-card" style={{ marginTop: 20, padding: 20, background: "var(--vela)", border: "1px solid var(--linha)", borderRadius: 14 }}>
             <div className="section-eyebrow" style={{ marginBottom: 6 }}>Nosso bispo</div>
