@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "month": 10,
-  "prayer_book": "loc_2015",
+  "prayer_book": "loc_2027",
   "bible_version": "nvi",
   "days": {
     "2026-10-01": {
@@ -13,9 +13,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cuja onipotência se revela principalmente em misericórdia e compaixão; concede-nos a plenitude da tua graça, para que, esforçando-nos para alcançar as tuas promessas, sejamos feitos participantes do teu tesouro celestial; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 23.1-9",
-        "psalm": "Salmo 19",
-        "second_reading": "Colossenses 2.16-23"
+        "first_reading": "Jeremias 2:14-22",
+        "psalm": "Salmo 80:7-15",
+        "second_reading": "Colossenses 2:16-23",
+        "gospel": "João 7:40-44"
       },
       "is_sunday": false
     },
@@ -28,9 +29,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cuja onipotência se revela principalmente em misericórdia e compaixão; concede-nos a plenitude da tua graça, para que, esforçando-nos para alcançar as tuas promessas, sejamos feitos participantes do teu tesouro celestial; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 23.14-19",
-        "psalm": "Salmo 19",
-        "second_reading": "Filipenses 2.14-18; 3.1-4a"
+        "first_reading": "Jeremias 2:23-37",
+        "psalm": "Salmo 80:7-15",
+        "second_reading": "Filipenses 2:14-18; 3:1-4a",
+        "gospel": "João 7:45-52"
       },
       "is_sunday": false
     },
@@ -43,9 +45,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cuja onipotência se revela principalmente em misericórdia e compaixão; concede-nos a plenitude da tua graça, para que, esforçando-nos para alcançar as tuas promessas, sejamos feitos participantes do teu tesouro celestial; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 23.10-13",
-        "psalm": "Salmo 19",
-        "second_reading": "João 7.40-52"
+        "first_reading": "Jeremias 6:1-10",
+        "psalm": "Salmo 80:7-15",
+        "second_reading": "Atos 7:54-60",
+        "gospel": "Marcos 12:1-12"
       },
       "is_sunday": false
     },
@@ -58,8 +61,8 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 20:1-4, 7-9, 12-20",
-        "psalm": "Salmo 19",
+        "first_reading": "Isaías 5:1-7",
+        "psalm": "Salmo 80:7-15",
         "second_reading": "Filipenses 3:4b-14",
         "gospel": "Mateus 21:33-46"
       },
@@ -74,9 +77,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 5.1-21",
-        "psalm": "Salmo 119.49-56",
-        "second_reading": "I Pedro 2.4-10"
+        "first_reading": "Ezequiel 19:10-14",
+        "psalm": "Salmo 144",
+        "second_reading": "1 Pedro 2:4-10",
+        "gospel": "Lucas 20:9-19"
       },
       "is_sunday": false
     },
@@ -89,9 +93,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 5.22–6.3",
-        "psalm": "Salmo 119.49-56",
-        "second_reading": "II Coríntios 5.17-21"
+        "first_reading": "Isaías 27:1-6",
+        "psalm": "Salmo 144",
+        "second_reading": "2 Coríntios 5:17-21",
+        "gospel": "João 11:45-57"
       },
       "is_sunday": false
     },
@@ -104,9 +109,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 6.10-25",
-        "psalm": "Salmo 119.49-56",
-        "second_reading": "João 11.45-57"
+        "first_reading": "Cânticos 8:5-14",
+        "psalm": "Salmo 144",
+        "second_reading": "Efésios 4:17-24",
+        "gospel": "Mateus 9:35-38"
       },
       "is_sunday": false
     },
@@ -119,9 +125,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 24.1-8",
-        "psalm": "Salmo 106.1-6; 19-23",
-        "second_reading": "I Pedro 5.1-5, 12-14"
+        "first_reading": "Isaías 22:1-8a",
+        "psalm": "Salmo 23",
+        "second_reading": "1 Pedro 5:1-5, 12-14",
+        "gospel": "João 2:1-11"
       },
       "is_sunday": false
     },
@@ -134,9 +141,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 24.9-11",
-        "psalm": "Salmo 106.1-6; 19-23",
-        "second_reading": "Tiago 4.4-10"
+        "first_reading": "Isaías 22:8b-14",
+        "psalm": "Salmo 23",
+        "second_reading": "Tiago 4:5-10",
+        "gospel": "Lucas 14:7-11"
       },
       "is_sunday": false
     },
@@ -149,9 +157,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que sempre estás mais pronto a ouvir do que nós a suplicar, e nos dás mais do que desejamos ou merecemos; derrama sobre nós a tua misericórdia, perdoando o que nos pesa na consciência e dando-nos as bênçãos que não somos dignos de pedir, senão pelos merecimentos de Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 24.12-18",
-        "psalm": "Salmo 106.1-6; 19-23",
-        "second_reading": "Marcos 2.18-22"
+        "first_reading": "Isaías 24:17-23",
+        "psalm": "Salmo 23",
+        "second_reading": "Filipenses 3:13--4:1",
+        "gospel": "Marcos 2:18-22"
       },
       "is_sunday": false
     },
@@ -164,8 +173,8 @@
       "liturgical_year": "A",
       "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 32:1-14",
-        "psalm": "Salmo 106:1-6",
+        "first_reading": "Isaías 25:1-9",
+        "psalm": "Salmo 23",
         "second_reading": "Filipenses 4:1-9",
         "gospel": "Mateus 22:1-14"
       },
@@ -180,9 +189,10 @@
       "liturgical_year": "A",
       "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 32.15-35",
-        "psalm": "Salmo 97",
-        "second_reading": "Judas 17-25"
+        "first_reading": "Êxodo 19:7-20",
+        "psalm": "Salmo 34",
+        "second_reading": "Judas 1:17-25",
+        "gospel": "Lucas 14:15-24"
       },
       "is_sunday": false
     },
@@ -191,13 +201,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Tempo Comum",
-      "liturgical_color": "verde",
+      "liturgical_color": "branco",
       "liturgical_year": "A",
       "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 33.1-6",
-        "psalm": "Salmo 97",
-        "second_reading": "Filipenses 3.13–4.1"
+        "first_reading": "Amós 9:5-15",
+        "psalm": "Salmo 34",
+        "second_reading": "2 Coríntios 11:1-6",
+        "gospel": "João 6:25-35"
       },
       "is_sunday": false
     },
@@ -210,9 +221,10 @@
       "liturgical_year": "A",
       "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "II Reis 17.7-20",
-        "psalm": "Salmo 97",
-        "second_reading": "João 6.25-35"
+        "first_reading": "Cânticos 7:10--8:4",
+        "psalm": "Salmo 34",
+        "second_reading": "1 Coríntios 10:27-33",
+        "gospel": "Mateus 11:28--12:8"
       },
       "is_sunday": false
     },
@@ -225,9 +237,10 @@
       "liturgical_year": "A",
       "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 33.7-11",
-        "psalm": "Salmo 99",
-        "second_reading": "III João 9-12"
+        "first_reading": "Juízes 17:1-6",
+        "psalm": "Salmo 96:1-9 10-13",
+        "second_reading": "3 João 1:9-12",
+        "gospel": "Marcos 8:11-21"
       },
       "is_sunday": false
     },
@@ -240,9 +253,10 @@
       "liturgical_year": "A",
       "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 31.1-11",
-        "psalm": "Salmo 99",
-        "second_reading": "I Pedro 5.1-5"
+        "first_reading": "Deuteronômio 17:14-20",
+        "psalm": "Salmo 96:1-9 10-13",
+        "second_reading": "1 Pedro 2:11-17",
+        "gospel": "Mateus 14:1-12"
       },
       "is_sunday": false
     },
@@ -255,9 +269,10 @@
       "liturgical_year": "A",
       "collect": "Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 39.32-43",
-        "psalm": "Salmo 99",
-        "second_reading": "Mateus 14.1-12"
+        "first_reading": "Isaías 14:3-11",
+        "psalm": "Salmo 96:1-9 10-13",
+        "second_reading": "1 Pedro 5:1-5",
+        "gospel": "Marcos 12:13-17"
       },
       "is_sunday": false
     },
@@ -270,10 +285,10 @@
       "liturgical_year": "A",
       "collect": "Pai de toda a graça, tu inspiraste o médico Lucas a anunciar o amor e o poder de cura do teu Filho; dá à tua Igreja, pela graça do Espírito, o mesmo amor e o mesmo poder de curar. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Eclesiástico 38:1-4, 6-10, 12-14",
-        "psalm": "Salmo 147",
-        "second_reading": "2 Timóteo 4:5-13",
-        "gospel": "Lucas 4:14-21"
+        "first_reading": "Isaías 45:1-7",
+        "psalm": "Salmo 96:1-9",
+        "second_reading": "1 Tessalonicenses 1:1-10",
+        "gospel": "Mateus 22:15-22"
       },
       "is_sunday": true
     },
@@ -282,7 +297,7 @@
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Tempo Comum",
-      "liturgical_color": "branco",
+      "liturgical_color": "vermelho",
       "liturgical_year": "A",
       "collect": "Pai de toda a graça, tu inspiraste o médico Lucas a anunciar o amor e o poder de cura do teu Filho; dá à tua Igreja, pela graça do Espírito, o mesmo amor e o mesmo poder de curar. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
@@ -302,9 +317,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que em Cristo tens revelado tua glória entre as nações. Mantém viva esta obra, por tua misericórdia, para que a tua Igreja pelo mundo inteiro persevere com fé inabalável na confissão do teu nome; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Números 12.1-9",
-        "psalm": "Salmo 63.1-8",
-        "second_reading": "Apocalipse 18.21-24"
+        "first_reading": "Daniel 3:19-30",
+        "psalm": "Salmo 98",
+        "second_reading": "Apocalipse 18:21-24",
+        "gospel": "Mateus 17:22-27"
       },
       "is_sunday": false
     },
@@ -317,9 +333,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que em Cristo tens revelado tua glória entre as nações. Mantém viva esta obra, por tua misericórdia, para que a tua Igreja pelo mundo inteiro persevere com fé inabalável na confissão do teu nome; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Mateus 17.22-27",
-        "psalm": "Salmo 63.1-8",
-        "second_reading": "Mateus 17.22-27"
+        "first_reading": "Daniel 6:1-28",
+        "psalm": "Salmo 98",
+        "second_reading": "Romanos 13:1-7",
+        "gospel": "Mateus 24:29-31"
       },
       "is_sunday": false
     },
@@ -332,9 +349,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que em Cristo tens revelado tua glória entre as nações. Mantém viva esta obra, por tua misericórdia, para que a tua Igreja pelo mundo inteiro persevere com fé inabalável na confissão do teu nome; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 31.14-22",
-        "psalm": "Salmo 90.1-6; 13-17",
-        "second_reading": "Tito 1.5-16"
+        "first_reading": "Números 5:5-10",
+        "psalm": "Salmo 1",
+        "second_reading": "Tito 1:5-16",
+        "gospel": "Mateus 19:16-22"
       },
       "is_sunday": false
     },
@@ -345,7 +363,7 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "vermelho",
       "liturgical_year": "A",
-      "collect": "Onipotente Deus, que deste ao teu servo Tiago de Jerusalém a ousadia de confessar o nome de nosso Senhor e Salvador Jesus Cristo diante das autoridades deste mundo, e a coragem de morrer por nossa fé. Concede que sempre possamos dar a razão da esperança que está em nós, e sofrer alegremente por amor de nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Concede, ó Deus, que, seguindo o exemplo do teu apóstolo Tiago, o Justo, parente de nosso Senhor, a tua Igreja se entregue continuamente à oração e à reconciliação de todos os que vivem em discórdia e inimizade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
         "first_reading": "Atos 15:12-22a",
         "psalm": "Salmo 1",
@@ -363,9 +381,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus, que em Cristo tens revelado tua glória entre as nações. Mantém viva esta obra, por tua misericórdia, para que a tua Igreja pelo mundo inteiro persevere com fé inabalável na confissão do teu nome; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 32.44-47",
-        "psalm": "Salmo 90.1-6; 13-17",
-        "second_reading": "João 5.39-47"
+        "first_reading": "Provérbios 24:23-34",
+        "psalm": "Salmo 1",
+        "second_reading": "2 Tessalonicenses 3:1-5",
+        "gospel": "Marcos 12:28-37a"
       },
       "is_sunday": false
     },
@@ -394,9 +413,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Números 33.38-39",
-        "psalm": "Salmo 119.41-48",
-        "second_reading": "Tiago 2.8-13"
+        "first_reading": "Deuteronômio 6:1-9, 20-25",
+        "psalm": "Salmo 119:41-48",
+        "second_reading": "Tiago 2:8-13",
+        "gospel": "Lucas 10:25-28"
       },
       "is_sunday": false
     },
@@ -409,9 +429,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 34.29-35",
-        "psalm": "Salmo 119.41-48",
-        "second_reading": "Tiago 2.14-26"
+        "first_reading": "Deuteronômio 10:10-22",
+        "psalm": "Salmo 119:41-48",
+        "second_reading": "Tiago 2:14-26",
+        "gospel": "Mateus 5:43-48"
       },
       "is_sunday": false
     },
@@ -440,9 +461,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Josué 1.1-11",
-        "psalm": "I Samuel 2.27-36",
-        "second_reading": "Romanos 2.17-29"
+        "first_reading": "1 Samuel 2:27-36",
+        "psalm": "Salmo 43",
+        "second_reading": "Romanos 2:17-29",
+        "gospel": "Mateus 23:13-28"
       },
       "is_sunday": false
     },
@@ -455,9 +477,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Josué 2.1-14",
-        "psalm": "Salmo 107.1-7; 33-37",
-        "second_reading": "II Pedro 2.1-3"
+        "first_reading": "Ezequiel 13:1-16",
+        "psalm": "Salmo 43",
+        "second_reading": "2 Pedro 2:1-3",
+        "gospel": "Mateus 21:43-46"
       },
       "is_sunday": false
     },
@@ -470,9 +493,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e eterno Deus, aumenta em nós a fé, a esperança e o amor; e para que alcancemos as tuas promessas, inclina-nos a amar o que nos ordenas; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Josué 2.15-24",
-        "psalm": "Salmo 107.1-7; 33-37",
-        "second_reading": "Mateus 23.13-28"
+        "first_reading": "Malaquias 1:6--2:9",
+        "psalm": "Salmo 43",
+        "second_reading": "Tiago 4:6-10",
+        "gospel": "Marcos 12:37b-40"
       },
       "is_sunday": false
     }

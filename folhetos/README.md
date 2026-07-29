@@ -33,7 +33,7 @@ Configuração sugerida: **A4**, **frente e verso**, margens padrão. O CSS de i
 
 ---
 
-Liturgia baseada no *Livro de Oração Comum 2015* e na *Portaria Episcopal 01/2025* da Rede Episcopal Brasileira.
+Liturgia baseada no *Livro de Oração Comum REB 2027* (`loc_2027`) e na *Portaria Episcopal 01/2025* da Rede Episcopal Brasileira.
 
 ## Textos litúrgicos (API Estêvão)
 

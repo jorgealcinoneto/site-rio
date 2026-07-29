@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "month": 5,
-  "prayer_book": "loc_2015",
+  "prayer_book": "loc_2027",
   "bible_version": "nvi",
   "days": {
     "2026-05-01": {
@@ -29,9 +29,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Jeremias 26.20-24",
-        "psalm": "Salmo 31.1-5; 15-16",
-        "second_reading": "João 8.48-59"
+        "first_reading": "Jeremias 26:20-24",
+        "psalm": "Salmo 31:1-5",
+        "second_reading": "Atos 7:9-16",
+        "gospel": "Marcos 12:13-17"
       },
       "is_sunday": false
     },
@@ -60,9 +61,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 13.17-22",
-        "psalm": "Salmo 102.1-17",
-        "second_reading": "Atos 7.17-40"
+        "first_reading": "Êxodo 13:17-22",
+        "psalm": "Salmo 102:1-17",
+        "second_reading": "Atos 7:17-29",
+        "gospel": "Mateus 7:7-11"
       },
       "is_sunday": false
     },
@@ -75,9 +77,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Provérbios 3.5-12",
-        "psalm": "Salmo 102.1-17",
-        "second_reading": "Atos 7.44-56"
+        "first_reading": "Provérbios 3:5-12",
+        "psalm": "Salmo 102:1-17",
+        "second_reading": "Atos 7:30-40",
+        "gospel": "João 8:31-38"
       },
       "is_sunday": false
     },
@@ -90,9 +93,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Provérbios 3.13-18",
-        "psalm": "Salmo 102.1-17",
-        "second_reading": "João 8.31-38"
+        "first_reading": "Provérbios 3:13-18",
+        "psalm": "Salmo 102:1-17",
+        "second_reading": "Atos 7:44-56",
+        "gospel": "João 18:33-37"
       },
       "is_sunday": false
     },
@@ -105,9 +109,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 6.5-22",
-        "psalm": "Salmo 66.8-20",
-        "second_reading": "Atos 27.1-12"
+        "first_reading": "Gênesis 6:5-22",
+        "psalm": "Salmo 66:8-20",
+        "second_reading": "Atos 27:1-12",
+        "gospel": "João 3:31-36"
       },
       "is_sunday": false
     },
@@ -120,9 +125,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 7.1-24",
-        "psalm": "Salmo 66.8-20",
-        "second_reading": "Atos 27.13-38"
+        "first_reading": "Gênesis 7:1-24",
+        "psalm": "Salmo 66:8-20",
+        "second_reading": "Atos 27:13-26",
+        "gospel": "Lucas 3:15-17"
       },
       "is_sunday": false
     },
@@ -135,9 +141,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus Onipotente, a quem verdadeiramente conhecer é a vida eterna; concede-nos que conheçamos perfeitamente que teu Filho Jesus Cristo é o caminho, a verdade e a vida; para que, seguindo seus passos, andemos com perseverança no caminho que conduz à vida eterna; mediante o mesmo teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 8.13-19",
-        "psalm": "Salmo 66.8-20",
-        "second_reading": "João 14.27-29"
+        "first_reading": "Gênesis 8:13-19",
+        "psalm": "Salmo 66:8-20",
+        "second_reading": "1 Pedro 3:8-12",
+        "gospel": "Marcos 13:9-13"
       },
       "is_sunday": false
     },
@@ -148,7 +155,7 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Pai amantíssimo, já que tudo quanto é bom provém de Ti, dá aos teus humildes servos a inspiração de procurarem a santidade nos pensamentos e nas ações. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
         "first_reading": "Atos 17:22-31",
         "psalm": "Salmo 66:8-20",
@@ -164,11 +171,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Pai amantíssimo, já que tudo quanto é bom provém de Ti, dá aos teus humildes servos a inspiração de procurarem a santidade nos pensamentos e nas ações. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Gênesis 9.8-17",
+        "first_reading": "Gênesis 9:8-17",
         "psalm": "Salmo 93",
-        "second_reading": "Atos 27.39-44"
+        "second_reading": "Atos 27:27-38",
+        "gospel": "João 14:27-29"
       },
       "is_sunday": false
     },
@@ -179,11 +187,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Pai amantíssimo, já que tudo quanto é bom provém de Ti, dá aos teus humildes servos a inspiração de procurarem a santidade nos pensamentos e nas ações. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 5.22-33",
+        "first_reading": "Deuteronômio 5:22-33",
         "psalm": "Salmo 93",
-        "second_reading": "I Pedro 3.8-12"
+        "second_reading": "Atos 27:39-44",
+        "gospel": "João 16:12-15"
       },
       "is_sunday": false
     },
@@ -194,11 +203,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Pai amantíssimo, já que tudo quanto é bom provém de Ti, dá aos teus humildes servos a inspiração de procurarem a santidade nos pensamentos e nas ações. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 31.1-13",
+        "first_reading": "Deuteronômio 31:1-13",
         "psalm": "Salmo 93",
-        "second_reading": "João 16.16-24"
+        "second_reading": "Hebreus 1:1-14",
+        "gospel": "João 16:16-24"
       },
       "is_sunday": false
     },
@@ -209,7 +219,7 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Senhor soberano, teu Filho ascendeu em triunfo para governar todo o universo em amor e glória; faz que todos os povos reconheçam a autoridade do seu reino. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Concede, nós te rogamos, Deus Onipotente, que, assim como cremos que teu unigênito Filho, nosso Senhor Jesus Cristo subiu aos céus, também lá subamos em coração e pensamento e habitemos sempre com aquele que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
         "first_reading": "Atos 1:1-11",
         "psalm": "Salmo 47",
@@ -225,11 +235,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Pai amantíssimo, já que tudo quanto é bom provém de Ti, dá aos teus humildes servos a inspiração de procurarem a santidade nos pensamentos e nas ações. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "II Reis 2.1-12",
+        "first_reading": "2 Reis 2:1-12",
         "psalm": "Salmo 93",
-        "second_reading": "Efésios 2.1-7"
+        "second_reading": "Efésios 2:1-7",
+        "gospel": "Lucas 11:45-52"
       },
       "is_sunday": false
     },
@@ -240,11 +251,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "vermelho",
       "liturgical_year": "A",
-      "collect": "Pai eterno, o teu reino vai além do espaço e do tempo; concede que neste mundo de constantes mutações nos fixemos naquilo que permanece para sempre. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Pai amantíssimo, já que tudo quanto é bom provém de Ti, dá aos teus humildes servos a inspiração de procurarem a santidade nos pensamentos e nas ações. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "II Reis 2.13-15",
+        "first_reading": "2 Reis 2:13-15",
         "psalm": "Salmo 93",
-        "second_reading": "João 8.21-30"
+        "second_reading": "2 Tessalonicenses 1:3-12",
+        "gospel": "João 10:22-30"
       },
       "is_sunday": false
     },
@@ -273,9 +285,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Levítico 9.1-11; 22-24",
+        "first_reading": "Levítico 9:1-11, 22-24",
         "psalm": "Salmo 99",
-        "second_reading": "I Pedro 4.1-6"
+        "second_reading": "1 Pedro 4:1-6",
+        "gospel": "Lucas 22:24-30"
       },
       "is_sunday": false
     },
@@ -288,9 +301,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Números 16.41-50",
+        "first_reading": "Números 16:41-50",
         "psalm": "Salmo 99",
-        "second_reading": "I Pedro 4.7-11"
+        "second_reading": "1 Pedro 4:7-11",
+        "gospel": "João 8:21-30"
       },
       "is_sunday": false
     },
@@ -303,9 +317,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Reis 8.54-65",
+        "first_reading": "1 Reis 8:54-65",
         "psalm": "Salmo 99",
-        "second_reading": "João 3.31-36"
+        "second_reading": "Tiago 5:13-20",
+        "gospel": "João 3:31-36"
       },
       "is_sunday": false
     },
@@ -318,9 +333,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 19.1-9a",
-        "psalm": "Salmo 33.12-22",
-        "second_reading": "Atos 2.1-11"
+        "first_reading": "Êxodo 19:1-9a",
+        "psalm": "Salmo 33:12-22",
+        "second_reading": "Atos 2:1-11",
+        "gospel": "João 4:7-15"
       },
       "is_sunday": false
     },
@@ -333,9 +349,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 19.16-25",
-        "psalm": "Salmo 33.12-22",
-        "second_reading": "Romanos 8.14-17"
+        "first_reading": "Êxodo 19:16-25",
+        "psalm": "Salmo 33:12-22",
+        "second_reading": "Romanos 8:14-17",
+        "gospel": "Lucas 11:9-13"
       },
       "is_sunday": false
     },
@@ -348,9 +365,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, Rei da glória, que exaltaste o teu único Filho Jesus Cristo com grande triunfo ao teu celeste reino; suplicamos-te que não nos deixes desconsolados, mas nos envies o teu Santo Espírito para nos confortar e conduzir ao alto e santo lugar, onde nosso Senhor Jesus Cristo já nos precedeu, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 20.1-21",
-        "psalm": "Salmo 33.12-22",
-        "second_reading": "Mateus 5.1-12"
+        "first_reading": "Êxodo 20:1-21",
+        "psalm": "Salmo 33:12-22",
+        "second_reading": "1 Coríntios 2:6-16",
+        "gospel": "Lucas 12:8-12"
       },
       "is_sunday": false
     },
@@ -361,7 +379,7 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "vermelho",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Deus Onipotente, neste dia abriste o caminho da vida eterna a toda raça e nação pela dádiva prometida do teu Santo Espírito, espalha este dom pelo mundo inteiro, mediante a proclamação do Evangelho, para que alcance os confins da terra; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
         "first_reading": "Atos 2:1-21",
         "psalm": "Salmo 104:24-34, 35b",
@@ -377,11 +395,12 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Deus Onipotente, neste dia abriste o caminho da vida eterna a toda raça e nação pela dádiva prometida do teu Santo Espírito, espalha este dom pelo mundo inteiro, mediante a proclamação do Evangelho, para que alcance os confins da terra; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Joel 2.18-29",
-        "psalm": "Salmo 104.24-34; 35b",
-        "second_reading": "Romanos 8.18-24"
+        "first_reading": "Joel 2:18-29",
+        "psalm": "Salmo 104:24-34, 35b",
+        "second_reading": "1 Coríntios 12:13-27",
+        "gospel": "Lucas 24:36-43"
       },
       "is_sunday": false
     },
@@ -392,11 +411,12 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Deus Onipotente, neste dia abriste o caminho da vida eterna a toda raça e nação pela dádiva prometida do teu Santo Espírito, espalha este dom pelo mundo inteiro, mediante a proclamação do Evangelho, para que alcance os confins da terra; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Ezequiel 39.7-8, 21-29",
-        "psalm": "Salmo 104.24-34; 35b",
-        "second_reading": "Romanos 8.26-27"
+        "first_reading": "Ezequiel 39:7-8, 21-29",
+        "psalm": "Salmo 104:24-34, 35b",
+        "second_reading": "Romanos 8:18-25",
+        "gospel": "Mateus 5:1-12"
       },
       "is_sunday": false
     },
@@ -407,11 +427,12 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Deus Onipotente, neste dia abriste o caminho da vida eterna a toda raça e nação pela dádiva prometida do teu Santo Espírito, espalha este dom pelo mundo inteiro, mediante a proclamação do Evangelho, para que alcance os confins da terra; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Números 11.24-30",
-        "psalm": "Salmo 104.24-34; 35b",
-        "second_reading": "João 7.37-39"
+        "first_reading": "Números 11:24-30",
+        "psalm": "Salmo 104:24-34, 35b",
+        "second_reading": "Romanos 8:26-27",
+        "gospel": "João 7:37-39"
       },
       "is_sunday": false
     },
@@ -422,11 +443,12 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Deus Onipotente, neste dia abriste o caminho da vida eterna a toda raça e nação pela dádiva prometida do teu Santo Espírito, espalha este dom pelo mundo inteiro, mediante a proclamação do Evangelho, para que alcance os confins da terra; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 1.1–2.4a",
-        "psalm": "Salmo 46",
-        "second_reading": "Romanos 2.17-29"
+        "first_reading": "Jó 38:1-11",
+        "psalm": "Salmo 8",
+        "second_reading": "2 Timóteo 1:8-12a",
+        "gospel": "João 14:15-17"
       },
       "is_sunday": false
     },
@@ -437,11 +459,12 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "verde",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Deus Onipotente, neste dia abriste o caminho da vida eterna a toda raça e nação pela dádiva prometida do teu Santo Espírito, espalha este dom pelo mundo inteiro, mediante a proclamação do Evangelho, para que alcance os confins da terra; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 2.4b-25",
-        "psalm": "Salmo 46",
-        "second_reading": "Romanos 9.6-13"
+        "first_reading": "Jó 38:12-21",
+        "psalm": "Salmo 8",
+        "second_reading": "2 Timóteo 1:12b-14",
+        "gospel": "João 14:25-26"
       },
       "is_sunday": false
     },
@@ -452,11 +475,12 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "verde",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que no dia de Pentecostes, ensinaste os fiéis, derramando em seus corações a luz do teu Santo Espírito; concede-nos, por meio do mesmo Espírito, um juízo acertado em todas as coisas, e perene regozijo em seu fortalecimento; pelos méritos de Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Deus Onipotente, neste dia abriste o caminho da vida eterna a toda raça e nação pela dádiva prometida do teu Santo Espírito, espalha este dom pelo mundo inteiro, mediante a proclamação do Evangelho, para que alcance os confins da terra; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 3.1-24",
-        "psalm": "Salmo 46",
-        "second_reading": "Mateus 7.1-6"
+        "first_reading": "Jó 38:22-38",
+        "psalm": "Salmo 8",
+        "second_reading": "1 Coríntios 16:19-24",
+        "gospel": "Marcos 16:14-16 17-20"
       },
       "is_sunday": false
     },
@@ -467,7 +491,7 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Deus nosso Pai, enviaste ao mundo a Palavra da verdade e o Espírito da santidade para revelar aos homens o mistério admirável do teu Ser: concede-nos que na profissão da verdadeira fé reconheçamos a glória da eterna Trindade e adoremos a Unidade na sua onipotência. Mediante nosso Senhor Jesus Cristo. Amém.",
+      "collect": "Deus nosso Pai, enviaste ao mundo a Palavra da verdade e o Espírito da santidade para nos revelar o mistério admirável do teu Ser: concede-nos que na profissão da verdadeira fé reconheçamos a glória da eterna Trindade e adoremos a Unidade na sua onipotência. Mediante nosso Senhor Jesus Cristo. Amém.",
       "readings": {
         "first_reading": "Gênesis 1:1-2:4a",
         "psalm": "Salmo 8",

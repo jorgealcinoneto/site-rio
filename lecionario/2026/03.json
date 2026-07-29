@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "month": 3,
-  "prayer_book": "loc_2015",
+  "prayer_book": "loc_2027",
   "bible_version": "nvi",
   "days": {
     "2026-03-01": {
@@ -29,9 +29,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Números 21.4-9",
+        "first_reading": "Números 21:4-9",
         "psalm": "Salmo 128",
-        "second_reading": "Hebreus 3.1-6"
+        "second_reading": "Romanos 4:6-13",
+        "gospel": "João 7:53--8:11"
       },
       "is_sunday": false
     },
@@ -44,9 +45,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 65.17-25",
+        "first_reading": "Isaías 65:17-25",
         "psalm": "Salmo 128",
-        "second_reading": "Romanos 4.6-13"
+        "second_reading": "Hebreus 3:1-6",
+        "gospel": "João 7:45-52"
       },
       "is_sunday": false
     },
@@ -59,9 +61,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Ezequiel 36.22-32",
+        "first_reading": "Ezequiel 36:22-32",
         "psalm": "Salmo 128",
-        "second_reading": "João 7.53–8.11"
+        "second_reading": "Hebreus 3:12-14",
+        "gospel": "João 3:17-21"
       },
       "is_sunday": false
     },
@@ -74,9 +77,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 16.1-8",
+        "first_reading": "Êxodo 16:1-8",
         "psalm": "Salmo 95",
-        "second_reading": "Colossenses 1.15-23"
+        "second_reading": "Colossenses 1:15-23",
+        "gospel": "Lucas 9:51-56"
       },
       "is_sunday": false
     },
@@ -89,9 +93,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 16.9-21",
+        "first_reading": "Êxodo 16:9-21",
         "psalm": "Salmo 95",
-        "second_reading": "Efésios 2.11-22"
+        "second_reading": "Colossenses 1:24-29",
+        "gospel": "João 4:1-6"
       },
       "is_sunday": false
     },
@@ -104,9 +109,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cuja glória é sempre ser misericordioso, sê benigno para com todos os que se afastaram dos teus caminhos, conduze-os de novo a ti, com corações penitentes e viva fé, para que se firmem na verdade imutável da tua Palavra, Jesus Cristo, teu Filho, que, contigo e com o Espírito Santo, vive e reina, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 16.27-35",
+        "first_reading": "Êxodo 16:27-35",
         "psalm": "Salmo 95",
-        "second_reading": "João 4.1-6"
+        "second_reading": "Efésios 2:11-22",
+        "gospel": "Marcos 12:18-27"
       },
       "is_sunday": false
     },
@@ -135,9 +141,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 24.1-27",
+        "first_reading": "Gênesis 24:1-27",
         "psalm": "Salmo 81",
-        "second_reading": "II João 1-13"
+        "second_reading": "2 João 1",
+        "gospel": "Marcos 9:38-41"
       },
       "is_sunday": false
     },
@@ -150,9 +157,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 29.1-14",
+        "first_reading": "Gênesis 29:1-14",
         "psalm": "Salmo 81",
-        "second_reading": "I Coríntios 10.1-4"
+        "second_reading": "1 Coríntios 10:1-4 5",
+        "gospel": "João 7:14-31, 37-39"
       },
       "is_sunday": false
     },
@@ -165,9 +173,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Jeremias 2.4-13",
+        "first_reading": "Jeremias 2:4-13",
         "psalm": "Salmo 81",
-        "second_reading": "João 7.14-31, 37-39"
+        "second_reading": "1 Coríntios 10:6-13",
+        "gospel": "João 8:48-51"
       },
       "is_sunday": false
     },
@@ -180,9 +189,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Samuel 15.10-21",
+        "first_reading": "1 Samuel 15:10-21",
         "psalm": "Salmo 23",
-        "second_reading": "Efésios 4.25-32"
+        "second_reading": "Efésios 4:17-24",
+        "gospel": "João 8:52-59"
       },
       "is_sunday": false
     },
@@ -195,9 +205,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Samuel 15.22-31",
+        "first_reading": "1 Samuel 15:22-31",
         "psalm": "Salmo 23",
-        "second_reading": "Efésios 5.1-9"
+        "second_reading": "Efésios 4:25-32",
+        "gospel": "João 1:1-9"
       },
       "is_sunday": false
     },
@@ -210,9 +221,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que sabes quão frágeis somos, guarda-nos a nós, teus servos, defendendo exteriormente nossos corpos de toda a adversidade e purificando interiormente nossas almas de todo mau pensamento; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Samuel 15.32-34",
+        "first_reading": "1 Samuel 15:32-34",
         "psalm": "Salmo 23",
-        "second_reading": "João 1.1-9"
+        "second_reading": "Efésios 5:1-9",
+        "gospel": "Marcos 8:22-26"
       },
       "is_sunday": false
     },
@@ -241,9 +253,10 @@
       "liturgical_year": "A",
       "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 59.9-19",
+        "first_reading": "Isaías 59:9-19",
         "psalm": "Salmo 146",
-        "second_reading": "Atos 9.1-20"
+        "second_reading": "Atos 9:1-9",
+        "gospel": "Mateus 9:27-34"
       },
       "is_sunday": false
     },
@@ -256,9 +269,10 @@
       "liturgical_year": "A",
       "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 42.14-21",
+        "first_reading": "Isaías 42:14-21",
         "psalm": "Salmo 146",
-        "second_reading": "Colossenses 1.9-14"
+        "second_reading": "Atos 9:10-20",
+        "gospel": "Lucas 13:1-5"
       },
       "is_sunday": false
     },
@@ -271,9 +285,10 @@
       "liturgical_year": "A",
       "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 60.17-22",
+        "first_reading": "Isaías 60:17-22",
         "psalm": "Salmo 146",
-        "second_reading": "Mateus 9.27-34"
+        "second_reading": "Colossenses 1:9-14",
+        "gospel": "João 20:24-29"
       },
       "is_sunday": false
     },
@@ -302,9 +317,10 @@
       "liturgical_year": "A",
       "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Ezequiel 33.10-16",
+        "first_reading": "Ezequiel 33:10-16",
         "psalm": "Salmo 130",
-        "second_reading": "Apocalipse 11.15-19"
+        "second_reading": "Apocalipse 10:1-11",
+        "gospel": "Mateus 15:21-28"
       },
       "is_sunday": false
     },
@@ -317,9 +333,10 @@
       "liturgical_year": "A",
       "collect": "Bendito Pai, cujo Filho Jesus Cristo desceu do céu para ser o verdadeiro Pão que vivifica o mundo; concede-nos sempre esse Pão, para que Ele viva em nós e nós nele, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Ezequiel 36.8-15",
+        "first_reading": "Ezequiel 36:8-15",
         "psalm": "Salmo 130",
-        "second_reading": "Lucas 24.44-53"
+        "second_reading": "Apocalipse 11:15-19",
+        "gospel": "Lucas 16:19-31"
       },
       "is_sunday": false
     },
@@ -348,9 +365,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Reis 17.17-24",
+        "first_reading": "1 Reis 17:17-24",
         "psalm": "Salmo 143",
-        "second_reading": "Atos 20.7-12"
+        "second_reading": "Atos 20:7-12",
+        "gospel": "Mateus 22:23-33"
       },
       "is_sunday": false
     },
@@ -359,18 +377,19 @@
       "subtitle": "Ano A",
       "day_of_week": "Terça-feira",
       "liturgical_season": "Quaresma",
-      "liturgical_color": "vermelho",
+      "liturgical_color": "roxo",
       "liturgical_year": "A",
       "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "II Reis 4.18-37",
+        "first_reading": "2 Reis 4:18-37",
         "psalm": "Salmo 143",
-        "second_reading": "Efésios 2.1-10"
+        "second_reading": "Efésios 2:1-10",
+        "gospel": "Lucas 24:44-53"
       },
       "is_sunday": false
     },
     "2026-03-25": {
-      "title": "Quaresma",
+      "title": "5ª Semana da Quaresma",
       "subtitle": "Ano A",
       "day_of_week": "Quarta-feira",
       "liturgical_season": "Quaresma",
@@ -394,9 +413,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Samuel 16.11-13",
-        "psalm": "Salmo 31.9-16",
-        "second_reading": "Filipenses 1.1-11"
+        "first_reading": "1 Samuel 16:11-13",
+        "psalm": "Salmo 31:9-16",
+        "second_reading": "Filipenses 1:1-11",
+        "gospel": "Mateus 16:21-23"
       },
       "is_sunday": false
     },
@@ -409,9 +429,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Jó 13.13-19",
-        "psalm": "Salmo 31.9-16",
-        "second_reading": "Filipenses 1.21-30"
+        "first_reading": "Jó 13:13-19",
+        "psalm": "Salmo 31:9-16",
+        "second_reading": "Filipenses 1:12-20",
+        "gospel": "Mateus 17:14-23"
       },
       "is_sunday": false
     },
@@ -424,9 +445,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, Tu somente podes colocar em ordem a vontade e as afeições desordenadas dos pecadores. Concede ao teu povo a graça de amar o que ordenas e desejar o que prometes; para que, entre as inconstâncias do mundo, permaneçam nossos corações firmados lá onde se acha a verdadeira alegria, por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Lamentações 3.55-66",
-        "psalm": "Salmo 31.9-16",
-        "second_reading": "Marcos 10.32-34"
+        "first_reading": "Lamentações 3:55-66",
+        "psalm": "Salmo 31:9-16",
+        "second_reading": "Filipenses 1:21-30",
+        "gospel": "Marcos 10:32-34"
       },
       "is_sunday": false
     },
@@ -437,7 +459,7 @@
       "liturgical_season": "Quaresma",
       "liturgical_color": "vermelho",
       "liturgical_year": "A",
-      "collect": "Onipotente e Eterno Deus, de tal modo amaste o mundo, que enviaste teu Filho, nosso Salvador Jesus Cristo, para tomar sobre si a nossa carne e sofrer morte na cruz, dando ao gênero humano exemplo de sua profunda humildade; concede, em tua misericórdia, que imitemos a sua paciência no sofrimento e possamos participar também de sua ressurreição; mediante o mesmo Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Onipotente e Eterno Deus, de tal modo amaste o mundo, que enviaste teu Filho, nosso Salvador Jesus Cristo, para tomar sobre si a nossa carne e sofrer morte na cruz, dando ao gênero humano exemplo de sua profunda humildade; concede, em tua misericórdia, que imitemos a sua paciência no sofrimento e possamos participar também de sua ressurreição; mediante o mesmo Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém",
       "readings": {
         "first_reading": "Isaías 50:4-9a",
         "psalm": "Salmo 31:9-16",

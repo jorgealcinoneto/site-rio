@@ -120,7 +120,7 @@ Você pode customizar o lecionário e as traduções bíblicas enviando um objet
 
 | Chave | Descrição |
 |-------|-----------|
-| `prayer_book_code` | O código do livro (ex: `loc_2015`, `loc_2019`). Define a regra litúrgica e as coletas. |
+| `prayer_book_code` | O código do livro (ex: `loc_2027`, `loc_2015`). Define a regra litúrgica e as coletas. |
 | `bible_version` | O código da versão bíblica (ex: `nvi`, `esv`). Define a tradução dos textos das leituras. |
 
 #### Descrição dos Campos
@@ -152,7 +152,7 @@ Consolida tudo numa única requisição: ciclo litúrgico, quadras, datas móvei
 **Requisição:**
 
 ```
-GET /api/v1/calendar/2026/overview?preferences={"prayer_book_code":"loc_2015"}
+GET /api/v1/calendar/2026/overview?preferences={"prayer_book_code":"loc_2027"}
 ```
 
 **Resposta JSON (200 OK):**
@@ -160,7 +160,7 @@ GET /api/v1/calendar/2026/overview?preferences={"prayer_book_code":"loc_2015"}
 ```json
 {
   "year": 2026,
-  "prayer_book": "loc_2015",
+  "prayer_book": "loc_2027",
   "liturgical_year": "C",
   "seasons": [ /* quadras litúrgicas */ ],
   "key_dates": { /* datas móveis */ },
@@ -182,7 +182,7 @@ As seis quadras litúrgicas do ano com datas de início e fim. A quadra do Natal
 **Requisição:**
 
 ```
-GET /api/v1/calendar/2026/seasons?preferences={"prayer_book_code":"loc_2015"}
+GET /api/v1/calendar/2026/seasons?preferences={"prayer_book_code":"loc_2027"}
 ```
 
 **Resposta JSON (200 OK):**
@@ -244,7 +244,7 @@ As datas móveis mais importantes do ano, todas calculadas em relação à Pásc
 **Requisição:**
 
 ```
-GET /api/v1/calendar/2026/key_dates?preferences={"prayer_book_code":"loc_2015"}
+GET /api/v1/calendar/2026/key_dates?preferences={"prayer_book_code":"loc_2027"}
 ```
 
 **Resposta JSON (200 OK):**
@@ -323,7 +323,7 @@ Todas as celebrações do ano cadastradas no prayer book. Suporta filtro por tip
 **Requisição:**
 
 ```
-GET /api/v1/calendar/2026/celebrations?preferences={"prayer_book_code":"loc_2015"}
+GET /api/v1/calendar/2026/celebrations?preferences={"prayer_book_code":"loc_2027"}
 ```
 
 **Parâmetros:**
@@ -552,9 +552,11 @@ Marcadores no HTML: `<!-- estevao:header -->`, `<!-- estevao:collect -->`, `<!--
 ### Curl equivalente
 
 ```bash
-curl -s "https://api.caminhoanglicano.com.br/api/v1/calendar/2026/08/02?preferences=%7B%22prayer_book_code%22%3A%22loc_2015%22%2C%22bible_version%22%3A%22nvi%22%7D" \
+curl -s "https://api.caminhoanglicano.com.br/api/v1/calendar/2026/08/02?preferences=%7B%22prayer_book_code%22%3A%22loc_2027%22%2C%22bible_version%22%3A%22nvi%22%7D" \
   -H "X-API-Key: $ESTEVAO_API_KEY"
 ```
+
+Neste projeto o padrão é **`loc_2027`** (REB — Rede Episcopal Brasileira, 2027).
 
 Regra Cursor: `.cursor/rules/liturgia-estevao.mdc`.
 

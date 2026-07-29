@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "month": 4,
-  "prayer_book": "loc_2015",
+  "prayer_book": "loc_2027",
   "bible_version": "nvi",
   "days": {
     "2026-04-01": {
@@ -27,7 +27,7 @@
       "liturgical_season": "Quaresma",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Pai Onipotente, cujo amado Filho, na noite anterior à sua paixão, instituiu o Sacramento do seu Corpo e Sangue; concede-nos, misericordioso, que dele participemos agradecidos, em memória daquele que nestes santos mistérios nos dá o penhor da vida eterna, teu Filho Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Pai onipotente, teu Filho, Jesus Cristo, ensinou-nos que o que fizermos pelo menor dos nossos irmãos é por Ele que o fazemos; dá-nos a vontade de ser servos uns dos outros, tal como Ele foi servo de todos; o qual deu a sua vida e morreu por nós, mas vive e reina contigo e com o Espírito Santo, um só Deus, agora e para sempre. Amém.",
       "readings": {
         "first_reading": "Êxodo 12:1-4, (5-10), 11-14",
         "psalm": "Salmo 116:1-2",
@@ -57,13 +57,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Quaresma",
-      "liturgical_color": "branco",
+      "liturgical_color": "roxo",
       "liturgical_year": "A",
-      "collect": "Senhor Deus, Tu fizeste resplandecer esta noite com a glória da ressurreição de Cristo; faz com que a sua luz brilhe na tua Igreja para que sejamos renovados no corpo e na alma e nos entreguemos plenamente ao teu serviço. Amém.",
+      "collect": "Ó Deus, Criador do céu e da terra; concede que, assim como o corpo crucificado de teu amado Filho foi colocado no túmulo e descansou neste sábado santo, também sepultados com Ele aguardemos o terceiro dia e com Ele ressuscitemos para uma vida nova; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Jó 38.22-38",
-        "psalm": "Salmo 8",
-        "second_reading": "João 14.15-17"
+        "first_reading": "Jó 14:1-14",
+        "psalm": "Salmo 31:1-4",
+        "second_reading": "1 Pedro 4:1-8",
+        "gospel": "Mateus 27:57-66"
       },
       "is_sunday": false
     },
@@ -74,7 +75,7 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Senhor Deus, Tu fizeste resplandecer esta noite com a glória da ressurreição de Cristo; faz com que a sua luz brilhe na tua Igreja para que sejamos renovados no corpo e na alma e nos entreguemos plenamente ao teu serviço. Amém.",
       "readings": {
         "first_reading": "Atos 10:34-43",
         "psalm": "Salmo 118:1-2",
@@ -90,11 +91,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Concede, nós te rogamos, ó Deus Onipotente, que nós, que celebramos com reverência a festa pascal, nos tornemos dignos de alcançar as alegrias sempiternas; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 14.10-31; 15.20-21",
-        "psalm": "Salmo 118.1-2; 14-24",
-        "second_reading": "Colossenses 3.5-11"
+        "first_reading": "Êxodo 14:10-31; 15:20-21",
+        "psalm": "Salmo 118:1-2",
+        "second_reading": "Colossenses 3:5-11",
+        "gospel": "João 11:17-27"
       },
       "is_sunday": false
     },
@@ -105,11 +107,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Ó Deus, que pela gloriosa ressurreição de teu Filho Jesus Cristo destruíste a morte e trouxeste à luz vida e imortalidade; concede a nós, que fomos ressuscitados com Ele, permaneçamos na sua presença e nos alegremos na esperança da glória eterna; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 15.1-18",
-        "psalm": "Salmo 118.1-2; 14-24",
-        "second_reading": "Colossenses 3.12-17"
+        "first_reading": "Êxodo 15:1-18",
+        "psalm": "Salmo 118:1-2",
+        "second_reading": "Colossenses 3:12-17",
+        "gospel": "João 11:38-44"
       },
       "is_sunday": false
     },
@@ -120,11 +123,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Ó Deus, cujo bendito Filho se manifestou aos discípulos no partir do Pão; abre os olhos da nossa fé para reconhecê-lo em toda a sua obra redentora; pelo mesmo Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Josué 3.1-17",
-        "psalm": "Salmo 118.1-2; 14-24",
-        "second_reading": "Mateus 28.1-10"
+        "first_reading": "Josué 3:1-17",
+        "psalm": "Salmo 118:1-2",
+        "second_reading": "Atos 11:1-9",
+        "gospel": "Mateus 28:1-10"
       },
       "is_sunday": false
     },
@@ -135,11 +139,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "vermelho",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Onipotente e sempiterno Deus, que, no mistério pascal, estabeleceste a nova aliança da reconciliação; concede que todos os que renasceram na comunhão do Corpo de Cristo, demonstrem em suas vidas a fé que professam; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Cântico dos Cânticos 2.8-15",
+        "first_reading": "Cânticos 2:8-15",
         "psalm": "Salmo 16",
-        "second_reading": "Colossenses 4.2-5"
+        "second_reading": "Colossenses 4:2-5",
+        "gospel": "Mateus 28:9-15"
       },
       "is_sunday": false
     },
@@ -150,11 +155,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Pai Onipotente, que deste teu único Filho para morrer por nossos pecados e ressurgir para nossa justificação; concede que de tal maneira apartemos de nós o fermento da maldade e da malícia, que te sirvamos com sinceridade e pureza de vida; por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Cântico dos Cânticos 5.9–6.3",
+        "first_reading": "Cânticos 5:9--6:3",
         "psalm": "Salmo 16",
-        "second_reading": "I Coríntios 15.1-11"
+        "second_reading": "1 Coríntios 15:1-11",
+        "gospel": "Marcos 16:1-8"
       },
       "is_sunday": false
     },
@@ -165,11 +171,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Ó Deus, que para a nossa redenção entregaste o teu unigênito Filho à morte de cruz, e pela tua gloriosa ressurreição nos libertaste do poder de nosso inimigo; concede que morramos diariamente para o pecado, a fim de que vivamos sempre com Ele na alegria de sua ressurreição; mediante Jesus Cristo, teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Damos-te graças, ó Pai Celestial, porque nos libertaste do domínio do pecado e da morte, e nos trouxeste para o reino de teu Filho; rogamos-te que, assim como por meio de sua morte, Ele nos chamou de novo para a vida, assim por seu amor ressuscitemos para as alegrias eternas; pelo mesmo Jesus Cristo, nosso Senhor, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Cântico dos Cânticos 8.6-7",
+        "first_reading": "Cânticos 8:6-7",
         "psalm": "Salmo 16",
-        "second_reading": "João 20.11-20"
+        "second_reading": "Tito 3:1-8a",
+        "gospel": "João 20:11-20"
       },
       "is_sunday": false
     },
@@ -198,9 +205,10 @@
       "liturgical_year": "A",
       "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Juízes 6.36-40",
+        "first_reading": "Juízes 6:36-40",
         "psalm": "Salmo 114",
-        "second_reading": "I Coríntios 15.12-20"
+        "second_reading": "1 Coríntios 15:12-20",
+        "gospel": "João 11:7-16"
       },
       "is_sunday": false
     },
@@ -213,9 +221,10 @@
       "liturgical_year": "A",
       "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Jonas 1.1-17",
+        "first_reading": "Jonas 1:1-17",
         "psalm": "Salmo 114",
-        "second_reading": "I Coríntios 15.19-28"
+        "second_reading": "1 Coríntios 15:19-28",
+        "gospel": "Mateus 12:38-42"
       },
       "is_sunday": false
     },
@@ -228,9 +237,10 @@
       "liturgical_year": "A",
       "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Jonas 2.1-10",
+        "first_reading": "Jonas 2:1-10",
         "psalm": "Salmo 114",
-        "second_reading": "Mateus 12.38-42"
+        "second_reading": "Atos 24:10-23",
+        "gospel": "João 14:1-7"
       },
       "is_sunday": false
     },
@@ -243,9 +253,10 @@
       "liturgical_year": "A",
       "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Isaías 25.1-5",
-        "psalm": "Salmo 116.1-4; 12-19",
-        "second_reading": "I Pedro 1.8b-12"
+        "first_reading": "Isaías 25:1-5",
+        "psalm": "Salmo 116:1-4",
+        "second_reading": "1 Pedro 1:8-12",
+        "gospel": "Lucas 13:31-35"
       },
       "is_sunday": false
     },
@@ -258,9 +269,10 @@
       "liturgical_year": "A",
       "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Isaías 26.1-4",
-        "psalm": "Salmo 116.1-4; 12-19",
-        "second_reading": "I Pedro 1.13-16"
+        "first_reading": "Isaías 26:1-4",
+        "psalm": "Salmo 116:1-4",
+        "second_reading": "1 Pedro 1:13-16",
+        "gospel": "Lucas 14:12-14"
       },
       "is_sunday": false
     },
@@ -273,9 +285,10 @@
       "liturgical_year": "A",
       "collect": "Pai celestial, libertaste-nos do poder do pecado e trouxeste-nos para o reino de teu Filho; concede que Aquele cuja morte nos restaurou à vida, pela sua presença entre nós, nos erga até às alegrias eternas. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Isaías 25.6-9",
-        "psalm": "Salmo 116.1-4; 12-19",
-        "second_reading": "Lucas 14.12-14"
+        "first_reading": "Isaías 25:6-9",
+        "psalm": "Salmo 116:1-4",
+        "second_reading": "Hebreus 10:19-31",
+        "gospel": "Marcos 16:9-13"
       },
       "is_sunday": false
     },
@@ -286,7 +299,7 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Deus Todo-poderoso, tu mostras a luz da verdade aos que erram para que regressem ao caminho da retidão; ajuda os que são de Cristo a renunciar a tudo que se oponha à fé que professam e a andar nos passos do divino Mestre. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
         "first_reading": "Atos 2:14a, 36-41",
         "psalm": "Salmo 116:1-4",
@@ -302,11 +315,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Deus Todo-poderoso, tu mostras a luz da verdade aos que erram para que regressem ao caminho da retidão; ajuda os que são de Cristo a renunciar a tudo que se oponha à fé que professam e a andar nos passos do divino Mestre. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Gênesis 18.1-14",
+        "first_reading": "Gênesis 18:1-14",
         "psalm": "Salmo 134",
-        "second_reading": "I Pedro 1.23-25"
+        "second_reading": "1 Pedro 1:23-25",
+        "gospel": "João 21:15-17"
       },
       "is_sunday": false
     },
@@ -317,11 +331,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Deus Todo-poderoso, tu mostras a luz da verdade aos que erram para que regressem ao caminho da retidão; ajuda os que são de Cristo a renunciar a tudo que se oponha à fé que professam e a andar nos passos do divino Mestre. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Provérbios 8.32–9.6",
+        "first_reading": "Provérbios 8:32--9:6",
         "psalm": "Salmo 134",
-        "second_reading": "I Pedro 2.1-3"
+        "second_reading": "1 Pedro 2:1-3",
+        "gospel": "Lucas 12:35-40"
       },
       "is_sunday": false
     },
@@ -332,11 +347,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Deus Todo-poderoso, tu mostras a luz da verdade aos que erram para que regressem ao caminho da retidão; ajuda os que são de Cristo a renunciar a tudo que se oponha à fé que professam e a andar nos passos do divino Mestre. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Êxodo 24.1-11",
+        "first_reading": "Êxodo 24:1-11",
         "psalm": "Salmo 134",
-        "second_reading": "João 21.1-14"
+        "second_reading": "Tito 3:1-8a",
+        "gospel": "Lucas 16:14-17"
       },
       "is_sunday": false
     },
@@ -347,11 +363,12 @@
       "liturgical_season": "Páscoa",
       "liturgical_color": "vermelho",
       "liturgical_year": "A",
-      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Deus Todo-poderoso, tu mostras a luz da verdade aos que erram para que regressem ao caminho da retidão; ajuda os que são de Cristo a renunciar a tudo que se oponha à fé que professam e a andar nos passos do divino Mestre. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Êxodo 2.15b-25",
+        "first_reading": "Êxodo 2:15b-25",
         "psalm": "Salmo 23",
-        "second_reading": "I Pedro 2.9-12"
+        "second_reading": "Filipenses 3:7-16",
+        "gospel": "Lucas 12:29-34"
       },
       "is_sunday": false
     },
@@ -360,13 +377,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Páscoa",
-      "liturgical_color": "vermelho",
+      "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Senhor de misericórdia, teu Filho é a ressurreição e a vida de todos os que n'Ele creem; ergue-nos da morte do pecado, para a vida da retidão. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Deus Todo-poderoso, tu mostras a luz da verdade aos que erram para que regressem ao caminho da retidão; ajuda os que são de Cristo a renunciar a tudo que se oponha à fé que professam e a andar nos passos do divino Mestre. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Êxodo 3.16-22; 4.18-20",
+        "first_reading": "Êxodo 3:16-22; 4:18-20",
         "psalm": "Salmo 23",
-        "second_reading": "I Pedro 2.13-17"
+        "second_reading": "1 Pedro 2:9-12",
+        "gospel": "Marcos 6:30-34"
       },
       "is_sunday": false
     },
@@ -375,9 +393,9 @@
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Páscoa",
-      "liturgical_color": "branco",
+      "liturgical_color": "vermelho",
       "liturgical_year": "A",
-      "collect": "Deus onipotente, iluminaste a tua Igreja através do testemunho inspirado do teu evangelista Marcos; fundamenta-nos firmemente na verdade do Evangelho, e faz-nos fiéis ao seu ensino. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Deus onipotente, iluminaste a tua Igreja através do testemunho inspirado do teu evangelista Marcos; fundamenta-nos firmemente na verdade do Evangelho, e faznos fiéis ao seu ensino. Mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
         "first_reading": "Isaías 52:7-10",
         "psalm": "Salmo 2",
@@ -411,9 +429,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Ezequiel 34.17-23",
+        "first_reading": "Ezequiel 34:17-23",
         "psalm": "Salmo 100",
-        "second_reading": "I Pedro 5.1-5"
+        "second_reading": "1 Pedro 5:1-5",
+        "gospel": "Lucas 15:1-7"
       },
       "is_sunday": false
     },
@@ -426,9 +445,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Ezequiel 34.23-31",
+        "first_reading": "Ezequiel 34:23-31",
         "psalm": "Salmo 100",
-        "second_reading": "Hebreus 13.20-21"
+        "second_reading": "1 Pedro 5:6-11",
+        "gospel": "Mateus 20:17-28"
       },
       "is_sunday": false
     },
@@ -441,9 +461,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Jeremias 23.1-8",
+        "first_reading": "Jeremias 23:1-8",
         "psalm": "Salmo 100",
-        "second_reading": "Mateus 20.17-28"
+        "second_reading": "Hebreus 13:20-21",
+        "gospel": "João 16:25-28"
       },
       "is_sunday": false
     },
@@ -456,9 +477,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, cujo Filho Jesus é o Bom Pastor do teu povo; concede que, quando ouvirmos sua voz, reconheçamos Aquele que nos chama cada um pelo nome e o sigamos para onde nos conduz; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 12.1-3",
-        "psalm": "Salmo 31.1-5; 15-16",
-        "second_reading": "Atos 6.8-15"
+        "first_reading": "Gênesis 12:1-3",
+        "psalm": "Salmo 31:1-5",
+        "second_reading": "Atos 6:8-15",
+        "gospel": "João 1:14-18"
       },
       "is_sunday": false
     }

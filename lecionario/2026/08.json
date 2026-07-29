@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "month": 8,
-  "prayer_book": "loc_2015",
+  "prayer_book": "loc_2027",
   "bible_version": "nvi",
   "days": {
     "2026-08-01": {
@@ -13,9 +13,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, protetor dos que em ti confiam, sem o qual nada é forte, nada é santo; acrescenta e multiplica a tua misericórdia para conosco, a fim de que, sob o teu governo e direção, vivamos esta vida de tal maneira que não percamos a vida eterna. Por nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 31.1-21",
-        "psalm": "Salmo 17.1-7; 15",
-        "second_reading": "Mateus 7.7-11"
+        "first_reading": "Isaías 44:1-5",
+        "psalm": "Salmo 145:8-9",
+        "second_reading": "Atos 4:1-4",
+        "gospel": "Marcos 6:30-44"
       },
       "is_sunday": false
     },
@@ -26,10 +27,10 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "verde",
       "liturgical_year": "A",
-      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preserva-a sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preservaa sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 32:22-31",
-        "psalm": "Salmo 17:1-7",
+        "first_reading": "Isaías 55:1-5",
+        "psalm": "Salmo 145:8-9",
         "second_reading": "Romanos 9:1-5",
         "gospel": "Mateus 14:13-21"
       },
@@ -42,11 +43,12 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "verde",
       "liturgical_year": "A",
-      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preserva-a sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preservaa sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 31.22-42",
-        "psalm": "Salmo 17.1-7; 15",
-        "second_reading": "Romanos 1.8-15"
+        "first_reading": "Deuteronômio 8:1-10",
+        "psalm": "Salmo 78:1-8",
+        "second_reading": "Romanos 9:6-13",
+        "gospel": "João 6:1-14"
       },
       "is_sunday": false
     },
@@ -57,11 +59,12 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preserva-a sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preservaa sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 32.3-21",
-        "psalm": "Salmo 17.1-7; 15",
-        "second_reading": "Atos 2.37-47"
+        "first_reading": "Deuteronômio 26:1-15",
+        "psalm": "Salmo 78:1-8",
+        "second_reading": "Romanos 1:8-15",
+        "gospel": "Mateus 15:32-39"
       },
       "is_sunday": false
     },
@@ -72,27 +75,28 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "verde",
       "liturgical_year": "A",
-      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preserva-a sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preservaa sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 43.1-7",
-        "psalm": "Salmo 17.1-7; 15",
-        "second_reading": "Mateus 15.32-39"
+        "first_reading": "Êxodo 16:2-15, 31-35",
+        "psalm": "Salmo 78:1-8",
+        "second_reading": "Atos 2:37-47",
+        "gospel": "Mateus 4:1-4"
       },
       "is_sunday": false
     },
     "2026-08-06": {
-      "title": "Tempo Comum",
+      "title": "10ª Semana após Pentecostes",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Tempo Comum",
-      "liturgical_color": "branco",
+      "liturgical_color": "verde",
       "liturgical_year": "A",
-      "collect": "Deus onipotente, teu Filho revelou-se em glória antes de sofrer na Cruz; concede-nos que pela fé na sua morte e ressurreição triunfemos no poder da sua vitória. Mediante Jesus Cristo, nosso Senhor. Amém.",
+      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preservaa sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 34:29-35",
-        "psalm": "Salmo 99",
-        "second_reading": "2 Pedro 1:13-21",
-        "gospel": "Lucas 9:28-36"
+        "first_reading": "1 Reis 18:1-16",
+        "psalm": "Salmo 85:8-13",
+        "second_reading": "Atos 17:10-15",
+        "gospel": "Mateus 8:23-27"
       },
       "is_sunday": false
     },
@@ -101,13 +105,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Tempo Comum",
-      "liturgical_color": "branco",
+      "liturgical_color": "verde",
       "liturgical_year": "A",
-      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preserva-a sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preservaa sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 36.1-8",
-        "psalm": "Salmo 105.1-6; 16-22; 45b",
-        "second_reading": "Atos 18.24-28"
+        "first_reading": "1 Reis 18:17-19, 30-40",
+        "psalm": "Salmo 85:8-13",
+        "second_reading": "Atos 17:16-21",
+        "gospel": "Mateus 16:1-4"
       },
       "is_sunday": false
     },
@@ -118,11 +123,12 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preserva-a sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Permite, ó Senhor, que a tua contínua misericórdia purifique e defenda a tua Igreja; e, porquanto ela não pode continuar em segurança sem teu socorro, preservaa sempre com teu auxílio e bondade; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 37.5-11",
-        "psalm": "Salmo 105.1-6; 16-22; 45b",
-        "second_reading": "Mateus 16.1-4"
+        "first_reading": "1 Reis 18:41-46",
+        "psalm": "Salmo 85:8-13",
+        "second_reading": "Atos 17:22-31",
+        "gospel": "Marcos 6:45-52"
       },
       "is_sunday": false
     },
@@ -135,8 +141,8 @@
       "liturgical_year": "A",
       "collect": "Concede-nos, Senhor, te rogamos, a graça de pensar e executar sempre o que é justo e bom, para que nós, que sem ti nada podemos, por ti nos tornemos capazes de viver conforme a tua vontade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 37:1-4, 12-28",
-        "psalm": "Salmo 105:1-6, 16-22, 45b",
+        "first_reading": "1 Reis 19:9-18",
+        "psalm": "Salmo 85:8-13",
         "second_reading": "Romanos 10:5-15",
         "gospel": "Mateus 14:22-33"
       },
@@ -151,9 +157,10 @@
       "liturgical_year": "A",
       "collect": "Concede-nos, Senhor, te rogamos, a graça de pensar e executar sempre o que é justo e bom, para que nós, que sem ti nada podemos, por ti nos tornemos capazes de viver conforme a tua vontade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 37.29-36",
-        "psalm": "Salmo 28",
-        "second_reading": "II Pedro 2.4-10"
+        "first_reading": "Gênesis 7:11--8:5",
+        "psalm": "Salmo 18:1-19",
+        "second_reading": "Atos 18:24-28",
+        "gospel": "João 21:1-8"
       },
       "is_sunday": false
     },
@@ -166,9 +173,10 @@
       "liturgical_year": "A",
       "collect": "Concede-nos, Senhor, te rogamos, a graça de pensar e executar sempre o que é justo e bom, para que nós, que sem ti nada podemos, por ti nos tornemos capazes de viver conforme a tua vontade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 39.1-23",
-        "psalm": "Salmo 28",
-        "second_reading": "Romanos 9.14-29"
+        "first_reading": "Gênesis 19:1-29",
+        "psalm": "Salmo 18:1-19",
+        "second_reading": "2 Pedro 2:4-10",
+        "gospel": "Mateus 14:34-36"
       },
       "is_sunday": false
     },
@@ -181,9 +189,10 @@
       "liturgical_year": "A",
       "collect": "Concede-nos, Senhor, te rogamos, a graça de pensar e executar sempre o que é justo e bom, para que nós, que sem ti nada podemos, por ti nos tornemos capazes de viver conforme a tua vontade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 40.1-23",
-        "psalm": "Salmo 28",
-        "second_reading": "Mateus 8.23-27"
+        "first_reading": "Jó 36:24-33; 37:14-24",
+        "psalm": "Salmo 18:1-19",
+        "second_reading": "Romanos 9:14-29",
+        "gospel": "Mateus 16:15-23"
       },
       "is_sunday": false
     },
@@ -196,9 +205,10 @@
       "liturgical_year": "A",
       "collect": "Concede-nos, Senhor, te rogamos, a graça de pensar e executar sempre o que é justo e bom, para que nós, que sem ti nada podemos, por ti nos tornemos capazes de viver conforme a tua vontade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 41.14-36",
-        "psalm": "Salmo 133",
-        "second_reading": "Apocalipse 15.1-4"
+        "first_reading": "Isaías 45:20-25",
+        "psalm": "Salmo 67",
+        "second_reading": "Apocalipse 15:1-4",
+        "gospel": "Mateus 15:1-9"
       },
       "is_sunday": false
     },
@@ -207,13 +217,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Tempo Comum",
-      "liturgical_color": "verde",
+      "liturgical_color": "branco",
       "liturgical_year": "A",
       "collect": "Concede-nos, Senhor, te rogamos, a graça de pensar e executar sempre o que é justo e bom, para que nós, que sem ti nada podemos, por ti nos tornemos capazes de viver conforme a tua vontade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 41.37-57",
-        "psalm": "Salmo 133",
-        "second_reading": "Atos 14.19-28"
+        "first_reading": "Isaías 63:15-19",
+        "psalm": "Salmo 67",
+        "second_reading": "Atos 14:19-28",
+        "gospel": "Mateus 10:5-15"
       },
       "is_sunday": false
     },
@@ -224,7 +235,7 @@
       "liturgical_season": "Tempo Comum",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Concede-nos, Senhor, te rogamos, a graça de pensar e executar sempre o que é justo e bom, para que nós, que sem ti nada podemos, por ti nos tornemos capazes de viver conforme a tua vontade; mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Deus onipotente, escolheste a bem-aventurada Virgem Maria para ser a mãe do teu único Filho; concede-nos a nós, redimidos pelo Sangue de Jesus, a graça de estarmos com ela na glória do teu reino eterno. Mediante Jesus Cristo, nosso Senhor, que vive e reina, contigo e com o Espírito Santo. Amém.",
       "readings": {
         "first_reading": "Isaías 61:10-11",
         "psalm": "Salmo 34",
@@ -258,9 +269,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, que deste teu único Filho não só em sacrifício pelo pecado, mas também para exemplo de santidade, dá-nos a graça de sempre receber com gratidão os frutos de sua obra redentora e de seguir diariamente os bem-aventurados passos de sua santíssima vida. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 43.1-34",
-        "psalm": "Salmo 130",
-        "second_reading": "Atos 15.1-21"
+        "first_reading": "2 Reis 5:1-14",
+        "psalm": "Salmo 87",
+        "second_reading": "Atos 15:1-21",
+        "gospel": "Lucas 16:19-31"
       },
       "is_sunday": false
     },
@@ -273,9 +285,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, que deste teu único Filho não só em sacrifício pelo pecado, mas também para exemplo de santidade, dá-nos a graça de sempre receber com gratidão os frutos de sua obra redentora e de seguir diariamente os bem-aventurados passos de sua santíssima vida. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 44.1-34",
-        "psalm": "Salmo 130",
-        "second_reading": "Romanos 11.13-29"
+        "first_reading": "Isaías 43:8-13",
+        "psalm": "Salmo 87",
+        "second_reading": "Romanos 11:13-29",
+        "gospel": "Mateus 8:1-13"
       },
       "is_sunday": false
     },
@@ -288,9 +301,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, que deste teu único Filho não só em sacrifício pelo pecado, mas também para exemplo de santidade, dá-nos a graça de sempre receber com gratidão os frutos de sua obra redentora e de seguir diariamente os bem-aventurados passos de sua santíssima vida. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 45.16-28",
-        "psalm": "Salmo 130",
-        "second_reading": "Mateus 8.1-13"
+        "first_reading": "Isaías 66:18-23",
+        "psalm": "Salmo 87",
+        "second_reading": "Atos 18:1-4",
+        "gospel": "Mateus 9:20-22"
       },
       "is_sunday": false
     },
@@ -303,9 +317,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, que deste teu único Filho não só em sacrifício pelo pecado, mas também para exemplo de santidade, dá-nos a graça de sempre receber com gratidão os frutos de sua obra redentora e de seguir diariamente os bem-aventurados passos de sua santíssima vida. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 49.1-33",
-        "psalm": "Salmo 124",
-        "second_reading": "I Coríntios 6.1-11"
+        "first_reading": "Ezequiel 28:11-19",
+        "psalm": "Salmo 138",
+        "second_reading": "1 Coríntios 6:1-11",
+        "gospel": "Mateus 16:1-4"
       },
       "is_sunday": false
     },
@@ -318,9 +333,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, que deste teu único Filho não só em sacrifício pelo pecado, mas também para exemplo de santidade, dá-nos a graça de sempre receber com gratidão os frutos de sua obra redentora e de seguir diariamente os bem-aventurados passos de sua santíssima vida. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 49.29–50.14",
-        "psalm": "Salmo 124",
-        "second_reading": "II Coríntios 10.12-18"
+        "first_reading": "Ezequiel 31:15-18",
+        "psalm": "Salmo 138",
+        "second_reading": "2 Coríntios 10:12-18",
+        "gospel": "Mateus 16:5-12"
       },
       "is_sunday": false
     },
@@ -333,9 +349,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, que deste teu único Filho não só em sacrifício pelo pecado, mas também para exemplo de santidade, dá-nos a graça de sempre receber com gratidão os frutos de sua obra redentora e de seguir diariamente os bem-aventurados passos de sua santíssima vida. Mediante nosso Senhor Jesus Cristo, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 50.15-26",
-        "psalm": "Salmo 124",
-        "second_reading": "Mateus 16.5-12"
+        "first_reading": "Ezequiel 36:33-38",
+        "psalm": "Salmo 138",
+        "second_reading": "Romanos 11:33-36",
+        "gospel": "Marcos 8:27-30"
       },
       "is_sunday": false
     },
@@ -348,8 +365,8 @@
       "liturgical_year": "A",
       "collect": "Ó Misericordioso Deus, concede que a tua Igreja, unida pelo Espírito Santo, manifeste o teu poder entre todos os povos, para a glória do teu nome. Mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 1:8-2:10",
-        "psalm": "Salmo 124",
+        "first_reading": "Isaías 51:1-6",
+        "psalm": "Salmo 138",
         "second_reading": "Romanos 12:1-8",
         "gospel": "Mateus 16:13-20"
       },
@@ -380,9 +397,10 @@
       "liturgical_year": "A",
       "collect": "Ó Misericordioso Deus, concede que a tua Igreja, unida pelo Espírito Santo, manifeste o teu poder entre todos os povos, para a glória do teu nome. Mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 2.11-15a",
-        "psalm": "Salmo 8",
-        "second_reading": "Romanos 11.33-36"
+        "first_reading": "Deuteronômio 32:18-20, 28-39",
+        "psalm": "Salmo 18:1-3",
+        "second_reading": "1 Pedro 1:3-9",
+        "gospel": "João 6:66-71"
       },
       "is_sunday": false
     },
@@ -395,9 +413,10 @@
       "liturgical_year": "A",
       "collect": "Ó Misericordioso Deus, concede que a tua Igreja, unida pelo Espírito Santo, manifeste o teu poder entre todos os povos, para a glória do teu nome. Mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 2.15b-22",
-        "psalm": "Salmo 8",
-        "second_reading": "Mateus 26.6-13"
+        "first_reading": "Isaías 28:14-22",
+        "psalm": "Salmo 18:1-3",
+        "second_reading": "1 Pedro 1:10-21",
+        "gospel": "Mateus 26:6-13"
       },
       "is_sunday": false
     },
@@ -406,13 +425,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Tempo Comum",
-      "liturgical_color": "branco",
+      "liturgical_color": "verde",
       "liturgical_year": "A",
       "collect": "Ó Misericordioso Deus, concede que a tua Igreja, unida pelo Espírito Santo, manifeste o teu poder entre todos os povos, para a glória do teu nome. Mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 2.23-24",
-        "psalm": "Salmo 105.1-6; 23-26; 45b",
-        "second_reading": "Efésios 5.1-6"
+        "first_reading": "Jeremias 14:13-18",
+        "psalm": "Salmo 26:1-8",
+        "second_reading": "Efésios 5:1-6",
+        "gospel": "Mateus 8:14-17"
       },
       "is_sunday": false
     },
@@ -425,9 +445,10 @@
       "liturgical_year": "A",
       "collect": "Ó Misericordioso Deus, concede que a tua Igreja, unida pelo Espírito Santo, manifeste o teu poder entre todos os povos, para a glória do teu nome. Mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 3.16-25",
-        "psalm": "Salmo 105.1-6; 23-26; 45b",
-        "second_reading": "II Tessalonicenses 2.7-12"
+        "first_reading": "Jeremias 15:1-9",
+        "psalm": "Salmo 26:1-8",
+        "second_reading": "2 Tessalonicenses 2:7-12",
+        "gospel": "Mateus 12:22-32"
       },
       "is_sunday": false
     },
@@ -440,9 +461,10 @@
       "liturgical_year": "A",
       "collect": "Ó Misericordioso Deus, concede que a tua Igreja, unida pelo Espírito Santo, manifeste o teu poder entre todos os povos, para a glória do teu nome. Mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 4.1-9",
-        "psalm": "Salmo 105.1-6; 23-26; 45b",
-        "second_reading": "Mateus 8.14-17"
+        "first_reading": "Jeremias 15:10-14",
+        "psalm": "Salmo 26:1-8",
+        "second_reading": "1 Coríntios 1:18-25",
+        "gospel": "Marcos 8:31-39"
       },
       "is_sunday": false
     },
@@ -455,8 +477,8 @@
       "liturgical_year": "A",
       "collect": "Senhor de todo o poder e majestade, autor e dispensador de todo o bem; enxerta em nossos corações o amor do teu nome; aumenta em nós a verdadeira religião, nutre-nos com toda a bondade e frutifica em nós as boas obras; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 3:1-15",
-        "psalm": "Salmo 105:1-6, 23-26, 45c",
+        "first_reading": "Jeremias 15:15-21",
+        "psalm": "Salmo 26:1-8",
         "second_reading": "Romanos 12:9-21",
         "gospel": "Mateus 16:21-28"
       },
@@ -471,9 +493,10 @@
       "liturgical_year": "A",
       "collect": "Senhor de todo o poder e majestade, autor e dispensador de todo o bem; enxerta em nossos corações o amor do teu nome; aumenta em nós a verdadeira religião, nutre-nos com toda a bondade e frutifica em nós as boas obras; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 4.10-31",
-        "psalm": "Salmo 83.1-4; 13-18",
-        "second_reading": "Apocalipse 3.1-6"
+        "first_reading": "2 Samuel 11:2-26",
+        "psalm": "Salmo 17",
+        "second_reading": "Apocalipse 3:1-6",
+        "gospel": "Lucas 9:21-27"
       },
       "is_sunday": false
     }

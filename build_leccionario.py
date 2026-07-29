@@ -85,6 +85,8 @@ def build_month(year: int, month: int, api_key: str, *, skip_existing: bool = Tr
     path = month_path(year, month)
     path.parent.mkdir(parents=True, exist_ok=True)
     payload = load_month_file(path, year, month)
+    payload["prayer_book"] = PRAYER_BOOK
+    payload["bible_version"] = BIBLE_VERSION
     days_in_month = calendar.monthrange(year, month)[1]
     updated = 0
 

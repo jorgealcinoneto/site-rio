@@ -33,8 +33,9 @@ Marcadores HTML: `<!-- estevao:header -->`, `<!-- estevao:collect -->`, `<!-- es
 ## Curl direto (debug)
 
 ```bash
-curl -s "https://api.caminhoanglicano.com.br/api/v1/calendar/2026/08/02?preferences=%7B%22prayer_book_code%22%3A%22loc_2015%22%2C%22bible_version%22%3A%22nvi%22%7D" \
+curl -s "https://api.caminhoanglicano.com.br/api/v1/calendar/2026/08/02?preferences=%7B%22prayer_book_code%22%3A%22loc_2027%22%2C%22bible_version%22%3A%22nvi%22%7D" \
   -H "X-API-Key: $ESTEVAO_API_KEY"
 ```
 
+Preferências padrão: `prayer_book_code=loc_2027` (REB 2027), `bible_version=nvi`.
 Chave em `.env` (`ESTEVAO_API_KEY`). Ver `API-ESTEVAO.md`.

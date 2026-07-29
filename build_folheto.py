@@ -30,7 +30,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 FOLHETOS = ROOT / "folhetos"
 API_BASE = "https://api.caminhoanglicano.com.br/api/v1"
-PRAYER_BOOK = "loc_2015"
+PRAYER_BOOK = "loc_2027"
 BIBLE_VERSION = "nvi"
 
 MESES = [

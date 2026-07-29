@@ -1,7 +1,7 @@
 {
   "year": 2026,
   "month": 2,
-  "prayer_book": "loc_2015",
+  "prayer_book": "loc_2027",
   "bible_version": "nvi",
   "days": {
     "2026-02-01": {
@@ -21,7 +21,7 @@
       "is_sunday": true
     },
     "2026-02-02": {
-      "title": "Epifania",
+      "title": "4ª Semana após a Epifania",
       "subtitle": "Ano A",
       "day_of_week": "Segunda-feira",
       "liturgical_season": "Epifania",
@@ -45,9 +45,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Rute 2.1-16",
-        "psalm": "Salmo 37.1-17",
-        "second_reading": "Tiago 5.1-6"
+        "first_reading": "Rute 2:1-16",
+        "psalm": "Salmo 37:1-17",
+        "second_reading": "Tiago 5:1-6",
+        "gospel": "João 13:31-35"
       },
       "is_sunday": false
     },
@@ -60,9 +61,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Rute 3.1-13, 4.13-22",
-        "psalm": "Salmo 37.1-17",
-        "second_reading": "Lucas 6.17-26"
+        "first_reading": "Rute 3:1-13; 4:13-22",
+        "psalm": "Salmo 37:1-17",
+        "second_reading": "Tiago 2:1-13",
+        "gospel": "Mateus 25:31-46"
       },
       "is_sunday": false
     },
@@ -71,13 +73,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Epifania",
-      "liturgical_color": "verde",
+      "liturgical_color": "vermelho",
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 4.1-14",
-        "psalm": "Salmo 112.1-9 10",
-        "second_reading": "I João 5.1-5"
+        "first_reading": "Deuteronômio 4:1-14",
+        "psalm": "Salmo 112:1-9 10",
+        "second_reading": "1 João 5:1-5",
+        "gospel": "João 12:27-36"
       },
       "is_sunday": false
     },
@@ -86,13 +89,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Epifania",
-      "liturgical_color": "vermelho",
+      "liturgical_color": "verde",
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Isaías 29.1-12",
-        "psalm": "Salmo 112.1-9 10",
-        "second_reading": "Tiago 3.13-18"
+        "first_reading": "Isaías 29:1-12",
+        "psalm": "Salmo 112:1-9 10",
+        "second_reading": "Tiago 3:13-18",
+        "gospel": "Marcos 7:1-8"
       },
       "is_sunday": false
     },
@@ -101,13 +105,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Epifania",
-      "liturgical_color": "branco",
+      "liturgical_color": "verde",
       "liturgical_year": "A",
       "collect": "Onipotente e sempiterno Deus que governas todas as coisas no céu e na terra; ouve, misericordioso, as súplicas de teu povo, e concede-nos tua paz todos os dias de nossa vida; mediante Jesus Cristo, nosso Senhor. Amém.",
       "readings": {
-        "first_reading": "Isaías 29.13-16",
-        "psalm": "Salmo 112.1-9 10",
-        "second_reading": "Marcos 7.1-8"
+        "first_reading": "Isaías 29:13-16",
+        "psalm": "Salmo 112:1-9 10",
+        "second_reading": "Tiago 1:17-27",
+        "gospel": "Marcos 9:42-50"
       },
       "is_sunday": false
     },
@@ -136,9 +141,10 @@
       "liturgical_year": "A",
       "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "II Reis 22.3-20",
-        "psalm": "Salmo 119.105-112",
-        "second_reading": "Romanos 11.2-10"
+        "first_reading": "2 Reis 22:3-20",
+        "psalm": "Salmo 119:105-112",
+        "second_reading": "Romanos 11:2-10",
+        "gospel": "Lucas 14:25-35"
       },
       "is_sunday": false
     },
@@ -151,9 +157,10 @@
       "liturgical_year": "A",
       "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "II Reis 23.1-8, 21-25",
-        "psalm": "Salmo 119.105-112",
-        "second_reading": "II Coríntios 4.1-12"
+        "first_reading": "2 Reis 23:1-8, 21-25",
+        "psalm": "Salmo 119:105-112",
+        "second_reading": "2 Coríntios 4:1-12",
+        "gospel": "João 8:12-30"
       },
       "is_sunday": false
     },
@@ -166,9 +173,10 @@
       "liturgical_year": "A",
       "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Provérbios 6.6-23",
-        "psalm": "Salmo 119.105-112",
-        "second_reading": "João 8.12-30"
+        "first_reading": "Provérbios 6:6-23",
+        "psalm": "Salmo 119:105-112",
+        "second_reading": "Apocalipse 21:22-27",
+        "gospel": "Mateus 23:23-24"
       },
       "is_sunday": false
     },
@@ -177,13 +185,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Epifania",
-      "liturgical_color": "vermelho",
+      "liturgical_color": "branco",
       "liturgical_year": "A",
       "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 6.2-9",
+        "first_reading": "Êxodo 6:2-9",
         "psalm": "Salmo 2",
-        "second_reading": "Hebreus 8.1-7"
+        "second_reading": "Hebreus 8:1-6",
+        "gospel": "João 12:27-30"
       },
       "is_sunday": false
     },
@@ -196,9 +205,10 @@
       "liturgical_year": "A",
       "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 19.9b-25",
+        "first_reading": "Êxodo 19:9b-25",
         "psalm": "Salmo 2",
-        "second_reading": "Hebreus 11.23-28"
+        "second_reading": "Hebreus 11:23-28",
+        "gospel": "Marcos 9:2-9"
       },
       "is_sunday": false
     },
@@ -211,9 +221,10 @@
       "liturgical_year": "A",
       "collect": "Liberta-nos, ó Deus, da escravidão de nossos pecados e concede-nos a liberdade daquela vida abundante que nos fizeste conhecer em teu Filho Jesus Cristo, nosso Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Reis 21.20-29",
+        "first_reading": "1 Reis 21:20-29",
         "psalm": "Salmo 2",
-        "second_reading": "Marcos 9.9-13"
+        "second_reading": "Apocalipse 11:1-14",
+        "gospel": "Marcos 9:9-13"
       },
       "is_sunday": false
     },
@@ -242,9 +253,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 33.7-23",
-        "psalm": "Salmo 78.17-20; 52-55",
-        "second_reading": "Atos 7.30-34"
+        "first_reading": "Êxodo 33:7-23",
+        "psalm": "Salmo 78:17-20",
+        "second_reading": "Atos 7:30-34",
+        "gospel": "Lucas 9:28-36"
       },
       "is_sunday": false
     },
@@ -257,9 +269,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Reis 19.9-18",
-        "psalm": "Salmo 78.17-20; 52-55",
-        "second_reading": "Romanos 11.1-6"
+        "first_reading": "1 Reis 19:9-18",
+        "psalm": "Salmo 78:17-20",
+        "second_reading": "Romanos 11:1-6",
+        "gospel": "Mateus 17:10-13"
       },
       "is_sunday": false
     },
@@ -288,9 +301,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Jonas 3.1-10",
+        "first_reading": "Jonas 3:1-10",
         "psalm": "Salmo 51",
-        "second_reading": "Romanos 1.1-7"
+        "second_reading": "Romanos 1:1-7",
+        "gospel": "Mateus 18:1-10"
       },
       "is_sunday": false
     },
@@ -303,9 +317,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Jonas 4.1-11",
+        "first_reading": "Jonas 4:1-11",
         "psalm": "Salmo 51",
-        "second_reading": "Romanos 1.8-17"
+        "second_reading": "Romanos 1:8-13",
+        "gospel": "João 6:35-40"
       },
       "is_sunday": false
     },
@@ -314,13 +329,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Quaresma",
-      "liturgical_color": "roxo",
+      "liturgical_color": "branco",
       "liturgical_year": "A",
       "collect": "Ó Deus, que, antes da Paixão de teu unigênito Filho, revelaste a sua glória sobre o monte, na Transfiguração; concede que nós, contemplando pela fé o resplendor de sua face, sejamos fortalecidos para carregar a nossa cruz e transformados na sua semelhança de glória em glória; por Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 58.1-12",
+        "first_reading": "Isaías 58:1-12",
         "psalm": "Salmo 51",
-        "second_reading": "Mateus 18.1-7"
+        "second_reading": "Romanos 1:14-17",
+        "gospel": "Marcos 1:9-13"
       },
       "is_sunday": false
     },
@@ -349,9 +365,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Reis 19.1-8",
+        "first_reading": "1 Reis 19:1-8",
         "psalm": "Salmo 32",
-        "second_reading": "Hebreus 2.10-18"
+        "second_reading": "Hebreus 2:10-18",
+        "gospel": "Lucas 4:1-13"
       },
       "is_sunday": false
     },
@@ -380,9 +397,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Êxodo 34.1-9, 27-28",
+        "first_reading": "Êxodo 34:1-9, 27-28",
         "psalm": "Salmo 32",
-        "second_reading": "Mateus 18.10-14"
+        "second_reading": "Hebreus 5:5-10",
+        "gospel": "Mateus 6:25-27"
       },
       "is_sunday": false
     },
@@ -395,9 +413,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 51.1-3",
+        "first_reading": "Isaías 51:1-3",
         "psalm": "Salmo 121",
-        "second_reading": "II Timóteo 1.3-7"
+        "second_reading": "2 Timóteo 1:3-7",
+        "gospel": "Marcos 1:4-8"
       },
       "is_sunday": false
     },
@@ -410,9 +429,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Miqueias 7.18-20",
+        "first_reading": "Miquéias 7:18-20",
         "psalm": "Salmo 121",
-        "second_reading": "Romanos 3.21-31"
+        "second_reading": "2 Timóteo 1:8-14",
+        "gospel": "Lucas 3:15-17"
       },
       "is_sunday": false
     },
@@ -421,13 +441,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Sábado",
       "liturgical_season": "Quaresma",
-      "liturgical_color": "roxo",
+      "liturgical_color": "branco",
       "liturgical_year": "A",
       "collect": "Onipotente Deus, cujo bendito Filho foi conduzido pelo Espírito para ser tentado pelo demônio, apressa-te em socorrer a nós, que somos assaltados por muitas tentações, nós te rogamos. E, assim como conheces as fraquezas de cada um de nós, permite que cada qual encontre em ti o poder de salvação. Por Jesus Cristo teu Filho, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 51.4-8",
+        "first_reading": "Isaías 51:4-8",
         "psalm": "Salmo 121",
-        "second_reading": "Lucas 7.1-10"
+        "second_reading": "Romanos 3:21-31",
+        "gospel": "Lucas 7:1-10"
       },
       "is_sunday": false
     }

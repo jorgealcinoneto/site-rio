@@ -1,11 +1,11 @@
 {
   "year": 2026,
   "month": 1,
-  "prayer_book": "loc_2015",
+  "prayer_book": "loc_2027",
   "bible_version": "nvi",
   "days": {
     "2026-01-01": {
-      "title": "Natal",
+      "title": "Semana após o Natal",
       "subtitle": "Ano A",
       "day_of_week": "Quinta-feira",
       "liturgical_season": "Natal",
@@ -29,9 +29,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, que derramaste sobre nós a nova luz do teu Verbo feito carne; concede que essa mesma luz, acesa em nossos corações, brilhe em nossas vidas; por Jesus Cristo, nosso Senhor, que vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 12.1-7",
+        "first_reading": "Gênesis 12:1-7",
         "psalm": "Salmo 20",
-        "second_reading": "Hebreus 11.1-12"
+        "second_reading": "Hebreus 11:1-12",
+        "gospel": "Mateus 8:5-11 12-13"
       },
       "is_sunday": false
     },
@@ -44,9 +45,10 @@
       "liturgical_year": "A",
       "collect": "Onipotente Deus, que derramaste sobre nós a nova luz do teu Verbo feito carne; concede que essa mesma luz, acesa em nossos corações, brilhe em nossas vidas; por Jesus Cristo, nosso Senhor, que vive e reina contigo, na unidade do Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 28.10-22",
+        "first_reading": "Gênesis 28:10-22",
         "psalm": "Salmo 72",
-        "second_reading": "Hebreus 11.13-22"
+        "second_reading": "Hebreus 11:13-22",
+        "gospel": "Lucas 9:23-27"
       },
       "is_sunday": false
     },
@@ -75,9 +77,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Josué 1.1-9",
+        "first_reading": "Josué 1:1-9",
         "psalm": "Salmo 72",
-        "second_reading": "Hebreus 11.32–12.2"
+        "second_reading": "Hebreus 11:32--12:2",
+        "gospel": "Lucas 2:8-20"
       },
       "is_sunday": false
     },
@@ -106,9 +109,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Reis 10.1-13",
+        "first_reading": "1 Reis 10:1-13",
         "psalm": "Salmo 72",
-        "second_reading": "Efésios 3.14-21"
+        "second_reading": "Efésios 3:14-21",
+        "gospel": "João 9:1-7"
       },
       "is_sunday": false
     },
@@ -121,9 +125,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Reis 10.14-25",
+        "first_reading": "1 Reis 10:14-25",
         "psalm": "Salmo 72",
-        "second_reading": "Efésios 4.7, 11-16"
+        "second_reading": "Efésios 4:1-7",
+        "gospel": "João 12:34-36"
       },
       "is_sunday": false
     },
@@ -136,9 +141,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Miqueias 5.2-9",
+        "first_reading": "Miquéias 5:2-9",
         "psalm": "Salmo 72",
-        "second_reading": "Lucas 13.31-35"
+        "second_reading": "Efésios 4:7, 11-16",
+        "gospel": "Lucas 13:31-35"
       },
       "is_sunday": false
     },
@@ -151,9 +157,10 @@
       "liturgical_year": "A",
       "collect": "Ó Deus, que maravilhosamente criaste e ainda mais maravilhosamente restauraste a dignidade da natureza humana; concede que participemos da vida divinal de teu Filho Jesus Cristo, que se humilhou para participar de nossa humanidade, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Samuel 7.3-17",
+        "first_reading": "1 Samuel 7:3-17",
         "psalm": "Salmo 29",
-        "second_reading": "Atos 9.19b-31"
+        "second_reading": "Atos 9:19b-31",
+        "gospel": "Marcos 1:9-11"
       },
       "is_sunday": false
     },
@@ -182,9 +189,10 @@
       "liturgical_year": "A",
       "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 35.1-15",
-        "psalm": "Salmo 89.5-37",
-        "second_reading": "Atos 10.44-48"
+        "first_reading": "Gênesis 35:1-15",
+        "psalm": "Salmo 89:5-37",
+        "second_reading": "Atos 10:44-48",
+        "gospel": "Lucas 3:15-17, 21-22"
       },
       "is_sunday": false
     },
@@ -197,9 +205,10 @@
       "liturgical_year": "A",
       "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Jeremias 1.4-10",
-        "psalm": "Salmo 89.5-37",
-        "second_reading": "Atos 8.4-13"
+        "first_reading": "Jeremias 1:4-10",
+        "psalm": "Salmo 89:5-37",
+        "second_reading": "Atos 8:4-13",
+        "gospel": "João 1:29-34"
       },
       "is_sunday": false
     },
@@ -212,9 +221,10 @@
       "liturgical_year": "A",
       "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 51.1-16",
-        "psalm": "Salmo 89.5-37",
-        "second_reading": "Mateus 12.15-21"
+        "first_reading": "Isaías 51:1-16",
+        "psalm": "Salmo 89:5-37",
+        "second_reading": "Atos 2:37-47",
+        "gospel": "Mateus 12:15-21"
       },
       "is_sunday": false
     },
@@ -227,9 +237,10 @@
       "liturgical_year": "A",
       "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 22.15-25",
-        "psalm": "Salmo 40.1-11",
-        "second_reading": "Gálatas 1.6-12"
+        "first_reading": "Isaías 22:15-25",
+        "psalm": "Salmo 40:1-11",
+        "second_reading": "Gálatas 1:6-12",
+        "gospel": "Mateus 4:18-22"
       },
       "is_sunday": false
     },
@@ -242,9 +253,10 @@
       "liturgical_year": "A",
       "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 27.30-38",
-        "psalm": "Salmo 40.1-11",
-        "second_reading": "Atos 1.1-5"
+        "first_reading": "Gênesis 27:30-38",
+        "psalm": "Salmo 40:1-11",
+        "second_reading": "Atos 1:1-5",
+        "gospel": "João 21:15-17"
       },
       "is_sunday": false
     },
@@ -257,9 +269,10 @@
       "liturgical_year": "A",
       "collect": "Ó Pai Celestial, que, no Batismo de Jesus, no Jordão, o proclamaste teu amado Filho e o ungiste com o Espírito Santo; concede que todos os batizados em seu nome guardem constantes a aliança que estabeleceste e, com ousadia, o confessem Senhor e Salvador, o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Reis 19.19-21",
-        "psalm": "Salmo 40.1-11",
-        "second_reading": "Lucas 5.1-11"
+        "first_reading": "1 Reis 19:19-21",
+        "psalm": "Salmo 40:1-11",
+        "second_reading": "Atos 8:14-25",
+        "gospel": "Marcos 1:16-20"
       },
       "is_sunday": false
     },
@@ -270,7 +283,7 @@
       "liturgical_season": "Epifania",
       "liturgical_color": "verde",
       "liturgical_year": "A",
-      "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Pai Todo-Poderoso, que inspiraste Simão Pedro, o primeiro dentre os apóstolos, a confessar Jesus como o Messias e o Filho do Deus vivo: conserva a tua Igreja firme sobre a rocha desta fé, para que, em unidade e paz, proclamemos a única verdade e sigamos o único Senhor, nosso Salvador Jesus Cristo; que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
         "first_reading": "Isaías 49:1-7",
         "psalm": "Salmo 40:1-11",
@@ -286,7 +299,7 @@
       "liturgical_season": "Epifania",
       "liturgical_color": "branco",
       "liturgical_year": "A",
-      "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
+      "collect": "Pai Todo-Poderoso, que inspiraste Simão Pedro, o primeiro dentre os apóstolos, a confessar Jesus como o Messias e o Filho do Deus vivo: conserva a tua Igreja firme sobre a rocha desta fé, para que, em unidade e paz, proclamemos a única verdade e sigamos o único Senhor, nosso Salvador Jesus Cristo; que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
         "first_reading": "Atos 4:8-13",
         "psalm": "Salmo 23",
@@ -304,9 +317,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 53.1-12",
-        "psalm": "Salmo 40.6-17",
-        "second_reading": "Hebreus 10.1-4"
+        "first_reading": "Isaías 53:1-12",
+        "psalm": "Salmo 40:6-17",
+        "second_reading": "Hebreus 10:1-4",
+        "gospel": "Mateus 9:14-17"
       },
       "is_sunday": false
     },
@@ -319,9 +333,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Isaías 48.12-21",
-        "psalm": "Salmo 40.6-17",
-        "second_reading": "Mateus 9.14-17"
+        "first_reading": "Isaías 48:12-21",
+        "psalm": "Salmo 40:6-17",
+        "second_reading": "Apocalipse 5:6-12",
+        "gospel": "João 6:60-71"
       },
       "is_sunday": false
     },
@@ -334,9 +349,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Samuel 1.1-20",
-        "psalm": "Salmo 27.1-6",
-        "second_reading": "Gálatas 1.11-24"
+        "first_reading": "1 Samuel 1:1-20",
+        "psalm": "Salmo 27:1-6",
+        "second_reading": "Gálatas 1:11-24",
+        "gospel": "João 1:6-13"
       },
       "is_sunday": false
     },
@@ -345,13 +361,14 @@
       "subtitle": "Ano A",
       "day_of_week": "Sexta-feira",
       "liturgical_season": "Epifania",
-      "liturgical_color": "branco",
+      "liturgical_color": "verde",
       "liturgical_year": "A",
       "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Samuel 9.27–10.8",
-        "psalm": "Salmo 27.1-6",
-        "second_reading": "Gálatas 2.1-10"
+        "first_reading": "1 Samuel 9:27--10:8",
+        "psalm": "Salmo 27:1-6",
+        "second_reading": "Gálatas 2:1-10",
+        "gospel": "Lucas 1:67-79"
       },
       "is_sunday": false
     },
@@ -364,9 +381,10 @@
       "liturgical_year": "A",
       "collect": "Deus Onipotente, cujo Filho, nosso Salvador Jesus Cristo, é a luz do mundo; concede que o teu povo, iluminado e fortalecido pela tua Palavra e Sacramentos, brilhe com o resplendor da glória de Cristo, para que Ele seja conhecido, adorado e obedecido até os confins da terra; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "I Samuel 15.34–16.13",
-        "psalm": "Salmo 27.1-6",
-        "second_reading": "Lucas 5.27-32"
+        "first_reading": "1 Samuel 15:34--16:13",
+        "psalm": "Salmo 27:1-6",
+        "second_reading": "1 Coríntios 12:1-3",
+        "gospel": "Marcos 1:14-16"
       },
       "is_sunday": false
     },
@@ -411,9 +429,10 @@
       "liturgical_year": "A",
       "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Juízes 7.12-22",
-        "psalm": "Salmo 27.7-14",
-        "second_reading": "Filipenses 2.12-18"
+        "first_reading": "Juízes 7:12-22",
+        "psalm": "Salmo 27:7-14",
+        "second_reading": "Filipenses 2:12-18",
+        "gospel": "João 8:12-20"
       },
       "is_sunday": false
     },
@@ -426,9 +445,10 @@
       "liturgical_year": "A",
       "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Gênesis 49.1-2, 8-13, 21-26",
-        "psalm": "Salmo 27.7-14",
-        "second_reading": "Lucas 1.67-79"
+        "first_reading": "Gênesis 49:1-2, 8-13, 21-26",
+        "psalm": "Salmo 27:7-14",
+        "second_reading": "Atos 26:12-18",
+        "gospel": "Mateus 9:9-13"
       },
       "is_sunday": false
     },
@@ -441,9 +461,10 @@
       "liturgical_year": "A",
       "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 16.18-20",
+        "first_reading": "Deuteronômio 16:18-20",
         "psalm": "Salmo 15",
-        "second_reading": "I Pedro 3.8-12"
+        "second_reading": "1 Pedro 3:8-12",
+        "gospel": "Mateus 11:25-30"
       },
       "is_sunday": false
     },
@@ -456,9 +477,10 @@
       "liturgical_year": "A",
       "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Deuteronômio 24.17–25.4",
+        "first_reading": "Deuteronômio 24:17--25:4",
         "psalm": "Salmo 15",
-        "second_reading": "I Timóteo 5.17-24"
+        "second_reading": "1 Timóteo 5:17-25",
+        "gospel": "Mateus 19:16-30"
       },
       "is_sunday": false
     },
@@ -471,9 +493,10 @@
       "liturgical_year": "A",
       "collect": "Concede-nos a graça, ó Senhor, para responder prontamente ao chamado de nosso Senhor Jesus Cristo e proclamar a todos os povos as Boas Novas da sua salvação, para que nós e o mundo todo contemplemos a glória das suas maravilhosas obras; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.",
       "readings": {
-        "first_reading": "Miqueias 3.1-4",
+        "first_reading": "Miquéias 3:1-4",
         "psalm": "Salmo 15",
-        "second_reading": "João 13.31-35"
+        "second_reading": "1 Coríntios 1:10-17",
+        "gospel": "Mateus 11:2-6"
       },
       "is_sunday": false
     }
