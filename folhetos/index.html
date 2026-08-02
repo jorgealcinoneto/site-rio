@@ -103,6 +103,11 @@ details[open] summary::after{content:"–"}
 details .item{margin-top:16px;font-family:var(--sans);font-size:14px;line-height:1.55;color:var(--grafite-2)}
 details .item strong{display:block;font-family:var(--serif);font-size:20px;font-weight:600;color:var(--marinho);margin-bottom:2px}
 
+.ofertorio{margin-top:14px;padding:22px 20px;background:var(--vela);border:1px solid var(--linha);border-radius:10px;text-align:center}
+.ofertorio__qr{width:160px;height:160px;margin:0 auto 14px;display:block;border-radius:8px}
+.ofertorio__pix{font-family:var(--sans);font-size:13px;line-height:1.5;color:var(--grafite-2)}
+.ofertorio__pix strong{display:block;font-family:var(--serif);font-size:22px;font-weight:600;color:var(--marinho);letter-spacing:.06em;margin-top:4px}
+
 .share{margin-top:24px;border:1px dashed var(--ambar);border-radius:10px;background:var(--papel-2);padding:14px 16px;font-family:var(--sans);font-size:13px;line-height:1.5;color:var(--grafite-2);text-align:center}
 
 footer{margin-top:48px;border-top:1px solid var(--linha);padding-top:26px;text-align:center;font-family:var(--sans);font-size:12.5px;line-height:1.85;color:var(--grafite-3)}
@@ -129,8 +134,10 @@ footer .sep{display:block;width:28px;height:1px;background:var(--ambar);margin:1
  .song{background:#fff;color:var(--marinho);border:1px solid var(--linha)}
  .song__note{color:var(--grafite-2)}
  .song__kicker{color:var(--ambar-escuro)}
- .prayer,.versicle,details{border-color:#cfc8ba}
+ .prayer,.versicle,details,.ofertorio{border-color:#cfc8ba}
  .prayer--all{background:#F2F5FC}
+ .ofertorio{break-inside:avoid}
+ .ofertorio__qr{width:120px;height:120px}
  details{break-inside:avoid}
 }
 </style>
@@ -289,6 +296,15 @@ footer .sep{display:block;width:28px;height:1px;background:var(--ambar);margin:1
 
 <div class="act">
 <div class="act__title"><h3>Intercessões</h3></div>
+</div>
+
+<div class="act">
+<div class="act__title"><h3>Ofertório</h3></div>
+<p class="rubric">Oferecemos nossos dons em gratidão a Deus, sustentando a missão da Igreja Anglicana Rio em Irajá. A contribuição é voluntária.</p>
+<div class="ofertorio">
+<img class="ofertorio__qr" src="/assets/pix-ofertorio-qr.png" alt="QR Code PIX para ofertório">
+<p class="ofertorio__pix">Ou via PIX · CPF<strong>141.417.077-75</strong></p>
+</div>
 </div>
 
 <div class="act">
