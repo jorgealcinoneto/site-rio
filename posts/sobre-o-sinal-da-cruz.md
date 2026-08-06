@@ -2,7 +2,7 @@
 title: "Sobre o sinal da cruz"
 date: 2026-08-06
 description: "Reflexão sobre o gesto do sinal da cruz na espiritualidade anglicana — síntese de fé, invocação trinitária e marca batismal, a partir de 1Co 1:23."
-cover: "/assets/sinal-da-cruz-capa.png"
+cover: "/assets/sinal-da-cruz-capa.png?v=2"
 author: "Abraão Isaac"
 ---
 
