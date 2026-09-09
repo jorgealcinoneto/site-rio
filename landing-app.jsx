@@ -232,7 +232,17 @@ function LiturgyWidget() {
 function Hero() {
   return (
     <header className="hero-site" id="topo" data-screen-label="01 Hero">
-      <div className="hero-site__bg" aria-hidden="true" />
+      <div className="hero-site__bg" aria-hidden="true">
+        <img
+          src="assets/hero-fachada.jpg"
+          alt=""
+          width="768"
+          height="1024"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </div>
+      <div className="hero-site__overlay" />
       <div className="hero-site__content">
         <div>
           <div className="hero-site__kicker" style={{ color: "#F5BD24" }}>Rede Episcopal Brasileira</div>
