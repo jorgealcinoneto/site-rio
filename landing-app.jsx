@@ -13,7 +13,7 @@ const MAPS_LINK =
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CHURCH_QUERY)}`;
 const WA_VISIT =
   "https://wa.me/5521971500286?text=" +
-  encodeURIComponent("Olá! Gostaria de avisar que vou visitar a Igreja Anglicana Rio no domingo às 9h.");
+  encodeURIComponent("Olá! Gostaria de avisar que vou visitar a Igreja Anglicana Rio no domingo às 9h30.");
 
 const {
   IconCalice, IconLivro, IconCoracao, IconComunidade,
@@ -243,7 +243,7 @@ function Hero() {
         <div className="hero-site__meta hero-site__meta--spotlight">
           <div>
             <strong>Quando</strong>
-            <div className="hero-site__meta-val">Domingo · 9h</div>
+            <div className="hero-site__meta-val">Domingo · 9h30</div>
           </div>
           <div>
             <strong>Onde</strong>
@@ -285,7 +285,7 @@ function PrimeiraVez() {
   const pontos = [
     { Icon: IconComunidade, title: "Acolhimento sem pré-requisitos", desc: "Não há exigência de traje, filiação prévia ou familiaridade com a liturgia. Recebemos cada visitante como está." },
     { Icon: IconCoracao, title: "Famílias e crianças", desc: "As crianças participam integralmente da celebração e da vida da comunidade." },
-    { Icon: IconLivro, title: "Domingo às 9h", desc: "Começamos às 9h com o café comunitário e seguimos juntos no culto — Palavra, oração e Eucaristia." },
+    { Icon: IconLivro, title: "Domingo às 9h30", desc: "Começamos às 9h30 com o café comunitário e seguimos juntos no culto — Palavra, oração e Eucaristia." },
   ];
   return (
     <section id="primeira-vez" className="site-section" data-screen-label="02 Primeira vez">
@@ -643,7 +643,7 @@ function Visite() {
           <ul className="horarios">
             <li>
               <strong style={{ color: "#F5BD24" }}>Culto</strong>
-              <span style={{ color: "#F5BD24" }}>Domingo · 9h</span>
+              <span style={{ color: "#F5BD24" }}>Domingo · 9h30</span>
             </li>
           </ul>
           <p className="visite__card-text" style={{ marginTop: 16, opacity: 0.85 }}>
@@ -653,7 +653,7 @@ function Visite() {
         <div className="visite__card" style={{ background: "var(--vela)", border: "1px solid var(--linha)" }}>
           <h3 className="visite__card-title" style={{ color: "var(--marinho)" }}>Planeje sua visita</h3>
           <p className="visite__card-text" style={{ color: "var(--grafite-2)" }}>
-            Avise que vem — recebemos você com alegria no domingo às 9h.
+            Avise que vem — recebemos você com alegria no domingo às 9h30.
           </p>
           <div style={{ marginTop: 24, display: "flex", flexDirection: "column", gap: 10 }}>
             <a href={WA_VISIT} target="_blank" rel="noopener" className="btn btn--primary" style={{ justifyContent: "center", textAlign: "center", lineHeight: 1.3 }}>
@@ -688,7 +688,7 @@ function CtaFinal() {
     <section className="cta-banner" data-screen-label="09 CTA">
       <div className="cta-banner__inner">
         <h2 className="cta-banner__title">
-          Domingo às 9h em Irajá. Venha conosco.
+          Domingo às 9h30 em Irajá. Venha conosco.
         </h2>
         <p className="cta-banner__sub">
           Unidos pela fé, guiados pelo Espírito e fundamentados na Palavra.
