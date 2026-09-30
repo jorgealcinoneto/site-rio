@@ -520,8 +520,9 @@ python3 build_folheto.py --preview 2026-08-02 --html      # fragmentos HTML
 ### Atualizar folhetos
 
 ```bash
-python3 build_folheto.py 2026-08-02    # um domingo (HTML deve existir)
-python3 build_folheto.py --all         # todos + sincroniza folhetos/index.html
+python3 build_folheto.py --new 2026-10-04  # cria a partir do modelo LOC 2015
+python3 build_folheto.py 2026-10-04        # atualiza um folheto existente
+python3 build_folheto.py --all              # atualiza apenas folhetos do novo modelo
 ```
 
 ### Widget lecionário na home
@@ -540,23 +541,23 @@ python3 build_leccionario.py --preview 2026-07-27
 
 | Seção | Fonte |
 |-------|-------|
-| Cabeçalho (título, data, cor) | API |
+| Cabeçalho (tempo, data, cor, celebração menor) | API |
 | Coleta do dia | API |
 | Leituras bíblicas (texto NVI) | API (folhetos) / refs (widget home) |
 | Widget home (`/lecionario/*.json`) | API via `build_leccionario.py` |
 | Louvores, rubricas, sermão | HTML manual |
-| Confissão, credo, eucaristia | HTML manual (LOC REB 2027) |
+| Confissão, credo e comunhão | Modelo fixo (LOC IEAB 2015, p. 355–366) |
 
-Marcadores no HTML: `<!-- estevao:header -->`, `<!-- estevao:collect -->`, `<!-- estevao:readings -->`.
+Marcadores no novo modelo: `traditional_header`, `traditional_ordinary`, `traditional_collect` e `traditional_readings`, todos no formato `<!-- estevao:NOME -->`.
 
 ### Curl equivalente
 
 ```bash
-curl -s "https://api.caminhoanglicano.com.br/api/v1/calendar/2026/08/02?preferences=%7B%22prayer_book_code%22%3A%22loc_2027%22%2C%22bible_version%22%3A%22nvi%22%7D" \
+curl -s "https://api.caminhoanglicano.com.br/api/v1/calendar/2026/10/04?preferences=%7B%22prayer_book_code%22%3A%22loc_2015%22%2C%22bible_version%22%3A%22nvi%22%7D" \
   -H "X-API-Key: $ESTEVAO_API_KEY"
 ```
 
-Neste projeto o padrão é **`loc_2027`** (REB — Rede Episcopal Brasileira, 2027).
+Para novos folhetos o padrão é **`loc_2015`**. O gerador preserva `loc_2027` somente ao atualizar um arquivo histórico no formato antigo.
 
 Regra Cursor: `.cursor/rules/liturgia-estevao.mdc`.
 

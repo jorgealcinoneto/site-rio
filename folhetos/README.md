@@ -41,16 +41,16 @@ Configuração sugerida: **A4**, **frente e verso**, margens padrão. O CSS de i
 
 ---
 
-Liturgia baseada no *Livro de Oração Comum REB 2027* (`loc_2027`) e na *Portaria Episcopal 01/2025* da Rede Episcopal Brasileira.
+Os novos folhetos seguem a **Santa Comunhão sob Circunstâncias Especiais** do *Livro de Oração Comum da Igreja Episcopal Anglicana do Brasil* (2015, reimpressão de 2021), páginas 355–366. A distribuição do Sacramento Reservado depende de autorização episcopal. Os folhetos anteriores a outubro de 2026 preservam a forma em que foram publicados.
 
 ## Textos litúrgicos (API Estêvão)
 
-Cabeçalho, coleta e leituras bíblicas são buscados da [API Estêvão](https://api.caminhoanglicano.com.br/api/v1) em build time:
+O modelo permanente está em `template/loc-ieab-2015.html`. Cabeçalho, celebração menor, coleta e leituras da trilha semicontínua são buscados da [API Estêvão](https://api.caminhoanglicano.com.br/api/v1) com `loc_2015`:
 
 ```bash
 cp .env.example .env   # configure ESTEVAO_API_KEY
-python3 build_folheto.py 2026-07-26
-python3 build_folheto.py --all
+python3 build_folheto.py --new 2026-10-04
+python3 build_folheto.py 2026-10-04
 ```
 
-Louvores, rubricas, sermão e liturgia fixa continuam editados manualmente no HTML.
+`--new` cria o folheto sem publicá-lo como índice. Louvores, sermão, intercessões e a identificação da comunidade onde o Sacramento foi consagrado continuam editados manualmente. `--all` atualiza apenas folhetos criados pelo novo modelo e não reprocessa o arquivo histórico.
