@@ -242,6 +242,14 @@ def traditional_header(data: dict) -> str:
     celebration = data.get("celebration") or {}
     celebration_html = ""
     if celebration and celebration.get("name"):
+        art_asset = {
+            "celebration-francis-of-assisi": "/assets/sao-francisco-assis.png",
+        }.get(celebration.get("post_slug"))
+        art_html = (
+            f'<img src="{art_asset}" alt="{html.escape(celebration["name"])}">'
+            if art_asset
+            else "✦"
+        )
         rank = {
             "lesser_feast": "Festa menor",
             "principal_feast": "Festa principal",
@@ -257,7 +265,7 @@ def traditional_header(data: dict) -> str:
         )
         celebration_html = (
             '    <aside class="celebration">\n'
-            '      <div class="celebration__art" aria-hidden="true">✦</div>\n'
+            f'      <div class="celebration__art">{art_html}</div>\n'
             f'      <div class="celebration__label">{html.escape(rank)}</div>\n'
             f'      <div class="celebration__name">{html.escape(celebration["name"])}</div>\n'
             f'      <div class="date">{html.escape(detail)}</div>\n'
@@ -499,9 +507,10 @@ def render_traditional(content: str, data: dict) -> str:
     content = replace_marker(
         content, "traditional_header", traditional_header(data)
     )
-    content = replace_marker(
-        content, "traditional_ordinary", traditional_ordinary(data)
-    )
+    if 'data-ordinary="manual"' not in content:
+        content = replace_marker(
+            content, "traditional_ordinary", traditional_ordinary(data)
+        )
     content = replace_marker(
         content, "traditional_collect", traditional_collect(data)
     )
@@ -547,6 +556,11 @@ def update_folheto(path: Path, api_key: str) -> None:
     prayer_book = PRAYER_BOOK if traditional else LEGACY_PRAYER_BOOK
     data = fetch_calendar(d, api_key, prayer_book)
     if traditional:
+        readings_match = re.search(r'data-readings-book="([^"]+)"', content)
+        readings_book = readings_match.group(1) if readings_match else prayer_book
+        if readings_book != prayer_book:
+            readings_data = fetch_calendar(d, api_key, readings_book)
+            data["readings"] = readings_data.get("readings") or {}
         content = render_traditional(content, data)
     else:
         content = replace_marker(content, "header", build_header(data))
