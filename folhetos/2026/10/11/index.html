@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-folheto-format="loc-ieab-2015" data-readings-book="loc_2015" data-ordinary="manual">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="omelette-owns-print">
+<title>Culto Dominical · 28º Domingo do Tempo Comum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#20201d;--muted:#6f6b62;--paper:#f7f4ed;--surface:#fffdf8;
+  --line:#ded9ce;--gold:#b38a32;--rubric:#8b3f34;--green:#287047;
+  --serif:"Cormorant Garamond",Georgia,serif;--sans:"DM Sans",system-ui,sans-serif
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font:20px/1.5 var(--serif);text-rendering:optimizeLegibility}
+.page{max-width:700px;margin:auto;padding:0 24px 72px}
+.masthead{padding:40px 0 32px;border-bottom:1px solid var(--line)}
+.masthead__church{font:600 10px/1.4 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.masthead__grid{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:26px;align-items:start;margin-top:18px}
+.masthead__grid--solo{grid-template-columns:1fr}
+.season{font-size:clamp(52px,12vw,78px);font-weight:400;line-height:.82;letter-spacing:-.04em}
+.season span{display:block}
+.badges{display:flex;align-items:center;gap:10px;margin-top:24px;font:600 10px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.badge{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:999px;padding:7px 11px;background:var(--surface)}
+.badge__dot{width:7px;height:7px;border-radius:50%;background:var(--liturgical-color,var(--green))}
+.celebration{min-height:150px;border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:12px;box-shadow:0 5px 18px rgba(42,37,26,.05)}
+.celebration__art{height:68px;overflow:hidden;border-radius:8px;display:grid;place-items:center;background:linear-gradient(135deg,#e5dfd1,#f7f1e2);color:var(--gold);font-size:30px}
+.celebration__art img{display:block;width:100%;height:100%;min-height:0;object-fit:cover;object-position:center 24%;border-radius:inherit}
+.celebration__label,.eyebrow{margin-top:10px;font:600 9px/1.4 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.celebration__name{margin-top:5px;font-size:17px;line-height:1.15}
+.proper{margin-top:28px;padding:16px 0 0;border-top:1px solid var(--line);font-size:21px;font-style:italic;color:#5d584f}
+.date{margin-top:7px;font:500 11px/1.4 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.part-nav{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line)}
+.part-nav a{padding:14px 8px;text-align:center;font:600 10px/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-decoration:none}
+.part-nav a:first-child{border-right:1px solid var(--line)}
+.part{padding-top:48px;scroll-margin-top:20px}
+.part__kicker{font:600 9px/1.4 var(--sans);letter-spacing:.23em;text-transform:uppercase;color:var(--gold)}
+.part h2{margin-top:8px;font-size:42px;font-weight:500;line-height:1;color:var(--ink)}
+.part__purpose{margin-top:9px;font-size:18px;font-style:italic;color:var(--muted)}
+.part__rule{width:100%;height:1px;background:var(--line);margin-top:20px}
+.act{margin-top:34px}
+.act h3{display:flex;align-items:center;gap:12px;margin-bottom:14px;font:700 10px/1.3 var(--sans);letter-spacing:.19em;text-transform:uppercase;color:var(--gold)}
+.act h3::after{content:"";height:1px;flex:1;background:var(--line)}
+.dialogue{display:grid;gap:9px}
+.dialogue p{display:grid;grid-template-columns:82px 1fr;gap:14px;align-items:baseline}
+.role{font:600 9px/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.people{font-weight:600}
+.people .role{color:var(--rubric)}
+.prayer{padding:20px 22px;border:1px solid var(--line);background:var(--surface);border-radius:8px;text-wrap:pretty}
+.prayer--all{border-left:3px solid var(--gold)}
+.prayer p+p{margin-top:12px}
+.rubric{margin-top:12px;padding-left:14px;border-left:1px solid var(--rubric);font:italic 18px/1.5 var(--serif);color:var(--rubric)}
+.responses{margin-top:12px}
+.response{font-weight:600}
+.response::before{content:"℟";margin-right:8px;color:var(--rubric)}
+.reading-list{display:grid;gap:12px;margin-top:18px}
+details{border:1px solid var(--line);border-radius:9px;background:var(--surface)}
+summary{list-style:none;cursor:pointer;padding:16px 18px;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font:400 22px/1 var(--serif);color:var(--gold)}
+details[open] summary::after{content:"−"}
+.reading__kind{display:block;font:600 9px/1.4 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.reading__ref{display:block;margin-top:4px;font-size:21px;font-weight:500;color:var(--ink)}
+.reading__body{padding:0 18px 18px;border-top:1px solid var(--line)}
+.reading__body p{margin-top:14px;font-size:19px;line-height:1.55}
+.reading__response{margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}
+.hymn{border:1px solid var(--line);border-radius:9px;background:var(--surface);padding:20px}
+.hymn__label{font:600 9px/1.3 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.hymn__title{margin-top:5px;font-size:28px;font-style:italic}
+.hymn-card summary{padding:20px}
+.hymn-card__content{padding:0 20px 20px;border-top:1px solid var(--line)}
+.lyrics p{margin-top:14px;font-size:19px;line-height:1.5}
+.lyrics .chorus{font-weight:600;font-style:italic}
+.placeholder{padding:18px;border:1px dashed var(--gold);border-radius:8px;background:#fbf7ec;font:13px/1.5 var(--sans);color:var(--muted)}
+.sermon{padding:24px;text-align:center;border:1px solid var(--line);border-radius:9px;background:var(--surface)}
+.sermon__title{font-size:27px;font-style:italic}
+.sermon__ref{margin-top:7px;font:600 9px/1.4 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.offertory{display:grid;grid-template-columns:1fr 112px;gap:18px;align-items:center;padding:18px;border:1px solid var(--line);border-radius:9px;background:var(--surface)}
+.offertory img{width:112px;border-radius:7px}
+.offertory strong{display:block;font-size:21px}
+.thanksgiving p+p{margin-top:10px}
+.thanksgiving .people{color:var(--rubric)}
+.after{margin-top:50px;padding-top:22px;border-top:1px solid var(--line)}
+.after h2{font-size:29px;font-weight:500}
+.after ul{margin:12px 0 0 20px;font:13px/1.7 var(--sans);color:var(--muted)}
+.catechesis{margin-top:24px}
+.catechesis .content{padding:0 18px 18px;font:14px/1.6 var(--sans);color:var(--muted)}
+footer{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);text-align:center;font:11px/1.8 var(--sans);color:var(--muted)}
+footer strong{display:block;letter-spacing:.17em;text-transform:uppercase;color:var(--ink)}
+@media(max-width:560px){
+  .page{padding-inline:18px}.masthead__grid{grid-template-columns:1fr 145px;gap:14px}
+  .season{font-size:50px}.celebration{min-height:130px}.celebration__art{height:52px}
+  .dialogue p{grid-template-columns:1fr;gap:2px}.part h2{font-size:36px}
+  .offertory{grid-template-columns:1fr}.offertory img{width:96px}
+}
+@media print{
+  @page{size:A4;margin:10mm}
+  body{background:#fff;font-size:9.5pt;line-height:1.3}
+  .page{max-width:none;padding:0}.part-nav,.after,.catechesis{display:none}
+  .masthead{padding:0 0 8pt}.masthead__grid{grid-template-columns:1fr 48mm;margin-top:6pt}
+  .season{font-size:30pt}.celebration{min-height:auto;padding:6pt}.celebration__art{display:none}
+  .proper{margin-top:8pt;padding-top:6pt}.part{padding-top:12pt}
+  .part h2{font-size:18pt}.part__purpose{font-size:10pt}.part__rule{margin-top:6pt}
+  .act{margin-top:9pt}.act h3{margin-bottom:5pt}.prayer{padding:6pt 8pt}
+  .reading-list{gap:5pt;margin-top:6pt}details{break-inside:avoid}
+  summary{padding:6pt 8pt}summary::after{display:none}
+  details>.reading__body,details>.content{display:block!important}
+  .reading__body{padding:0 8pt 7pt}.reading__body p{font-size:9pt;line-height:1.3;margin-top:5pt}
+  .rubric{font-size:8.5pt;line-height:1.35}
+  .hymn,.sermon,.offertory{padding:7pt}.offertory img{width:26mm}
+  footer{margin-top:10pt;padding-top:6pt}
+}
+</style>
+</head>
+<body>
+<main class="page">
+<!-- estevao:traditional_header -->
+<header class="masthead" style="--liturgical-color:#287047">
+  <div class="masthead__church">Igreja Anglicana Rio</div>
+  <div class="masthead__grid masthead__grid--solo">
+    <div>
+      <h1 class="season"><span>Tempo</span><span>Comum</span></h1>
+      <div class="badges"><span class="badge"><span class="badge__dot" aria-hidden="true">&nbsp;</span>verde</span><span>Ano A</span></div>
+    </div>
+  </div>
+  <p class="proper">Próprio 23 · 28ª Semana do Tempo Comum · 20ª Semana após Pentecostes</p>
+  <p class="date">11 de outubro de 2026</p>
+</header>
+<!-- /estevao:traditional_header -->
+
+<nav class="part-nav" aria-label="Ordem da celebração">
+  <a href="#palavra">I · Liturgia da Palavra</a>
+  <a href="#comunhao">II · Ação de Graças e Comunhão</a>
+</nav>
+
+<section class="part" id="palavra">
+  <div class="part__kicker">Primeira parte</div>
+  <h2>Liturgia da Palavra</h2>
+  <p class="part__purpose">Deus reúne seu povo, fala pelas Escrituras e recebe sua resposta de fé.</p>
+  <div class="part__rule"></div>
+
+  <div class="act">
+    <h3>Preparação</h3>
+    <div class="dialogue">
+      <p><span class="role">Ministro</span><span>Bendito seja Deus: Pai, Filho e Espírito Santo.</span></p>
+      <p class="people"><span class="role">Povo</span><span>Bendito seja seu Reino, agora e para sempre. Amém.</span></p>
+    </div>
+  </div>
+
+  <div class="act">
+    <h3>Coleta pela Pureza</h3>
+    <div class="prayer prayer--all">Onipotente Deus, que vês todos os corações, conheces todos os desejos e para quem segredo algum está oculto; purifica nossos corações e pensamentos com a inspiração do teu Espírito Santo, para que te amemos com perfeição e dignamente glorifiquemos o teu santo nome; por Jesus Cristo, nosso Senhor. <strong>Amém.</strong></div>
+  </div>
+
+<!-- estevao:traditional_ordinary -->
+  <div class="act">
+    <h3>Primeiro Louvor</h3>
+    <details class="hymn-card">
+      <summary><span><span class="hymn__label">Corinhos Evangélicos</span><span class="hymn__title">Venho, Senhor, Minha Vida Oferecer</span></span></summary>
+      <div class="hymn-card__content lyrics">
+        <p>Venho, Senhor, minha vida oferecer<br>Como oferta de amor e sacrifício<br>Quero minha vida a Ti entregar<br>Como oferta viva em Teu altar</p>
+        <p>Venho, Senhor, minha vida oferecer<br>Como oferta de amor e sacrifício<br>Quero minha vida a Ti entregar<br>Como oferta viva em Teu altar</p>
+        <p class="chorus">Pois pra Te adorar foi que eu nasci<br>Cumpre em mim o Teu querer<br>Faça o que está em Teu coração<br>E que a cada dia, eu queira mais e mais<br>Estar ao Teu lado, Senhor</p>
+        <p class="chorus">Pois pra Te adorar foi que eu nasci<br>Cumpre em mim o Teu querer<br>Faça o que está em Teu coração<br>E que a cada dia, eu queira mais e mais<br>Estar ao Teu lado, Senhor</p>
+        <p class="chorus">E que a cada dia, eu queira mais e mais<br>Estar ao Teu lado<br>Estar ao Teu lado, Senhor</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="act">
+    <h3>Segundo Louvor</h3>
+    <details class="hymn-card">
+      <summary><span><span class="hymn__label">Ministério Koinonya de Louvor</span><span class="hymn__title">Livre Acesso</span></span></summary>
+      <div class="hymn-card__content lyrics">
+        <p>Senhor, eu não sou nada diante do Teu poder<br>Nem merecedor do Teu imenso amor<br>Através do Teu filho, tenho livre acesso a Ti<br>Que me fez chegar aos Teus pés<br>Me humilhar diante de Ti</p>
+        <p>Senhor, eu não sou nada diante do Teu poder<br>Nem merecedor do Teu imenso amor<br>Através do Teu filho, tenho livre acesso a Ti<br>Que me fez chegar aos Teus pés<br>Me humilhar diante de Ti</p>
+        <p class="chorus">Deixa o Teu rio<br>Passar em minha vida<br>Vem curar minhas feridas<br>Sarar as minhas dores<br>Livra-me, ó Deus<br>Das cadeias que me prendem<br>Toca em minh'alma<br>Faz em mim o Teu querer, Senhor</p>
+        <p class="chorus">Deixa o Teu rio<br>Passar em minha vida<br>Vem curar minhas feridas<br>Sarar as minhas dores<br>Livra-me, ó Deus<br>Das cadeias que me prendem<br>Toca em minh'alma<br>Faz em mim o Teu querer, Senhor</p>
+      </div>
+    </details>
+  </div>
+<!-- /estevao:traditional_ordinary -->
+
+  <div class="act">
+    <h3>Coleta do Dia</h3>
+<!-- estevao:traditional_collect -->
+    <div class="dialogue">
+      <p><span class="role">Ministro</span><span>O Senhor seja com vocês.</span></p>
+      <p class="people"><span class="role">Povo</span><span>Seja também contigo.</span></p>
+      <p><span class="role">Ministro</span><span>Oremos.</span></p>
+    </div>
+    <div class="prayer">Rogamos-te, Senhor, que a tua graça sempre nos preceda e acompanhe, inspirando-nos a perseverar na prática de boas obras; mediante Jesus Cristo, nosso Senhor, que vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. <strong>Amém.</strong></div>
+<!-- /estevao:traditional_collect -->
+  </div>
+
+  <div class="act">
+    <h3>Leituras da Palavra de Deus</h3>
+<!-- estevao:traditional_readings -->
+<div class="reading-list">
+    <details class="reading">
+      <summary><span><span class="reading__kind">Primeira Leitura · NVI</span><span class="reading__ref">Êxodo 32:1-14</span></span></summary>
+      <div class="reading__body">
+        <p>O povo, ao ver que Moisés demorava a descer do monte, juntou-se ao redor de Arão e lhe disse: “Venha, faça para nós deuses que nos conduzam, pois a esse Moisés, o homem que nos tirou do Egito, não sabemos o que lhe aconteceu”. Respondeu-lhes Arão: “Tirem os brincos de ouro de suas mulheres, de seus filhos e de suas filhas e tragam-nos a mim”.</p>
+        <p>Todos tiraram os seus brincos de ouro e os levaram a Arão. Ele os recebeu e os fundiu, transformando tudo num ídolo, que modelou com uma ferramenta própria, dando-lhe a forma de um bezerro. Então disseram: “Eis aí os seus deuses, ó Israel, que tiraram vocês do Egito!”</p>
+        <p>Vendo isso, Arão edificou um altar diante do bezerro e anunciou: “Amanhã haverá uma festa dedicada ao SENHOR”. Na manhã seguinte, ofereceram holocaustos e sacrifícios de comunhão. O povo se assentou para comer e beber, e levantou-se para se entregar à farra.</p>
+        <p>Então o SENHOR disse a Moisés: “Desça, porque o seu povo, que você tirou do Egito, corrompeu-se. Muito depressa se desviaram daquilo que lhes ordenei e fizeram um ídolo em forma de bezerro, curvaram-se diante dele, ofereceram-lhe sacrifícios e disseram: ‘Eis aí, ó Israel, os seus deuses que tiraram vocês do Egito’ ”.</p>
+        <p>Disse o SENHOR a Moisés: “Tenho visto que este povo é um povo obstinado. Deixe-me agora, para que a minha ira se acenda contra eles, e eu os destrua. Depois farei de você uma grande nação”.</p>
+        <p>Moisés, porém, suplicou ao SENHOR, o seu Deus, clamando: “Ó SENHOR, por que se acenderia a tua ira contra o teu povo, que tiraste do Egito com grande poder e forte mão? Por que diriam os egípcios: ‘Foi com intenção maligna que ele os libertou, para matá-los nos montes e bani-los da face da terra’? Arrepende-te do fogo da tua ira! Tem piedade, e não tragas este mal sobre o teu povo!</p>
+        <p>Lembra-te dos teus servos Abraão, Isaque e Israel, aos quais juraste por ti mesmo: ‘Farei que os seus descendentes sejam numerosos como as estrelas do céu e lhes darei toda esta terra que lhes prometi, que será a sua herança para sempre’ ”. E sucedeu que o SENHOR arrependeu-se do mal que ameaçara trazer sobre o povo.</p>
+        <div class="dialogue reading__response">
+          <p><span class="role">Leitor</span><span>Palavra do Senhor.</span></p>
+          <p class="people"><span class="role">Povo</span><span>Demos graças a Deus.</span></p>
+        </div>
+      </div>
+    </details>
+    <details class="reading">
+      <summary><span><span class="reading__kind">Salmo · NVI</span><span class="reading__ref">Salmo 106:1-6, 19-23</span></span></summary>
+      <div class="reading__body">
+        <p>Aleluia! Deem graças ao SENHOR porque ele é bom; o seu amor dura para sempre. Quem poderá descrever os feitos poderosos do SENHOR, ou declarar todo o louvor que lhe é devido?</p>
+        <p>Como são felizes os que perseveram na retidão, que sempre praticam a justiça! Lembra-te de mim, SENHOR, quando tratares com bondade o teu povo; vem em meu auxílio quando o salvares, para que eu possa testemunhar o bem-estar dos teus escolhidos, alegrar-me com a alegria do teu povo e louvar-te com a tua herança.</p>
+        <p>Pecamos como os nossos antepassados; fizemos o mal e fomos rebeldes. Em Horebe fizeram um bezerro, adoraram um ídolo de metal.</p>
+        <p>Trocaram a Glória deles pela imagem de um boi que come capim. Esqueceram-se de Deus, seu Salvador, que fizera coisas grandiosas no Egito, maravilhas na terra de Cam e feitos temíveis junto ao mar Vermelho.</p>
+        <p>Por isso, ele ameaçou destruí-los; mas Moisés, seu escolhido, intercedeu diante dele, para evitar que a sua ira os destruísse.</p>
+      </div>
+    </details>
+    <details class="reading">
+      <summary><span><span class="reading__kind">Segunda Leitura · NVI</span><span class="reading__ref">Filipenses 4:1-9</span></span></summary>
+      <div class="reading__body">
+        <p>Portanto, meus irmãos, a quem amo e de quem tenho saudade, vocês que são a minha alegria e a minha coroa, permaneçam assim firmes no Senhor, ó amados! O que eu rogo a Evódia e também a Síntique é que vivam em harmonia no Senhor.</p>
+        <p>Sim, e peço a você, leal companheiro de jugo, que as ajude; pois lutaram ao meu lado na causa do evangelho, com Clemente e meus demais cooperadores. Os seus nomes estão no livro da vida. Alegrem-se sempre no Senhor. Novamente direi: Alegrem-se!</p>
+        <p>Seja a amabilidade de vocês conhecida por todos. Perto está o Senhor. Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus.</p>
+        <p>E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus. Finalmente, irmãos, tudo o que for verdadeiro, tudo o que for nobre, tudo o que for correto, tudo o que for puro, tudo o que for amável, tudo o que for de boa fama, se houver algo de excelente ou digno de louvor, pensem nessas coisas.</p>
+        <p>Ponham em prática tudo o que vocês aprenderam, receberam, ouviram e viram em mim. E o Deus da paz estará com vocês.</p>
+        <div class="dialogue reading__response">
+          <p><span class="role">Leitor</span><span>Palavra do Senhor.</span></p>
+          <p class="people"><span class="role">Povo</span><span>Demos graças a Deus.</span></p>
+        </div>
+      </div>
+    </details>
+    <details class="reading">
+      <summary><span><span class="reading__kind">Santo Evangelho · NVI</span><span class="reading__ref">Mateus 22:1-14</span></span></summary>
+      <div class="reading__body">
+        <div class="dialogue reading__response">
+          <p><span class="role">Ministro</span><span>O Santo Evangelho de nosso Senhor Jesus Cristo, conforme Mateus.</span></p>
+          <p class="people"><span class="role">Povo</span><span>Glória te seja dada, ó Senhor.</span></p>
+        </div>
+        <p>Jesus lhes falou novamente por parábolas, dizendo: “O Reino dos céus é como um rei que preparou um banquete de casamento para seu filho.</p>
+        <p>Enviou seus servos aos que tinham sido convidados para o banquete, dizendo-lhes que viessem; mas eles não quiseram vir. “De novo enviou outros servos e disse: ‘Digam aos que foram convidados que preparei meu banquete: meus bois e meus novilhos gordos foram abatidos, e tudo está preparado. Venham para o banquete de casamento!’ “Mas eles não lhes deram atenção e saíram, um para o seu campo, outro para os seus negócios.</p>
+        <p>Os restantes, agarrando os servos, maltrataram-nos e os mataram. O rei ficou irado e, enviando o seu exército, destruiu aqueles assassinos e queimou a cidade deles. “Então disse a seus servos: ‘O banquete de casamento está pronto, mas os meus convidados não eram dignos.</p>
+        <p>Vão às esquinas e convidem para o banquete todos os que vocês encontrarem’. Então os servos saíram para as ruas e reuniram todas as pessoas que puderam encontrar, gente boa e gente má, e a sala do banquete de casamento ficou cheia de convidados. “Mas, quando o rei entrou para ver os convidados, notou ali um homem que não estava usando veste nupcial.</p>
+        <p>E lhe perguntou: ‘Amigo, como você entrou aqui sem veste nupcial?’ O homem emudeceu. “Então o rei disse aos que serviam: ‘Amarrem-lhe as mãos e os pés, e lancem-no para fora, nas trevas; ali haverá choro e ranger de dentes’. “Pois muitos são chamados, mas poucos são escolhidos”.</p>
+        <div class="dialogue reading__response">
+          <p><span class="role">Ministro</span><span>Evangelho do Senhor!</span></p>
+          <p class="people"><span class="role">Povo</span><span>Louvado sejas, ó Cristo.</span></p>
+        </div>
+      </div>
+    </details>
+    </div>
+<!-- /estevao:traditional_readings -->
+  </div>
+
+  <div class="act" data-manual="sermao">
+    <h3>Sermão</h3>
+    <div class="sermon">
+      <p class="sermon__title">Gratuidade, generosidade e universalidade</p>
+      <p class="sermon__ref">Êxodo 32.1-14 · Filipenses 4.1-9 · Mateus 22.1-14</p>
+    </div>
+  </div>
+
+  <div class="act">
+    <h3>Credo Niceno</h3>
+    <p class="rubric">Todas as pessoas ficam de pé, se possível.</p>
+    <div class="prayer prayer--all">Cremos em um só Deus, Pai onipotente, Criador do céu e da terra, e de todas as coisas visíveis e invisíveis. E em um só Senhor, Jesus Cristo, Filho Unigênito de Deus; gerado de seu Pai antes de todos os mundos; Deus de Deus, Luz de Luz, Verdadeiro Deus de Verdadeiro Deus; gerado, não feito; consubstancial com o Pai; por quem todas as coisas foram feitas; o qual por nós, e pela nossa salvação, desceu do Céu, e encarnou, por obra do Espírito Santo, da Virgem Maria; e foi feito homem; foi também crucificado por nós, sob o poder de Pôncio Pilatos; padeceu e foi sepultado; e ao terceiro dia ressuscitou, segundo as Escrituras; e subiu ao Céu, e está sentado à direita do Pai; e virá outra vez com glória, a julgar os vivos e os mortos; e o seu Reino não terá fim.<br><br>E cremos no Espírito Santo, Senhor, Doador da vida, procedente do Pai; o qual com o Pai e o Filho juntamente é adorado e glorificado; o qual falou pelos Profetas. E cremos na Igreja Una, Santa, Católica e Apostólica; reconhecemos um só batismo para a remissão de pecados; e esperamos a ressurreição dos mortos e a vida do mundo vindouro. <strong>Amém.</strong></div>
+  </div>
+
+  <div class="act">
+    <h3>Orações do Povo</h3>
+    <p class="rubric">Intercedemos pela Igreja, pelo mundo, pelas pessoas que sofrem, pelas que partiram e pelas necessidades de Irajá. Podem ser oferecidas orações espontâneas e breves silêncios.</p>
+  </div>
+
+  <div class="act">
+    <h3>Confissão de Pecados</h3>
+    <div class="dialogue"><p><span class="role">Ministro</span><span>Confessemos a Deus os nossos pecados.</span></p></div>
+    <p class="rubric">Guardam-se alguns momentos de silêncio. Todo o povo fica de joelhos, ou de pé, se possível.</p>
+    <div class="prayer prayer--all">Deus misericordioso, confessamos a ti e a nossos irmãos e irmãs do Corpo de Cristo que pecamos em pensamentos, palavras e obras, e também no que deixamos de fazer. Viemos a ti com verdadeiro arrependimento. Perdoa nossos pecados, e livra-nos do poder do mal, por teu Filho, que morreu por nós, Jesus Cristo, nosso Senhor. <strong>Amém.</strong></div>
+    <p class="rubric">Todas as pessoas presentes respondem, em uníssono:</p>
+    <div class="prayer prayer--all">Deus, que é poder e amor, perdoe-nos e livre-nos de nossos pecados, cure-nos e fortaleça-nos no seu Espírito, e eleve-nos a nova vida, em Cristo, nosso Senhor. <strong>Amém.</strong></div>
+  </div>
+
+  <div class="act">
+    <h3>Saudação da Paz</h3>
+    <div class="dialogue">
+      <p><span class="role">Ministro</span><span>A paz do Senhor seja sempre com vocês.</span></p>
+      <p class="people"><span class="role">Povo</span><span>Seja também contigo.</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="part" id="comunhao">
+  <div class="part__kicker">Segunda parte</div>
+  <h2>Ação de Graças e Comunhão</h2>
+  <p class="part__purpose">Partilhamos, com reverência e gratidão, o Sacramento previamente consagrado.</p>
+  <div class="part__rule"></div>
+
+  <div class="act">
+    <h3>Ofertório</h3>
+    <div class="dialogue"><p><span class="role">Ministro</span><span>Apresentemos a Deus a oferta de nossa vida e de nosso trabalho.</span></p></div>
+    <div class="offertory">
+      <div>As contribuições sustentam a missão da Igreja Anglicana Rio em Irajá.<strong>PIX · 141.417.077-75</strong></div>
+      <img src="/assets/pix-ofertorio-qr-2026-10-11.png" alt="QR Code PIX para ofertório">
+    </div>
+    <p class="rubric">Após as ofertas serem trazidas, quem oficia prepara o Sacramento para ser consumido e volta ao meio da congregação.</p>
+  </div>
+
+  <div class="act">
+    <h3>Ação de Graças pela Partilha do Sacramento</h3>
+    <p class="rubric">Todas as pessoas ficam ajoelhadas, ou de pé, olhando o Sacramento.</p>
+    <div class="prayer thanksgiving">
+      <p>Lembramo-nos, em oração, das pessoas <strong>da comunidade onde os elementos foram consagrados</strong> que celebraram a Eucaristia e com as quais partilhamos agora do pão e do vinho previamente consagrados, Corpo e Sangue de nosso Senhor Jesus Cristo. Pois embora sejamos muitas pessoas, somos um só corpo em Cristo e partilhamos do mesmo Sacramento.</p>
+      <p>Deus de todo amor, nos aproximamos deste mistério com reverência e gratidão.</p><p class="people">Glória a ti para sempre!</p>
+      <p>Possamos nós lembrar a paixão de Cristo, rememorando sua ressurreição, com corações puros e fé inabalável.</p><p class="people">Glória a ti para sempre!</p>
+      <p>Pois, por amor a nós, ele tomou corpo e alma. Foi humano e mortal. Sofreu tentações e dores, como nós. Por sua palavra, mostrou-nos o teu Reino e nos chamou ao conhecimento da tua verdade.</p><p class="people">Glória a ti para sempre!</p>
+      <p>Ele sofreu a morte de cruz, ressuscitou da morte e ascendeu aos céus. Ele é o autor da nossa fé!</p><p class="people">Glória a ti para sempre!</p>
+      <p>Agora, ele nos convida à sua mesa para que partilhemos de sua graça, e recebamos, humildemente, com grande amor, o dom imerecido da vida eterna.</p><p class="people">Glória a ti para sempre!</p>
+      <p>Com corações puros e esperança abundante, possamos deixar para trás o que não convém e renovar nossas vidas para o teu serviço.</p><p class="people">Glória a ti para sempre!</p>
+      <p>Permite-nos receber a Cristo, e ter nossas vidas transformadas pelo Espírito Santo.</p><p class="people">Amém.</p>
+      <p>Permite-nos partilhar de sua paz, mediante este Sacramento de amor.</p><p class="people">Amém.</p>
+      <p>Permite-nos crescer em vida nova, no teu reino, na comunhão de todos os santos e santas.</p><p class="people">Amém.</p>
+    </div>
+  </div>
+
+  <div class="act">
+    <h3>Oração do Senhor</h3>
+    <div class="prayer prayer--all">Pai nosso, que estás nos céus. Santificado seja o teu Nome. Venha o teu Reino. Seja feita a tua vontade, assim na terra como no céu. O pão nosso de cada dia nos dá hoje. Perdoa-nos as nossas ofensas, assim como nós perdoamos a quem nos tem ofendido. E não nos deixes cair em tentação, mas livra-nos do mal; pois teu é o Reino, o poder e a glória para sempre. <strong>Amém.</strong></div>
+  </div>
+
+  <div class="act">
+    <h3>Convite à Comunhão</h3>
+    <div class="dialogue"><p><span class="role">Ministro</span><span>Os dons de Deus são para o povo de Deus. Quem vem a mim jamais terá fome; quem crê em mim jamais terá sede.</span></p></div>
+  </div>
+
+  <div class="act">
+    <h3>Comunhão</h3>
+    <p class="rubric">Quem oficia vai ao altar, comunga e distribui a Santa Comunhão à congregação.</p>
+    <div class="prayer">
+      <p>O Corpo de Cristo, o Pão do Céu. <strong>Amém.</strong></p>
+      <p>O Sangue de Cristo, o Cálice da Salvação. <strong>Amém.</strong></p>
+    </div>
+  </div>
+
+  <div class="act">
+    <h3>Pós-Comunhão</h3>
+    <div class="prayer prayer--all">Deus Bondoso, nós te louvamos e te damos graças por esta Santa Comunhão do Corpo e Sangue de teu amado Filho Jesus Cristo, penhor de nossa redenção; e te suplicamos que ela nos traga o perdão de nossos pecados, o poder em nossas fraquezas, e a salvação eterna; por Jesus Cristo, nosso Senhor. <strong>Amém.</strong></div>
+  </div>
+
+  <div class="act">
+    <h3>Oração Conclusiva</h3>
+    <div class="prayer prayer--all">O Senhor nos abençoe, e nos guarde. O Senhor faça resplandecer o seu semblante sobre nós, e tenha misericórdia de nós. O Senhor sobre nós levante a sua face, e nos dê a paz, agora e sempre. <strong>Amém.</strong></div>
+  </div>
+</section>
+
+<aside class="after">
+  <h2>Depois da celebração</h2>
+  <ul>
+    <li>Convivência e café.</li>
+    <li>Pedidos de oração e avisos da comunidade.</li>
+    <li>Oportunidades de serviço em Irajá.</li>
+  </ul>
+</aside>
+
+<details class="catechesis">
+  <summary><span><span class="reading__kind">Sobre esta liturgia</span><span class="reading__ref">Comunhão sob Circunstâncias Especiais</span></span></summary>
+  <div class="content">Este não é um novo ato de consagração. Recebemos o Sacramento previamente consagrado por presbítero ou bispo e partilhado por ministro local autorizado. Por isso, não há Oração Eucarística, epiclese, Palavras da Instituição como ato ritual nem Partir do Pão.</div>
+</details>
+
+<footer>
+  <strong>Igreja Anglicana Rio</strong>
+  Rua Soldado Elias dos Santos, 55 — Irajá — Rio de Janeiro<br>
+  Santa Comunhão sob Circunstâncias Especiais · LOC IEAB 2015, p. 355–366<br>
+  Lecionário Comum Revisado · Trilha semicontínua · NVI
+</footer>
+</main>
+<script>
+const expandables=[...document.querySelectorAll("details")];
+if(matchMedia("(min-width:700px)").matches)expandables.forEach(item=>item.open=true);
+let printState=[];
+addEventListener("beforeprint",()=>{printState=expandables.map(item=>item.open);expandables.forEach(item=>item.open=true)});
+addEventListener("afterprint",()=>expandables.forEach((item,index)=>item.open=printState[index]));
+</script>
+</body>
+</html>
