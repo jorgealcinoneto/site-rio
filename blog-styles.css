@@ -324,3 +324,20 @@
   text-decoration: none;
 }
 .blog-footer a:hover { color: #F5BD24; }
+
+.blog-figure {
+  margin: 1.6em 0;
+}
+.blog-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--linha);
+}
+.blog-figure figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--grafite-3);
+}
