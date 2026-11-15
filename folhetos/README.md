@@ -22,6 +22,7 @@ Configuração sugerida: **A4**, **frente e verso**, margens padrão. O CSS de i
 
 ## Domingos publicados
 
+- [15/11/2026 — 33º Domingo do Tempo Comum](https://anglicanario.com.br/folhetos/2026/11/15/)
 - [08/11/2026 — 32º Domingo do Tempo Comum](https://anglicanario.com.br/folhetos/2026/11/08/)
 - [18/10/2026 — 29º Domingo do Tempo Comum](https://anglicanario.com.br/folhetos/2026/10/18/)
 - [11/10/2026 — 28º Domingo do Tempo Comum](https://anglicanario.com.br/folhetos/2026/10/11/)
