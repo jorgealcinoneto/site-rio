@@ -79,6 +79,9 @@ def load_posts():
         if not m:
             sys.exit(f"ERRO: {path.name} precisa de frontmatter YAML entre ---")
         meta = yaml.safe_load(m.group(1)) or {}
+        if meta.get("draft") is True:
+            print(f"rascunho (fora do ar): {path.name}")
+            continue
         body_md = m.group(2).strip()
         for key in ("title", "date", "description"):
             if not meta.get(key):

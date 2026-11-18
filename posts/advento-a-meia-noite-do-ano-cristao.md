@@ -4,6 +4,7 @@ date: 2026-11-18
 description: "O Advento abre o ano cristão no escuro, e de propósito. Entenda as duas vindas de Cristo, o juízo como boa notícia e como viver estas quatro semanas."
 cover: "/assets/advento-capa.jpg"
 author: "Igreja Anglicana Rio"
+draft: true
 ---
 
 Em meados de outubro, os shoppings do Rio já estão de árvore montada, Papai Noel contratado e playlist natalina no último volume. Quando dezembro chega, muita gente já está cansada do Natal antes mesmo de ele começar. A igreja, nesse meio-tempo, faz algo que parece fora de compasso: no dia 29 de novembro, enquanto o comércio grita "festa", ela abre o ano com uma palavra muito mais sóbria. *Vigiem.*
