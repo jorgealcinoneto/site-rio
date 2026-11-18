@@ -234,12 +234,13 @@ function Hero() {
     <header className="hero-site" id="topo" data-screen-label="01 Hero">
       <div className="hero-site__bg" aria-hidden="true">
         <img
-          src="assets/hero-fachada.jpg"
+          src="assets/hero-altar.jpg"
           alt=""
-          width="768"
-          height="1024"
+          width="1440"
+          height="1920"
           fetchpriority="high"
           decoding="async"
+          style={{ objectPosition: "center 62%" }}
         />
       </div>
       <div className="hero-site__overlay" />
@@ -303,6 +304,24 @@ function PrimeiraVez() {
       <h2 className="section-title">
         O que esperar da <em>sua primeira visita</em>.
       </h2>
+      <div style={{ marginTop: 28, display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 12 }}>
+        <img
+          src="assets/primeira-acolhida.jpg"
+          alt="Irmãs da comunidade em oração durante o culto"
+          loading="lazy"
+          width="900"
+          height="1200"
+          style={{ width: "100%", height: "auto", aspectRatio: "16/9", objectFit: "cover", objectPosition: "center 40%", borderRadius: 16, display: "block" }}
+        />
+        <img
+          src="assets/primeira-comunhao.jpg"
+          alt="Distribuição da comunhão no culto de domingo"
+          loading="lazy"
+          width="900"
+          height="1200"
+          style={{ width: "100%", height: "auto", aspectRatio: "16/9", objectFit: "cover", objectPosition: "center 35%", borderRadius: 16, display: "block" }}
+        />
+      </div>
       <div className="atividades-grid" style={{ marginTop: 28 }}>
         {pontos.map((p) => (
           <div className="atividade" key={p.title} style={{ gridTemplateColumns: "56px 1fr" }}>
@@ -333,9 +352,11 @@ function QuemSomos() {
           </h2>
           <div className="sobre__photo" style={{ marginTop: 20, borderRadius: 16, overflow: "hidden", maxHeight: 380 }}>
             <img
-              src="assets/photo-bispo-imposicao.png"
-              alt="Celebração com imposição de mãos na Igreja Anglicana Rio"
-              style={{ width: "100%", height: "100%", display: "block", aspectRatio: "4/3", objectFit: "cover", objectPosition: "center 35%" }}
+              src="assets/quem-somos-ordenacao.jpg"
+              alt="Ordenação diaconal de Jorge Alcino e Raquel Fernandes, com o bispo da Rede Episcopal Brasileira, em setembro de 2026"
+              width="1600"
+              height="1067"
+              style={{ width: "100%", height: "100%", display: "block", aspectRatio: "4/3", objectFit: "cover", objectPosition: "center 30%" }}
               loading="lazy"
             />
           </div>
@@ -397,6 +418,24 @@ function Cremos() {
       <p className="section-lede">
         Quatro fundamentos, uma vocação: ser igreja em missão.
       </p>
+      <div style={{ marginTop: 28, display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 12 }}>
+        <img
+          src="assets/cremos-credo.jpg"
+          alt="Folheto do culto aberto no Credo Apostólico"
+          loading="lazy"
+          width="900"
+          height="1200"
+          style={{ width: "100%", height: "auto", aspectRatio: "16/9", objectFit: "cover", objectPosition: "center 55%", borderRadius: 16, display: "block" }}
+        />
+        <img
+          src="assets/cremos-louvor.jpg"
+          alt="Louvor com violão durante o culto"
+          loading="lazy"
+          width="900"
+          height="1200"
+          style={{ width: "100%", height: "auto", aspectRatio: "16/9", objectFit: "cover", objectPosition: "center 30%", borderRadius: 16, display: "block" }}
+        />
+      </div>
       <div className="crencas" style={{ marginTop: 28 }}>
         {itens.map((p) => (
           <div className="crenca" key={p.title}>
@@ -502,14 +541,24 @@ function Lideranca() {
           right. .lider__photo carries the 4/3 crop on mobile and stretches to
           the card's height on desktop. */}
       <div className="lideres" style={{ marginTop: 28 }}>
-        <div className="lider__photo" style={{ borderRadius: 24, border: "1px solid var(--linha)" }}>
+        <div className="lider__photo" style={{ borderRadius: 24, border: "1px solid var(--linha)", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 2 }}>
+          {/* Two portrait sources (2:3) side by side; anchor the top so the faces
+              survive whatever height the card gives the column. */}
           <img
-            src="assets/photo-pastores-eucaristia.png"
-            alt="Pastor Jorge Alcino e Pastora Raquel Fernandes com os elementos da Eucaristia"
+            src="assets/lider-jorge.jpg"
+            alt="Retrato de Jorge Alcino na ordenação diaconal"
             loading="lazy"
-            // Portrait source: anchor the top so the faces survive and the crop
-            // eats the bottom of the frame.
-            style={{ objectPosition: "center top" }}
+            width="800"
+            height="1200"
+            style={{ objectPosition: "center 15%", minHeight: 0 }}
+          />
+          <img
+            src="assets/lider-raquel.jpg"
+            alt="Retrato de Raquel Fernandes na ordenação diaconal"
+            loading="lazy"
+            width="800"
+            height="1200"
+            style={{ objectPosition: "center 15%", minHeight: 0 }}
           />
         </div>
 
@@ -627,13 +676,16 @@ function Visite() {
         Irajá, Zona Norte do Rio de Janeiro — próximo à estação Irajá do metrô e ao polo gastronômico de Vista Alegre.
       </p>
       <div className="visite__map">
-        <iframe
-          title="Mapa — Igreja Anglicana Rio, Irajá"
-          src={MAPS_EMBED}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          allowFullScreen
-        />
+        <a href={MAPS_LINK} target="_blank" rel="noopener noreferrer" aria-label="Abrir a localização da igreja no Google Maps" style={{ display: "block", height: "100%" }}>
+          <img
+            src="assets/visite-fachada.jpg"
+            alt="Fachada da Igreja Anglicana Rio com a placa na entrada, na Rua Soldado Elias dos Santos, 55, em Irajá"
+            loading="lazy"
+            width="1200"
+            height="1600"
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 30%", display: "block" }}
+          />
+        </a>
       </div>
       <p className="visite__map-link">
         <a href={MAPS_LINK} target="_blank" rel="noopener noreferrer">
