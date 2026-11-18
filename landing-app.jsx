@@ -17,7 +17,7 @@ const WA_VISIT =
 
 const {
   IconCalice, IconLivro, IconCoracao, IconComunidade,
-  IconLocal, IconLogoMarca, IconOndas, IconPomba, IconCruzCelta,
+  IconLocal, IconLogoMarca, IconOndas, IconPomba, IconCruzCelta, IconMaos,
 } = window.IARIcons;
 
 function Nav() {
@@ -403,11 +403,12 @@ function QuemSomos() {
 }
 
 function Cremos() {
+  // Quadrilátero de Chicago-Lambeth (Chicago, 1886; Conferência de Lambeth, 1888, Resolução 11).
   const itens = [
-    { Icon: IconLivro, title: "Fidelidade às Escrituras", desc: "A Bíblia é a história verdadeira do mundo — e nos convoca a entrar nela. Nela, Cristo nos encontra, a graça nos justifica e somos enviados a anunciar boas novas." },
-    { Icon: IconCruzCelta, title: "Fé Católica e Universal", desc: "Recebemos a fé dos apóstolos — credos, sacramentos e ministério — não como relíquia, mas como herança viva a ser compartilhada com todos os povos e gerações." },
-    { Icon: IconCalice, title: "Via-média anglicana", desc: "Raízes antigas, linguagem de hoje. Uma tradição que une razão e reverência para traduzir o Evangelho ao coração e à mente do nosso tempo e da nossa cidade." },
-    { Icon: IconPomba, title: "Vida no Espírito", desc: "O Espírito que ressuscitou Jesus nos capacita e nos envia: uma comunidade transformada, com poder e com ordem, testemunha viva do Reino no mundo." },
+    { Icon: IconLivro, title: "As Sagradas Escrituras", desc: "O Antigo e o Novo Testamento contêm tudo o que é necessário para a salvação e são a regra e o padrão último da fé. Por isso a Bíblia é lida em voz alta em todo culto e forma a nossa vida." },
+    { Icon: IconCruzCelta, title: "Os Credos", desc: "O Credo Apostólico, a confissão do nosso batismo, e o Credo Niceno, o resumo suficiente da fé cristã. Todo domingo confessamos juntos a fé da Igreja de todos os tempos e lugares." },
+    { Icon: IconCalice, title: "Os dois Sacramentos", desc: "O Batismo e a Ceia do Senhor, instituídos pelo próprio Cristo e celebrados com as suas palavras e os elementos que ele ordenou: a água, o pão e o vinho." },
+    { Icon: IconMaos, title: "O Episcopado histórico", desc: "O ministério dos bispos, que liga a Igreja de hoje à Igreja dos apóstolos e se adapta à vida de cada povo. Estamos em comunhão com o nosso bispo, na Rede Episcopal Brasileira." },
   ];
   return (
     <section id="cremos" className="site-section site-section--alt" data-screen-label="05 Cremos">
@@ -416,26 +417,8 @@ function Cremos() {
         Os fundamentos da <em>nossa fé</em>.
       </h2>
       <p className="section-lede">
-        Quatro fundamentos, uma vocação: ser igreja em missão.
+        Desde 1888, os anglicanos resumem em quatro pontos a base da unidade cristã: o <em>Quadrilátero de Lambeth</em>. É também a nossa base.
       </p>
-      <div style={{ marginTop: 28, display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 12 }}>
-        <img
-          src="assets/cremos-credo.jpg"
-          alt="Folheto do culto aberto no Credo Apostólico"
-          loading="lazy"
-          width="900"
-          height="1200"
-          style={{ width: "100%", height: "auto", aspectRatio: "16/9", objectFit: "cover", objectPosition: "center 55%", borderRadius: 16, display: "block" }}
-        />
-        <img
-          src="assets/cremos-louvor.jpg"
-          alt="Louvor com violão durante o culto"
-          loading="lazy"
-          width="900"
-          height="1200"
-          style={{ width: "100%", height: "auto", aspectRatio: "16/9", objectFit: "cover", objectPosition: "center 30%", borderRadius: 16, display: "block" }}
-        />
-      </div>
       <div className="crencas" style={{ marginTop: 28 }}>
         {itens.map((p) => (
           <div className="crenca" key={p.title}>
@@ -445,6 +428,9 @@ function Cremos() {
           </div>
         ))}
       </div>
+      <p className="section-lede" style={{ marginTop: 28 }}>
+        Sobre essa base comum, vivemos a via-média anglicana, com raízes antigas e linguagem de hoje, e a vida no Espírito, que nos capacita e nos envia em missão.
+      </p>
     </section>
   );
 }
