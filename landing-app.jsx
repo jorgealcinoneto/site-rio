@@ -661,15 +661,25 @@ function Visite() {
       <p className="section-lede">
         Irajá, Zona Norte do Rio de Janeiro — próximo à estação Irajá do metrô e ao polo gastronômico de Vista Alegre.
       </p>
-      <div className="visite__map">
+      {/* .visite__map is a full-bleed 21:9 strip built for the old map iframe;
+          the sign photo is cropped 16:9, so keep it in the content column at
+          that ratio or the banner gets cut. */}
+      <div
+        className="visite__map"
+        style={{
+          width: "100%", maxWidth: "100%", marginLeft: 0, marginRight: 0,
+          aspectRatio: "16/9", minHeight: 0, maxHeight: "none",
+          borderRadius: 16, border: "1px solid var(--linha)",
+        }}
+      >
         <a href={MAPS_LINK} target="_blank" rel="noopener noreferrer" aria-label="Abrir a localização da igreja no Google Maps" style={{ display: "block", height: "100%" }}>
           <img
-            src="assets/visite-fachada.jpg"
-            alt="Fachada da Igreja Anglicana Rio com a placa na entrada, na Rua Soldado Elias dos Santos, 55, em Irajá"
+            src="assets/visite-placa.jpg"
+            alt="Placa da Igreja Anglicana Rio na entrada, na Rua Soldado Elias dos Santos, 55, em Irajá: Rede Episcopal Brasileira, domingos às 9h30"
             loading="lazy"
-            width="1200"
-            height="1600"
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 30%", display: "block" }}
+            width="1600"
+            height="900"
+            style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
           />
         </a>
       </div>
