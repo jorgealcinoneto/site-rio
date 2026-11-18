@@ -31,7 +31,7 @@ function Nav() {
   const close = () => setOpen(false);
   const dark = scrolled || open;
   const links = [
-    { href: "#primeira-vez", label: "Primeira visita" },
+    { href: "#comunidade", label: "Comunidade" },
     { href: "#quem-somos", label: "Quem somos" },
     { href: "#cremos", label: "No que cremos" },
     { href: "#lideranca", label: "Liderança" },
@@ -269,7 +269,7 @@ function Hero() {
             </svg>
           </a>
           <a
-            href="#primeira-vez"
+            href="#visite"
             style={{
               color: "var(--papel-3)",
               fontSize: 14,
@@ -282,7 +282,7 @@ function Hero() {
           </a>
         </div>
       </div>
-      <a href="#primeira-vez" className="hero-site__scroll" aria-label="Rolar para baixo">
+      <a href="#comunidade" className="hero-site__scroll" aria-label="Rolar para baixo">
         rolar
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
           <path d="M3 6 L8 11 L13 6" />
@@ -292,50 +292,43 @@ function Hero() {
   );
 }
 
-function PrimeiraVez() {
-  const pontos = [
-    { Icon: IconComunidade, title: "Acolhimento sem pré-requisitos", desc: "Não há exigência de traje, filiação prévia ou familiaridade com a liturgia. Recebemos cada visitante como está." },
-    { Icon: IconCoracao, title: "Famílias e crianças", desc: "As crianças participam integralmente da celebração e da vida da comunidade." },
-    { Icon: IconLivro, title: "Domingo às 9h30", desc: "Começamos às 9h30 com o café comunitário e seguimos juntos no culto — Palavra, oração e Eucaristia." },
-  ];
+const MOSAICO = [
+  [
+    { src: "assets/mosaico-01-ordenacao.jpg", alt: "Ordenação diaconal, com o bispo e o clero ao redor do altar", legenda: "Ordenação diaconal" },
+    { src: "assets/mosaico-02-oracao.jpg", alt: "Irmãs da comunidade em oração durante o culto", legenda: "Oração" },
+    { src: "assets/mosaico-03-pregacao.jpg", alt: "Presbítero de estola vermelha pregando ao microfone", legenda: "A Palavra pregada" },
+    { src: "assets/mosaico-04-louvor.jpg", alt: "Mulher cantando no louvor, com a mão no peito", legenda: "Louvor" },
+    { src: "assets/mosaico-05-violao.jpg", alt: "Músico tocando violão e cantando no culto", legenda: "Música" },
+  ],
+  [
+    { src: "assets/mosaico-06-congregacao.jpg", alt: "Congregação de pé durante o culto", legenda: "A comunidade reunida" },
+    { src: "assets/mosaico-07-comunhao.jpg", alt: "Distribuição da comunhão", legenda: "Eucaristia" },
+    { src: "assets/mosaico-08-palavra.jpg", alt: "Raquel Fernandes ao microfone diante do altar e dos ícones", legenda: "Ensino" },
+    { src: "assets/mosaico-09-leitura.jpg", alt: "Leitura bíblica ao microfone", legenda: "Leituras" },
+    { src: "assets/mosaico-10-biblia.jpg", alt: "Mãos anotando numa Bíblia aberta", legenda: "Estudo" },
+  ],
+];
+
+function Comunidade() {
   return (
-    <section id="primeira-vez" className="site-section" data-screen-label="02 Primeira vez">
-      <div className="section-eyebrow">Primeira visita</div>
+    <section id="comunidade" className="site-section" data-screen-label="02 Comunidade">
+      <div className="section-eyebrow">Nossa comunidade</div>
       <h2 className="section-title">
-        O que esperar da <em>sua primeira visita</em>.
+        Domingo em <em>Irajá</em>.
       </h2>
-      <div style={{ marginTop: 28, display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 12 }}>
-        <img
-          src="assets/primeira-acolhida.jpg"
-          alt="Irmãs da comunidade em oração durante o culto"
-          loading="lazy"
-          width="900"
-          height="1200"
-          style={{ width: "100%", height: "auto", aspectRatio: "16/9", objectFit: "cover", objectPosition: "center 40%", borderRadius: 16, display: "block" }}
-        />
-        <img
-          src="assets/primeira-comunhao.jpg"
-          alt="Distribuição da comunhão no culto de domingo"
-          loading="lazy"
-          width="900"
-          height="1200"
-          style={{ width: "100%", height: "auto", aspectRatio: "16/9", objectFit: "cover", objectPosition: "center 35%", borderRadius: 16, display: "block" }}
-        />
-      </div>
-      <div className="atividades-grid" style={{ marginTop: 28 }}>
-        {pontos.map((p) => (
-          <div className="atividade" key={p.title} style={{ gridTemplateColumns: "56px 1fr" }}>
-            <div className="atividade__icon"><p.Icon /></div>
-            <div className="atividade__body">
-              <h3 className="atividade__title">{p.title}</h3>
-              <p className="atividade__desc">{p.desc}</p>
-            </div>
+      {/* Hover (or keyboard focus) widens a tile inside its row; on phones the
+          rows collapse into one swipeable strip. Styles: .mosaico in styles.css. */}
+      <div className="mosaico">
+        {MOSAICO.map((linha, i) => (
+          <div className="mosaico__row" key={i}>
+            {linha.map((f) => (
+              <figure className="mosaico__item" key={f.src} tabIndex={0}>
+                <img src={f.src} alt={f.alt} loading="lazy" width="750" height="1000" />
+                <figcaption className="mosaico__legenda">{f.legenda}</figcaption>
+              </figure>
+            ))}
           </div>
         ))}
-      </div>
-      <div className="triagem" style={{ marginTop: 28, display: "flex", flexWrap: "wrap", gap: 12 }}>
-        <a href="#cremos" className="btn btn--dark">No que cremos</a>
-        <a href="https://wa.me/5521971500286" target="_blank" rel="noopener" className="btn btn--ghost" style={{ color: "var(--marinho)", borderColor: "var(--marinho)" }}>Fale conosco</a>
       </div>
     </section>
   );
@@ -780,7 +773,7 @@ function Footer() {
         </div>
         <div className="site-footer__col">
           <div className="site-footer__col-title">Navegue</div>
-          <a href="#primeira-vez">Primeira visita</a>
+          <a href="#comunidade">Comunidade</a>
           <a href="#quem-somos">Quem somos</a>
           <a href="/blog/">Blog</a>
           <a href="/folhetos/">Folhetos</a>
@@ -817,7 +810,7 @@ function App() {
       <main>
         <Hero />
         <LiturgyWidget />
-        <PrimeiraVez />
+        <Comunidade />
         <QuemSomos />
         <Cremos />
         <Manifesto />

@@ -925,3 +925,59 @@ ul { margin: 0; padding: 0; list-style: none; }
   .liturgy-widget { margin-top: -16px; padding-bottom: 32px; }
   .liturgy-widget__reading { grid-template-columns: 1fr; gap: 2px; }
 }
+
+/* ============ Mosaico de fotos (home · Nossa comunidade) ============ */
+.mosaico { margin-top: 28px; display: flex; flex-direction: column; gap: 10px; }
+.mosaico__row { display: flex; gap: 10px; height: 300px; }
+.mosaico__item {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--marinho);
+  cursor: zoom-in;
+  transition: flex-grow 0.55s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.mosaico__item img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease, filter 0.4s ease;
+}
+.mosaico__legenda {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 28px 16px 14px;
+  background: linear-gradient(180deg, rgba(8, 12, 20, 0) 0%, rgba(8, 12, 20, 0.75) 100%);
+  color: #fff;
+  font-size: 14px; font-weight: 500; letter-spacing: 0.02em;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  opacity: 0; transform: translateY(6px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+.mosaico__item:focus-visible { outline: 3px solid var(--estola); outline-offset: 3px; }
+@media (hover: hover) and (min-width: 720px) {
+  .mosaico__row:hover .mosaico__item img { filter: saturate(0.8) brightness(0.88); }
+  .mosaico__item:hover, .mosaico__item:focus-visible { flex-grow: 3.4; }
+  .mosaico__row .mosaico__item:hover img,
+  .mosaico__item:focus-visible img { filter: none; transform: scale(1.03); }
+  .mosaico__item:hover .mosaico__legenda,
+  .mosaico__item:focus-visible .mosaico__legenda { opacity: 1; transform: none; }
+}
+@media (max-width: 719px) {
+  .mosaico {
+    flex-direction: row;
+    height: 360px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 6px;
+  }
+  .mosaico__row { display: contents; }
+  .mosaico__item { flex: 0 0 72%; scroll-snap-align: center; cursor: default; }
+  .mosaico__legenda { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mosaico__item, .mosaico__item img, .mosaico__legenda { transition: none; }
+}
