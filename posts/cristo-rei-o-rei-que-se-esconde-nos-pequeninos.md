@@ -2,7 +2,7 @@
 title: "Cristo Rei: o Rei que se esconde nos pequeninos"
 date: 2026-11-19
 description: "No último domingo do ano cristão, a igreja proclama Jesus como Rei do Universo. Entenda de onde vem a festa e que tipo de Rei é esse: pastor, crucificado e escondido nos pequeninos."
-cover: "/assets/cristo-rei-capa.jpg"
+cover: "/assets/cristo-rei-capa.jpg?v=2"
 author: "Igreja Anglicana Rio"
 ---
 
