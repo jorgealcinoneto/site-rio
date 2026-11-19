@@ -101,6 +101,10 @@ def load_posts():
             "description": str(meta["description"]),
             "cover": cover,
             "cover_abs": abs_url(cover),
+            "cover_style": (
+                f' style="object-position: {html.escape(str(meta["cover_position"]), quote=True)}"'
+                if meta.get("cover_position") else ""
+            ),
             "author": str(meta.get("author") or "Igreja Anglicana Rio"),
             "body_html": body_html,
             "body_text": strip_html(body_html),
@@ -245,7 +249,7 @@ def render_index(posts) -> str:
     for p in posts:
         search_blob = " ".join([p["title"], p["description"], p["body_text"], p["author"]])
         cards.append(f"""    <a class="blog-card" href="{html.escape(p["url"])}" data-blog-card data-search="{html.escape(search_blob, quote=True)}">
-      <div class="blog-card__cover"><img src="{html.escape(p["cover"])}" alt="" loading="lazy"></div>
+      <div class="blog-card__cover"><img src="{html.escape(p["cover"])}" alt="" loading="lazy"{p["cover_style"]}></div>
       <div class="blog-card__body">
         <div class="blog-card__date">{html.escape(p["date_label"])}</div>
         <h2 class="blog-card__title">{html.escape(p["title"])}</h2>
@@ -295,7 +299,7 @@ def render_post(p) -> str:
         <p class="blog-article-meta">{html.escape(p["date_label"])} · {html.escape(p["author"])}</p>
       </header>
       <div class="blog-article-cover">
-        <img src="{html.escape(p["cover"])}" alt="">
+        <img src="{html.escape(p["cover"])}" alt=""{p["cover_style"]}>
       </div>
       <div class="blog-prose">
 {p["body_html"]}

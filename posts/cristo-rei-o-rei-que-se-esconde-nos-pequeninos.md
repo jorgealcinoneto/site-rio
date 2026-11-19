@@ -2,7 +2,8 @@
 title: "Cristo Rei: o Rei que se esconde nos pequeninos"
 date: 2026-11-19
 description: "No último domingo do ano cristão, a igreja proclama Jesus como Rei do Universo. Entenda de onde vem a festa e que tipo de Rei é esse: pastor, crucificado e escondido nos pequeninos."
-cover: "/assets/cristo-rei-capa.jpg?v=2"
+cover: "/assets/cristo-rei-capa.jpg?v=3"
+cover_position: "center 30%"
 author: "Igreja Anglicana Rio"
 ---
 
@@ -16,7 +17,7 @@ O ano cristão não acompanha o calendário civil. Ele começa no 1º Domingo do
 
 E faz sentido terminar assim. Ao longo do ano, a igreja percorreu a vida inteira de Jesus: a espera do Advento, o nascimento no Natal, a manifestação na Epifania, o deserto da Quaresma, a cruz e a ressurreição na Páscoa, o Espírito em Pentecostes, e os longos meses do Tempo Comum aprendendo a viver como discípulos. No fim de tudo, a pergunta que fica é simples: **quem governa a história?** A resposta deste domingo é: Jesus. Não César, não o mercado, não o partido, não o medo. Jesus.
 
-Por isso a cor do dia é o **branco**, cor das grandes festas de Cristo. E por isso, no Livro de Oração Comum de 2015, que usamos como base da nossa liturgia, Cristo Rei aparece entre as **Festas Principais** do ano, ao lado de celebrações como a Ascensão, Pentecostes e Todos os Santos.
+Por isso as cores do dia são o **branco e o ouro**, cores das grandes festas de Cristo. E por isso, no Livro de Oração Comum da Rede Episcopal Brasileira (LOC 2027), que usamos na nossa liturgia, Cristo Rei aparece entre as **Festas Principais** do ano, ao lado de celebrações como a Ascensão, Pentecostes e Todos os Santos.
 
 ## Uma festa nova para uma verdade antiga
 
@@ -48,9 +49,9 @@ E também é consolo. Se Cristo reina, a história não está à deriva. Os gove
 
 ## A oração do dia
 
-A coleta deste domingo, no Livro de Oração Comum, começa assim:
+A coleta deste domingo, no Livro de Oração Comum da REB, é esta:
 
-> Glorioso Deus, cuja vontade é restaurar todas as coisas em teu amado Filho, o Rei dos reis, Senhor dos senhores; misericordioso concede que os povos da terra, divididos e escravizados pelo pecado, encontrem liberdade e sejam reunidos em seu reino de amor [...].
+> Senhor soberano, Onipotente e sempiterno Deus, cuja vontade é restaurar todas as coisas em teu amado Filho, o Rei dos Reis, Senhor dos senhores; misericordioso concede que os povos da terra, divididos e escravizados pelo pecado, sejam libertados e reunidos em seu reino de amor; o qual vive e reina contigo e com o Espírito Santo, um só Deus, agora e sempre. Amém.
 
 Repare: o reinado de Cristo não é apresentado como dominação, mas como **restauração**. Um mundo dividido, que precisa ser reunido. Um mundo escravizado, que precisa ser libertado. É exatamente o que Ezequiel prometeu às ovelhas dispersas.
 
@@ -68,3 +69,5 @@ Um dos hinos mais cantados neste domingo no mundo anglicano é *Crown him with m
 Encerramos o ano aos pés dele. E começamos o próximo esperando por ele.
 
 *Venha o teu Reino.*
+
+<small>Imagem: Viktor Vasnetsov, *Cristo Pantocrator*, Catedral de São Vladimir, Kiev (1885–1896). Domínio público.</small>

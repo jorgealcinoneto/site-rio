@@ -119,6 +119,8 @@ author: "Igreja Anglicana Rio"
 Corpo em Markdown…
 ```
 
+Campo opcional `cover_position` (ex.: `"center top"`) ajusta o recorte da capa via `object-position`; útil para imagens verticais.
+
 Dependências locais (só na máquina que gera o site):
 
 ```bash
