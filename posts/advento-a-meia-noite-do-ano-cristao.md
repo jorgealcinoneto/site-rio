@@ -1,15 +1,14 @@
 ---
 title: "Advento: a meia-noite do ano cristão"
-date: 2026-11-18
+date: 2026-11-25
 description: "O Advento abre o ano cristão no escuro, e de propósito. Entenda as duas vindas de Cristo, o juízo como boa notícia e como viver estas quatro semanas."
 cover: "/assets/advento-capa.jpg"
 author: "Igreja Anglicana Rio"
-draft: true
 ---
 
-Em meados de outubro, os shoppings do Rio já estão de árvore montada, Papai Noel contratado e playlist natalina no último volume. Quando dezembro chega, muita gente já está cansada do Natal antes mesmo de ele começar. A igreja, nesse meio-tempo, faz algo que parece fora de compasso: no dia 29 de novembro, enquanto o comércio grita "festa", ela abre o ano com uma palavra muito mais sóbria. *Vigiem.*
+Em meados de outubro, os shoppings do Rio já estão de árvore montada, Papai Noel contratado e playlist natalina no último volume. Quando dezembro chega, muita gente já está cansada do Natal antes mesmo de ele começar. A igreja, nesse meio-tempo, faz algo que parece fora de compasso: neste domingo, 29 de novembro, enquanto o comércio grita "festa", ela abre o ano com uma palavra muito mais sóbria. *Vigiem.*
 
-É o 1º Domingo do Advento, e com ele começa um novo ano litúrgico. Este texto quer explicar o que é esse tempo, por que nós, anglicanos, insistimos em guardá-lo, e por que ele pode ser exatamente o que você precisa num fim de ano barulhento.
+No domingo passado, festa de Cristo Rei, encerramos o ano litúrgico. Agora vem o 1º Domingo do Advento, e com ele começa um novo ano. Este texto quer explicar o que é esse tempo, por que nós, anglicanos, insistimos em guardá-lo, e por que ele pode ser exatamente o que você precisa num fim de ano barulhento.
 
 ## Duas vindas, um só Senhor
 
@@ -17,9 +16,9 @@ A palavra "Advento" vem do latim *adventus*, "vinda" ou "chegada", que traduz o 
 
 Olhamos para trás, para Israel esperando o Messias, e para a vinda humilde do Filho de Deus num estábulo em Belém. Ao mesmo tempo, olhamos para frente, para a vinda de Cristo em glória, como Juiz e Rei, no fim da história. A igreja vive entre essas duas vindas. O Advento nos obriga a lembrar disso.
 
-A oração oficial deste domingo, a coleta que o Livro de Oração Comum manda repetir todos os dias do Advento, diz tudo em poucas linhas:
+A oração oficial deste domingo, a coleta que o *Book of Common Prayer* clássico manda repetir todos os dias do Advento, diz tudo em poucas linhas:
 
-> Rocha eterna, dá-nos a graça de rejeitar as obras das trevas e vestir-nos das armas da luz durante esta vida mortal, em que teu Filho Jesus Cristo, com grande humildade veio visitar-nos; a fim de que, no último dia, quando ele vier em sua gloriosa majestade, ressuscitemos com ele para a vida imortal.
+> Deus Onipotente, dá-nos a graça de rejeitar as obras das trevas e vestir-nos das armas da luz, durante esta vida mortal, em que teu Filho Jesus Cristo, com grande humildade, veio visitar-nos; a fim de que, no último dia, quando ele vier em sua gloriosa majestade, para julgar os vivos e os mortos, ressuscitemos para a vida imortal.
 
 Repare nos pares: trevas e luz, vida mortal e vida imortal, grande humildade e gloriosa majestade. A primeira vinda e a segunda vinda cabem na mesma frase. Essa oração foi escrita por Thomas Cranmer, arcebispo de Cantuária, para o primeiro *Book of Common Prayer*, em 1549, a partir de Romanos 13,12: "a noite está quase acabando; o dia logo vem. Portanto, deixemos de lado as obras das trevas e revistamo-nos da armadura da luz". Há quase cinco séculos, anglicanos começam o ano orando essas palavras.
 
@@ -33,7 +32,7 @@ Isso não é pessimismo. É honestidade. A alegria do Natal só tem peso quando 
 
 ## O Juízo como boa notícia
 
-Para muitos de nós, sobretudo quem cresceu em igrejas que usavam o "fim do mundo" como ameaça, falar de juízo dá um nó no estômago. O Advento propõe outra leitura, e ela é bíblica.
+Para muitos de nós, sobretudo quem cresceu em igrejas que usavam o "fim do mundo" como ameaça, falar de juízo dá um nó no estômago. O Advento propõe outra leitura, e ela é bíblica. A própria coleta do domingo diz que Cristo virá "para julgar os vivos e os mortos", as mesmas palavras do Credo que confessamos.
 
 O Dia do Senhor é, antes de tudo, o dia em que Deus vai acertar as contas da história. Pense num mundo em que nenhum crime fosse julgado, nenhuma vítima fosse vingada, nenhuma injustiça fosse desfeita. Isso, sim, seria um pesadelo. A promessa de que Cristo voltará para julgar é a promessa de que o mal não terá a última palavra. Paulo, na segunda leitura deste domingo, fala disso com serenidade: Deus "os manterá firmes até o fim, de modo que vocês serão irrepreensíveis no dia de nosso Senhor Jesus Cristo. Fiel é Deus" (1Co 1,8-9).
 
@@ -43,9 +42,9 @@ O mesmo Jesus que vai julgar é o que veio em grande humildade e carregou o noss
 
 No mundo de língua inglesa, chamam de *Christmas creep* esse avanço do Natal comercial sobre o calendário, cada ano um pouco mais cedo. Guardar o Advento é, em parte, um ato de resistência a isso. Não porque luzes e presentes sejam pecado, mas porque a pressa de consumir rouba de nós a experiência da espera.
 
-Por isso, na tradição anglicana, a igreja costuma ficar mais despojada nessas semanas. Não cantamos o *Gloria in excelsis* nos domingos do Advento, e muitas comunidades deixam a decoração natalina para a véspera de Natal. O espaço fica mais simples, quase vazio, para que a gente aprenda a esperar.
+Por isso, na tradição anglicana, a igreja fica mais despojada nessas semanas. Na nossa liturgia, o *Gloria in excelsis* silencia no Advento e só volta no Natal, e o culto pode abrir com outra saudação, tirada da última página da Bíblia: "Certamente o Senhor vem em breve." E o povo responde: "Amém. Vem, Senhor Jesus!" (Ap 22,20). Muitas comunidades também deixam a decoração natalina para a véspera. O espaço fica mais simples, quase vazio, para que a gente aprenda a esperar.
 
-Algumas igrejas pelo mundo adotam o que chamam de *Advent Conspiracy*: adorar mais, gastar menos, doar mais aos necessitados. É uma boa síntese do espírito do tempo.
+Algumas igrejas pelo mundo adotam o que chamam de *Advent Conspiracy*: adorar plenamente, gastar menos, doar mais e amar a todos. É uma boa síntese do espírito do tempo.
 
 ## Como viver estas quatro semanas
 
